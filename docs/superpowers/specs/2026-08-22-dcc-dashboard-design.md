@@ -38,9 +38,9 @@ The known cost is visible gaps where future nodes will appear. Recorded in
 `LIMITATIONS.md`. The alternative, relaxing the layout per floor, makes the graph
 jump on every tick and destroys the thing the view is for.
 
-**Corpus scope is floors 0 through 6**, books 1 and 2, through the Iron Tangle.
-Large enough that the graph and the scatter have something to say, small enough
-to author carefully.
+**Corpus scope is floors 0 through 3**, books 1 and 2, ending with the Over City.
+Book 1 covers floors 1 and 2; book 2 is floor 3. Small enough to author carefully
+and review in one sitting, and it extends one floor at a time afterwards.
 
 **Ledger v1 is descriptive.** Table, faceted scatter, coverage panel. The
 preregistration, the scoring rubric, the cost-to-effect regression, and the
@@ -88,7 +88,7 @@ inherit them:
 
 1. **Property test.** Every floor, every access method, nothing returned with
    `reveal_floor > f` and no gloss with `significance_floor > f`.
-2. **Golden fixtures** at floors 1, 3, and 6.
+2. **Golden fixtures** at floors 0, 1, and 3.
 3. **Matched-pair refusal.** Entities identical in everything visible, differing
    only in whether a future status change exists, must be indistinguishable. This
    catches the failure where refusing to answer is itself the answer.
@@ -109,4 +109,4 @@ weak data stays visible rather than blending into the totals. Stated plainly in
 ## Out of scope
 
 Free-text search, pathfinding, playback animation, and edge weights in Atlas.
-Corpus past floor 6. The full spoiler companion. The `analysis/` tree.
+Corpus past floor 3. The full spoiler companion. The `analysis/` tree.

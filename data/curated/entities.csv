@@ -1,0 +1,35 @@
+id,type,canonical_name,introduced_floor,notes
+carl,character,Carl,0,Human crawler. Entered in boxer shorts and combat boots.
+donut,character,Princess Donut,0,Persian show cat. Gains speech and levels alongside Carl.
+bea,character,Bea,0,Carl's ex-girlfriend and Donut's registered owner.
+mordecai,character,Mordecai,2,Former crawler. Becomes guide and trainer to Carl and Donut.
+katia,character,Katia,2,Crawler who allies with Carl and Donut.
+mongo,character,Mongo,3,Donut's raptor companion.
+signet,character,Princess Signet,3,Over City royalty.
+the_system,faction,The System,0,The dungeon's administrative intelligence.
+crawlers,faction,The Crawlers,0,Surviving humans admitted to the dungeon.
+borant,faction,Borant Corporation,1,Operator of this season of the crawl.
+syndicate,faction,The Syndicate,1,Galactic authority above the operator.
+bopca,faction,The Bopca,1,Species staffing safe rooms. Grouped as a faction; the schema has no species type.
+production,faction,The Production,1,Broadcast side of the show.
+over_city_royals,faction,The Over City Royals,3,Ruling houses of the third floor.
+surface,location,The Surface,0,"Earth above the dungeon, after the collapse."
+floor_one,location,Floor One,1,
+floor_two,location,Floor Two,2,
+floor_three,location,Floor Three,3,
+over_city,location,The Over City,3,The third floor's city.
+safe_room,location,Safe Room,1,Between-encounter rest and shop space.
+desperado_club,location,The Desperado Club,3,Crawler social space between floors.
+compensated_anarchist,class,Compensated Anarchist,3,Carl's class.
+former_child_actor,class,Former Child Actor,3,Donut's class.
+combat_boots,item,Combat Boots,0,Worn by Carl on entry.
+boxer_shorts,item,Boxer Shorts,0,Carl's only other clothing on entry.
+donut_tiara,item,Donut's Tiara,1,
+health_potion,item,Health Potion,1,
+mana_potion,item,Mana Potion,3,
+bronze_box,item,Bronze Loot Box,1,
+silver_box,item,Silver Loot Box,1,
+gold_box,item,Gold Loot Box,2,
+platinum_box,item,Platinum Loot Box,3,
+torch,skill,Torch,3,Donut's fire cantrip.
+second_wind,skill,Second Wind,3,Carl stamina recovery.

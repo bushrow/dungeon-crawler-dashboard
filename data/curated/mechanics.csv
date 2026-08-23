@@ -1,0 +1,14 @@
+entity_id,cost_type,cost_value,effect_category,effect_scale,duration,restrictions,introduced_floor,source,confidence
+compensated_anarchist,slot,class slot,damage,4,permanent,Chosen at third-floor class selection,3,b2,probable
+former_child_actor,slot,class slot,social,4,permanent,Chosen at third-floor class selection,3,b2,probable
+combat_boots,none,,defense,2,permanent,Carl only; worn on entry,0,b1,probable
+boxer_shorts,none,,defense,1,permanent,Carl only; worn on entry,0,b1,probable
+donut_tiara,gold,unknown,social,2,permanent,,1,b1,inferred
+health_potion,gold,unknown,defense,2,instant,,1,b1,probable
+mana_potion,gold,unknown,utility,2,instant,Casters only,3,b2,inferred
+bronze_box,none,,economy,1,instant,"Awarded, not purchased",1,b1,certain
+silver_box,none,,economy,2,instant,"Awarded, not purchased",1,b1,certain
+gold_box,none,,economy,3,instant,"Awarded, not purchased",2,b1,certain
+platinum_box,none,,economy,4,instant,"Awarded, not purchased",3,b2,probable
+torch,mana,low,damage,2,instant,Caster classes only,3,b2,inferred
+second_wind,cooldown,unknown,utility,3,instant,,3,b2,inferred

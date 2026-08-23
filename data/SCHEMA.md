@@ -10,8 +10,8 @@ through the horizon access layer in `packages/core`.
 ## Floors
 
 A **floor** is an integer. `0` means the prologue, before the dungeon opens.
-Floors `1` through `6` are the dungeon floors covered by the v1 corpus (books 1
-and 2, through the Iron Tangle).
+Floors `1` through `3` are the dungeon floors covered by the v1 corpus: books 1
+and 2, ending with the Over City.
 
 A **horizon** is a floor. It is the only filter parameter in the system.
 
@@ -45,10 +45,21 @@ Enforced once, in `packages/core`, and tested in `tests/leakage/`.
 2. `event_floor > reveal_floor` is **legal**. Prophecy, foreshadowing, and
    announced-but-not-yet-run events genuinely work this way. The validator warns
    and requires a non-empty `notes` value, so it cannot happen by typo.
-3. `ended_reveal_floor >= reveal_floor` on edges. A relationship cannot be known
-   to have ended before it is known to have existed.
-4. Every foreign key resolves. Every enum value is in range. Every row has a
-   `source` and a `confidence` where the table defines them.
+3. `status` may not be foreshadowed. It carries no `notes` column, so
+   `event_floor > reveal_floor` on a status row is an error rather than a
+   warning.
+4. `ended_reveal_floor >= reveal_floor` on edges. A relationship cannot be known
+   to have ended before it is known to have existed. The two `ended_` columns are
+   both set or both empty.
+5. **A record may not become visible before its subject does.** Every alias,
+   fact, status, and edge must have `reveal_floor >= introduced_floor` of the
+   entity it hangs off, and a `mechanics` row the same for its
+   `introduced_floor`. Without this the access layer filters correctly and the
+   data still leaks, because a reader at floor 2 sees a title attached to
+   somebody they have not met.
+6. Every foreign key resolves. Every enum value is in range. Every row has a
+   `source` and a `confidence` where the table defines them. A `mechanics` row
+   may only reference a `class`, `skill`, or `item`.
 
 ## Tables
 

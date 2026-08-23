@@ -1,0 +1,8 @@
+entity_id,status,event_floor,reveal_floor
+carl,active,0,0
+donut,active,0,0
+bea,departed,0,0
+mordecai,active,2,2
+katia,active,2,2
+mongo,active,3,3
+signet,active,3,3
