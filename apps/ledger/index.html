@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ledger &middot; Dungeon Crawler Carl</title>
+    <meta
+      name="description"
+      content="What every class and item costs, what it does, and how much of that is actually known."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="ledger">
+      <div class="ledger__main">
+        <section class="panel">
+          <div class="panel__head">
+            <span class="eyebrow">Effect by cost</span>
+            <span class="eyebrow" data-facet-count></span>
+          </div>
+          <div class="facets" data-facets></div>
+          <p class="note facets__caption">
+            Effect scale is comparable inside a category and not across them, so each category
+            is drawn on its own. Nothing in this corpus has a cost that is a number yet, so the
+            horizontal axis is the kind of cost, not its size.
+          </p>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head">
+            <span class="eyebrow">Classes and items</span>
+            <span class="eyebrow" data-row-count></span>
+          </div>
+          <div class="table__scroll">
+            <table class="table" data-table>
+              <thead></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <aside class="ledger__rail">
+        <section class="panel">
+          <div class="panel__head"><span class="eyebrow">Coverage</span></div>
+          <div data-coverage></div>
+        </section>
+        <section class="panel">
+          <div class="panel__head"><span class="eyebrow">Filters</span></div>
+          <div class="filters" data-filters></div>
+        </section>
+      </aside>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

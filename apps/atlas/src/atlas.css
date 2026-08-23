@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.atlas__canvas {
+  overflow-x: auto;
+}
+
 .atlas__graph svg {
   display: block;
   width: 100%;
@@ -213,5 +217,12 @@
   .atlas__card {
     position: static;
     max-height: none;
+  }
+
+  /* The layout is wide. Shrinking it to a phone's width makes the labels
+     unreadable, so hold a minimum size and let the reader pan instead. */
+  .atlas__graph svg {
+    min-width: 720px;
+    height: 380px;
   }
 }

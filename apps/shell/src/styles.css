@@ -285,6 +285,37 @@ body {
   background: repeating-linear-gradient(-45deg, #fff 0 4px, #f0f0ea 4px 8px);
 }
 
+@media (max-width: 720px) {
+  .rack {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .rack__mark {
+    width: 100%;
+    padding: 0.6rem var(--pad);
+    border-right: 0;
+    border-bottom: 1px solid var(--rack-line);
+    font-size: 0.78rem;
+  }
+
+  .rack__meta {
+    /* The bundle version is reference detail, not something to spend a phone
+       screen on. */
+    display: none;
+  }
+
+  .embargo__label {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .embargo__seg {
+    height: 2.2rem;
+    font-size: 0.62rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
