@@ -14,7 +14,7 @@ Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 ```bash
 npm install
 npm run dev        # both views, one dev server
-npm test           # 80 leakage tests against the access layer
+npm test           # 90 leakage tests against the access layer
 npm run build      # static site into dist/
 ```
 
@@ -22,8 +22,10 @@ The pipeline is Python, managed with uv:
 
 ```bash
 npm run data:validate   # check the curated tables
-npm run data:test       # 33 pipeline tests
+npm run data:test       # 38 pipeline tests
 npm run data            # recompile data/dist/dcc-bundle.json
+npm run data:verify     # committed bundle still matches the tables
+npm run data:review     # regenerate docs/CORPUS-REVIEW.md
 ```
 
 ## How it fits together
@@ -46,17 +48,19 @@ Spoiler safety is a property of the system, not a feature of each view.
 
 ## What is in it
 
-34 entities, 33 facts, 22 relationships, and 13 priced records across floors 0
-to 3, which is books 1 and 2. Every row carries a source and a confidence.
+126 entities, 56 facts, 51 relationships, and 47 priced records across floors 0
+to 3, which is books 1 and 2. Every row carries a source and a confidence, and
+`docs/CORPUS-REVIEW.md` lists all of them with a link to the page each came
+from.
 
 The apps have no runtime dependencies. The whole thing is TypeScript, two
 stylesheets, and one compiled JSON bundle.
 
 ## Read these before trusting a number
 
-`docs/LIMITATIONS.md` is short and matters. The corpus is drafted from recall
-and reviewed rather than sourced line by line, `effect_scale` has no rubric
-behind it yet, and no cost in the corpus is a number.
+`docs/LIMITATIONS.md` is short and matters. The corpus comes from a community
+wiki rather than from the books, `effect_scale` has no rubric behind it, and
+only two records carry a cost that is an actual figure.
 
 `docs/METHODOLOGY.md` covers the three clocks, where the invariant is enforced,
 and why the coverage panel deliberately does not count what it cannot show.

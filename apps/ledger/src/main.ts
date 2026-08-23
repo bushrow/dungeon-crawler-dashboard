@@ -239,7 +239,7 @@ function renderCoverage(h: Horizon, rows: PricedEntity[]): void {
       <div class="coverage__note">
         ${c.mechanicsExcluded} of ${c.mechanicsVisible} are inferred and stay out of any headline
         number. ${c.mechanicsPriced} of ${c.mechanicsVisible} have a cost that is an actual figure,
-        which is why there is no cost axis on the chart.
+        which is why the chart plots the kind of cost rather than its size.
         ${rows.length !== c.mechanicsVisible ? `<br /><br />Your filters are hiding ${c.mechanicsVisible - rows.length} of them.` : ''}
       </div>
     </div>`;

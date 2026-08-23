@@ -93,6 +93,19 @@ with a small tolerance rather than by exact diff.
 
 ## Provenance and posture
 
+Source pages come from the community wiki, pulled with
+`pipeline/scripts/fetch_wiki.py` through the MediaWiki API into `data/raw/wiki/`.
+That directory is gitignored, so the wiki's own prose stays out of the repo and
+off the published site. What ships is structured fields plus a reference, and
+`docs/CORPUS-REVIEW.md` lists every row with a link back to the page it came
+from so a reader can check the work.
+
+Floor assignment uses the wiki's first-appearance chapter, mapped as: book 1
+chapters 1 to 2 are before the dungeon, 3 to 40 are floor 1, and the rest of
+book 1 is floor 2; book 2 is floor 3. Where that disagrees with the wiki's own
+per-floor category, the later floor wins, so a record appears too late rather
+than too early.
+
 Every row carries a `source`, and values are references only: chapter or floor
 markers, wiki page ids, or `inferred`. Every row carries a `confidence` of
 `certain`, `probable`, or `inferred`, describing the annotation rather than the

@@ -1,35 +1,57 @@
 /** Record shapes in the compiled bundle. Mirrors data/SCHEMA.md. */
 
-export type EntityType =
-  | 'character'
-  | 'faction'
-  | 'class'
-  | 'skill'
-  | 'item'
-  | 'title'
-  | 'location'
-  | 'monster';
+/**
+ * Enum values, as runtime arrays with the unions derived from them.
+ *
+ * These mirror `pipeline/dcc_pipeline/schema.py`. Keeping them as arrays rather
+ * than bare unions makes the drift detectable: `types.test.ts` checks every
+ * value in the shipped bundle against these, so adding a cost type in Python
+ * without adding it here fails a test instead of silently narrowing.
+ */
+export const ENTITY_TYPES = [
+  'character',
+  'faction',
+  'class',
+  'race',
+  'skill',
+  'item',
+  'title',
+  'location',
+  'monster',
+] as const;
 
-export type Confidence = 'certain' | 'probable' | 'inferred';
-export type StatusValue = 'active' | 'departed' | 'unknown';
-export type EdgeType = 'allied' | 'hostile' | 'kin' | 'sponsor' | 'subordinate' | 'party';
-export type CostType =
-  | 'gold'
-  | 'slot'
-  | 'cooldown'
-  | 'health'
-  | 'stamina'
-  | 'mana'
-  | 'sacrifice'
-  | 'none';
-export type EffectCategory =
-  | 'damage'
-  | 'defense'
-  | 'mobility'
-  | 'utility'
-  | 'economy'
-  | 'social'
-  | 'information';
+export const CONFIDENCE_LEVELS = ['certain', 'probable', 'inferred'] as const;
+export const STATUS_VALUES = ['active', 'departed', 'unknown'] as const;
+export const EDGE_TYPES = ['allied', 'hostile', 'kin', 'sponsor', 'subordinate', 'party'] as const;
+export const COST_TYPES = [
+  'gold',
+  'slot',
+  'views',
+  'skill',
+  'achievement',
+  'cooldown',
+  'health',
+  'stamina',
+  'mana',
+  'sacrifice',
+  'none',
+] as const;
+export const EFFECT_CATEGORIES = [
+  'damage',
+  'defense',
+  'mobility',
+  'utility',
+  'economy',
+  'social',
+  'information',
+] as const;
+
+export type EntityType = (typeof ENTITY_TYPES)[number];
+export type Confidence = (typeof CONFIDENCE_LEVELS)[number];
+export type StatusValue = (typeof STATUS_VALUES)[number];
+export type EdgeType = (typeof EDGE_TYPES)[number];
+export type CostType = (typeof COST_TYPES)[number];
+export type EffectCategory = (typeof EFFECT_CATEGORIES)[number];
 
 export interface Entity {
   id: string;

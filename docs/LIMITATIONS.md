@@ -2,15 +2,22 @@
 
 Read this before quoting a number off the Ledger.
 
-## The corpus is drafted from recall, then reviewed
+## The corpus is sourced from a fan wiki, not from the text
 
-The v1 corpus was written from memory of books 1 and 2 and then corrected, not
-sourced line by line against the text. Every row carries a `confidence` of
-`certain`, `probable`, or `inferred`. Rows marked `inferred` are excluded from
-headline numbers and counted separately in the coverage panel.
+Rows are built from the community wiki at dungeon-crawler-carl.fandom.com, with
+the page recorded in each row's `source` and linked from
+`docs/CORPUS-REVIEW.md`. That is a secondary source maintained by readers: it is
+far better than recall, and it is not the books. Where the wiki hedges, the row
+is marked `inferred` and says so in `restrictions`.
 
-The mechanics table is the weakest part of the corpus and the one the Ledger
-rests on entirely. Treat its `effect_scale` values as a first pass.
+Every row carries a `confidence` of `certain`, `probable`, or `inferred`. Rows
+marked `inferred` are excluded from headline numbers and counted separately in
+the coverage panel.
+
+Floor assignment is the shakiest structural field. The wiki gives a first
+appearance as a book and chapter, and its own per-floor categories sometimes
+disagree with that chapter. Where they conflict the later floor wins, so a
+record appears too late rather than too early.
 
 ## `effect_scale` has no rubric behind it
 
@@ -25,15 +32,18 @@ pass. Two consequences:
   committed rubric, a preregistered definition of "underpriced", and a
   confusion matrix against narrative labels. All deferred; see below.
 
-## Nothing has a cost that is a number
+## Almost nothing has a cost that is a number
 
-Cost is recorded as a type (`gold`, `slot`, `cooldown`, and so on) and a free
-text amount, and in the v1 corpus every amount is either absent or a word like
-"unknown". Zero of the priced records have a numeric cost.
+Cost is recorded as a type (`gold`, `views`, `skill`, and so on) and an amount.
+Only the two lead classes carry a figure: Compensated Anarchist is gated at 500
+billion views and Former Child Actor at one trillion. Everything else records a
+kind of cost with no amount, because the books state the gate without stating a
+price.
 
-So there is no cost axis. The chart plots effect scale against the *kind* of
-cost, which is what the data supports. A cost-versus-effect scatter needs prices
-that are figures, and those are a corpus problem rather than a rendering one.
+So the chart plots effect scale against the *kind* of cost. A cost-versus-effect
+scatter needs prices that are figures across the table, and that is a corpus
+problem rather than a rendering one. The coverage panel reports how many rows
+carry one.
 
 ## The frozen layout leaves gaps
 
@@ -50,11 +60,16 @@ a per-floor layout would.
 Books 1 and 2, ending with the Over City. Book 1 covers floors 1 and 2; book 2
 is floor 3. Everything past that is absent, not withheld.
 
-## Entity types are approximate in two places
+The wiki records series-current status for every character, most of it cited to
+books 3 through 8. None of that is in the corpus. Status rows cover only what
+books 1 and 2 establish, which is why every one of them reads `active`.
 
-The schema has no species type, so the Bopca are recorded as a faction. It has
-no romantic-relationship edge type, so a former partnership is recorded as
-`kin`. Both are noted in the rows themselves.
+## Entity types are approximate in three places
+
+The schema has no species type, so the Bopca appear both as a faction and as a
+race. It has no romantic-relationship edge type, so Carl and Beatrice are
+recorded as `kin`. It has no spell type, so spells are recorded as skills with a
+note. All three are visible in the rows themselves.
 
 ## Absence is not evidence
 

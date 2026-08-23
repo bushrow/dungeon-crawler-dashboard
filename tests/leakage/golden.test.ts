@@ -3,70 +3,80 @@
  *
  * Hand-written expected output at three horizons. The property test proves
  * nothing leaks; these prove the right things are actually present, which is the
- * failure a filter that returns nothing would otherwise pass.
+ * failure a filter that returned nothing would otherwise pass.
  */
 import { describe, expect, it } from 'vitest';
 import { loadBundle, horizonAt } from '@dcc/core';
 
 const bundle = loadBundle();
 
-describe('floor 0, the surface', () => {
+describe('floor 0, before the dungeon', () => {
   const h = horizonAt(bundle, 0);
 
-  it('shows only what the prologue establishes', () => {
+  it('shows only what the opening establishes', () => {
     expect(h.entities().map((e) => e.id).sort()).toEqual([
-      'bea',
-      'boxer_shorts',
+      'beatrice',
       'carl',
-      'combat_boots',
+      'cat',
       'crawlers',
       'donut',
+      'dungeon',
+      'dungeon_entrance',
+      'human',
+      'leather_coat',
+      'monobrow_sam',
+      'pink_crocs',
       'surface',
       'the_system',
+      'zippo',
     ]);
   });
 
-  it('has not introduced the operator yet', () => {
+  it('has not introduced the operator or the trainer yet', () => {
     expect(h.entity('borant')).toBeUndefined();
     expect(h.entity('mordecai')).toBeUndefined();
   });
 
-  it('draws the five relationships the prologue establishes', () => {
+  it('draws the six relationships the opening establishes', () => {
     expect(h.edges().map((e) => `${e.src}-${e.dst}:${e.type}`).sort()).toEqual([
-      'carl-bea:kin',
+      'carl-beatrice:kin',
       'carl-crawlers:subordinate',
       'carl-donut:party',
-      'donut-bea:kin',
+      'carl-monobrow_sam:allied',
+      'donut-beatrice:kin',
       'donut-crawlers:subordinate',
     ]);
   });
 
-  it('prices only what Carl walked in wearing', () => {
-    expect(h.mechanics().map((m) => m.entityId).sort()).toEqual(['boxer_shorts', 'combat_boots']);
+  it('prices nothing, because nothing has a price before the dungeon', () => {
+    expect(h.mechanics()).toEqual([]);
   });
 
-  it('knows Donut by her show names', () => {
-    expect(h.aliasesFor('donut').map((a) => a.alias)).toContain('Grand Champion');
-    expect(h.aliasesFor('donut').map((a) => a.alias)).not.toContain('Former Child Actor');
+  it('knows Donut by her show name but not her class title', () => {
+    const aliases = h.aliasesFor('donut').map((a) => a.alias);
+    expect(aliases).toContain('Princess Donut the Queen Anne Chonk');
+    expect(aliases).not.toContain('Former Child Actor');
   });
 });
 
-describe('floor 1, the first floor', () => {
+describe('floor 1, the first tutorial floor', () => {
   const h = horizonAt(bundle, 1);
 
-  it('has introduced the operator and the safe rooms', () => {
+  it('has introduced the operator, the trainer, and the safe rooms', () => {
     expect(h.entity('borant')?.canonicalName).toBe('Borant Corporation');
-    expect(h.entity('bopca')?.canonicalName).toBe('The Bopca');
+    expect(h.entity('mordecai')?.canonicalName).toBe('Mordecai');
     expect(h.entity('safe_room')).toBeDefined();
   });
 
-  it('still has no trainer', () => {
-    expect(h.entity('mordecai')).toBeUndefined();
-    expect(h.edges().some((e) => e.src === 'mordecai' || e.dst === 'mordecai')).toBe(false);
+  it('has no third-floor class yet', () => {
+    expect(h.entities().filter((e) => e.type === 'class')).toEqual([]);
+    expect(h.entity('compensated_anarchist')).toBeUndefined();
   });
 
-  it('counts 18 entities', () => {
-    expect(h.entities()).toHaveLength(18);
+  it('counts 84 entities, 26 relationships, and 30 priced records', () => {
+    expect(h.entities()).toHaveLength(84);
+    expect(h.edges()).toHaveLength(26);
+    expect(h.mechanics()).toHaveLength(30);
   });
 });
 
@@ -74,32 +84,59 @@ describe('floor 3, the Over City', () => {
   const h = horizonAt(bundle, 3);
 
   it('has the whole v1 corpus', () => {
-    expect(h.entities()).toHaveLength(34);
-    expect(h.mechanics()).toHaveLength(13);
+    expect(h.entities()).toHaveLength(126);
+    expect(h.edges()).toHaveLength(51);
+    expect(h.mechanics()).toHaveLength(47);
   });
 
-  it('has both classes, chosen at third-floor selection', () => {
+  it('has every third-floor class', () => {
     const classes = h.entities().filter((e) => e.type === 'class').map((e) => e.id);
-    expect(classes.sort()).toEqual(['compensated_anarchist', 'former_child_actor']);
+    expect(classes.sort()).toEqual([
+      'artist_alley_mogul',
+      'blizzardmancer',
+      'bomb_squad_tech',
+      'compensated_anarchist',
+      'former_child_actor',
+      'monster_truck_driver',
+      'necrobard',
+      'prizefighter',
+      'shieldmaiden',
+      'swashbuckler',
+    ]);
+  });
+
+  it('prices the two lead classes by audience, in views', () => {
+    const priced = h.mechanics().filter((m) => m.costType === 'views');
+    expect(priced.map((m) => m.entityId).sort()).toEqual([
+      'compensated_anarchist',
+      'former_child_actor',
+    ]);
+    // Donut's class costs twice what Carl's does, and both are real numbers.
+    expect(priced.find((m) => m.entityId === 'compensated_anarchist')!.costNumeric).toBe(5e11);
+    expect(priced.find((m) => m.entityId === 'former_child_actor')!.costNumeric).toBe(1e12);
   });
 });
 
 describe('a gloss that lands after its claim', () => {
-  const budgetOperator = (floor: number) =>
-    horizonAt(bundle, floor).factsFor('borant').find((f) => f.id === 'f011');
+  const oversight = (floor: number) =>
+    horizonAt(bundle, floor).factsFor('syndicate').find((f) => f.id === 'f017');
 
   it('is not visible at all before the claim is revealed', () => {
-    expect(budgetOperator(1)).toBeUndefined();
+    expect(oversight(0)).toBeUndefined();
   });
 
-  it('shows the claim without its reading at floor 2', () => {
-    const fact = budgetOperator(2);
+  it('shows the claim without its reading at floor 1', () => {
+    const fact = oversight(1);
     expect(fact).toBeDefined();
-    expect(fact!.object).toContain('budget operator');
+    expect(fact!.predicate).toBe('licenses');
     expect(fact!.gloss).toBeNull();
   });
 
+  it('still withholds the reading at floor 2', () => {
+    expect(oversight(2)!.gloss).toBeNull();
+  });
+
   it('shows the reading once the horizon reaches it', () => {
-    expect(budgetOperator(3)!.gloss).toContain('cost-cutting');
+    expect(oversight(3)!.gloss).toContain('remote bureaucracy');
   });
 });

@@ -17,7 +17,8 @@
     "data": "uv run --project pipeline python -m dcc_pipeline.compile",
     "data:validate": "uv run --project pipeline python -m dcc_pipeline.validate",
     "data:test": "uv run --project pipeline pytest -q",
-    "data:verify": "uv run --project pipeline python -m dcc_pipeline.verify"
+    "data:verify": "uv run --project pipeline python -m dcc_pipeline.verify",
+    "data:review": "uv run --project pipeline python pipeline/scripts/review_sheet.py"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",

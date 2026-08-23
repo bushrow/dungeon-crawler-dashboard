@@ -1,9 +1,15 @@
 entity_id,alias,reveal_floor
 donut,Princess Donut the Queen Anne Chonk,0
-donut,Grand Champion,0
-donut,Former Child Actor,3
+donut,Queen Anne Chonk,0
+beatrice,Bea,0
+carl,Crawler 4122,1
 carl,The Compensated Anarchist,3
-mordecai,The Trainer,2
-syndicate,The Valtay,3
-the_system,The Dungeon AI,1
-surface,The Collapse,0
+mordecai,The Trainer,1
+floor_three,The Over City,3
+floor_one,The First Floor,1
+floor_two,The Second Floor,2
+surface,The Transformation,0
+bautista,Bautista,3
+katia_grim,Katia,3
+tsarina_signet,Signet,3
+dungeon,The World Dungeon,0

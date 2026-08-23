@@ -10,3 +10,11 @@ export { loadBundle, maxFloorOf, versionOf } from './bundle';
 export type { Bundle } from './bundle';
 export { Horizon, horizonAt } from './horizon';
 export type * from './types';
+export {
+  ENTITY_TYPES,
+  CONFIDENCE_LEVELS,
+  STATUS_VALUES,
+  EDGE_TYPES,
+  COST_TYPES,
+  EFFECT_CATEGORIES,
+} from './types';

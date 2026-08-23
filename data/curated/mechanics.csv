@@ -1,14 +1,48 @@
 entity_id,cost_type,cost_value,effect_category,effect_scale,duration,restrictions,introduced_floor,source,confidence
-compensated_anarchist,slot,class slot,damage,4,permanent,Chosen at third-floor class selection,3,b2,probable
-former_child_actor,slot,class slot,social,4,permanent,Chosen at third-floor class selection,3,b2,probable
-combat_boots,none,,defense,2,permanent,Carl only; worn on entry,0,b1,probable
-boxer_shorts,none,,defense,1,permanent,Carl only; worn on entry,0,b1,probable
-donut_tiara,gold,unknown,social,2,permanent,,1,b1,inferred
-health_potion,gold,unknown,defense,2,instant,,1,b1,probable
-mana_potion,gold,unknown,utility,2,instant,Casters only,3,b2,inferred
-bronze_box,none,,economy,1,instant,"Awarded, not purchased",1,b1,certain
-silver_box,none,,economy,2,instant,"Awarded, not purchased",1,b1,certain
-gold_box,none,,economy,3,instant,"Awarded, not purchased",2,b1,certain
-platinum_box,none,,economy,4,instant,"Awarded, not purchased",3,b2,probable
-torch,mana,low,damage,2,instant,Caster classes only,3,b2,inferred
-second_wind,cooldown,unknown,utility,3,instant,,3,b2,inferred
+compensated_anarchist,views,500000000000,damage,4,permanent,Level 5 Explosives Handling; minimum 25 Charisma,3,wiki:Compensated_Anarchist_Class,certain
+former_child_actor,views,1000000000000,social,5,permanent,Cut! achievement,3,wiki:Former_Child_Actor_Class,certain
+artist_alley_mogul,slot,,economy,4,permanent,Third-floor secondary class,3,wiki:Artist_Alley_Mogul_Class,probable
+prizefighter,skill,5,damage,3,permanent,Level 5 Pugilism,3,wiki:Prizefighter_Class,certain
+bomb_squad_tech,achievement,,damage,3,permanent,Boom! achievement,3,wiki:Bomb_Squad_Tech_Class,certain
+monster_truck_driver,skill,,mobility,3,permanent,Automotive skill level,3,wiki:Monster_Truck_Driver_Class,probable
+necrobard,none,,social,4,permanent,,3,wiki:NecroBard_Class,probable
+shieldmaiden,none,,defense,3,permanent,"Female; Norse ties, per the wiki's own assumption",3,wiki:Shieldmaiden_Class,inferred
+swashbuckler,none,,damage,3,permanent,"Sword as primary weapon, per the wiki's own assumption",3,wiki:Swashbuckler_Class,inferred
+blizzardmancer,none,,damage,3,permanent,,3,wiki:Elle_McGibbons,inferred
+primal,slot,,damage,4,permanent,Third-floor race selection,3,wiki:Primal,probable
+cat,slot,,utility,2,permanent,,3,wiki:Cat,inferred
+character_actor,none,,utility,5,permanent,Granted by Former Child Actor; levels only on descent,3,wiki:Former_Child_Actor_Class,certain
+fear_spell,mana,,social,2,instant,Granted by Compensated Anarchist,3,wiki:Compensated_Anarchist_Class,probable
+explosives_handling,none,,damage,4,permanent,Gates the Compensated Anarchist class at level 5,1,wiki:Carl,certain
+iron_punch,none,,damage,3,permanent,,1,wiki:Carl,probable
+regeneration_skill,none,,defense,3,permanent,,1,wiki:Carl,probable
+magic_missile,mana,,damage,2,instant,,1,wiki:Magic_Missile,probable
+fire_fingers,mana,,damage,2,instant,,1,wiki:Fire_Fingers_Spell,probable
+confusing_fog,mana,,utility,2,instant,,1,wiki:Confusing_Fog_Spell,probable
+puddle_jumper,mana,,mobility,3,instant,,1,wiki:Puddle_Jumper_Spell,probable
+minion_army,mana,,damage,3,instant,,1,wiki:Minion_Army_Spell,probable
+healing_potion,gold,,defense,2,instant,,1,wiki:Healing_Potion,probable
+mana_potion,gold,,utility,2,instant,,1,wiki:Mana_Potion,probable
+iron_skin_potion,gold,,defense,3,instant,,1,wiki:Iron_Skin_Potion,probable
+skill_potion,gold,,utility,4,instant,,1,wiki:Skill_Potion,probable
+goblin_dynamite,gold,,damage,3,instant,,1,wiki:Goblin_Dynamite,probable
+goblin_smoke_bomb,gold,,utility,2,instant,,1,wiki:Goblin_Smoke_Bomb,probable
+trollskin_shirt,none,,defense,3,permanent,,1,wiki:Enchanted_Trollskin_Shirt_of_Pummeling,probable
+nightgaunt_cloak,none,,defense,3,permanent,Occupies the neck slot,1,wiki:Enchanted_Nightgaunt_Cloak_of_Stoutness,probable
+splatter_skunk_toe_ring,none,,utility,2,permanent,Toe slot,1,wiki:Enchanted_Toe_Ring_of_the_Splatter_Skunk,probable
+desperado_pass_tattoo,none,,social,4,permanent,Grants Desperado Club access,1,wiki:Desperado_Pass_Tattoo,certain
+goblin_pass_tattoo,none,,social,2,permanent,,1,wiki:Goblin_Pass_Tattoo,probable
+pedicure_kit,none,,defense,3,permanent,Carl's bare feet,2,wiki:Carl,probable
+permacube,none,,utility,3,permanent,,1,wiki:Permacube,inferred
+crawler_biscuit,gold,,utility,2,instant,,1,wiki:Crawler_Biscuit,probable
+enhanced_pet_biscuit,gold,,utility,3,instant,Pets only,1,wiki:Enhanced_Pet_Biscuit,probable
+experience_cookies,gold,,economy,3,instant,,1,wiki:Experience_Cookies,probable
+bronze_box,none,,economy,1,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,certain
+silver_box,none,,economy,2,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,probable
+gold_box,none,,economy,3,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,certain
+platinum_box,none,,economy,4,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,probable
+boss_box,none,,economy,4,instant,Dropped by a boss,1,wiki:Boss_Box,probable
+goblin_box,none,,economy,2,instant,,1,wiki:Goblin_Box,probable
+benefactor_box,none,,economy,3,instant,,1,wiki:Benefactor_Box,probable
+jug_o_boom,none,,damage,4,instant,Carl's own build,2,wiki:Carl's_Jug_O'Boom,probable
+moab,none,,damage,5,instant,Carl's own build,2,wiki:Mother_of_All_Bombs_(MOAB),probable

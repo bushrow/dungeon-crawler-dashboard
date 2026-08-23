@@ -12,6 +12,9 @@ ENTITY_TYPES = (
     "character",
     "faction",
     "class",
+    # The System treats race as a separate pick from class, with its own stat
+    # effects, so it needs its own type rather than being folded into class.
+    "race",
     "skill",
     "item",
     "title",
@@ -24,6 +27,11 @@ EDGE_TYPES = ("allied", "hostile", "kin", "sponsor", "subordinate", "party")
 COST_TYPES = (
     "gold",
     "slot",
+    # Classes are gated on audience numbers, a prior skill level, or an
+    # achievement, not on a resource the crawler spends.
+    "views",
+    "skill",
+    "achievement",
     "cooldown",
     "health",
     "stamina",
@@ -42,7 +50,7 @@ EFFECT_CATEGORIES = (
 )
 
 #: Entity types that may carry a `mechanics` row. A location has no price.
-PRICEABLE_TYPES = ("class", "skill", "item")
+PRICEABLE_TYPES = ("class", "race", "skill", "item")
 
 
 @dataclass(frozen=True)

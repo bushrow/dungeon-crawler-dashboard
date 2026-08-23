@@ -1,35 +1,127 @@
 id,type,canonical_name,introduced_floor,notes
-carl,character,Carl,0,Human crawler. Entered in boxer shorts and combat boots.
-donut,character,Princess Donut,0,Persian show cat. Gains speech and levels alongside Carl.
-bea,character,Bea,0,Carl's ex-girlfriend and Donut's registered owner.
-mordecai,character,Mordecai,2,Former crawler. Becomes guide and trainer to Carl and Donut.
-katia,character,Katia,2,Crawler who allies with Carl and Donut.
-mongo,character,Mongo,3,Donut's raptor companion.
-signet,character,Princess Signet,3,Over City royalty.
+carl,character,Carl,0,"Crawler 4122. Coast Guard veteran, marine technician, Seattle."
+donut,character,Princess Donut,0,Beatrice's award-winning show cat. Gains speech in the dungeon.
+beatrice,character,Beatrice,0,Carl's girlfriend and Donut's owner. Called Bea.
+monobrow_sam,character,Monobrow Sam,0,Carl's friend on Earth.
+mordecai,character,Mordecai,1,Non-combatant NPC. Guide and trainer to Carl and Donut.
+frank_q,character,Frank Q,1,
+hekla,character,Hekla,1,
+chris_andrews,character,Chris Andrews,1,
+imani,character,Imani,1,
+ferdinand,character,Ferdinand,1,
+elle_mcgibbons,character,Elle McGibbons,1,
+li_jun,character,Li Jun,2,
+li_na,character,Li Na,2,
+maestro,character,Maestro,2,Show host and god sponsor.
+mongo,character,Mongo,2,Donut's raptor companion.
+miriam_dom,character,Miriam Dom,2,
+tsarina_signet,character,Tsarina Signet,3,Summoner and fairy-class NPC of the Over City.
+prepotente,character,Prepotente,3,
+florin,character,Florin,3,
+katia_grim,character,Katia Grim,3,
+bautista,character,Daniel Bautista,3,
+quan_ch,character,Quan Ch,3,
 the_system,faction,The System,0,The dungeon's administrative intelligence.
 crawlers,faction,The Crawlers,0,Surviving humans admitted to the dungeon.
-borant,faction,Borant Corporation,1,Operator of this season of the crawl.
-syndicate,faction,The Syndicate,1,Galactic authority above the operator.
+syndicate,faction,The Syndicate,1,Galactic authority that licenses the show.
+borant,faction,Borant Corporation,1,Operator of this season of Dungeon Crawler World.
 bopca,faction,The Bopca,1,Species staffing safe rooms. Grouped as a faction; the schema has no species type.
-production,faction,The Production,1,Broadcast side of the show.
-over_city_royals,faction,The Over City Royals,3,Ruling houses of the third floor.
-surface,location,The Surface,0,"Earth above the dungeon, after the collapse."
-floor_one,location,Floor One,1,
-floor_two,location,Floor Two,2,
-floor_three,location,Floor Three,3,
-over_city,location,The Over City,3,The third floor's city.
-safe_room,location,Safe Room,1,Between-encounter rest and shop space.
-desperado_club,location,The Desperado Club,3,Crawler social space between floors.
-compensated_anarchist,class,Compensated Anarchist,3,Carl's class.
-former_child_actor,class,Former Child Actor,3,Donut's class.
-combat_boots,item,Combat Boots,0,Worn by Carl on entry.
-boxer_shorts,item,Boxer Shorts,0,Carl's only other clothing on entry.
-donut_tiara,item,Donut's Tiara,1,
-health_potion,item,Health Potion,1,
-mana_potion,item,Mana Potion,3,
-bronze_box,item,Bronze Loot Box,1,
-silver_box,item,Silver Loot Box,1,
-gold_box,item,Gold Loot Box,2,
-platinum_box,item,Platinum Loot Box,3,
-torch,skill,Torch,3,Donut's fire cantrip.
-second_wind,skill,Second Wind,3,Carl stamina recovery.
+royal_court,faction,Royal Court of Princess Donut,1,Donut's retinue of pets and followers.
+le_mouvement,faction,Le Mouvement,1,
+skull_empire,faction,Skull Empire,2,
+surface,location,The Surface,0,"Earth above the dungeon, before and during the Transformation."
+dungeon,location,The World Dungeon,0,Eighteen floors.
+dungeon_entrance,location,Dungeon Entrance,0,
+floor_one,location,First Floor,1,Tutorial level beneath the ruins.
+safe_room,location,Safe Room,1,"Rest, storage, and a shop between encounters."
+floor_two,location,Second Floor,2,Second tutorial level.
+floor_three,location,The Over City,3,"Third floor. Guarded medieval villages among monster-filled ruins, roughly the size of Arizona."
+desperado_club,location,The Desperado Club,3,Members-only crawler club.
+human,race,Human,0,Default race before third-floor selection.
+cat,race,Cat,0,
+primal,race,Primal,3,"Carl's race, selected on the third floor."
+bopca_race,race,Bopca,1,Safe-room attendant species.
+changeling,race,Changeling,3,
+compensated_anarchist,class,Compensated Anarchist,3,Carl's class. Monk/rogue hybrid.
+former_child_actor,class,Former Child Actor,3,"Donut's class. Bard/rogue jack-of-all-trades, Earth class."
+artist_alley_mogul,class,Artist Alley Mogul,3,"Donut's merchant class, taken alongside Former Child Actor."
+monster_truck_driver,class,Monster Truck Driver,3,"Katia Grim's class. Jouster, Earth class."
+prizefighter,class,Prizefighter,3,Monk class.
+bomb_squad_tech,class,Bomb Squad Tech,3,Earth class.
+shieldmaiden,class,Shieldmaiden,3,Hekla's class. Berserker.
+swashbuckler,class,Swashbuckler,3,Bautista's class. Swordsman.
+necrobard,class,NecroBard,3,Bard class.
+blizzardmancer,class,Blizzardmancer,3,Elle McGibbons's third-floor class.
+explosives_handling,skill,Explosives Handling Skill,1,
+ied_skill,skill,IED Skill,1,
+goblin_explosives,skill,Goblin Explosives Skill,1,
+iron_punch,skill,Iron Punch Skill,1,
+regeneration_skill,skill,Regeneration Skill,1,
+light_on_your_feet,skill,Light on Your Feet Skill,1,
+foot_soldier,skill,Foot Soldier Skill,1,
+determine_value,skill,Determine Value Skill,1,
+chopper_pilot,skill,Chopper Pilot Skill,1,
+dangerous_explosives,skill,Dangerous Explosives Handling Skill,1,
+character_actor,skill,Character Actor Skill,3,Grants Donut an extra class each floor.
+magic_missile,skill,Magic Missile,1,Spell.
+fire_fingers,skill,Fire Fingers Spell,1,Spell.
+confusing_fog,skill,Confusing Fog Spell,1,Spell.
+puddle_jumper,skill,Puddle Jumper Spell,1,Spell.
+minion_army,skill,Minion Army Spell,1,Spell.
+fear_spell,skill,Fear Spell,3,Spell granted by Compensated Anarchist.
+trollskin_shirt,item,Enchanted Trollskin Shirt of Pummeling,1,Worn by Carl from the first hour.
+nightgaunt_cloak,item,Enchanted Nightgaunt Cloak of Stoutness,1,Attached to Carl's leather coat. Occupies the neck slot.
+splatter_skunk_toe_ring,item,Enchanted Toe Ring of the Splatter Skunk,1,Worn on Carl's right index toe.
+goblin_pass_tattoo,item,Goblin Pass Tattoo,1,Carl's left inner forearm.
+desperado_pass_tattoo,item,Desperado Pass Tattoo,1,Carl's neck. Grants club access.
+healing_potion,item,Healing Potion,1,
+mana_potion,item,Mana Potion,1,
+iron_skin_potion,item,Iron Skin Potion,1,
+skill_potion,item,Skill Potion,1,
+goblin_dynamite,item,Goblin Dynamite,1,
+goblin_smoke_bomb,item,Goblin Smoke Bomb,1,
+torch_item,item,Torch,1,
+crawler_biscuit,item,Crawler Biscuit,1,
+enhanced_pet_biscuit,item,Enhanced Pet Biscuit,1,
+experience_cookies,item,Experience Cookies,1,
+permacube,item,Permacube,1,
+slate_butterfly_talisman,item,Talisman of the Slate Butterfly,1,
+silver_ring,item,Silver Ring,1,
+leather_coat,item,Leather Coat,0,Carl's own coat. The right sleeve is dissolved by a slime on the first floor.
+pink_crocs,item,Bea's Pink Croc Sandals,0,Ill-fitting. What Carl was wearing when the Transformation hit.
+zippo,item,Zippo Lighter,0,
+pedicure_kit,item,Enchanted Pedicure Kit of the Sylph,2,Carl begins using it on the second floor.
+jug_o_boom,item,Carl's Jug O'Boom,2,
+moab,item,Mother of All Bombs,2,
+goblin_oil,item,Goblin Oil,2,
+mana_toast,item,Mana Toast,2,
+bronze_box,item,Bronze Box,1,
+silver_box,item,Silver Box,1,
+gold_box,item,Gold Box,1,
+platinum_box,item,Platinum Box,1,
+boss_box,item,Boss Box,1,
+goblin_box,item,Goblin Box,1,
+benefactor_box,item,Benefactor Box,1,
+magic_item_box,item,Magic Item Box,1,
+mechanics_box,item,Mechanic's Box,1,
+crowd_control_box,item,Crowd Control Box,1,
+goblins,monster,Goblins,1,
+slime,monster,Slime,1,
+rats,monster,Rats,1,
+rat_kin,monster,Rat-kin,1,
+bugaboo,monster,Bugaboo,1,
+hoarder,monster,Hoarder,1,
+tuskling,monster,Tuskling,1,
+troglodyte,monster,Troglodyte,1,
+chilly_goat,monster,Chilly Goat,1,
+bad_llama,monster,Bad Llama,1,
+blender_fiend,monster,Blender Fiend,1,
+scat_thug,monster,Scat Thug,1,
+kobold,monster,Kobold,2,
+brain_boiler,monster,Brain Boiler,2,
+clurichaun,monster,Clurichaun,2,
+danger_dingo,monster,Danger Dingo,2,
+frenzied_gerbil,monster,Frenzied Gerbil,2,
+mind_horror,monster,Mind Horror,2,
+rage_elemental,monster,Rage Elemental,2,
+krakaren_clone,monster,Krakaren Clone,2,
