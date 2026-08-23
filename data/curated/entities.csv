@@ -36,7 +36,7 @@ floor_one,location,First Floor,1,Tutorial level beneath the ruins.
 safe_room,location,Safe Room,1,"Rest, storage, and a shop between encounters."
 floor_two,location,Second Floor,2,Second tutorial level.
 floor_three,location,The Over City,3,"Third floor. Guarded medieval villages among monster-filled ruins, roughly the size of Arizona."
-desperado_club,location,The Desperado Club,3,Members-only crawler club.
+desperado_club,location,The Desperado Club,1,"Members-only crawler club. Named on floor 1 by the Desperado Pass tattoo, though crawlers reach it later, so its reveal floor is 1."
 human,race,Human,0,Default race before third-floor selection.
 cat,race,Cat,0,
 primal,race,Primal,3,"Carl's race, selected on the third floor."

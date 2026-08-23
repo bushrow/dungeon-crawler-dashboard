@@ -73,10 +73,10 @@ describe('floor 1, the first tutorial floor', () => {
     expect(h.entity('compensated_anarchist')).toBeUndefined();
   });
 
-  it('counts 84 entities, 28 relationships, and 30 priced records', () => {
-    expect(h.entities()).toHaveLength(84);
+  it('counts 85 entities, 28 relationships, and 31 priced records', () => {
+    expect(h.entities()).toHaveLength(85);
     expect(h.edges()).toHaveLength(28);
-    expect(h.mechanics()).toHaveLength(30);
+    expect(h.mechanics()).toHaveLength(31);
   });
 });
 
@@ -86,7 +86,7 @@ describe('floor 3, the Over City', () => {
   it('has the whole v1 corpus', () => {
     expect(h.entities()).toHaveLength(126);
     expect(h.edges()).toHaveLength(53);
-    expect(h.mechanics()).toHaveLength(47);
+    expect(h.mechanics()).toHaveLength(48);
   });
 
   it('has every third-floor class', () => {

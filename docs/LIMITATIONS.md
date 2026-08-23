@@ -35,10 +35,11 @@ pass. Two consequences:
 ## Almost nothing has a cost that is a number
 
 Cost is recorded as a type (`gold`, `views`, `skill`, and so on) and an amount.
-Three rows carry a figure: Compensated Anarchist is gated at 500 billion views,
-Former Child Actor at one trillion, and Prizefighter at Pugilism level 5.
-Everything else records a kind of cost with no amount, because the books state
-the gate without stating a price.
+Four rows carry a figure: Compensated Anarchist is gated at 500 billion views,
+Former Child Actor at one trillion, Prizefighter at Pugilism level 5, and
+Goblin Dynamite sells at 20 gold a stick. Everything else records a kind of cost
+with no amount, because the source states the gate without stating a price. Of
+eighteen item pages checked, exactly one listed a price.
 
 Those three figures are not on one scale. Views and skill levels are different
 units, so `cost_numeric` is comparable only within a `cost_type`, the same

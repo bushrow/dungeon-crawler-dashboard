@@ -21,28 +21,29 @@ fire_fingers,mana,,damage,2,instant,,1,wiki:Fire_Fingers_Spell,probable
 confusing_fog,mana,,utility,2,instant,,1,wiki:Confusing_Fog_Spell,probable
 puddle_jumper,mana,,mobility,3,instant,,1,wiki:Puddle_Jumper_Spell,probable
 minion_army,mana,,damage,3,instant,,1,wiki:Minion_Army_Spell,probable
-healing_potion,gold,,defense,2,instant,,1,wiki:Healing_Potion,probable
-mana_potion,gold,,utility,2,instant,,1,wiki:Mana_Potion,probable
-iron_skin_potion,gold,,defense,3,instant,,1,wiki:Iron_Skin_Potion,probable
-skill_potion,gold,,utility,4,instant,,1,wiki:Skill_Potion,probable
-goblin_dynamite,gold,,damage,3,instant,,1,wiki:Goblin_Dynamite,probable
-goblin_smoke_bomb,gold,,utility,2,instant,,1,wiki:Goblin_Smoke_Bomb,probable
-trollskin_shirt,none,,defense,3,permanent,,1,wiki:Enchanted_Trollskin_Shirt_of_Pummeling,probable
-nightgaunt_cloak,none,,defense,3,permanent,Occupies the neck slot,1,wiki:Enchanted_Nightgaunt_Cloak_of_Stoutness,probable
-splatter_skunk_toe_ring,none,,utility,2,permanent,Toe slot,1,wiki:Enchanted_Toe_Ring_of_the_Splatter_Skunk,probable
-desperado_pass_tattoo,none,,social,4,permanent,Grants Desperado Club access,1,wiki:Desperado_Pass_Tattoo,certain
-goblin_pass_tattoo,none,,social,2,permanent,,1,wiki:Goblin_Pass_Tattoo,probable
+healing_potion,gold,,defense,3,instant,Heals 50% or more of total health,1,wiki:Healing_Potion,certain
+mana_potion,gold,,utility,3,instant,Fully restores mana,1,wiki:Mana_Potion,certain
+iron_skin_potion,gold,,defense,4,5 minutes,Doubles armour class,1,wiki:Iron_Skin_Potion,certain
+skill_potion,gold,,utility,4,permanent,Raises one named skill by a level,1,wiki:Skill_Potion,certain
+goblin_dynamite,gold,20,damage,3,instant,"Sold 25 sticks for 500 gold, so 20 gold a stick",1,wiki:Goblin_Dynamite,certain
+goblin_smoke_bomb,gold,,utility,3,3 minutes,"Opaque smoke, 10 metre radius",1,wiki:Goblin_Smoke_Bomb,certain
+trollskin_shirt,none,,defense,4,permanent,+7 Regeneration; immune to melee damage debuffs. From a Gold Apparel Box,1,wiki:Enchanted_Trollskin_Shirt_of_Pummeling,certain
+nightgaunt_cloak,none,,defense,5,permanent,"+4 Constitution, ice and poison resistance, anti-piercing on all armour. Neck slot. From a Gold Apparel Box",1,wiki:Enchanted_Nightgaunt_Cloak_of_Stoutness,certain
+splatter_skunk_toe_ring,none,,damage,3,permanent,"+3 Strength, +3 Powerful Strike. Toe slot. From a Gold Shoe Box",1,wiki:Enchanted_Toe_Ring_of_the_Splatter_Skunk,certain
+desperado_pass_tattoo,none,,social,4,permanent,Desperado Club access. From an Asshole's Box,1,wiki:Desperado_Pass_Tattoo,certain
+goblin_pass_tattoo,sacrifice,,utility,3,permanent,"Free passage through goblin territory, but goblin enemies deal 20% more damage. From a Silver Goblin Box",1,wiki:Goblin_Pass_Tattoo,certain
 pedicure_kit,none,,defense,3,permanent,Carl's bare feet,2,wiki:Carl,probable
-permacube,none,,utility,3,permanent,,1,wiki:Permacube,inferred
+permacube,none,,utility,2,permanent,Generates heat for steam engines,1,wiki:Permacube,certain
 crawler_biscuit,gold,,utility,2,instant,,1,wiki:Crawler_Biscuit,probable
-enhanced_pet_biscuit,gold,,utility,3,instant,Pets only,1,wiki:Enhanced_Pet_Biscuit,probable
-experience_cookies,gold,,economy,3,instant,,1,wiki:Experience_Cookies,probable
+enhanced_pet_biscuit,none,,utility,3,instant,Random effect from over a hundred; pets only. From a Legendary Pet Box,1,wiki:Enhanced_Pet_Biscuit,probable
+experience_cookies,gold,,economy,1,instant,Ten experience points,1,wiki:Experience_Cookies,certain
 bronze_box,none,,economy,1,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,certain
 silver_box,none,,economy,2,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,probable
 gold_box,none,,economy,3,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,certain
 platinum_box,none,,economy,4,instant,"Awarded, not purchased",1,wiki:Loot_Boxes,probable
-boss_box,none,,economy,4,instant,Dropped by a boss,1,wiki:Boss_Box,probable
-goblin_box,none,,economy,2,instant,,1,wiki:Goblin_Box,probable
-benefactor_box,none,,economy,3,instant,,1,wiki:Benefactor_Box,probable
+boss_box,none,,economy,4,instant,Dropped by a boss,1,wiki:Boss_Box,certain
+goblin_box,none,,economy,2,instant,Semi-random explosive loot,1,wiki:Goblin_Box,certain
+benefactor_box,none,,economy,4,instant,Sent by a sponsor; contents usually bound to the named recipient,1,wiki:Benefactor_Box,certain
 jug_o_boom,none,,damage,4,instant,Carl's own build,2,wiki:Carl's_Jug_O'Boom,probable
 moab,none,,damage,5,instant,Carl's own build,2,wiki:Mother_of_All_Bombs_(MOAB),probable
+slate_butterfly_talisman,none,,utility,3,permanent,"+4 Light on Your Feet, +1 Intelligence, removes winged fairy hostility. From a Gold Magic Item Box",1,wiki:Talisman_of_the_Slate_Butterfly,certain

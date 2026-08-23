@@ -13,12 +13,12 @@ excluded from headline numbers and counted separately in the Ledger.
 |---|---:|
 | entities | 126 |
 | aliases | 14 |
-| facts | 56 |
+| facts | 71 |
 | status | 20 |
 | edges | 53 |
-| mechanics | 47 |
+| mechanics | 48 |
 
-Of 156 rows carrying a confidence: **89** certain, **56** probable, **11** inferred.
+Of 172 rows carrying a confidence: **120** certain, **42** probable, **10** inferred.
 
 ## Priced records
 
@@ -27,36 +27,37 @@ an estimate with no rubric behind it.
 
 | Record | Floor | Cost | Amount | Effect | Scale | Confidence | Source |
 |---|---:|---|---|---|---:|---|---|
-| Benefactor Box | 1 | none | — | economy | 3 | probable | [Benefactor Box](https://dungeon-crawler-carl.fandom.com/wiki/Benefactor_Box) |
-| Boss Box | 1 | none | — | economy | 4 | probable | [Boss Box](https://dungeon-crawler-carl.fandom.com/wiki/Boss_Box) |
+| Benefactor Box | 1 | none | — | economy | 4 | certain | [Benefactor Box](https://dungeon-crawler-carl.fandom.com/wiki/Benefactor_Box) |
+| Boss Box | 1 | none | — | economy | 4 | certain | [Boss Box](https://dungeon-crawler-carl.fandom.com/wiki/Boss_Box) |
 | Bronze Box | 1 | none | — | economy | 1 | certain | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
 | Confusing Fog Spell | 1 | mana | — | utility | 2 | probable | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
 | Crawler Biscuit | 1 | gold | — | utility | 2 | probable | [Crawler Biscuit](https://dungeon-crawler-carl.fandom.com/wiki/Crawler_Biscuit) |
 | Desperado Pass Tattoo | 1 | none | — | social | 4 | certain | [Desperado Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Desperado_Pass_Tattoo) |
-| Enchanted Nightgaunt Cloak of Stoutness | 1 | none | — | defense | 3 | probable | [Enchanted Nightgaunt Cloak of Stoutness](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Nightgaunt_Cloak_of_Stoutness) |
-| Enchanted Toe Ring of the Splatter Skunk | 1 | none | — | utility | 2 | probable | [Enchanted Toe Ring of the Splatter Skunk](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Splatter_Skunk) |
-| Enchanted Trollskin Shirt of Pummeling | 1 | none | — | defense | 3 | probable | [Enchanted Trollskin Shirt of Pummeling](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Trollskin_Shirt_of_Pummeling) |
-| Enhanced Pet Biscuit | 1 | gold | — | utility | 3 | probable | [Enhanced Pet Biscuit](https://dungeon-crawler-carl.fandom.com/wiki/Enhanced_Pet_Biscuit) |
-| Experience Cookies | 1 | gold | — | economy | 3 | probable | [Experience Cookies](https://dungeon-crawler-carl.fandom.com/wiki/Experience_Cookies) |
+| Enchanted Nightgaunt Cloak of Stoutness | 1 | none | — | defense | 5 | certain | [Enchanted Nightgaunt Cloak of Stoutness](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Nightgaunt_Cloak_of_Stoutness) |
+| Enchanted Toe Ring of the Splatter Skunk | 1 | none | — | damage | 3 | certain | [Enchanted Toe Ring of the Splatter Skunk](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Splatter_Skunk) |
+| Enchanted Trollskin Shirt of Pummeling | 1 | none | — | defense | 4 | certain | [Enchanted Trollskin Shirt of Pummeling](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Trollskin_Shirt_of_Pummeling) |
+| Enhanced Pet Biscuit | 1 | none | — | utility | 3 | probable | [Enhanced Pet Biscuit](https://dungeon-crawler-carl.fandom.com/wiki/Enhanced_Pet_Biscuit) |
+| Experience Cookies | 1 | gold | — | economy | 1 | certain | [Experience Cookies](https://dungeon-crawler-carl.fandom.com/wiki/Experience_Cookies) |
 | Explosives Handling Skill | 1 | none | — | damage | 4 | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Fire Fingers Spell | 1 | mana | — | damage | 2 | probable | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
-| Goblin Box | 1 | none | — | economy | 2 | probable | [Goblin Box](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Box) |
-| Goblin Dynamite | 1 | gold | — | damage | 3 | probable | [Goblin Dynamite](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Dynamite) |
-| Goblin Pass Tattoo | 1 | none | — | social | 2 | probable | [Goblin Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Pass_Tattoo) |
-| Goblin Smoke Bomb | 1 | gold | — | utility | 2 | probable | [Goblin Smoke Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Smoke_Bomb) |
+| Goblin Box | 1 | none | — | economy | 2 | certain | [Goblin Box](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Box) |
+| Goblin Dynamite | 1 | gold | 20 | damage | 3 | certain | [Goblin Dynamite](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Dynamite) |
+| Goblin Pass Tattoo | 1 | sacrifice | — | utility | 3 | certain | [Goblin Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Pass_Tattoo) |
+| Goblin Smoke Bomb | 1 | gold | — | utility | 3 | certain | [Goblin Smoke Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Smoke_Bomb) |
 | Gold Box | 1 | none | — | economy | 3 | certain | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
-| Healing Potion | 1 | gold | — | defense | 2 | probable | [Healing Potion](https://dungeon-crawler-carl.fandom.com/wiki/Healing_Potion) |
+| Healing Potion | 1 | gold | — | defense | 3 | certain | [Healing Potion](https://dungeon-crawler-carl.fandom.com/wiki/Healing_Potion) |
 | Iron Punch Skill | 1 | none | — | damage | 3 | probable | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
-| Iron Skin Potion | 1 | gold | — | defense | 3 | probable | [Iron Skin Potion](https://dungeon-crawler-carl.fandom.com/wiki/Iron_Skin_Potion) |
+| Iron Skin Potion | 1 | gold | — | defense | 4 | certain | [Iron Skin Potion](https://dungeon-crawler-carl.fandom.com/wiki/Iron_Skin_Potion) |
 | Magic Missile | 1 | mana | — | damage | 2 | probable | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
-| Mana Potion | 1 | gold | — | utility | 2 | probable | [Mana Potion](https://dungeon-crawler-carl.fandom.com/wiki/Mana_Potion) |
+| Mana Potion | 1 | gold | — | utility | 3 | certain | [Mana Potion](https://dungeon-crawler-carl.fandom.com/wiki/Mana_Potion) |
 | Minion Army Spell | 1 | mana | — | damage | 3 | probable | [Minion Army Spell](https://dungeon-crawler-carl.fandom.com/wiki/Minion_Army_Spell) |
-| Permacube | 1 | none | — | utility | 3 | inferred | [Permacube](https://dungeon-crawler-carl.fandom.com/wiki/Permacube) |
+| Permacube | 1 | none | — | utility | 2 | certain | [Permacube](https://dungeon-crawler-carl.fandom.com/wiki/Permacube) |
 | Platinum Box | 1 | none | — | economy | 4 | probable | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
 | Puddle Jumper Spell | 1 | mana | — | mobility | 3 | probable | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
 | Regeneration Skill | 1 | none | — | defense | 3 | probable | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Silver Box | 1 | none | — | economy | 2 | probable | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
-| Skill Potion | 1 | gold | — | utility | 4 | probable | [Skill Potion](https://dungeon-crawler-carl.fandom.com/wiki/Skill_Potion) |
+| Skill Potion | 1 | gold | — | utility | 4 | certain | [Skill Potion](https://dungeon-crawler-carl.fandom.com/wiki/Skill_Potion) |
+| Talisman of the Slate Butterfly | 1 | none | — | utility | 3 | certain | [Talisman of the Slate Butterfly](https://dungeon-crawler-carl.fandom.com/wiki/Talisman_of_the_Slate_Butterfly) |
 | Carl's Jug O'Boom | 2 | none | — | damage | 4 | probable | [Carl's Jug O'Boom](https://dungeon-crawler-carl.fandom.com/wiki/Carl's_Jug_O'Boom) |
 | Enchanted Pedicure Kit of the Sylph | 2 | none | — | defense | 3 | probable | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Mother of All Bombs | 2 | none | — | damage | 5 | probable | [Mother of All Bombs (MOAB)](https://dungeon-crawler-carl.fandom.com/wiki/Mother_of_All_Bombs_(MOAB)) |
@@ -110,6 +111,21 @@ an estimate with no rubric behind it.
 | Carl | focuses on hand-to-hand combat and explosives | 1 | — | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Royal Court of Princess Donut | is Donut's retinue of pets and followers | 1 | — | probable | [Royal Court of Princess Donut](https://dungeon-crawler-carl.fandom.com/wiki/Royal_Court_of_Princess_Donut) |
 | The Crawlers | are awarded loot boxes for achievements | 1 | — | certain | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
+| Enchanted Nightgaunt Cloak of Stoutness | grants +4 Constitution, plus ice and poison resistance | 1 | — | certain | [Enchanted Nightgaunt Cloak of Stoutness](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Nightgaunt_Cloak_of_Stoutness) |
+| Enchanted Trollskin Shirt of Pummeling | grants +7 Regeneration and immunity to melee damage debuffs | 1 | — | certain | [Enchanted Trollskin Shirt of Pummeling](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Trollskin_Shirt_of_Pummeling) |
+| Enchanted Toe Ring of the Splatter Skunk | grants +3 Strength and +3 Powerful Strike | 1 | — | certain | [Enchanted Toe Ring of the Splatter Skunk](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Splatter_Skunk) |
+| Goblin Pass Tattoo | removes automatic goblin hostility and grants free passage through goblin territory | 1 | — | certain | [Goblin Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Pass_Tattoo) |
+| Goblin Pass Tattoo | costs 20% more damage taken from goblin enemies who do attack | 1 | — | certain | [Goblin Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Pass_Tattoo) |
+| Desperado Pass Tattoo | grants The Desperado Club | 1 | — | certain | [Desperado Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Desperado_Pass_Tattoo) |
+| Goblin Dynamite | sells for 500 gold for 25 sticks | 1 | — | certain | [Goblin Dynamite](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Dynamite) |
+| Healing Potion | restores half or more of total health | 1 | — | certain | [Healing Potion](https://dungeon-crawler-carl.fandom.com/wiki/Healing_Potion) |
+| Iron Skin Potion | doubles armour class for five minutes | 1 | — | certain | [Iron Skin Potion](https://dungeon-crawler-carl.fandom.com/wiki/Iron_Skin_Potion) |
+| Skill Potion | raises one named skill by a level | 1 | — | certain | [Skill Potion](https://dungeon-crawler-carl.fandom.com/wiki/Skill_Potion) |
+| Talisman of the Slate Butterfly | grants +4 Light on Your Feet, +1 Intelligence, and safety from winged fairies | 1 | — | certain | [Talisman of the Slate Butterfly](https://dungeon-crawler-carl.fandom.com/wiki/Talisman_of_the_Slate_Butterfly) |
+| Benefactor Box | delivers outworld items that never appear in dungeon loot | 1 | — | certain | [Benefactor Box](https://dungeon-crawler-carl.fandom.com/wiki/Benefactor_Box) |
+| Benefactor Box | is sent by a crawler's sponsor rather than earned | 1 | — | certain | [Benefactor Box](https://dungeon-crawler-carl.fandom.com/wiki/Benefactor_Box) |
+| Boss Box | is awarded for defeating a boss | 1 | — | certain | [Boss Box](https://dungeon-crawler-carl.fandom.com/wiki/Boss_Box) |
+| Permacube | generates heat for steam engines | 1 | — | certain | [Permacube](https://dungeon-crawler-carl.fandom.com/wiki/Permacube) |
 | Second Floor | is the second of the two tutorial levels | 2 | — | certain | [Dungeon](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon) |
 | Carl | began using Enchanted Pedicure Kit of the Sylph | 2 | — | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Mongo | accompanies Princess Donut | 2 | — | certain | [Mongo](https://dungeon-crawler-carl.fandom.com/wiki/Mongo) |
@@ -146,12 +162,12 @@ an estimate with no rubric behind it.
 - **location**: Dungeon Entrance, The Surface, The World Dungeon
 - **race**: Cat, Human
 
-### Floor 1 (70)
+### Floor 1 (71)
 
 - **character**: Chris Andrews, Elle McGibbons, Ferdinand, Frank Q, Hekla, Imani, Mordecai
 - **faction**: Borant Corporation, Le Mouvement, Royal Court of Princess Donut, The Bopca, The Syndicate
 - **item**: Benefactor Box, Boss Box, Bronze Box, Crawler Biscuit, Crowd Control Box, Desperado Pass Tattoo, Enchanted Nightgaunt Cloak of Stoutness, Enchanted Toe Ring of the Splatter Skunk, Enchanted Trollskin Shirt of Pummeling, Enhanced Pet Biscuit, Experience Cookies, Goblin Box, Goblin Dynamite, Goblin Pass Tattoo, Goblin Smoke Bomb, Gold Box, Healing Potion, Iron Skin Potion, Magic Item Box, Mana Potion, Mechanic's Box, Permacube, Platinum Box, Silver Box, Silver Ring, Skill Potion, Talisman of the Slate Butterfly, Torch
-- **location**: First Floor, Safe Room
+- **location**: First Floor, Safe Room, The Desperado Club
 - **monster**: Bad Llama, Blender Fiend, Bugaboo, Chilly Goat, Goblins, Hoarder, Rat-kin, Rats, Scat Thug, Slime, Troglodyte, Tuskling
 - **race**: Bopca
 - **skill**: Chopper Pilot Skill, Confusing Fog Spell, Dangerous Explosives Handling Skill, Determine Value Skill, Explosives Handling Skill, Fire Fingers Spell, Foot Soldier Skill, Goblin Explosives Skill, IED Skill, Iron Punch Skill, Light on Your Feet Skill, Magic Missile, Minion Army Spell, Puddle Jumper Spell, Regeneration Skill
@@ -164,11 +180,11 @@ an estimate with no rubric behind it.
 - **location**: Second Floor
 - **monster**: Brain Boiler, Clurichaun, Danger Dingo, Frenzied Gerbil, Kobold, Krakaren Clone, Mind Horror, Rage Elemental
 
-### Floor 3 (22)
+### Floor 3 (21)
 
 - **character**: Daniel Bautista, Florin, Katia Grim, Prepotente, Quan Ch, Tsarina Signet
 - **class**: Artist Alley Mogul, Blizzardmancer, Bomb Squad Tech, Compensated Anarchist, Former Child Actor, Monster Truck Driver, NecroBard, Prizefighter, Shieldmaiden, Swashbuckler
-- **location**: The Desperado Club, The Over City
+- **location**: The Over City
 - **race**: Changeling, Primal
 - **skill**: Character Actor Skill, Fear Spell
 
