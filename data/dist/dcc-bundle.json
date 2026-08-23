@@ -1,0 +1,1166 @@
+{
+  "aliases": [
+    {
+      "alias": "Princess Donut the Queen Anne Chonk",
+      "entityId": "donut",
+      "revealFloor": 0
+    },
+    {
+      "alias": "Grand Champion",
+      "entityId": "donut",
+      "revealFloor": 0
+    },
+    {
+      "alias": "Former Child Actor",
+      "entityId": "donut",
+      "revealFloor": 3
+    },
+    {
+      "alias": "The Compensated Anarchist",
+      "entityId": "carl",
+      "revealFloor": 3
+    },
+    {
+      "alias": "The Trainer",
+      "entityId": "mordecai",
+      "revealFloor": 2
+    },
+    {
+      "alias": "The Valtay",
+      "entityId": "syndicate",
+      "revealFloor": 3
+    },
+    {
+      "alias": "The Dungeon AI",
+      "entityId": "the_system",
+      "revealFloor": 1
+    },
+    {
+      "alias": "The Collapse",
+      "entityId": "surface",
+      "revealFloor": 0
+    }
+  ],
+  "edges": [
+    {
+      "confidence": "certain",
+      "dst": "donut",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "src": "carl",
+      "type": "party"
+    },
+    {
+      "confidence": "certain",
+      "dst": "bea",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "src": "donut",
+      "type": "kin"
+    },
+    {
+      "confidence": "probable",
+      "dst": "bea",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "src": "carl",
+      "type": "kin"
+    },
+    {
+      "confidence": "certain",
+      "dst": "crawlers",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "src": "carl",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "certain",
+      "dst": "crawlers",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "src": "donut",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "the_system",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 0,
+      "revealFloor": 1,
+      "src": "carl",
+      "type": "hostile"
+    },
+    {
+      "confidence": "certain",
+      "dst": "borant",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "carl",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "borant",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "donut",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "syndicate",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "borant",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "production",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "borant",
+      "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "borant",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "bopca",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "certain",
+      "dst": "mordecai",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "src": "carl",
+      "type": "sponsor"
+    },
+    {
+      "confidence": "certain",
+      "dst": "mordecai",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "src": "donut",
+      "type": "sponsor"
+    },
+    {
+      "confidence": "probable",
+      "dst": "katia",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "src": "carl",
+      "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "katia",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "src": "donut",
+      "type": "allied"
+    },
+    {
+      "confidence": "certain",
+      "dst": "crawlers",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "src": "katia",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "mongo",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "src": "donut",
+      "type": "party"
+    },
+    {
+      "confidence": "probable",
+      "dst": "mongo",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "src": "carl",
+      "type": "party"
+    },
+    {
+      "confidence": "probable",
+      "dst": "over_city_royals",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "src": "signet",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "inferred",
+      "dst": "signet",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "src": "carl",
+      "type": "allied"
+    },
+    {
+      "confidence": "inferred",
+      "dst": "signet",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "src": "donut",
+      "type": "allied"
+    },
+    {
+      "confidence": "inferred",
+      "dst": "borant",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 2,
+      "revealFloor": 3,
+      "src": "mordecai",
+      "type": "hostile"
+    }
+  ],
+  "entities": [
+    {
+      "canonicalName": "Carl",
+      "id": "carl",
+      "introducedFloor": 0,
+      "notes": "Human crawler. Entered in boxer shorts and combat boots.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "Princess Donut",
+      "id": "donut",
+      "introducedFloor": 0,
+      "notes": "Persian show cat. Gains speech and levels alongside Carl.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "Bea",
+      "id": "bea",
+      "introducedFloor": 0,
+      "notes": "Carl's ex-girlfriend and Donut's registered owner.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "Mordecai",
+      "id": "mordecai",
+      "introducedFloor": 2,
+      "notes": "Former crawler. Becomes guide and trainer to Carl and Donut.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "Katia",
+      "id": "katia",
+      "introducedFloor": 2,
+      "notes": "Crawler who allies with Carl and Donut.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "Mongo",
+      "id": "mongo",
+      "introducedFloor": 3,
+      "notes": "Donut's raptor companion.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "Princess Signet",
+      "id": "signet",
+      "introducedFloor": 3,
+      "notes": "Over City royalty.",
+      "type": "character"
+    },
+    {
+      "canonicalName": "The System",
+      "id": "the_system",
+      "introducedFloor": 0,
+      "notes": "The dungeon's administrative intelligence.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "The Crawlers",
+      "id": "crawlers",
+      "introducedFloor": 0,
+      "notes": "Surviving humans admitted to the dungeon.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Borant Corporation",
+      "id": "borant",
+      "introducedFloor": 1,
+      "notes": "Operator of this season of the crawl.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "The Syndicate",
+      "id": "syndicate",
+      "introducedFloor": 1,
+      "notes": "Galactic authority above the operator.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "The Bopca",
+      "id": "bopca",
+      "introducedFloor": 1,
+      "notes": "Species staffing safe rooms. Grouped as a faction; the schema has no species type.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "The Production",
+      "id": "production",
+      "introducedFloor": 1,
+      "notes": "Broadcast side of the show.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "The Over City Royals",
+      "id": "over_city_royals",
+      "introducedFloor": 3,
+      "notes": "Ruling houses of the third floor.",
+      "type": "faction"
+    },
+    {
+      "canonicalName": "The Surface",
+      "id": "surface",
+      "introducedFloor": 0,
+      "notes": "Earth above the dungeon, after the collapse.",
+      "type": "location"
+    },
+    {
+      "canonicalName": "Floor One",
+      "id": "floor_one",
+      "introducedFloor": 1,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Floor Two",
+      "id": "floor_two",
+      "introducedFloor": 2,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Floor Three",
+      "id": "floor_three",
+      "introducedFloor": 3,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "The Over City",
+      "id": "over_city",
+      "introducedFloor": 3,
+      "notes": "The third floor's city.",
+      "type": "location"
+    },
+    {
+      "canonicalName": "Safe Room",
+      "id": "safe_room",
+      "introducedFloor": 1,
+      "notes": "Between-encounter rest and shop space.",
+      "type": "location"
+    },
+    {
+      "canonicalName": "The Desperado Club",
+      "id": "desperado_club",
+      "introducedFloor": 3,
+      "notes": "Crawler social space between floors.",
+      "type": "location"
+    },
+    {
+      "canonicalName": "Compensated Anarchist",
+      "id": "compensated_anarchist",
+      "introducedFloor": 3,
+      "notes": "Carl's class.",
+      "type": "class"
+    },
+    {
+      "canonicalName": "Former Child Actor",
+      "id": "former_child_actor",
+      "introducedFloor": 3,
+      "notes": "Donut's class.",
+      "type": "class"
+    },
+    {
+      "canonicalName": "Combat Boots",
+      "id": "combat_boots",
+      "introducedFloor": 0,
+      "notes": "Worn by Carl on entry.",
+      "type": "item"
+    },
+    {
+      "canonicalName": "Boxer Shorts",
+      "id": "boxer_shorts",
+      "introducedFloor": 0,
+      "notes": "Carl's only other clothing on entry.",
+      "type": "item"
+    },
+    {
+      "canonicalName": "Donut's Tiara",
+      "id": "donut_tiara",
+      "introducedFloor": 1,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Health Potion",
+      "id": "health_potion",
+      "introducedFloor": 1,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Mana Potion",
+      "id": "mana_potion",
+      "introducedFloor": 3,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Bronze Loot Box",
+      "id": "bronze_box",
+      "introducedFloor": 1,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Silver Loot Box",
+      "id": "silver_box",
+      "introducedFloor": 1,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Gold Loot Box",
+      "id": "gold_box",
+      "introducedFloor": 2,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Platinum Loot Box",
+      "id": "platinum_box",
+      "introducedFloor": 3,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Torch",
+      "id": "torch",
+      "introducedFloor": 3,
+      "notes": "Donut's fire cantrip.",
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Second Wind",
+      "id": "second_wind",
+      "introducedFloor": 3,
+      "notes": "Carl stamina recovery.",
+      "type": "skill"
+    }
+  ],
+  "facts": [
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f001",
+      "notes": null,
+      "object": "the collapse, by being outdoors when every building fell",
+      "predicate": "survived",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "carl"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f002",
+      "notes": null,
+      "object": "boxer shorts and combat boots",
+      "predicate": "entered_wearing",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "carl"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 0,
+      "id": "f003",
+      "notes": null,
+      "object": "the United States Coast Guard",
+      "predicate": "served_in",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "carl"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f004",
+      "notes": null,
+      "object": "bea",
+      "predicate": "owned_by",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "donut"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f005",
+      "notes": null,
+      "object": "speech and human-level reasoning on entering the dungeon",
+      "predicate": "gained",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "donut"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f006",
+      "notes": null,
+      "object": "a champion show cat before the collapse",
+      "predicate": "competed_as",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "donut"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 0,
+      "id": "f007",
+      "notes": null,
+      "object": "the collapse",
+      "predicate": "was_indoors_during",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "bea"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f008",
+      "notes": null,
+      "object": "surviving the surface collapse and descending",
+      "predicate": "admitted_by",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "crawlers"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f009",
+      "notes": null,
+      "object": "the crawl to a paying galactic audience",
+      "predicate": "broadcasts",
+      "revealFloor": 1,
+      "significanceFloor": 1,
+      "source": "b1",
+      "subjectId": "the_system"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 1,
+      "id": "f010",
+      "notes": null,
+      "object": "this season of the crawl",
+      "predicate": "operates",
+      "revealFloor": 1,
+      "significanceFloor": 1,
+      "source": "b1",
+      "subjectId": "borant"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 1,
+      "id": "f011",
+      "notes": "The cost-cutting reads as background colour at first and only later explains why the floors behave as they do.",
+      "object": "a budget operator running a cut-rate season",
+      "predicate": "is_regarded_as",
+      "revealFloor": 2,
+      "significanceFloor": 3,
+      "source": "b1",
+      "subjectId": "borant"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 1,
+      "id": "f012",
+      "notes": null,
+      "object": "safe rooms and their shops",
+      "predicate": "staffs",
+      "revealFloor": 1,
+      "significanceFloor": 1,
+      "source": "b1",
+      "subjectId": "bopca"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 1,
+      "id": "f013",
+      "notes": null,
+      "object": "rest, storage, and a shop between encounters",
+      "predicate": "provides",
+      "revealFloor": 1,
+      "significanceFloor": 1,
+      "source": "b1",
+      "subjectId": "safe_room"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 1,
+      "id": "f014",
+      "notes": null,
+      "object": "loot boxes for achievements",
+      "predicate": "are_awarded",
+      "revealFloor": 1,
+      "significanceFloor": 1,
+      "source": "b1",
+      "subjectId": "crawlers"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 2,
+      "id": "f015",
+      "notes": null,
+      "object": "guide and trainer to Carl and Donut",
+      "predicate": "serves_as",
+      "revealFloor": 2,
+      "significanceFloor": 2,
+      "source": "b1",
+      "subjectId": "mordecai"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 2,
+      "id": "f016",
+      "notes": null,
+      "object": "a crawler himself",
+      "predicate": "previously_was",
+      "revealFloor": 2,
+      "significanceFloor": 2,
+      "source": "b1",
+      "subjectId": "mordecai"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 2,
+      "id": "f017",
+      "notes": null,
+      "object": "Carl and Donut",
+      "predicate": "allies_with",
+      "revealFloor": 2,
+      "significanceFloor": 2,
+      "source": "b1",
+      "subjectId": "katia"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 3,
+      "id": "f018",
+      "notes": null,
+      "object": "compensated_anarchist",
+      "predicate": "selected_class",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "carl"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 3,
+      "id": "f019",
+      "notes": null,
+      "object": "former_child_actor",
+      "predicate": "selected_class",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "donut"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f020",
+      "notes": null,
+      "object": "traps, demolition, and improvised explosives",
+      "predicate": "rewards",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "compensated_anarchist"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f021",
+      "notes": null,
+      "object": "audience attention and performance",
+      "predicate": "rewards",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "former_child_actor"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f022",
+      "notes": null,
+      "object": "boroughs",
+      "predicate": "is_organized_into",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "over_city"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f023",
+      "notes": null,
+      "object": "the boroughs of the third floor",
+      "predicate": "rule",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "over_city_royals"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f024",
+      "notes": null,
+      "object": "over_city_royals",
+      "predicate": "belongs_to",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "signet"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f025",
+      "notes": null,
+      "object": "donut",
+      "predicate": "accompanies",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "mongo"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 3,
+      "id": "f026",
+      "notes": null,
+      "object": "crawlers between floors",
+      "predicate": "admits",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "desperado_club"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 1,
+      "id": "f027",
+      "notes": "Reads as remote bureaucracy on the first floor. What the oversight is actually for lands later.",
+      "object": "borant",
+      "predicate": "oversees",
+      "revealFloor": 1,
+      "significanceFloor": 3,
+      "source": "b1",
+      "subjectId": "syndicate"
+    },
+    {
+      "confidence": "probable",
+      "eventFloor": 1,
+      "id": "f028",
+      "notes": "The showrunning is visible early; that it drives the pricing of abilities is a later realisation.",
+      "object": "encounters for viewership rather than for balance",
+      "predicate": "shapes",
+      "revealFloor": 1,
+      "significanceFloor": 3,
+      "source": "b1",
+      "subjectId": "production"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f029",
+      "notes": null,
+      "object": "carl",
+      "predicate": "worn_by",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "combat_boots"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 0,
+      "id": "f030",
+      "notes": null,
+      "object": "carl",
+      "predicate": "worn_by",
+      "revealFloor": 0,
+      "significanceFloor": 0,
+      "source": "b1",
+      "subjectId": "boxer_shorts"
+    },
+    {
+      "confidence": "inferred",
+      "eventFloor": 1,
+      "id": "f031",
+      "notes": null,
+      "object": "donut",
+      "predicate": "worn_by",
+      "revealFloor": 1,
+      "significanceFloor": 1,
+      "source": "b1",
+      "subjectId": "donut_tiara"
+    },
+    {
+      "confidence": "inferred",
+      "eventFloor": 3,
+      "id": "f032",
+      "notes": null,
+      "object": "donut",
+      "predicate": "cast_by",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "torch"
+    },
+    {
+      "confidence": "inferred",
+      "eventFloor": 3,
+      "id": "f033",
+      "notes": null,
+      "object": "carl",
+      "predicate": "used_by",
+      "revealFloor": 3,
+      "significanceFloor": 3,
+      "source": "b2",
+      "subjectId": "second_wind"
+    }
+  ],
+  "layout": {
+    "bea": {
+      "x": 840.94,
+      "y": 0.0
+    },
+    "bopca": {
+      "x": 1369.33,
+      "y": 900.0
+    },
+    "borant": {
+      "x": 1218.6,
+      "y": 533.94
+    },
+    "carl": {
+      "x": 758.8,
+      "y": 383.18
+    },
+    "crawlers": {
+      "x": 538.79,
+      "y": 191.59
+    },
+    "donut": {
+      "x": 830.1,
+      "y": 251.21
+    },
+    "katia": {
+      "x": 623.15,
+      "y": 54.65
+    },
+    "mongo": {
+      "x": 1028.76,
+      "y": 134.19
+    },
+    "mordecai": {
+      "x": 979.19,
+      "y": 510.03
+    },
+    "over_city_royals": {
+      "x": 0.0,
+      "y": 432.38
+    },
+    "production": {
+      "x": 1600.0,
+      "y": 417.97
+    },
+    "signet": {
+      "x": 397.21,
+      "y": 389.21
+    },
+    "syndicate": {
+      "x": 1584.27,
+      "y": 705.68
+    },
+    "the_system": {
+      "x": 582.9,
+      "y": 734.01
+    }
+  },
+  "maxFloor": 3,
+  "mechanics": [
+    {
+      "confidence": "probable",
+      "costType": "slot",
+      "costValue": "class slot",
+      "duration": "permanent",
+      "effectCategory": "damage",
+      "effectScale": 4,
+      "entityId": "compensated_anarchist",
+      "introducedFloor": 3,
+      "restrictions": "Chosen at third-floor class selection",
+      "source": "b2"
+    },
+    {
+      "confidence": "probable",
+      "costType": "slot",
+      "costValue": "class slot",
+      "duration": "permanent",
+      "effectCategory": "social",
+      "effectScale": 4,
+      "entityId": "former_child_actor",
+      "introducedFloor": 3,
+      "restrictions": "Chosen at third-floor class selection",
+      "source": "b2"
+    },
+    {
+      "confidence": "probable",
+      "costType": "none",
+      "costValue": null,
+      "duration": "permanent",
+      "effectCategory": "defense",
+      "effectScale": 2,
+      "entityId": "combat_boots",
+      "introducedFloor": 0,
+      "restrictions": "Carl only; worn on entry",
+      "source": "b1"
+    },
+    {
+      "confidence": "probable",
+      "costType": "none",
+      "costValue": null,
+      "duration": "permanent",
+      "effectCategory": "defense",
+      "effectScale": 1,
+      "entityId": "boxer_shorts",
+      "introducedFloor": 0,
+      "restrictions": "Carl only; worn on entry",
+      "source": "b1"
+    },
+    {
+      "confidence": "inferred",
+      "costType": "gold",
+      "costValue": "unknown",
+      "duration": "permanent",
+      "effectCategory": "social",
+      "effectScale": 2,
+      "entityId": "donut_tiara",
+      "introducedFloor": 1,
+      "restrictions": null,
+      "source": "b1"
+    },
+    {
+      "confidence": "probable",
+      "costType": "gold",
+      "costValue": "unknown",
+      "duration": "instant",
+      "effectCategory": "defense",
+      "effectScale": 2,
+      "entityId": "health_potion",
+      "introducedFloor": 1,
+      "restrictions": null,
+      "source": "b1"
+    },
+    {
+      "confidence": "inferred",
+      "costType": "gold",
+      "costValue": "unknown",
+      "duration": "instant",
+      "effectCategory": "utility",
+      "effectScale": 2,
+      "entityId": "mana_potion",
+      "introducedFloor": 3,
+      "restrictions": "Casters only",
+      "source": "b2"
+    },
+    {
+      "confidence": "certain",
+      "costType": "none",
+      "costValue": null,
+      "duration": "instant",
+      "effectCategory": "economy",
+      "effectScale": 1,
+      "entityId": "bronze_box",
+      "introducedFloor": 1,
+      "restrictions": "Awarded, not purchased",
+      "source": "b1"
+    },
+    {
+      "confidence": "certain",
+      "costType": "none",
+      "costValue": null,
+      "duration": "instant",
+      "effectCategory": "economy",
+      "effectScale": 2,
+      "entityId": "silver_box",
+      "introducedFloor": 1,
+      "restrictions": "Awarded, not purchased",
+      "source": "b1"
+    },
+    {
+      "confidence": "certain",
+      "costType": "none",
+      "costValue": null,
+      "duration": "instant",
+      "effectCategory": "economy",
+      "effectScale": 3,
+      "entityId": "gold_box",
+      "introducedFloor": 2,
+      "restrictions": "Awarded, not purchased",
+      "source": "b1"
+    },
+    {
+      "confidence": "probable",
+      "costType": "none",
+      "costValue": null,
+      "duration": "instant",
+      "effectCategory": "economy",
+      "effectScale": 4,
+      "entityId": "platinum_box",
+      "introducedFloor": 3,
+      "restrictions": "Awarded, not purchased",
+      "source": "b2"
+    },
+    {
+      "confidence": "inferred",
+      "costType": "mana",
+      "costValue": "low",
+      "duration": "instant",
+      "effectCategory": "damage",
+      "effectScale": 2,
+      "entityId": "torch",
+      "introducedFloor": 3,
+      "restrictions": "Caster classes only",
+      "source": "b2"
+    },
+    {
+      "confidence": "inferred",
+      "costType": "cooldown",
+      "costValue": "unknown",
+      "duration": "instant",
+      "effectCategory": "utility",
+      "effectScale": 3,
+      "entityId": "second_wind",
+      "introducedFloor": 3,
+      "restrictions": null,
+      "source": "b2"
+    }
+  ],
+  "status": [
+    {
+      "entityId": "carl",
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "status": "active"
+    },
+    {
+      "entityId": "donut",
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "status": "active"
+    },
+    {
+      "entityId": "bea",
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "status": "departed"
+    },
+    {
+      "entityId": "mordecai",
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "status": "active"
+    },
+    {
+      "entityId": "katia",
+      "eventFloor": 2,
+      "revealFloor": 2,
+      "status": "active"
+    },
+    {
+      "entityId": "mongo",
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "status": "active"
+    },
+    {
+      "entityId": "signet",
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "status": "active"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,5 +1,10 @@
 node_modules/
+
+# Build output, except the compiled corpus. data/dist is the contract between
+# the pipeline and the apps: the apps import it directly, so a fresh clone has
+# to be able to build without running the Python pipeline first.
 dist/
+!data/dist/
 .venv/
 __pycache__/
 *.pyc
