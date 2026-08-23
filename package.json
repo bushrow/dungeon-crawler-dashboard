@@ -1,0 +1,27 @@
+{
+  "name": "dcc-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Atlas and Ledger: two horizon-filtered views over an annotated Dungeon Crawler Carl corpus",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "leakage": "vitest run tests/leakage",
+    "data": "uv run --project pipeline python -m dcc_pipeline.compile",
+    "data:validate": "uv run --project pipeline python -m dcc_pipeline.validate",
+    "data:test": "uv run --project pipeline pytest -q"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.0",
+    "vitest": "^4.1.10"
+  }
+}

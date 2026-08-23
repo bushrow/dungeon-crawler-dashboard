@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Scrape dumps stay out of the repo. No book text, ever. See docs/METHODOLOGY.md.
+data/raw/
