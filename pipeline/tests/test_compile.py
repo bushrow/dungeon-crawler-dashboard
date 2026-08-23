@@ -99,3 +99,52 @@ def test_real_corpus_has_no_overlapping_nodes():
 
     rows = read_tables()
     assert _min_gap(compute(rows["entities"], rows["edges"])) >= MIN_GAP - 1
+
+
+# --- drift detection -------------------------------------------------------
+
+
+def test_verify_accepts_a_bundle_built_from_the_same_tables():
+    from dcc_pipeline.verify import differences
+
+    bundle = build(read_tables())
+    assert differences(bundle, bundle) == []
+
+
+def test_verify_tolerates_sub_unit_layout_drift():
+    from dcc_pipeline.verify import TOLERANCE, differences
+
+    bundle = build(read_tables())
+    nudged = json.loads(json.dumps(bundle))
+    for point in nudged["layout"].values():
+        point["x"] += TOLERANCE
+    # Different architectures land a hair apart. That is not stale data.
+    assert differences(nudged, bundle) == []
+
+
+def test_verify_rejects_a_node_that_actually_moved():
+    from dcc_pipeline.verify import TOLERANCE, differences
+
+    bundle = build(read_tables())
+    moved = json.loads(json.dumps(bundle))
+    node = sorted(moved["layout"])[0]
+    moved["layout"][node]["x"] += TOLERANCE + 50
+    assert any("moved by" in d for d in differences(moved, bundle))
+
+
+def test_verify_rejects_stale_records():
+    from dcc_pipeline.verify import differences
+
+    bundle = build(read_tables())
+    stale = json.loads(json.dumps(bundle))
+    stale["entities"] = stale["entities"][:-1]
+    assert any("entities differs" in d for d in differences(stale, bundle))
+
+
+def test_verify_rejects_a_layout_missing_an_entity():
+    from dcc_pipeline.verify import differences
+
+    bundle = build(read_tables())
+    stale = json.loads(json.dumps(bundle))
+    del stale["layout"][sorted(stale["layout"])[0]]
+    assert any("missing" in d for d in differences(stale, bundle))

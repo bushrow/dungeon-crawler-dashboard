@@ -75,7 +75,10 @@ def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, floa
     }
     _relax(scaled)
 
-    return {node: {"x": round(p[0], 2), "y": round(p[1], 2)} for node, p in scaled.items()}
+    # Integers, not decimals. The box is 1600 by 900, so whole units are finer
+    # than the renderer can use, and sub-unit precision only serves to record
+    # floating-point noise that differs between architectures.
+    return {node: {"x": round(p[0]), "y": round(p[1])} for node, p in scaled.items()}
 
 
 def _relax(points: dict[str, list[float]]) -> None:

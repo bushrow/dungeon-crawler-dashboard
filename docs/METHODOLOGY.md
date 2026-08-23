@@ -69,7 +69,10 @@ Recomputing per floor would make the graph jump on every scrub tick and destroy
 the sense of watching one thing evolve. Computing it in the pipeline also keeps
 the apps free of any runtime dependency and puts the coordinates in git, where a
 layout change shows up as a real diff. The layout is seeded, so it is
-reproducible.
+reproducible on a given machine. It is not bit-identical across architectures:
+numpy lands coordinates a fraction of a unit apart on arm64 and x64, so
+coordinates are rounded to whole units and the drift check in CI compares them
+with a small tolerance rather than by exact diff.
 
 ## Tests
 

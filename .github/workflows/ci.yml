@@ -39,12 +39,10 @@ jobs:
 
       - name: Bundle matches the curated data
         # The bundle is committed, so it can drift from the tables it came from.
-        # Recompiling and finding a diff means somebody edited a CSV without
-        # rebuilding, and the apps are serving stale data.
-        run: |
-          npm run data
-          git diff --exit-code -- data/dist \
-            || (echo "::error::data/dist is stale; run 'npm run data' and commit the result" && exit 1)
+        # Compared field by field rather than with git diff: the spring layout
+        # lands a fraction of a unit apart on a different architecture, which is
+        # not staleness, and a raw diff cannot tell the two apart.
+        run: npm run data:verify
 
       - name: Leakage suite
         run: npm test

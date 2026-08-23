@@ -16,7 +16,8 @@
     "leakage": "vitest run tests/leakage",
     "data": "uv run --project pipeline python -m dcc_pipeline.compile",
     "data:validate": "uv run --project pipeline python -m dcc_pipeline.validate",
-    "data:test": "uv run --project pipeline pytest -q"
+    "data:test": "uv run --project pipeline pytest -q",
+    "data:verify": "uv run --project pipeline python -m dcc_pipeline.verify"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
