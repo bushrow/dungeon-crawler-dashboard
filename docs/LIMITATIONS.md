@@ -35,10 +35,14 @@ pass. Two consequences:
 ## Almost nothing has a cost that is a number
 
 Cost is recorded as a type (`gold`, `views`, `skill`, and so on) and an amount.
-Only the two lead classes carry a figure: Compensated Anarchist is gated at 500
-billion views and Former Child Actor at one trillion. Everything else records a
-kind of cost with no amount, because the books state the gate without stating a
-price.
+Three rows carry a figure: Compensated Anarchist is gated at 500 billion views,
+Former Child Actor at one trillion, and Prizefighter at Pugilism level 5.
+Everything else records a kind of cost with no amount, because the books state
+the gate without stating a price.
+
+Those three figures are not on one scale. Views and skill levels are different
+units, so `cost_numeric` is comparable only within a `cost_type`, the same
+restriction `effect_scale` has within a category.
 
 So the chart plots effect scale against the *kind* of cost. A cost-versus-effect
 scatter needs prices that are figures across the table, and that is a corpus

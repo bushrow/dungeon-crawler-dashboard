@@ -120,7 +120,10 @@ function renderGraph(h: Horizon): void {
         : el('circle', { cx: position.x, cy: position.y, r: 17, fill, class: 'node__mark' });
 
     const label = el('text', { x: position.x, y: position.y + 42, class: 'node__label' });
-    label.textContent = entity.canonicalName;
+    label.textContent =
+      entity.canonicalName.length > 20
+        ? `${entity.canonicalName.slice(0, 19)}\u2026`
+        : entity.canonicalName;
 
     group.append(mark, label);
     group.addEventListener('click', () => select(h, entity.id));

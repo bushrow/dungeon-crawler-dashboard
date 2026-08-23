@@ -31,8 +31,9 @@ independent builds stitched at deploy, buys a boundary that nothing needs yet.
 spring layout over the *full* graph and writes frozen x/y coordinates into the
 bundle. Three things follow: the apps keep zero runtime dependencies, layout is
 deterministic and reviewable in git, and no simulation code ships to the browser.
-Determinism holds per machine rather than across architectures, so coordinates
-are whole units and CI compares them with a tolerance.
+The force layout is implemented in plain Python rather than taken from networkx,
+because a spring layout amplifies the floating-point difference between numpy on
+arm64 and on x64 into a visibly different graph.
 Nodes fade in at fixed positions when the horizon reaches them, so scrubbing
 reads as one graph evolving rather than a new graph each tick.
 

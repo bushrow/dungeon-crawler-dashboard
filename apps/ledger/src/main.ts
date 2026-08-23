@@ -53,7 +53,7 @@ const COLUMNS: Column[] = [
 ];
 
 const CONFIDENCE_ORDER: Confidence[] = ['certain', 'probable', 'inferred'];
-const KINDS: EntityType[] = ['class', 'skill', 'item'];
+const KINDS: EntityType[] = ['class', 'race', 'skill', 'item'];
 
 let sortKey: SortKey = 'effectCategory';
 let sortAsc = true;

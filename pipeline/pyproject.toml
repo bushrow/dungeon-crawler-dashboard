@@ -3,10 +3,9 @@ name = "dcc-pipeline"
 version = "0.1.0"
 description = "Validate, lay out, and compile the DCC corpus into a shipped bundle"
 requires-python = ">=3.11"
-dependencies = [
-    "networkx>=3.3",
-    "numpy>=1.26",
-]
+# No runtime dependencies. The layout is implemented in plain Python so it is
+# reproducible across architectures; see dcc_pipeline/layout.py.
+dependencies = []
 
 [dependency-groups]
 dev = ["pytest>=8.0"]

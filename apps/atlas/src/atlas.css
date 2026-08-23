@@ -44,7 +44,7 @@
 
 .node__label {
   font-family: var(--mono);
-  font-size: 27px;
+  font-size: 23px;
   fill: #34383f;
   text-anchor: middle;
   paint-order: stroke;

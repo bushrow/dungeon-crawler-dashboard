@@ -6,55 +6,114 @@ node appears where it was always going to be and the rest of the graph does not
 move when the slider does. Recomputing per floor would make the graph jump on
 every tick, which destroys the one thing the view is for.
 
-Running it at compile time also keeps the browser free of a physics loop and any
-runtime dependency, and puts the coordinates in git where they can be reviewed.
+Fruchterman-Reingold is implemented here in plain Python rather than taken from
+networkx. The point is reproducibility: a spring layout is chaotic, so the
+floating-point differences between numpy on arm64 and on x64 amplify from 1e-15
+into hundreds of units of final position, and the committed bundle then differs
+from a CI rebuild for reasons that have nothing to do with the data. Fixed
+iteration order over plain IEEE doubles gives the same answer everywhere, and it
+drops the last two dependencies in the pipeline.
 """
 
 from __future__ import annotations
 
-import networkx as nx
+import math
+import random
 
 #: Node types the Atlas draws. Locations, items, and skills are corpus records,
 #: not graph nodes.
 GRAPH_TYPES = ("character", "faction")
 
 SEED = 7
+ITERATIONS = 400
 
 #: The graph panel is a wide rectangle, so the layout is computed in one. A
 #: square layout letterboxes inside the panel and wastes most of its width.
-SCALE_X = 1600.0
-SCALE_Y = 900.0
+SCALE_X = 1800.0
+SCALE_Y = 980.0
 
 #: Minimum gap between two nodes in scaled units. Spring layouts happily stack
 #: weakly-connected nodes on top of each other, and a label sits under every
 #: node, so a purely force-driven result is unreadable at this corpus size.
-MIN_GAP = 150.0
+MIN_GAP = 200.0
 RELAX_STEPS = 300
+
+#: Guards a division by zero when two nodes land exactly on top of each other.
+EPSILON = 1e-9
 
 
 def graph_nodes(entities: list[dict]) -> list[str]:
     return [e["id"] for e in entities if e.get("type") in GRAPH_TYPES]
 
 
+def _spring(nodes: list[str], edges: list[tuple[str, str]]) -> dict[str, list[float]]:
+    """Fruchterman-Reingold on the unit square.
+
+    Deterministic by construction: a seeded Mersenne Twister for the starting
+    positions, and every accumulation runs over a sorted, fixed order so the
+    floating-point sums are identical on every machine.
+    """
+    rng = random.Random(SEED)
+    pos = {node: [rng.random(), rng.random()] for node in nodes}
+
+    k = math.sqrt(1.0 / len(nodes))
+    temperature = 0.1
+    cooling = temperature / (ITERATIONS + 1)
+
+    for _ in range(ITERATIONS):
+        disp = {node: [0.0, 0.0] for node in nodes}
+
+        for i, a in enumerate(nodes):
+            for b in nodes[i + 1 :]:
+                dx = pos[a][0] - pos[b][0]
+                dy = pos[a][1] - pos[b][1]
+                distance = max(math.sqrt(dx * dx + dy * dy), EPSILON)
+                force = k * k / distance
+                ux, uy = dx / distance, dy / distance
+                disp[a][0] += ux * force
+                disp[a][1] += uy * force
+                disp[b][0] -= ux * force
+                disp[b][1] -= uy * force
+
+        for a, b in edges:
+            dx = pos[a][0] - pos[b][0]
+            dy = pos[a][1] - pos[b][1]
+            distance = max(math.sqrt(dx * dx + dy * dy), EPSILON)
+            force = distance * distance / k
+            ux, uy = dx / distance, dy / distance
+            disp[a][0] -= ux * force
+            disp[a][1] -= uy * force
+            disp[b][0] += ux * force
+            disp[b][1] += uy * force
+
+        for node in nodes:
+            dx, dy = disp[node]
+            length = max(math.sqrt(dx * dx + dy * dy), EPSILON)
+            step = min(length, temperature)
+            pos[node][0] += dx / length * step
+            pos[node][1] += dy / length * step
+
+        temperature -= cooling
+
+    return pos
+
+
 def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, float]]:
-    """Return {entity_id: {"x": float, "y": float}} in a SCALE_X by SCALE_Y box."""
-    nodes = graph_nodes(entities)
-    keep = set(nodes)
-
-    g = nx.Graph()
-    g.add_nodes_from(nodes)
-    for edge in edges:
-        src, dst = edge.get("src", ""), edge.get("dst", "")
-        if src in keep and dst in keep:
-            g.add_edge(src, dst)
-
+    """Return {entity_id: {"x": int, "y": int}} in a SCALE_X by SCALE_Y box."""
+    nodes = sorted(graph_nodes(entities))
     if not nodes:
         return {}
 
-    # Seeded, so the same corpus always produces the same coordinates and a
-    # layout change shows up as a real diff rather than as noise.
-    # k above the default spreads a sparse graph out instead of balling it up.
-    raw = nx.spring_layout(g, seed=SEED, iterations=400, k=0.9)
+    keep = set(nodes)
+    pairs = sorted(
+        {
+            (edge["src"], edge["dst"])
+            for edge in edges
+            if edge.get("src") in keep and edge.get("dst") in keep and edge["src"] != edge["dst"]
+        }
+    )
+
+    raw = _spring(nodes, pairs)
 
     xs = [p[0] for p in raw.values()]
     ys = [p[1] for p in raw.values()]
@@ -68,16 +127,15 @@ def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, floa
 
     scaled = {
         node: [
-            norm(float(p[0]), x_min, x_max, SCALE_X),
-            norm(float(p[1]), y_min, y_max, SCALE_Y),
+            norm(raw[node][0], x_min, x_max, SCALE_X),
+            norm(raw[node][1], y_min, y_max, SCALE_Y),
         ]
-        for node, p in sorted(raw.items())
+        for node in nodes
     }
     _relax(scaled)
 
-    # Integers, not decimals. The box is 1600 by 900, so whole units are finer
-    # than the renderer can use, and sub-unit precision only serves to record
-    # floating-point noise that differs between architectures.
+    # Integers, not decimals. The box is 1800 by 980, so whole units are finer
+    # than the renderer can use, and sub-unit precision only records noise.
     return {node: {"x": round(p[0]), "y": round(p[1])} for node, p in scaled.items()}
 
 
@@ -87,22 +145,22 @@ def _relax(points: dict[str, list[float]]) -> None:
     Deterministic: fixed step count, fixed iteration order, no randomness. Runs
     after scaling so MIN_GAP is expressed in the same units the renderer uses.
     """
-    ids = list(points)
+    ids = sorted(points)
     for _ in range(RELAX_STEPS):
         moved = False
         for i, a in enumerate(ids):
             for b in ids[i + 1 :]:
                 pa, pb = points[a], points[b]
                 dx, dy = pb[0] - pa[0], pb[1] - pa[1]
-                dist = (dx * dx + dy * dy) ** 0.5
-                if dist >= MIN_GAP:
+                distance = math.sqrt(dx * dx + dy * dy)
+                if distance >= MIN_GAP:
                     continue
                 # Two nodes exactly on top of each other have no direction to
                 # separate along, so nudge them apart on a fixed axis.
-                if dist == 0:
-                    dx, dy, dist = 1.0, 0.0, 1.0
-                push = (MIN_GAP - dist) / 2
-                ux, uy = dx / dist, dy / dist
+                if distance == 0:
+                    dx, dy, distance = 1.0, 0.0, 1.0
+                push = (MIN_GAP - distance) / 2
+                ux, uy = dx / distance, dy / distance
                 pa[0] -= ux * push
                 pa[1] -= uy * push
                 pb[0] += ux * push

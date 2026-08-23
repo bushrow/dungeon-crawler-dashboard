@@ -68,11 +68,15 @@ than hidden with CSS.
 Recomputing per floor would make the graph jump on every scrub tick and destroy
 the sense of watching one thing evolve. Computing it in the pipeline also keeps
 the apps free of any runtime dependency and puts the coordinates in git, where a
-layout change shows up as a real diff. The layout is seeded, so it is
-reproducible on a given machine. It is not bit-identical across architectures:
-numpy lands coordinates a fraction of a unit apart on arm64 and x64, so
-coordinates are rounded to whole units and the drift check in CI compares them
-with a small tolerance rather than by exact diff.
+layout change shows up as a real diff.
+
+Fruchterman-Reingold is implemented in plain Python rather than taken from
+networkx, so the result is identical on every machine. The first version used
+networkx, and coordinates diverged by up to 150 units between arm64 and x64: a
+spring layout is chaotic, so the floating-point difference between two numpy
+builds amplifies from 1e-15 into a visibly different graph, and CI could not
+tell that apart from stale data. Fixed iteration order over IEEE doubles removes
+the problem, and it leaves the pipeline with no dependencies at all.
 
 ## Tests
 

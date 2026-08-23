@@ -581,6 +581,26 @@
       "revealFloor": 2,
       "src": "skull_empire",
       "type": "subordinate"
+    },
+    {
+      "confidence": "certain",
+      "dst": "crawlers",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "ferdinand",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "inferred",
+      "dst": "ferdinand",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 1,
+      "revealFloor": 1,
+      "src": "carl",
+      "type": "allied"
     }
   ],
   "entities": [
@@ -2143,124 +2163,124 @@
   ],
   "layout": {
     "bautista": {
-      "x": 150,
-      "y": 600
+      "x": 167,
+      "y": 692
     },
     "beatrice": {
-      "x": 798,
-      "y": 562
+      "x": 1555,
+      "y": 558
     },
     "bopca": {
-      "x": 751,
-      "y": 705
+      "x": 692,
+      "y": 195
     },
     "borant": {
-      "x": 677,
-      "y": 835
+      "x": 704,
+      "y": 395
     },
     "carl": {
-      "x": 266,
-      "y": 355
+      "x": 996,
+      "y": 659
     },
     "chris_andrews": {
-      "x": 0,
-      "y": 600
+      "x": 366,
+      "y": 937
     },
     "crawlers": {
-      "x": 429,
-      "y": 640
+      "x": 686,
+      "y": 785
     },
     "donut": {
-      "x": 385,
-      "y": 448
+      "x": 1116,
+      "y": 499
     },
     "elle_mcgibbons": {
-      "x": 335,
-      "y": 900
+      "x": 566,
+      "y": 944
     },
     "ferdinand": {
-      "x": 1600,
-      "y": 0
+      "x": 1070,
+      "y": 935
     },
     "florin": {
-      "x": 542,
-      "y": 900
+      "x": 1269,
+      "y": 909
     },
     "frank_q": {
-      "x": 151,
-      "y": 900
+      "x": 1185,
+      "y": 724
     },
     "hekla": {
-      "x": 150,
-      "y": 450
+      "x": 342,
+      "y": 546
     },
     "imani": {
-      "x": 297,
-      "y": 569
+      "x": 394,
+      "y": 739
     },
     "katia_grim": {
-      "x": 299,
-      "y": 737
+      "x": 799,
+      "y": 620
     },
     "le_mouvement": {
-      "x": 186,
-      "y": 229
+      "x": 1800,
+      "y": 598
     },
     "li_jun": {
       "x": 0,
-      "y": 900
+      "y": 875
     },
     "li_na": {
-      "x": 0,
-      "y": 750
+      "x": 170,
+      "y": 980
     },
     "maestro": {
-      "x": 574,
-      "y": 724
+      "x": 504,
+      "y": 429
     },
     "miriam_dom": {
-      "x": 0,
-      "y": 450
+      "x": 762,
+      "y": 980
     },
     "mongo": {
-      "x": 647,
-      "y": 593
+      "x": 1316,
+      "y": 485
     },
     "monobrow_sam": {
-      "x": 394,
-      "y": 276
+      "x": 1789,
+      "y": 797
     },
     "mordecai": {
-      "x": 517,
-      "y": 519
+      "x": 920,
+      "y": 461
     },
     "prepotente": {
-      "x": 150,
-      "y": 750
+      "x": 898,
+      "y": 833
     },
     "quan_ch": {
-      "x": 440,
-      "y": 790
+      "x": 599,
+      "y": 605
     },
     "royal_court": {
-      "x": 645,
-      "y": 441
+      "x": 1479,
+      "y": 370
     },
     "skull_empire": {
-      "x": 962,
-      "y": 889
+      "x": 58,
+      "y": 0
     },
     "syndicate": {
-      "x": 812,
-      "y": 900
+      "x": 295,
+      "y": 164
     },
     "the_system": {
-      "x": 62,
-      "y": 314
+      "x": 1596,
+      "y": 848
     },
     "tsarina_signet": {
-      "x": 512,
-      "y": 369
+      "x": 1389,
+      "y": 671
     }
   },
   "maxFloor": 3,

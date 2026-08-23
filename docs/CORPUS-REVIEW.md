@@ -15,10 +15,10 @@ excluded from headline numbers and counted separately in the Ledger.
 | aliases | 14 |
 | facts | 56 |
 | status | 20 |
-| edges | 51 |
+| edges | 53 |
 | mechanics | 47 |
 
-Of 154 rows carrying a confidence: **88** certain, **56** probable, **10** inferred.
+Of 156 rows carrying a confidence: **89** certain, **56** probable, **11** inferred.
 
 ## Priced records
 

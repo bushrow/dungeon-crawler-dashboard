@@ -3,10 +3,12 @@
 The bundle is committed, so it can drift from the data it came from. Editing a
 CSV without recompiling would leave the apps serving stale records.
 
-Everything except the layout must match exactly. Layout is compared with a
-tolerance: the spring layout is seeded and reproducible on a given machine, but
-numpy's floating-point results differ slightly between architectures, so an
-exact comparison fails on CI for reasons that have nothing to do with the data.
+Everything except the layout must match exactly. Layout gets a one-unit
+tolerance, purely as a margin on the final rounding: the layout itself is plain
+Python over IEEE doubles in a fixed order, so it lands on the same coordinates
+on every machine. It did not always: the earlier networkx implementation
+diverged by up to 150 units between arm64 and x64, because a spring layout is
+chaotic and amplifies a 1e-15 difference into a visible one.
 """
 
 from __future__ import annotations
@@ -17,9 +19,8 @@ import sys
 from .compile import DIST, build
 from .validate import read_tables
 
-#: Scaled units. Well under one node radius, so a difference this small cannot
-#: move a node anywhere a reader would notice.
-TOLERANCE = 3
+#: Scaled units. A margin on the final rounding, not room for real drift.
+TOLERANCE = 1
 
 
 def differences(committed: dict, fresh: dict) -> list[str]:
