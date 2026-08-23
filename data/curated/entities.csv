@@ -41,7 +41,6 @@ human,race,Human,0,Default race before third-floor selection.
 cat,race,Cat,0,
 primal,race,Primal,3,"Carl's race, selected on the third floor."
 bopca_race,race,Bopca,1,Safe-room attendant species.
-changeling,race,Changeling,3,
 compensated_anarchist,class,Compensated Anarchist,3,Carl's class. Monk/rogue hybrid.
 former_child_actor,class,Former Child Actor,3,"Donut's class. Bard/rogue jack-of-all-trades, Earth class."
 artist_alley_mogul,class,Artist Alley Mogul,3,"Donut's merchant class, taken alongside Former Child Actor."

@@ -11,14 +11,14 @@ excluded from headline numbers and counted separately in the Ledger.
 
 | Table | Rows |
 |---|---:|
-| entities | 126 |
+| entities | 125 |
 | aliases | 14 |
-| facts | 71 |
+| facts | 163 |
 | status | 20 |
 | edges | 53 |
-| mechanics | 48 |
+| mechanics | 66 |
 
-Of 172 rows carrying a confidence: **120** certain, **42** probable, **10** inferred.
+Of 282 rows carrying a confidence: **228** certain, **44** probable, **10** inferred.
 
 ## Priced records
 
@@ -27,12 +27,20 @@ an estimate with no rubric behind it.
 
 | Record | Floor | Cost | Amount | Effect | Scale | Confidence | Source |
 |---|---:|---|---|---|---:|---|---|
+| Bea's Pink Croc Sandals | 0 | none | — | defense | 1 | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
+| Human | 0 | none | — | utility | 3 | certain | [Human](https://dungeon-crawler-carl.fandom.com/wiki/Human) |
+| Leather Coat | 0 | none | — | defense | 1 | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
+| Zippo Lighter | 0 | none | — | utility | 1 | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Benefactor Box | 1 | none | — | economy | 4 | certain | [Benefactor Box](https://dungeon-crawler-carl.fandom.com/wiki/Benefactor_Box) |
 | Boss Box | 1 | none | — | economy | 4 | certain | [Boss Box](https://dungeon-crawler-carl.fandom.com/wiki/Boss_Box) |
 | Bronze Box | 1 | none | — | economy | 1 | certain | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
+| Chopper Pilot Skill | 1 | none | — | mobility | 2 | certain | [Chopper Pilot Skill](https://dungeon-crawler-carl.fandom.com/wiki/Chopper_Pilot_Skill) |
 | Confusing Fog Spell | 1 | mana | — | utility | 2 | probable | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
 | Crawler Biscuit | 1 | gold | — | utility | 2 | probable | [Crawler Biscuit](https://dungeon-crawler-carl.fandom.com/wiki/Crawler_Biscuit) |
+| Crowd Control Box | 1 | none | — | economy | 2 | certain | [Crowd Control Box](https://dungeon-crawler-carl.fandom.com/wiki/Crowd_Control_Box) |
+| Dangerous Explosives Handling Skill | 1 | none | — | damage | 3 | certain | [Dangerous Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Dangerous_Explosives_Handling_Skill) |
 | Desperado Pass Tattoo | 1 | none | — | social | 4 | certain | [Desperado Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Desperado_Pass_Tattoo) |
+| Determine Value Skill | 1 | none | — | economy | 3 | certain | [Determine Value Skill](https://dungeon-crawler-carl.fandom.com/wiki/Determine_Value_Skill) |
 | Enchanted Nightgaunt Cloak of Stoutness | 1 | none | — | defense | 5 | certain | [Enchanted Nightgaunt Cloak of Stoutness](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Nightgaunt_Cloak_of_Stoutness) |
 | Enchanted Toe Ring of the Splatter Skunk | 1 | none | — | damage | 3 | certain | [Enchanted Toe Ring of the Splatter Skunk](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Splatter_Skunk) |
 | Enchanted Trollskin Shirt of Pummeling | 1 | none | — | defense | 4 | certain | [Enchanted Trollskin Shirt of Pummeling](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Trollskin_Shirt_of_Pummeling) |
@@ -40,26 +48,36 @@ an estimate with no rubric behind it.
 | Experience Cookies | 1 | gold | — | economy | 1 | certain | [Experience Cookies](https://dungeon-crawler-carl.fandom.com/wiki/Experience_Cookies) |
 | Explosives Handling Skill | 1 | none | — | damage | 4 | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Fire Fingers Spell | 1 | mana | — | damage | 2 | probable | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
+| Foot Soldier Skill | 1 | none | — | damage | 2 | certain | [Foot Soldier Skill](https://dungeon-crawler-carl.fandom.com/wiki/Foot_Soldier_Skill) |
 | Goblin Box | 1 | none | — | economy | 2 | certain | [Goblin Box](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Box) |
 | Goblin Dynamite | 1 | gold | 20 | damage | 3 | certain | [Goblin Dynamite](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Dynamite) |
+| Goblin Explosives Skill | 1 | none | — | damage | 2 | certain | [Goblin Explosives Skill](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Explosives_Skill) |
 | Goblin Pass Tattoo | 1 | sacrifice | — | utility | 3 | certain | [Goblin Pass Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Pass_Tattoo) |
 | Goblin Smoke Bomb | 1 | gold | — | utility | 3 | certain | [Goblin Smoke Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Smoke_Bomb) |
 | Gold Box | 1 | none | — | economy | 3 | certain | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
 | Healing Potion | 1 | gold | — | defense | 3 | certain | [Healing Potion](https://dungeon-crawler-carl.fandom.com/wiki/Healing_Potion) |
+| IED Skill | 1 | none | — | damage | 4 | certain | [IED Skill](https://dungeon-crawler-carl.fandom.com/wiki/IED_Skill) |
 | Iron Punch Skill | 1 | none | — | damage | 3 | probable | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Iron Skin Potion | 1 | gold | — | defense | 4 | certain | [Iron Skin Potion](https://dungeon-crawler-carl.fandom.com/wiki/Iron_Skin_Potion) |
+| Light on Your Feet Skill | 1 | none | — | mobility | 2 | certain | [Light on Your Feet Skill](https://dungeon-crawler-carl.fandom.com/wiki/Light_on_Your_Feet_Skill) |
+| Magic Item Box | 1 | none | — | economy | 3 | certain | [Magic Item Box](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Item_Box) |
 | Magic Missile | 1 | mana | — | damage | 2 | probable | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
 | Mana Potion | 1 | gold | — | utility | 3 | certain | [Mana Potion](https://dungeon-crawler-carl.fandom.com/wiki/Mana_Potion) |
+| Mechanic's Box | 1 | none | — | economy | 2 | probable | [Mechanic's Box](https://dungeon-crawler-carl.fandom.com/wiki/Mechanic's_Box) |
 | Minion Army Spell | 1 | mana | — | damage | 3 | probable | [Minion Army Spell](https://dungeon-crawler-carl.fandom.com/wiki/Minion_Army_Spell) |
 | Permacube | 1 | none | — | utility | 2 | certain | [Permacube](https://dungeon-crawler-carl.fandom.com/wiki/Permacube) |
 | Platinum Box | 1 | none | — | economy | 4 | probable | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
 | Puddle Jumper Spell | 1 | mana | — | mobility | 3 | probable | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
 | Regeneration Skill | 1 | none | — | defense | 3 | probable | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Silver Box | 1 | none | — | economy | 2 | probable | [Loot Boxes](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Boxes) |
+| Silver Ring | 1 | none | — | utility | 2 | probable | [Silver Ring](https://dungeon-crawler-carl.fandom.com/wiki/Silver_Ring) |
 | Skill Potion | 1 | gold | — | utility | 4 | certain | [Skill Potion](https://dungeon-crawler-carl.fandom.com/wiki/Skill_Potion) |
 | Talisman of the Slate Butterfly | 1 | none | — | utility | 3 | certain | [Talisman of the Slate Butterfly](https://dungeon-crawler-carl.fandom.com/wiki/Talisman_of_the_Slate_Butterfly) |
+| Torch | 1 | gold | — | utility | 1 | certain | [Torch (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Torch_(Item)) |
 | Carl's Jug O'Boom | 2 | none | — | damage | 4 | probable | [Carl's Jug O'Boom](https://dungeon-crawler-carl.fandom.com/wiki/Carl's_Jug_O'Boom) |
 | Enchanted Pedicure Kit of the Sylph | 2 | none | — | defense | 3 | probable | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
+| Goblin Oil | 2 | none | — | damage | 3 | certain | [Goblin Oil](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Oil) |
+| Mana Toast | 2 | gold | — | utility | 2 | certain | [Mana Toast](https://dungeon-crawler-carl.fandom.com/wiki/Mana_Toast) |
 | Mother of All Bombs | 2 | none | — | damage | 5 | probable | [Mother of All Bombs (MOAB)](https://dungeon-crawler-carl.fandom.com/wiki/Mother_of_All_Bombs_(MOAB)) |
 | Artist Alley Mogul | 3 | slot | — | economy | 4 | probable | [Artist Alley Mogul Class](https://dungeon-crawler-carl.fandom.com/wiki/Artist_Alley_Mogul_Class) |
 | Blizzardmancer | 3 | none | — | damage | 3 | inferred | [Elle McGibbons](https://dungeon-crawler-carl.fandom.com/wiki/Elle_McGibbons) |
@@ -93,6 +111,9 @@ an estimate with no rubric behind it.
 | Monobrow Sam | played video games with Carl on Earth | 0 | — | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | The Surface | destroyed every building on Earth, killing anyone indoors | 0 | — | certain | [Transformation](https://dungeon-crawler-carl.fandom.com/wiki/Transformation) |
 | The Crawlers | are the surface survivors admitted to the dungeon | 0 | — | certain | [Dungeon](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon) |
+| Cat | has advantage +1 Charisma, +2 Constitution, +4 Dexterity, Cat-like Reflexes, Night Vision, Nine Lives Benefit, Slice Attack Skill | 0 | — | certain | [Cat](https://dungeon-crawler-carl.fandom.com/wiki/Cat) |
+| Cat | has weakness -3 Strength | 0 | — | certain | [Cat](https://dungeon-crawler-carl.fandom.com/wiki/Cat) |
+| Human | has advantage Adaptability, +2 Charisma, +2 Constitution, +2 Dexterity, +2 Intelligence, +2 Strength, +2% faster skill training | 0 | — | certain | [Human](https://dungeon-crawler-carl.fandom.com/wiki/Human) |
 | Carl | is registered as crawler number 4122 | 1 | — | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | The World Dungeon | has eighteen floors | 1 | — | certain | [Dungeon](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon) |
 | Borant Corporation | operates this season of Dungeon Crawler World | 1 | — | certain | [Dungeon](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon) |
@@ -126,10 +147,96 @@ an estimate with no rubric behind it.
 | Benefactor Box | is sent by a crawler's sponsor rather than earned | 1 | — | certain | [Benefactor Box](https://dungeon-crawler-carl.fandom.com/wiki/Benefactor_Box) |
 | Boss Box | is awarded for defeating a boss | 1 | — | certain | [Boss Box](https://dungeon-crawler-carl.fandom.com/wiki/Boss_Box) |
 | Permacube | generates heat for steam engines | 1 | — | certain | [Permacube](https://dungeon-crawler-carl.fandom.com/wiki/Permacube) |
+| Goblins | has advantage Goblin explosives; Hobgoblin trap and explosive bonuses | 1 | — | certain | [Goblins](https://dungeon-crawler-carl.fandom.com/wiki/Goblins) |
+| Goblins | has weakness Hobgoblin Charisma cap | 1 | — | certain | [Goblins](https://dungeon-crawler-carl.fandom.com/wiki/Goblins) |
+| Goblins | is classed as Engineer; Bomb Bard; Shamanka; Shaman; Chieftain; Warlord | 1 | — | certain | [Goblins](https://dungeon-crawler-carl.fandom.com/wiki/Goblins) |
+| Goblins | is Mob; NPC; playable race family via Hobgoblin | 1 | — | certain | [Goblins](https://dungeon-crawler-carl.fandom.com/wiki/Goblins) |
+| Slime | is Dungeon Mobs | 1 | — | certain | [Slime](https://dungeon-crawler-carl.fandom.com/wiki/Slime) |
+| Rat-kin | has advantage Poison Debuff | 1 | — | certain | [Rat-kin](https://dungeon-crawler-carl.fandom.com/wiki/Rat-kin) |
+| Rat-kin | is Mobs | 1 | — | certain | [Rat-kin](https://dungeon-crawler-carl.fandom.com/wiki/Rat-kin) |
+| Bugaboo | is Mobs | 1 | — | certain | [Bugaboo](https://dungeon-crawler-carl.fandom.com/wiki/Bugaboo) |
+| Tuskling | is classed as Orc | 1 | — | certain | [Tuskling](https://dungeon-crawler-carl.fandom.com/wiki/Tuskling) |
+| Tuskling | is Syndicate Race / Dungeon Mob | 1 | — | certain | [Tuskling](https://dungeon-crawler-carl.fandom.com/wiki/Tuskling) |
+| Troglodyte | has advantage Poison Debuff | 1 | — | certain | [Troglodyte](https://dungeon-crawler-carl.fandom.com/wiki/Troglodyte) |
+| Troglodyte | is classed as Lizard-class | 1 | — | certain | [Troglodyte](https://dungeon-crawler-carl.fandom.com/wiki/Troglodyte) |
+| Troglodyte | is Dungeon Mobs | 1 | — | certain | [Troglodyte](https://dungeon-crawler-carl.fandom.com/wiki/Troglodyte) |
+| Chilly Goat | is classed as Caprid | 1 | — | certain | [Chilly Goat](https://dungeon-crawler-carl.fandom.com/wiki/Chilly_Goat) |
+| Chilly Goat | is Dungeon Mob | 1 | — | certain | [Chilly Goat](https://dungeon-crawler-carl.fandom.com/wiki/Chilly_Goat) |
+| Bad Llama | has advantage Lava spit | 1 | — | certain | [Bad Llama](https://dungeon-crawler-carl.fandom.com/wiki/Bad_Llama) |
+| Bad Llama | has weakness Its throat | 1 | — | certain | [Bad Llama](https://dungeon-crawler-carl.fandom.com/wiki/Bad_Llama) |
+| Bad Llama | is Mob | 1 | — | certain | [Bad Llama](https://dungeon-crawler-carl.fandom.com/wiki/Bad_Llama) |
+| Blender Fiend | has advantage Gain strength with each "blend" | 1 | — | certain | [Blender Fiend](https://dungeon-crawler-carl.fandom.com/wiki/Blender_Fiend) |
+| Blender Fiend | is Dungeon Mob | 1 | — | certain | [Blender Fiend](https://dungeon-crawler-carl.fandom.com/wiki/Blender_Fiend) |
+| Scat Thug | is Mob | 1 | — | certain | [Scat Thug](https://dungeon-crawler-carl.fandom.com/wiki/Scat_Thug) |
+| Explosives Handling Skill | does More info about explosive devices, more crafting options | 1 | — | certain | [Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Explosives_Handling_Skill) |
+| Explosives Handling Skill | targets explosive devices | 1 | — | certain | [Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Explosives_Handling_Skill) |
+| Explosives Handling Skill | is associated with Agent Provocateur Class Compensated Anarchist Class | 1 | — | certain | [Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Explosives_Handling_Skill) |
+| IED Skill | does Each level increases damage yield by 10%, Each level decreases premature detonation by half | 1 | — | certain | [IED Skill](https://dungeon-crawler-carl.fandom.com/wiki/IED_Skill) |
+| Goblin Explosives Skill | does Allows for better handling of goblin explosives. | 1 | — | certain | [Goblin Explosives Skill](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Explosives_Skill) |
+| Goblin Explosives Skill | is associated with Goblin Dynamite, Goblin Smoke Bomb | 1 | — | certain | [Goblin Explosives Skill](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Explosives_Skill) |
+| Iron Punch Skill | does + 10% enhanced fist punching damage per skill level, At Level 10, Breadbasket Effect | 1 | — | certain | [Iron Punch Skill](https://dungeon-crawler-carl.fandom.com/wiki/Iron_Punch_Skill) |
+| Iron Punch Skill | is associated with Enchanted War Gauntlet of the Exalted Grull | 1 | — | certain | [Iron Punch Skill](https://dungeon-crawler-carl.fandom.com/wiki/Iron_Punch_Skill) |
+| Regeneration Skill | does Increased HP recovery, optimized Healing | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
+| Regeneration Skill | targets Self | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
+| Regeneration Skill | lasts Until Healed | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
+| Regeneration Skill | costs 0 | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
+| Regeneration Skill | is associated with Enchanted Trollskin Shirt of Pummeling | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
+| Light on Your Feet Skill | does Increases jump height | 1 | — | certain | [Light on Your Feet Skill](https://dungeon-crawler-carl.fandom.com/wiki/Light_on_Your_Feet_Skill) |
+| Light on Your Feet Skill | is associated with Talisman of the Slate Butterfly | 1 | — | certain | [Light on Your Feet Skill](https://dungeon-crawler-carl.fandom.com/wiki/Light_on_Your_Feet_Skill) |
+| Foot Soldier Skill | does Increases damage dealt by kicking | 1 | — | certain | [Foot Soldier Skill](https://dungeon-crawler-carl.fandom.com/wiki/Foot_Soldier_Skill) |
+| Determine Value Skill | does Allows crawler to view value of items | 1 | — | certain | [Determine Value Skill](https://dungeon-crawler-carl.fandom.com/wiki/Determine_Value_Skill) |
+| Determine Value Skill | is associated with Skill Potion | 1 | — | certain | [Determine Value Skill](https://dungeon-crawler-carl.fandom.com/wiki/Determine_Value_Skill) |
+| Chopper Pilot Skill | does Skill in Driving a Chopper | 1 | — | certain | [Chopper Pilot Skill](https://dungeon-crawler-carl.fandom.com/wiki/Chopper_Pilot_Skill) |
+| Chopper Pilot Skill | is associated with Goblin Copper Chopper | 1 | — | certain | [Chopper Pilot Skill](https://dungeon-crawler-carl.fandom.com/wiki/Chopper_Pilot_Skill) |
+| Dangerous Explosives Handling Skill | does Improved handling | 1 | — | certain | [Dangerous Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Dangerous_Explosives_Handling_Skill) |
+| Dangerous Explosives Handling Skill | targets dangerous explosives | 1 | — | certain | [Dangerous Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Dangerous_Explosives_Handling_Skill) |
+| Dangerous Explosives Handling Skill | is associated with Goblin Dynamite | 1 | — | certain | [Dangerous Explosives Handling Skill](https://dungeon-crawler-carl.fandom.com/wiki/Dangerous_Explosives_Handling_Skill) |
+| Magic Missile | does Inflicts magic damage | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
+| Magic Missile | targets line of sight | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
+| Magic Missile | lasts instant | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
+| Magic Missile | costs 5 mp (levels 1-4) | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
+| Fire Fingers Spell | does ? | 1 | — | certain | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
+| Fire Fingers Spell | targets ? | 1 | — | certain | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
+| Fire Fingers Spell | costs ? | 1 | — | certain | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
+| Confusing Fog Spell | does Blinds hostile mobs | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
+| Confusing Fog Spell | targets confined area | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
+| Confusing Fog Spell | lasts Intelligence X 5 seconds | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
+| Confusing Fog Spell | is associated with Scroll of Confusing Fog | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
+| Puddle Jumper Spell | does Teleport to location in line of sight | 1 | — | certain | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
+| Puddle Jumper Spell | targets Self + 3 Others | 1 | — | certain | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
+| Puddle Jumper Spell | lasts 10 Seconds, 2 Seconds (Level 5) | 1 | — | certain | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
+| Puddle Jumper Spell | costs 20 mp | 1 | — | certain | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
+| Puddle Jumper Spell | is associated with Boss Box | 1 | — | certain | [Puddle Jumper Spell](https://dungeon-crawler-carl.fandom.com/wiki/Puddle_Jumper_Spell) |
+| Minion Army Spell | does 2%+ chance to turn hostile intelligent mobs into allies | 1 | — | certain | [Minion Army Spell](https://dungeon-crawler-carl.fandom.com/wiki/Minion_Army_Spell) |
+| Minion Army Spell | targets 30m + diameter centered around caster | 1 | — | certain | [Minion Army Spell](https://dungeon-crawler-carl.fandom.com/wiki/Minion_Army_Spell) |
+| Minion Army Spell | costs 50 mp | 1 | — | certain | [Minion Army Spell](https://dungeon-crawler-carl.fandom.com/wiki/Minion_Army_Spell) |
+| Minion Army Spell | is associated with Beguiler Box | 1 | — | certain | [Minion Army Spell](https://dungeon-crawler-carl.fandom.com/wiki/Minion_Army_Spell) |
+| Silver Ring | does + Player Stats | 1 | — | certain | [Silver Ring](https://dungeon-crawler-carl.fandom.com/wiki/Silver_Ring) |
+| Magic Item Box | does + semi-random magic-related loot | 1 | — | certain | [Magic Item Box](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Item_Box) |
+| Crowd Control Box | does Semi-random loot | 1 | — | certain | [Crowd Control Box](https://dungeon-crawler-carl.fandom.com/wiki/Crowd_Control_Box) |
 | Second Floor | is the second of the two tutorial levels | 2 | — | certain | [Dungeon](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon) |
 | Carl | began using Enchanted Pedicure Kit of the Sylph | 2 | — | certain | [Carl](https://dungeon-crawler-carl.fandom.com/wiki/Carl) |
 | Mongo | accompanies Princess Donut | 2 | — | certain | [Mongo](https://dungeon-crawler-carl.fandom.com/wiki/Mongo) |
 | Maestro | is a show host and god sponsor | 2 | — | probable | [Maestro](https://dungeon-crawler-carl.fandom.com/wiki/Maestro) |
+| Kobold | is classed as Canine-class | 2 | — | certain | [Kobold](https://dungeon-crawler-carl.fandom.com/wiki/Kobold) |
+| Kobold | is Mob | 2 | — | certain | [Kobold](https://dungeon-crawler-carl.fandom.com/wiki/Kobold) |
+| Brain Boiler | has advantage Floating, Psionic attacks | 2 | — | certain | [Brain Boiler](https://dungeon-crawler-carl.fandom.com/wiki/Brain_Boiler) |
+| Brain Boiler | has weakness Slow moving, Weak | 2 | — | certain | [Brain Boiler](https://dungeon-crawler-carl.fandom.com/wiki/Brain_Boiler) |
+| Brain Boiler | is Dungeon Mob | 2 | — | certain | [Brain Boiler](https://dungeon-crawler-carl.fandom.com/wiki/Brain_Boiler) |
+| Clurichaun | is classed as Fairy-class | 2 | — | certain | [Clurichaun](https://dungeon-crawler-carl.fandom.com/wiki/Clurichaun) |
+| Clurichaun | is Dungeon Mobs | 2 | — | certain | [Clurichaun](https://dungeon-crawler-carl.fandom.com/wiki/Clurichaun) |
+| Danger Dingo | is Dungeon Mob | 2 | — | certain | [Danger Dingo](https://dungeon-crawler-carl.fandom.com/wiki/Danger_Dingo) |
+| Mind Horror | has advantage Floating, Psionic attacks | 2 | — | certain | [Mind Horror](https://dungeon-crawler-carl.fandom.com/wiki/Mind_Horror) |
+| Mind Horror | has weakness Slow moving, Weak | 2 | — | certain | [Mind Horror](https://dungeon-crawler-carl.fandom.com/wiki/Mind_Horror) |
+| Mind Horror | is Dungeon Mob | 2 | — | certain | [Mind Horror](https://dungeon-crawler-carl.fandom.com/wiki/Mind_Horror) |
+| Rage Elemental | has advantage Fire Berserker, Reverse Gravity Spell, Self-healing | 2 | — | certain | [Rage Elemental](https://dungeon-crawler-carl.fandom.com/wiki/Rage_Elemental) |
+| Rage Elemental | is classed as Elemental | 2 | — | certain | [Rage Elemental](https://dungeon-crawler-carl.fandom.com/wiki/Rage_Elemental) |
+| Rage Elemental | is Mobs | 2 | — | certain | [Rage Elemental](https://dungeon-crawler-carl.fandom.com/wiki/Rage_Elemental) |
+| Goblin Oil | does Acts as a combustible accelerant when combined with other materials | 2 | — | certain | [Goblin Oil](https://dungeon-crawler-carl.fandom.com/wiki/Goblin_Oil) |
+| Mana Toast | does Restores mana | 2 | — | certain | [Mana Toast](https://dungeon-crawler-carl.fandom.com/wiki/Mana_Toast) |
+| Enchanted Pedicure Kit of the Sylph | does + 15% damage w/ barefoot attacks, + 3 Smush Skill, + Unbreakable Buff, + Celestially Nimble and Tidy Buff | 2 | — | certain | [Enchanted Pedicure Kit of the Sylph](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Pedicure_Kit_of_the_Sylph) |
+| Carl's Jug O'Boom | does Intense Fire for (Incendiary Device Handling Skill Level x 15) sec. | 2 | — | certain | [Carl's Jug O'Boom](https://dungeon-crawler-carl.fandom.com/wiki/Carl's_Jug_O'Boom) |
+| Mother of All Bombs | does Bomb Launcher | 2 | — | certain | [Mother of All Bombs (MOAB)](https://dungeon-crawler-carl.fandom.com/wiki/Mother_of_All_Bombs_(MOAB)) |
 | The Over City | is the Over City, the first floor of the Volcano storyline | 3 | — | certain | [Third Floor](https://dungeon-crawler-carl.fandom.com/wiki/Third_Floor) |
 | The Over City | covers roughly 300,000 square kilometres, about the size of Arizona | 3 | — | certain | [Third Floor](https://dungeon-crawler-carl.fandom.com/wiki/Third_Floor) |
 | The Over City | is built as guarded medieval villages separated by monster-filled urban ruins | 3 | — | certain | [Third Floor](https://dungeon-crawler-carl.fandom.com/wiki/Third_Floor) |
@@ -151,6 +258,9 @@ an estimate with no rubric behind it.
 | Former Child Actor | grants immunity to all poisons and diseases | 3 | — | certain | [Former Child Actor Class](https://dungeon-crawler-carl.fandom.com/wiki/Former_Child_Actor_Class) |
 | The Desperado Club | admits crawlers holding the right pass | 3 | — | probable | [Desperado Club](https://dungeon-crawler-carl.fandom.com/wiki/Desperado_Club) |
 | Tsarina Signet | is a summoner and fairy-class NPC | 3 | — | certain | [Tsarina Signet](https://dungeon-crawler-carl.fandom.com/wiki/Tsarina_Signet) |
+| Fear Spell | costs 3 mana | 3 | — | certain | [Fear Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fear_Spell) |
+| Primal | has advantage All higher-tier skills are unlocked and can train to level 20, Abilities associated with the base race | 3 | — | certain | [Primal](https://dungeon-crawler-carl.fandom.com/wiki/Primal) |
+| Primal | has weakness -1 to all base stats | 3 | — | certain | [Primal](https://dungeon-crawler-carl.fandom.com/wiki/Primal) |
 
 ## Entities by floor
 
@@ -180,12 +290,12 @@ an estimate with no rubric behind it.
 - **location**: Second Floor
 - **monster**: Brain Boiler, Clurichaun, Danger Dingo, Frenzied Gerbil, Kobold, Krakaren Clone, Mind Horror, Rage Elemental
 
-### Floor 3 (21)
+### Floor 3 (20)
 
 - **character**: Daniel Bautista, Florin, Katia Grim, Prepotente, Quan Ch, Tsarina Signet
 - **class**: Artist Alley Mogul, Blizzardmancer, Bomb Squad Tech, Compensated Anarchist, Former Child Actor, Monster Truck Driver, NecroBard, Prizefighter, Shieldmaiden, Swashbuckler
 - **location**: The Over City
-- **race**: Changeling, Primal
+- **race**: Primal
 - **skill**: Character Actor Skill, Fear Spell
 
 ## Status

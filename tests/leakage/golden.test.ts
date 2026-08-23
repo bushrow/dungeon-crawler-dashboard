@@ -48,8 +48,13 @@ describe('floor 0, before the dungeon', () => {
     ]);
   });
 
-  it('prices nothing, because nothing has a price before the dungeon', () => {
-    expect(h.mechanics()).toEqual([]);
+  it('prices only what Carl walked in with, plus the default race', () => {
+    expect(h.mechanics().map((m) => m.entityId).sort()).toEqual([
+      'human',
+      'leather_coat',
+      'pink_crocs',
+      'zippo',
+    ]);
   });
 
   it('knows Donut by her show name but not her class title', () => {
@@ -73,10 +78,10 @@ describe('floor 1, the first tutorial floor', () => {
     expect(h.entity('compensated_anarchist')).toBeUndefined();
   });
 
-  it('counts 85 entities, 28 relationships, and 31 priced records', () => {
+  it('counts 85 entities, 28 relationships, and 47 priced records', () => {
     expect(h.entities()).toHaveLength(85);
     expect(h.edges()).toHaveLength(28);
-    expect(h.mechanics()).toHaveLength(31);
+    expect(h.mechanics()).toHaveLength(47);
   });
 });
 
@@ -84,9 +89,9 @@ describe('floor 3, the Over City', () => {
   const h = horizonAt(bundle, 3);
 
   it('has the whole v1 corpus', () => {
-    expect(h.entities()).toHaveLength(126);
+    expect(h.entities()).toHaveLength(125);
     expect(h.edges()).toHaveLength(53);
-    expect(h.mechanics()).toHaveLength(48);
+    expect(h.mechanics()).toHaveLength(66);
   });
 
   it('has every third-floor class', () => {

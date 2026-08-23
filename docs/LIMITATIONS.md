@@ -35,8 +35,8 @@ pass. Two consequences:
 ## Almost nothing has a cost that is a number
 
 Cost is recorded as a type (`gold`, `views`, `skill`, and so on) and an amount.
-Four rows carry a figure: Compensated Anarchist is gated at 500 billion views,
-Former Child Actor at one trillion, Prizefighter at Pugilism level 5, and
+Four of 66 rows carry a figure: Compensated Anarchist is gated at 500 billion
+views, Former Child Actor at one trillion, Prizefighter at Pugilism level 5, and
 Goblin Dynamite sells at 20 gold a stick. Everything else records a kind of cost
 with no amount, because the source states the gate without stating a price. Of
 eighteen item pages checked, exactly one listed a price.
@@ -68,6 +68,16 @@ is floor 3. Everything past that is absent, not withheld.
 The wiki records series-current status for every character, most of it cited to
 books 3 through 8. None of that is in the corpus. Status rows cover only what
 books 1 and 2 establish, which is why every one of them reads `active`.
+
+## Most facts are transcribed fields, not written claims
+
+Ninety-two of the 163 facts were generated straight from the wiki's own infobox
+fields, mapped one field to one predicate: `effect` becomes "does", `penalties`
+becomes "has weakness", and so on. That keeps my judgment out of them and makes
+them easy to check against the page, but it also means they read like a
+datasheet rather than like claims, and they inherit whatever the infobox got
+wrong. They are marked `certain` because the transcription is faithful, which is
+a statement about the copying rather than about the books.
 
 ## Entity types are approximate in three places
 

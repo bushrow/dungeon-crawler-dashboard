@@ -48,7 +48,7 @@ Spoiler safety is a property of the system, not a feature of each view.
 
 ## What is in it
 
-126 entities, 71 facts, 53 relationships, and 48 priced records across floors 0
+125 entities, 163 facts, 53 relationships, and 66 priced records across floors 0
 to 3, which is books 1 and 2. Every row carries a source and a confidence, and
 `docs/CORPUS-REVIEW.md` lists all of them with a link to the page each came
 from.

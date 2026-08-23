@@ -47,3 +47,21 @@ benefactor_box,none,,economy,4,instant,Sent by a sponsor; contents usually bound
 jug_o_boom,none,,damage,4,instant,Carl's own build,2,wiki:Carl's_Jug_O'Boom,probable
 moab,none,,damage,5,instant,Carl's own build,2,wiki:Mother_of_All_Bombs_(MOAB),probable
 slate_butterfly_talisman,none,,utility,3,permanent,"+4 Light on Your Feet, +1 Intelligence, removes winged fairy hostility. From a Gold Magic Item Box",1,wiki:Talisman_of_the_Slate_Butterfly,certain
+human,none,,utility,3,permanent,"Default race until third-floor selection. +2 Charisma, Constitution, and Dexterity, plus Adaptability",0,wiki:Human,certain
+ied_skill,none,,damage,4,permanent,Each level adds 10% damage yield,1,wiki:IED_Skill,certain
+dangerous_explosives,none,,damage,3,permanent,Improved handling of dangerous explosives,1,wiki:Dangerous_Explosives_Handling_Skill,certain
+goblin_explosives,none,,damage,2,permanent,Handling of goblin explosives only,1,wiki:Goblin_Explosives_Skill,certain
+foot_soldier,none,,damage,2,permanent,Damage dealt by kicking,1,wiki:Foot_Soldier_Skill,certain
+light_on_your_feet,none,,mobility,2,permanent,Jump height,1,wiki:Light_on_Your_Feet_Skill,certain
+chopper_pilot,none,,mobility,2,permanent,Requires a Goblin Copper Chopper,1,wiki:Chopper_Pilot_Skill,certain
+determine_value,none,,economy,3,permanent,Shows the value of items,1,wiki:Determine_Value_Skill,certain
+torch_item,gold,,utility,1,30 minutes,Light only,1,wiki:Torch_(Item),certain
+silver_ring,none,,utility,2,permanent,Raises player stats,1,wiki:Silver_Ring,probable
+magic_item_box,none,,economy,3,instant,Semi-random magic loot,1,wiki:Magic_Item_Box,certain
+mechanics_box,none,,economy,2,instant,,1,wiki:Mechanic's_Box,probable
+crowd_control_box,none,,economy,2,instant,Semi-random loot,1,wiki:Crowd_Control_Box,certain
+goblin_oil,none,,damage,3,instant,Accelerant; combines with other materials,2,wiki:Goblin_Oil,certain
+mana_toast,gold,,utility,2,instant,Restores mana,2,wiki:Mana_Toast,certain
+leather_coat,none,,defense,1,permanent,"Carl's own coat, unenchanted. Right sleeve lost to a slime",0,wiki:Carl,certain
+pink_crocs,none,,defense,1,permanent,"Bea's, and ill-fitting",0,wiki:Carl,certain
+zippo,none,,utility,1,permanent,,0,wiki:Carl,certain
