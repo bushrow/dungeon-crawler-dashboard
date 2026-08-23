@@ -13,10 +13,9 @@
     "noEmit": true,
     "skipLibCheck": true,
     "types": ["vite/client", "node"],
-    "baseUrl": ".",
     "paths": {
-      "@dcc/core": ["packages/core/src/index.ts"],
-      "@dcc/shell": ["apps/shell/src/index.ts"]
+      "@dcc/core": ["./packages/core/src/index.ts"],
+      "@dcc/shell": ["./apps/shell/src/index.ts"]
     }
   },
   "include": ["packages", "apps", "tests", "vite.config.ts"]
