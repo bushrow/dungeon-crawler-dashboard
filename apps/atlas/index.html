@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atlas &middot; Dungeon Crawler Carl</title>
+    <meta
+      name="description"
+      content="Who is connected to whom in Dungeon Crawler Carl, at the floor you have read to."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="atlas">
+      <section class="panel atlas__graph">
+        <div class="panel__head">
+          <span class="eyebrow">Relationships</span>
+          <span class="eyebrow" data-count></span>
+        </div>
+        <svg viewBox="-250 -60 2100 1070" preserveAspectRatio="xMidYMid meet"
+             role="img" aria-label="Relationship graph">
+          <g data-layer="edges"></g>
+          <g data-layer="nodes"></g>
+        </svg>
+        <ul class="legend" data-legend></ul>
+      </section>
+      <aside class="panel atlas__card" data-card></aside>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

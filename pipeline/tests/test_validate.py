@@ -215,3 +215,17 @@ def test_effect_scale_outside_one_to_five_is_an_error():
 def test_curated_corpus_has_no_errors():
     issues = validate(read_tables())
     assert errors(issues) == [], "\n".join(str(i) for i in errors(issues))
+
+
+def test_fact_object_naming_a_future_entity_is_an_error():
+    # 'boots' is introduced on floor 1. A floor 0 fact that names it would show
+    # the reader an item that does not exist for them yet.
+    bad = rows(
+        facts=[fact(subject_id="carl", object="boots", event_floor="0", reveal_floor="0", significance_floor="0")]
+    )
+    assert "precedes introduced_floor" in messages(errors(validate(bad)))
+
+
+def test_fact_object_that_is_plain_text_is_left_alone():
+    ok = rows(facts=[fact(object="a pair of boots", reveal_floor="0", event_floor="0", significance_floor="0")])
+    assert errors(validate(ok)) == []

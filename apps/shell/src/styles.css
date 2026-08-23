@@ -1,0 +1,295 @@
+/* ---------------------------------------------------------------------------
+   DCC dashboard
+
+   The subject is a broadcast, not a dungeon. The chrome is equipment: a dark
+   rack across the top, a data surface below it the colour of continuity paper.
+
+   Colour encodes one thing only, everywhere in both views: the floor at which a
+   reader learns something. The hues are muted broadcast test-card colours, in
+   test-card order, so the scale extends to floor 8 without a redesign.
+--------------------------------------------------------------------------- */
+
+:root {
+  --rack: #202329;
+  --rack-line: #34383f;
+  --rack-ink: #e6e7e4;
+
+  --paper: #ecece8;
+  --panel: #f8f8f5;
+  --ink: #15171b;
+  --muted: #676c74;
+  --line: #d2d2cb;
+  --line-strong: #b6b6ad;
+
+  /* Floor identity. Bone for the surface, then test-card order. */
+  --f0: #8c919a;
+  --f1: #b29127;
+  --f2: #24808f;
+  --f3: #9a3a70;
+  --f4: #3e8e5a;
+  --f5: #b4462f;
+  --f6: #3b5ba8;
+  --f7: #7a4fa3;
+  --f8: #a06a2c;
+
+  --display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --rail: 15rem;
+  --pad: 1.25rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--display);
+  font-variation-settings: 'wdth' 100;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+:where(button, a, input, [tabindex]):focus-visible {
+  outline: 2px solid var(--f2);
+  outline-offset: 2px;
+}
+
+/* --- rack ---------------------------------------------------------------- */
+
+.rack {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  background: var(--rack);
+  color: var(--rack-ink);
+  border-bottom: 1px solid #000;
+}
+
+.rack__mark {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0 1rem 0 var(--pad);
+  font-family: var(--display);
+  font-variation-settings: 'wdth' 118;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-right: 1px solid var(--rack-line);
+}
+
+.rack__bars {
+  display: flex;
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-direction: column;
+}
+
+.rack__bars i {
+  flex: 1;
+}
+
+.rack__routes {
+  display: flex;
+}
+
+.rack__route {
+  display: flex;
+  align-items: center;
+  padding: 0.85rem 1.15rem;
+  border: 0;
+  border-right: 1px solid var(--rack-line);
+  background: transparent;
+  color: #9aa0a8;
+  font: inherit;
+  font-size: 0.78rem;
+  font-variation-settings: 'wdth' 112;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rack__route:hover {
+  color: var(--rack-ink);
+  background: #262a31;
+}
+
+.rack__route[aria-current='page'] {
+  color: var(--ink);
+  background: var(--rack-ink);
+}
+
+.rack__meta {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-right: var(--pad);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: #8b9199;
+}
+
+/* --- embargo bar: the one loud element ----------------------------------- */
+
+.embargo {
+  background: var(--rack);
+  padding: 0 var(--pad) 0.85rem;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.embargo__label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding-bottom: 0.5rem;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8b9199;
+}
+
+.embargo__track {
+  display: flex;
+  gap: 3px;
+}
+
+.embargo__seg {
+  position: relative;
+  flex: 1;
+  height: 2.6rem;
+  padding: 0;
+  border: 0;
+  background: var(--seg, var(--f0));
+  color: #10120f;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: filter 140ms ease, opacity 140ms ease;
+}
+
+.embargo__seg span {
+  position: absolute;
+  inset: auto 0 0.35rem 0;
+  text-align: center;
+}
+
+.embargo__seg:hover {
+  filter: brightness(1.14);
+}
+
+/* Blanked: past the horizon, the signal has not aired. */
+.embargo__seg[data-open='false'] {
+  background: repeating-linear-gradient(
+    -45deg,
+    #2b2f36 0 6px,
+    #24272d 6px 12px
+  );
+  color: #767b83;
+}
+
+/* The current floor gets the read head. */
+.embargo__seg[data-current='true']::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--rack-ink);
+}
+
+.embargo__readout {
+  padding-top: 0.5rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: #9aa0a8;
+}
+
+.embargo__readout b {
+  color: var(--rack-ink);
+  font-weight: 600;
+}
+
+/* --- generic surfaces ---------------------------------------------------- */
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+
+.panel__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: #fff;
+}
+
+.chip[data-confidence='certain'] {
+  border-color: #2f7d4f;
+  color: #2f7d4f;
+}
+
+.chip[data-confidence='probable'] {
+  border-color: #96731d;
+  color: #96731d;
+}
+
+.chip[data-confidence='inferred'] {
+  border-color: var(--line-strong);
+  color: var(--muted);
+  background: repeating-linear-gradient(-45deg, #fff 0 4px, #f0f0ea 4px 8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

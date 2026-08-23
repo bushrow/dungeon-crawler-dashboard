@@ -241,7 +241,15 @@ def _check_visibility(rows: Rows) -> list[Issue]:
         check("aliases", i, _as_int(row.get("reveal_floor", "")), [row.get("entity_id", "")], "reveal_floor")
 
     for i, row in enumerate(rows.get("facts", []), start=1):
-        check("facts", i, _as_int(row.get("reveal_floor", "")), [row.get("subject_id", "")], "reveal_floor")
+        reveal = _as_int(row.get("reveal_floor", ""))
+        check("facts", i, reveal, [row.get("subject_id", "")], "reveal_floor")
+
+        # `object` is free text, except when it names an entity. Then it is a
+        # reference, and the apps resolve it to a display name, so it leaks the
+        # same way a foreign key would.
+        obj = row.get("object", "")
+        if obj in introduced:
+            check("facts", i, reveal, [obj], "reveal_floor")
 
     for i, row in enumerate(rows.get("status", []), start=1):
         check("status", i, _as_int(row.get("reveal_floor", "")), [row.get("entity_id", "")], "reveal_floor")

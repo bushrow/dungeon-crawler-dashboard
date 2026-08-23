@@ -41,9 +41,11 @@ def test_layout_includes_isolated_nodes():
 
 
 def test_layout_fits_the_viewbox():
+    from dcc_pipeline.layout import SCALE_X, SCALE_Y
+
     for point in compute(ENTITIES, EDGES).values():
-        assert 0 <= point["x"] <= 1000
-        assert 0 <= point["y"] <= 1000
+        assert 0 <= point["x"] <= SCALE_X
+        assert 0 <= point["y"] <= SCALE_Y
 
 
 def test_layout_of_empty_corpus_is_empty():
@@ -74,3 +76,26 @@ def test_every_graph_entity_has_coordinates():
     bundle = build(rows)
     expected = {e["id"] for e in rows["entities"] if e["type"] in GRAPH_TYPES}
     assert set(bundle["layout"]) == expected
+
+
+def _min_gap(laid_out):
+    points = list(laid_out.values())
+    return min(
+        ((a["x"] - b["x"]) ** 2 + (a["y"] - b["y"]) ** 2) ** 0.5
+        for i, a in enumerate(points)
+        for b in points[i + 1 :]
+    )
+
+
+def test_relaxation_separates_overlapping_nodes():
+    from dcc_pipeline.layout import MIN_GAP
+
+    # Rounding to two decimals can shave a hair off the target gap.
+    assert _min_gap(compute(ENTITIES, EDGES)) >= MIN_GAP - 1
+
+
+def test_real_corpus_has_no_overlapping_nodes():
+    from dcc_pipeline.layout import MIN_GAP
+
+    rows = read_tables()
+    assert _min_gap(compute(rows["entities"], rows["edges"])) >= MIN_GAP - 1

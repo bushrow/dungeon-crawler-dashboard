@@ -19,7 +19,17 @@ import networkx as nx
 GRAPH_TYPES = ("character", "faction")
 
 SEED = 7
-SCALE = 1000.0
+
+#: The graph panel is a wide rectangle, so the layout is computed in one. A
+#: square layout letterboxes inside the panel and wastes most of its width.
+SCALE_X = 1600.0
+SCALE_Y = 900.0
+
+#: Minimum gap between two nodes in scaled units. Spring layouts happily stack
+#: weakly-connected nodes on top of each other, and a label sits under every
+#: node, so a purely force-driven result is unreadable at this corpus size.
+MIN_GAP = 150.0
+RELAX_STEPS = 300
 
 
 def graph_nodes(entities: list[dict]) -> list[str]:
@@ -27,7 +37,7 @@ def graph_nodes(entities: list[dict]) -> list[str]:
 
 
 def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, float]]:
-    """Return {entity_id: {"x": float, "y": float}} in a 0..1000 square."""
+    """Return {entity_id: {"x": float, "y": float}} in a SCALE_X by SCALE_Y box."""
     nodes = graph_nodes(entities)
     keep = set(nodes)
 
@@ -43,19 +53,65 @@ def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, floa
 
     # Seeded, so the same corpus always produces the same coordinates and a
     # layout change shows up as a real diff rather than as noise.
-    raw = nx.spring_layout(g, seed=SEED, iterations=400, k=None)
+    # k above the default spreads a sparse graph out instead of balling it up.
+    raw = nx.spring_layout(g, seed=SEED, iterations=400, k=0.9)
 
     xs = [p[0] for p in raw.values()]
     ys = [p[1] for p in raw.values()]
     x_min, x_max = min(xs), max(xs)
     y_min, y_max = min(ys), max(ys)
 
-    def norm(value: float, low: float, high: float) -> float:
+    def norm(value: float, low: float, high: float, scale: float) -> float:
         span = high - low
         # A single node, or a degenerate axis, lands in the middle.
-        return SCALE / 2 if span == 0 else round((value - low) / span * SCALE, 2)
+        return scale / 2 if span == 0 else (value - low) / span * scale
 
-    return {
-        node: {"x": norm(float(p[0]), x_min, x_max), "y": norm(float(p[1]), y_min, y_max)}
+    scaled = {
+        node: [
+            norm(float(p[0]), x_min, x_max, SCALE_X),
+            norm(float(p[1]), y_min, y_max, SCALE_Y),
+        ]
         for node, p in sorted(raw.items())
     }
+    _relax(scaled)
+
+    return {node: {"x": round(p[0], 2), "y": round(p[1], 2)} for node, p in scaled.items()}
+
+
+def _relax(points: dict[str, list[float]]) -> None:
+    """Push overlapping nodes apart, in place.
+
+    Deterministic: fixed step count, fixed iteration order, no randomness. Runs
+    after scaling so MIN_GAP is expressed in the same units the renderer uses.
+    """
+    ids = list(points)
+    for _ in range(RELAX_STEPS):
+        moved = False
+        for i, a in enumerate(ids):
+            for b in ids[i + 1 :]:
+                pa, pb = points[a], points[b]
+                dx, dy = pb[0] - pa[0], pb[1] - pa[1]
+                dist = (dx * dx + dy * dy) ** 0.5
+                if dist >= MIN_GAP:
+                    continue
+                # Two nodes exactly on top of each other have no direction to
+                # separate along, so nudge them apart on a fixed axis.
+                if dist == 0:
+                    dx, dy, dist = 1.0, 0.0, 1.0
+                push = (MIN_GAP - dist) / 2
+                ux, uy = dx / dist, dy / dist
+                pa[0] -= ux * push
+                pa[1] -= uy * push
+                pb[0] += ux * push
+                pb[1] += uy * push
+                moved = True
+
+        # Clamp every step, not once at the end. Clamping after the fact can
+        # push two nodes that were separated into a corner back on top of each
+        # other, with no iteration left to notice.
+        for point in points.values():
+            point[0] = min(max(point[0], 0.0), SCALE_X)
+            point[1] = min(max(point[1], 0.0), SCALE_Y)
+
+        if not moved:
+            break
