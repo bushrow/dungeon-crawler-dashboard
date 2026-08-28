@@ -5,7 +5,8 @@ Two views over one annotated corpus, both filtered to the floor you have read to
 - **Atlas** is the floor map: who is connected to whom, at floor N. Scrub the
   embargo bar and nodes fade in where they were always going to be.
 - **Ledger** is the stats sheet: what every class and item costs, what it does,
-  and how much of that is actually known.
+  and how much of that is actually known. Pick a row to see everything the
+  corpus holds on that record, with a link to the page it came from.
 
 Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 

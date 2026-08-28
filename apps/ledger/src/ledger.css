@@ -17,6 +17,8 @@
   gap: var(--pad);
   position: sticky;
   top: var(--pad);
+  max-height: calc(100vh - 2 * var(--pad));
+  overflow-y: auto;
 }
 
 /* --- facets -------------------------------------------------------------- */
@@ -136,8 +138,26 @@
   color: var(--ink);
 }
 
+.table tbody tr {
+  cursor: pointer;
+}
+
 .table tbody tr:hover {
   background: #f0f0ea;
+}
+
+.table tbody tr[aria-selected='true'] {
+  background: #e6e6df;
+  box-shadow: inset 3px 0 0 var(--ink);
+}
+
+.table tbody tr:focus-visible {
+  outline: 2px solid var(--f2);
+  outline-offset: -2px;
+}
+
+.source-link {
+  color: inherit;
 }
 
 .table .num {
@@ -260,5 +280,9 @@
 
   .ledger__rail {
     position: static;
+    /* Stacked under the table, the rail is just content. An inner scroll area
+       on a phone traps the record panel in a box a few hundred pixels tall. */
+    max-height: none;
+    overflow-y: visible;
   }
 }

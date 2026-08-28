@@ -55,6 +55,7 @@ const COLUMNS: Column[] = [
 const CONFIDENCE_ORDER: Confidence[] = ['certain', 'probable', 'inferred'];
 const KINDS: EntityType[] = ['class', 'race', 'skill', 'item'];
 
+let selectedId: string | null = null;
 let sortKey: SortKey = 'effectCategory';
 let sortAsc = true;
 let includeInferred = true;
@@ -66,6 +67,7 @@ const rowCount = document.querySelector<HTMLElement>('[data-row-count]')!;
 const table = document.querySelector<HTMLTableElement>('[data-table]')!;
 const coverageBox = document.querySelector<HTMLElement>('[data-coverage]')!;
 const filterBox = document.querySelector<HTMLElement>('[data-filters]')!;
+const recordBox = document.querySelector<HTMLElement>('[data-record]')!;
 
 function el<K extends keyof SVGElementTagNameMap>(
   name: K,
@@ -210,11 +212,105 @@ function renderTable(rows: PricedEntity[]): void {
   body.innerHTML = sorted(rows)
     .map(
       (row) =>
-        `<tr>${COLUMNS.map(
+        `<tr tabindex="0" data-row="${row.entityId}" aria-selected="${row.entityId === selectedId}">${COLUMNS.map(
           (col) => `<td class="${col.className ?? ''}">${col.cell(row)}</td>`,
         ).join('')}</tr>`,
     )
     .join('');
+
+  for (const tr of body.querySelectorAll<HTMLTableRowElement>('[data-row]')) {
+    const open = () => {
+      selectedId = selectedId === tr.dataset.row ? null : tr.dataset.row!;
+      repaint();
+    };
+    tr.addEventListener('click', open);
+    tr.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        open();
+      }
+    });
+  }
+}
+
+/**
+ * What is known about one record at this floor.
+ *
+ * The table can only show fields that fit in a column. Most of the corpus is
+ * facts, and without this panel none of them are reachable from the Ledger at
+ * all: the table renders priced rows, and facts live off to the side.
+ */
+function renderRecord(h: Horizon, rows: PricedEntity[]): void {
+  const row = selectedId ? rows.find((r) => r.entityId === selectedId) : undefined;
+  if (!row) {
+    recordBox.innerHTML = `<p class="card__empty">Pick a row to see what is known about it at
+      your floor.</p>`;
+    return;
+  }
+
+  const facts = h.factsFor(row.entityId);
+  const aliases = h.aliasesFor(row.entityId);
+  const section = (title: string, body: string) =>
+    body ? `<div class="card__section"><h3>${title}</h3>${body}</div>` : '';
+
+  recordBox.innerHTML = `
+    <div class="card__body">
+      <h2 class="card__name">${row.name}</h2>
+      <div class="card__type">
+        <span class="card__swatch" style="background:${floorColor(row.introducedFloor)}"></span>
+        <span class="eyebrow">${row.type} &middot; ${
+          row.introducedFloor === 0 ? 'before the dungeon' : `floor ${row.introducedFloor}`
+        }</span>
+      </div>
+      ${section(
+        'Price',
+        `<p style="margin:0;font-size:0.85rem">${
+          row.costType === 'none'
+            ? 'Not bought. Awarded, found, or granted.'
+            : `${row.costType}${row.costNumeric !== null ? `, ${row.costNumeric.toLocaleString()}` : ''}`
+        }</p>`,
+      )}
+      ${section(
+        'Effect',
+        `<p style="margin:0;font-size:0.85rem">${row.effectCategory}, scale ${row.effectScale} of 5
+          <span class="chip" data-confidence="${row.confidence}">${row.confidence}</span></p>
+         ${row.restrictions ? `<p class="note" style="margin:0.4rem 0 0">${row.restrictions}</p>` : ''}`,
+      )}
+      ${
+        aliases.length
+          ? section('Also known as', `<ul class="card__list">${aliases
+              .map((a) => `<li>${a.alias}</li>`)
+              .join('')}</ul>`)
+          : ''
+      }
+      ${
+        facts.length
+          ? section(
+              'On the record',
+              `<ul class="card__list">${facts
+                .map(
+                  (f) => `<li class="card__fact">
+                    <span class="card__pred">${f.predicate.replace(/_/g, ' ')}</span><br />${
+                      h.entity(f.object)?.canonicalName ?? f.object
+                    }
+                    ${f.gloss ? `<div class="card__gloss">${f.gloss}</div>` : ''}
+                  </li>`,
+                )
+                .join('')}</ul>`,
+            )
+          : ''
+      }
+      ${section('Source', sourceLink(row.source))}
+    </div>`;
+}
+
+/** A `wiki:Page` source becomes a link, so any row can be checked at its page. */
+function sourceLink(source: string): string {
+  if (!source.startsWith('wiki:')) return `<span class="card__pred">${source}</span>`;
+  const page = source.slice(5);
+  return `<a class="source-link card__pred" target="_blank" rel="noreferrer"
+    href="https://dungeon-crawler-carl.fandom.com/wiki/${encodeURIComponent(page)}"
+    >${page.replace(/_/g, ' ')} &nearr;</a>`;
 }
 
 function renderCoverage(h: Horizon, rows: PricedEntity[]): void {
@@ -280,9 +376,12 @@ let current: Horizon | null = null;
 function repaint(): void {
   if (!current) return;
   const rows = visibleRows(current);
+  // A record filtered or embargoed away cannot stay selected.
+  if (selectedId && !rows.some((r) => r.entityId === selectedId)) selectedId = null;
   renderFacets(rows);
   renderTable(rows);
   renderCoverage(current, rows);
+  renderRecord(current, rows);
 }
 
 renderFilters();

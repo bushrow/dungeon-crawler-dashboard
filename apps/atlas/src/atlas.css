@@ -126,88 +126,9 @@
   aspect-ratio: auto;
 }
 
-/* --- record card --------------------------------------------------------- */
+/* --- record card placement ------------------------------------------- */
 
-.atlas__card {
-  position: sticky;
-  top: var(--pad);
-  max-height: calc(100vh - 2 * var(--pad));
-  overflow-y: auto;
-}
 
-.card__body {
-  padding: 0.9rem;
-}
-
-.card__name {
-  margin: 0;
-  font-size: 1.15rem;
-  font-variation-settings: 'wdth' 112;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.card__type {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.3rem;
-}
-
-.card__swatch {
-  width: 0.65rem;
-  height: 0.65rem;
-  border: 1px solid #15171b;
-}
-
-.card__section {
-  margin-top: 1rem;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--line);
-}
-
-.card__section h3 {
-  margin: 0 0 0.45rem;
-  font-family: var(--mono);
-  font-size: 0.67rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.card__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-}
-
-.card__fact {
-  line-height: 1.4;
-}
-
-.card__pred {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  color: var(--muted);
-}
-
-.card__gloss {
-  margin-top: 0.25rem;
-  padding-left: 0.5rem;
-  border-left: 2px solid var(--line-strong);
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-.card__empty {
-  padding: 1.5rem 0.9rem;
-  color: var(--muted);
-  font-size: 0.85rem;
-}
 
 @media (max-width: 880px) {
   .atlas {
