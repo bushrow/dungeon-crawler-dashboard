@@ -3,6 +3,9 @@ import { unwrap } from './bundle';
 import type {
   Alias,
   Confidence,
+  HeldEntity,
+  Sheet,
+  StatLine,
   Coverage,
   Edge,
   Entity,
@@ -130,6 +133,73 @@ export class Horizon {
         };
       })
       .sort((a, b) => a.effectCategory.localeCompare(b.effectCategory) || a.name.localeCompare(b.name));
+  }
+
+  /**
+   * Everything one crawler is carrying and knows at this floor.
+   *
+   * A holding is visible on the same terms as an edge: revealed by now, and not
+   * already known to have ended. Gear picked up on floor 1 and lost on floor 2
+   * leaves the sheet exactly when the reader learns it was lost.
+   */
+  holdingsFor(id: string): HeldEntity[] {
+    if (!this.entity(id)) return [];
+    const byId = new Map(this.entities().map((e) => [e.id, e]));
+    return unwrap(this.bundle)
+      .holdings.filter(
+        (h) =>
+          h.entityId === id &&
+          h.revealFloor <= this.floor &&
+          !(h.endedRevealFloor !== null && h.endedRevealFloor <= this.floor) &&
+          byId.has(h.heldId),
+      )
+      .map((h) => ({ ...h, entity: byId.get(h.heldId)! }))
+      .sort(
+        (a, b) =>
+          (a.slot ?? '').localeCompare(b.slot ?? '') ||
+          a.entity.canonicalName.localeCompare(b.entity.canonicalName),
+      );
+  }
+
+  /**
+   * The most recent stat line at or before the horizon.
+   *
+   * Later floors do not always have one recorded, so this can lag. `sheetFor`
+   * reports which floor it came from rather than implying it is current.
+   */
+  statsFor(id: string): StatLine | undefined {
+    if (!this.entity(id)) return undefined;
+    const visible = unwrap(this.bundle).stats.filter(
+      (s) => s.entityId === id && s.floor <= this.floor,
+    );
+    if (visible.length === 0) return undefined;
+    return visible.reduce((latest, s) => (s.floor > latest.floor ? s : latest));
+  }
+
+  /** Crawlers the corpus can actually build a sheet for, at this floor. */
+  sheetIds(): string[] {
+    const data = unwrap(this.bundle);
+    const ids = new Set<string>();
+    for (const h of data.holdings) if (h.revealFloor <= this.floor) ids.add(h.entityId);
+    for (const s of data.stats) if (s.floor <= this.floor) ids.add(s.entityId);
+    return [...ids].filter((id) => this.entity(id) !== undefined).sort();
+  }
+
+  sheetFor(id: string): Sheet | undefined {
+    const character = this.entity(id);
+    if (!character) return undefined;
+    const held = this.holdingsFor(id);
+    const stats = this.statsFor(id);
+    return {
+      character,
+      stats: stats ?? null,
+      statsAsOf: stats ? stats.floor : null,
+      races: held.filter((h) => h.kind === 'race'),
+      classes: held.filter((h) => h.kind === 'class'),
+      gear: held.filter((h) => h.kind === 'gear'),
+      skills: held.filter((h) => h.kind === 'skill'),
+      spells: held.filter((h) => h.kind === 'spell'),
+    };
   }
 
   /**

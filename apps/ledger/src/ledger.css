@@ -286,3 +286,224 @@
     overflow-y: visible;
   }
 }
+
+/* --- view switch --------------------------------------------------------- */
+
+.views {
+  display: flex;
+  gap: 1px;
+  margin-bottom: var(--pad);
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.views__tab {
+  flex: 1;
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  background: var(--panel);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.views__tab:hover {
+  color: var(--ink);
+}
+
+.views__tab[aria-selected='true'] {
+  background: var(--rack);
+  color: var(--rack-ink);
+}
+
+/* --- crawler picker ------------------------------------------------------ */
+
+.crawlers {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: var(--pad);
+  flex-wrap: wrap;
+}
+
+.crawlers button {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--line-strong);
+  background: var(--panel);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.crawlers button[aria-pressed='true'] {
+  background: var(--rack);
+  border-color: var(--rack);
+  color: var(--rack-ink);
+}
+
+/* --- character sheet ----------------------------------------------------- */
+
+.sheet__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.sheet__name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-variation-settings: 'wdth' 114;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.sheet__ident {
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.sheet__level {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.sheet__level b {
+  display: block;
+  font-family: var(--display);
+  font-variation-settings: 'wdth' 112;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.stats div {
+  background: var(--panel);
+  padding: 0.6rem 0.4rem;
+  text-align: center;
+}
+
+.stats dt {
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+
+.stats dd {
+  margin: 0.15rem 0 0;
+  font-family: var(--mono);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.sheet__cols {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 1px;
+  background: var(--line);
+}
+
+.sheet__block {
+  background: var(--panel);
+  padding: 0.85rem 0.9rem;
+}
+
+.sheet__block h3 {
+  margin: 0 0 0.55rem;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.slots {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.3rem 0.7rem;
+  font-size: 0.84rem;
+}
+
+.slots dt {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  padding-top: 0.15rem;
+  white-space: nowrap;
+}
+
+.slots dd {
+  margin: 0;
+}
+
+.held {
+  border: 0;
+  padding: 0;
+  background: none;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--line-strong);
+}
+
+.held:hover {
+  border-bottom-style: solid;
+}
+
+.held__level {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.sheet__empty {
+  padding: 1.5rem 0.9rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.sheet__asof {
+  padding: 0.55rem 0.9rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+}
+
+@media (max-width: 720px) {
+  .sheet__cols {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

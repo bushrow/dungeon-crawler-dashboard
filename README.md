@@ -4,9 +4,9 @@ Two views over one annotated corpus, both filtered to the floor you have read to
 
 - **Atlas** is the floor map: who is connected to whom, at floor N. Scrub the
   embargo bar and nodes fade in where they were always going to be.
-- **Ledger** is the stats sheet: what every class and item costs, what it does,
-  and how much of that is actually known. Pick a row to see everything the
-  corpus holds on that record, with a link to the page it came from.
+- **Ledger** is the character sheets: Carl and Donut, their stats, kit, skills,
+  and spells at the floor you have read to. Scrub and the sheet changes with
+  them. Behind a second tab, a catalogue of every priced class and item.
 
 Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 
@@ -15,7 +15,7 @@ Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 ```bash
 npm install
 npm run dev        # both views, one dev server
-npm test           # 90 leakage tests against the access layer
+npm test           # 106 leakage tests against the access layer
 npm run build      # static site into dist/
 ```
 
@@ -49,8 +49,8 @@ Spoiler safety is a property of the system, not a feature of each view.
 
 ## What is in it
 
-125 entities, 163 facts, 53 relationships, and 66 priced records across floors 0
-to 3, which is books 1 and 2. Every row carries a source and a confidence, and
+147 entities, 163 facts, 53 relationships, 66 priced records, and 50 recorded
+holdings across floors 0 to 3, which is books 1 and 2. Every row carries a source and a confidence, and
 `docs/CORPUS-REVIEW.md` lists all of them with a link to the page each came
 from.
 

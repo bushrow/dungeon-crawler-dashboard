@@ -58,6 +58,22 @@ A fact's `object` column is free text except when it happens to name an entity.
 Then it is a reference, the views resolve it to a display name, and it is held
 to the same rule.
 
+## Character sheets
+
+`holdings` and `stats` carry the sheet data, and both run on the same reveal
+clock as everything else, so they inherit the leakage suite without new
+machinery. A holding is visible on exactly the terms an edge is: revealed by
+now, and not already known to have ended.
+
+`statsFor` returns the most recent line at or before the horizon rather than
+requiring one per floor, and `sheetFor` reports the floor it came from. Showing
+the last known line and naming its floor is honest; inventing a current one is
+not, and showing nothing throws away what the reader does know.
+
+Confidence never reaches either app. It describes the annotation rather than the
+subject, so it is a review field, read in `docs/CORPUS-REVIEW.md`. Rows too weak
+to show are left out rather than displayed with a warning attached.
+
 ## Layout
 
 The graph layout is computed once, at compile time, over the whole corpus, and

@@ -9,11 +9,11 @@
 import '../../shell/src/styles.css';
 import './ledger.css';
 import { mountShell, floorColor } from '@dcc/shell';
-import type { Confidence, EntityType, Horizon, PricedEntity } from '@dcc/core';
+import type { EntityType, HeldEntity, Horizon, PricedEntity, Sheet } from '@dcc/core';
 
 const SVG = 'http://www.w3.org/2000/svg';
 
-type SortKey = 'name' | 'type' | 'costType' | 'effectCategory' | 'effectScale' | 'confidence';
+type SortKey = 'name' | 'type' | 'costType' | 'effectCategory' | 'effectScale';
 
 interface Column {
   key: SortKey | null;
@@ -44,30 +44,33 @@ const COLUMNS: Column[] = [
   { key: 'effectScale', label: 'Scale', className: 'num', cell: (r) => String(r.effectScale) },
   { key: null, label: 'Duration', cell: (r) => r.duration ?? '&mdash;' },
   { key: null, label: 'Restrictions', className: 'wrap', cell: (r) => r.restrictions ?? '&mdash;' },
-  {
-    key: 'confidence',
-    label: 'Confidence',
-    cell: (r) => `<span class="chip" data-confidence="${r.confidence}">${r.confidence}</span>`,
-  },
   { key: null, label: 'Source', className: 'num', cell: (r) => r.source },
 ];
 
-const CONFIDENCE_ORDER: Confidence[] = ['certain', 'probable', 'inferred'];
 const KINDS: EntityType[] = ['class', 'race', 'skill', 'item'];
 
+type View = 'sheets' | 'catalogue';
+
+let view: View = 'sheets';
+let crawlerId: string | null = null;
 let selectedId: string | null = null;
 let sortKey: SortKey = 'effectCategory';
 let sortAsc = true;
-let includeInferred = true;
 const kinds = new Set<EntityType>(KINDS);
 
 const facets = document.querySelector<HTMLElement>('[data-facets]')!;
 const facetCount = document.querySelector<HTMLElement>('[data-facet-count]')!;
 const rowCount = document.querySelector<HTMLElement>('[data-row-count]')!;
 const table = document.querySelector<HTMLTableElement>('[data-table]')!;
-const coverageBox = document.querySelector<HTMLElement>('[data-coverage]')!;
 const filterBox = document.querySelector<HTMLElement>('[data-filters]')!;
 const recordBox = document.querySelector<HTMLElement>('[data-record]')!;
+const crawlerNav = document.querySelector<HTMLElement>('[data-crawlers]')!;
+const sheetBox = document.querySelector<HTMLElement>('[data-sheet]')!;
+const filterPanel = document.querySelector<HTMLElement>('[data-filter-panel]')!;
+const panels: Record<View, HTMLElement> = {
+  sheets: document.querySelector<HTMLElement>('[data-panel="sheets"]')!,
+  catalogue: document.querySelector<HTMLElement>('[data-panel="catalogue"]')!,
+};
 
 function el<K extends keyof SVGElementTagNameMap>(
   name: K,
@@ -82,18 +85,16 @@ function visibleRows(h: Horizon): PricedEntity[] {
   return h
     .mechanics()
     .filter((m) => kinds.has(m.type))
-    .filter((m) => includeInferred || m.confidence !== 'inferred');
+    // Inferred rows are annotation weakness, not a property of the dungeon, so
+    // they are simply left out rather than shown wearing a warning label.
+    // docs/CORPUS-REVIEW.md is where confidence belongs.
+    .filter((m) => m.confidence !== 'inferred');
 }
 
 function sorted(rows: PricedEntity[]): PricedEntity[] {
   const direction = sortAsc ? 1 : -1;
   return [...rows].sort((a, b) => {
     if (sortKey === 'effectScale') return (a.effectScale - b.effectScale) * direction;
-    if (sortKey === 'confidence') {
-      return (
-        (CONFIDENCE_ORDER.indexOf(a.confidence) - CONFIDENCE_ORDER.indexOf(b.confidence)) * direction
-      );
-    }
     return String(a[sortKey]).localeCompare(String(b[sortKey])) * direction;
   });
 }
@@ -168,9 +169,8 @@ function renderFacets(rows: PricedEntity[]): void {
         fill: floorColor(row.introducedFloor),
         class: 'dot',
       });
-      dot.dataset.inferred = String(row.confidence === 'inferred');
       const title = document.createElementNS(SVG, 'title');
-      title.textContent = `${row.name} — ${row.costType} cost, scale ${row.effectScale}, ${row.confidence}`;
+      title.textContent = `${row.name} — ${row.costType} cost, scale ${row.effectScale}`;
       dot.append(title);
       svg.append(dot);
     }
@@ -272,8 +272,7 @@ function renderRecord(h: Horizon, rows: PricedEntity[]): void {
       )}
       ${section(
         'Effect',
-        `<p style="margin:0;font-size:0.85rem">${row.effectCategory}, scale ${row.effectScale} of 5
-          <span class="chip" data-confidence="${row.confidence}">${row.confidence}</span></p>
+        `<p style="margin:0;font-size:0.85rem">${row.effectCategory}, scale ${row.effectScale} of 5</p>
          ${row.restrictions ? `<p class="note" style="margin:0.4rem 0 0">${row.restrictions}</p>` : ''}`,
       )}
       ${
@@ -313,34 +312,6 @@ function sourceLink(source: string): string {
     >${page.replace(/_/g, ' ')} &nearr;</a>`;
 }
 
-function renderCoverage(h: Horizon, rows: PricedEntity[]): void {
-  const c = h.coverage();
-  const pct = (n: number) => (c.mechanicsVisible === 0 ? 0 : Math.round((n / c.mechanicsVisible) * 100));
-
-  coverageBox.innerHTML = `
-    <div class="coverage">
-      <div class="coverage__headline">${c.mechanicsVisible}</div>
-      <div class="coverage__sub">priced records open at this floor, of
-        ${c.entitiesVisible} records in total</div>
-
-      <div class="coverage__rows">
-        ${CONFIDENCE_ORDER.map(
-          (level) => `
-          <div class="coverage__row"><span>${level}</span>
-            <span>${c.mechanicsByConfidence[level]}</span></div>
-          <div class="coverage__bar"><i style="width:${pct(c.mechanicsByConfidence[level])}%"></i></div>`,
-        ).join('')}
-      </div>
-
-      <div class="coverage__note">
-        ${c.mechanicsExcluded} of ${c.mechanicsVisible} are inferred and stay out of any headline
-        number. ${c.mechanicsPriced} of ${c.mechanicsVisible} have a cost that is an actual figure,
-        which is why the chart plots the kind of cost rather than its size.
-        ${rows.length !== c.mechanicsVisible ? `<br /><br />Your filters are hiding ${c.mechanicsVisible - rows.length} of them.` : ''}
-      </div>
-    </div>`;
-}
-
 function renderFilters(): void {
   if (filterBox.dataset.built === 'true') return;
   filterBox.dataset.built = 'true';
@@ -352,9 +323,6 @@ function renderFilters(): void {
           `<label><input type="checkbox" data-kind="${kind}" checked /> ${kind}</label>`,
       ).join('')}
     </fieldset>
-    <fieldset>
-      <legend>Confidence</legend>
-      <label><input type="checkbox" data-inferred checked /> show inferred</label>
     </fieldset>`;
 
   for (const box of filterBox.querySelectorAll<HTMLInputElement>('[data-kind]')) {
@@ -365,10 +333,113 @@ function renderFilters(): void {
       repaint();
     });
   }
-  filterBox.querySelector<HTMLInputElement>('[data-inferred]')!.addEventListener('change', (e) => {
-    includeInferred = (e.target as HTMLInputElement).checked;
-    repaint();
-  });
+}
+
+const STATS: [keyof Pick<NonNullable<Sheet['stats']>, 'str' | 'int' | 'con' | 'dex' | 'cha'>, string][] =
+  [
+    ['str', 'STR'],
+    ['int', 'INT'],
+    ['con', 'CON'],
+    ['dex', 'DEX'],
+    ['cha', 'CHA'],
+  ];
+
+/** A held thing, clickable when the catalogue has a priced record for it. */
+function held(h: Horizon, item: HeldEntity): string {
+  const label = `${item.entity.canonicalName}${
+    item.level !== null ? ` <span class="held__level">lv ${item.level}</span>` : ''
+  }`;
+  const priced = h.mechanics().some((m) => m.entityId === item.heldId);
+  return priced
+    ? `<button class="held" type="button" data-held="${item.heldId}">${label}</button>`
+    : label;
+}
+
+function renderSheets(h: Horizon): void {
+  const ids = h.sheetIds();
+
+  crawlerNav.innerHTML = ids
+    .map((id) => {
+      const entity = h.entity(id)!;
+      return `<button type="button" data-crawler="${id}" aria-pressed="${id === crawlerId}">
+        <span class="card__swatch" style="background:${floorColor(entity.introducedFloor)}"></span>
+        ${entity.canonicalName}</button>`;
+    })
+    .join('');
+  for (const button of crawlerNav.querySelectorAll<HTMLButtonElement>('[data-crawler]')) {
+    button.addEventListener('click', () => {
+      crawlerId = button.dataset.crawler!;
+      repaint();
+    });
+  }
+
+  const sheet = crawlerId ? h.sheetFor(crawlerId) : undefined;
+  if (!sheet) {
+    sheetBox.innerHTML = `<p class="sheet__empty">No sheet is open at this floor.</p>`;
+    return;
+  }
+
+  const identity = [...sheet.races, ...sheet.classes]
+    .map((r) => r.entity.canonicalName)
+    .join(' &middot; ');
+
+  const block = (title: string, body: string) =>
+    body ? `<div class="sheet__block"><h3>${title}</h3>${body}</div>` : '';
+
+  const gearRows = sheet.gear
+    .map(
+      (g) => `<dt>${g.slot || '&mdash;'}</dt><dd>${held(h, g)}</dd>`,
+    )
+    .join('');
+
+  const list = (items: HeldEntity[]) =>
+    items.length
+      ? `<ul class="card__list">${items.map((i) => `<li>${held(h, i)}</li>`).join('')}</ul>`
+      : '';
+
+  sheetBox.innerHTML = `
+    <div class="sheet__head">
+      <div>
+        <h2 class="sheet__name">${sheet.character.canonicalName}</h2>
+        <div class="sheet__ident">${identity || 'No race or class chosen yet'}</div>
+      </div>
+      ${sheet.stats ? `<div class="sheet__level">Level<b>${sheet.stats.level}</b></div>` : ''}
+    </div>
+    ${
+      sheet.stats
+        ? `<dl class="stats">${STATS.map(
+            ([key, label]) => `<div><dt>${label}</dt><dd>${sheet.stats![key]}</dd></div>`,
+          ).join('')}</dl>`
+        : ''
+    }
+    <div class="sheet__cols">
+      ${block('Equipped', gearRows ? `<dl class="slots">${gearRows}</dl>` : '')}
+      ${block('Skills', list(sheet.skills)) + block('Spells', list(sheet.spells))}
+    </div>
+    ${
+      // The wiki has no floor 3 sheet yet, so the line can lag the horizon.
+      sheet.statsAsOf !== null && sheet.statsAsOf < h.floor
+        ? `<p class="sheet__asof">Stats and kit as of floor ${sheet.statsAsOf}.` +
+          ` Floor ${h.floor} is not recorded yet.</p>`
+        : ''
+    }`;
+
+  for (const button of sheetBox.querySelectorAll<HTMLButtonElement>('[data-held]')) {
+    button.addEventListener('click', () => {
+      selectedId = button.dataset.held!;
+      repaint();
+    });
+  }
+}
+
+function setView(next: View): void {
+  view = next;
+  for (const [name, panel] of Object.entries(panels)) panel.hidden = name !== view;
+  filterPanel.hidden = view !== 'catalogue';
+  for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-view]')) {
+    tab.setAttribute('aria-selected', String(tab.dataset.view === view));
+  }
+  repaint();
 }
 
 let current: Horizon | null = null;
@@ -378,13 +449,24 @@ function repaint(): void {
   const rows = visibleRows(current);
   // A record filtered or embargoed away cannot stay selected.
   if (selectedId && !rows.some((r) => r.entityId === selectedId)) selectedId = null;
-  renderFacets(rows);
-  renderTable(rows);
-  renderCoverage(current, rows);
+
+  const sheets = current.sheetIds();
+  if (crawlerId && !sheets.includes(crawlerId)) crawlerId = null;
+  crawlerId ??= sheets[0] ?? null;
+
+  if (view === 'sheets') renderSheets(current);
+  else {
+    renderFacets(rows);
+    renderTable(rows);
+  }
   renderRecord(current, rows);
 }
 
 renderFilters();
+for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-view]')) {
+  tab.addEventListener('click', () => setView(tab.dataset.view as View));
+}
+setView('sheets');
 
 mountShell({
   route: 'ledger',

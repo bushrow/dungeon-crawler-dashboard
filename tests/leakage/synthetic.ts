@@ -12,6 +12,8 @@ export function syntheticBundle(overrides: Partial<BundleData> = {}) {
     status: [],
     edges: [],
     mechanics: [],
+    holdings: [],
+    stats: [],
     layout: {},
   };
   return wrap({ ...base, ...overrides });

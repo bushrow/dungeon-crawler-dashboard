@@ -175,6 +175,32 @@ def _check_clocks(rows: Rows) -> list[Issue]:
                 )
             )
 
+    for i, row in enumerate(rows.get("holdings", []), start=1):
+        reveal = _as_int(row.get("reveal_floor", ""))
+        ended_reveal = _as_int(row.get("ended_reveal_floor", "") or "")
+        ended_event = _as_int(row.get("ended_event_floor", "") or "")
+        if reveal is not None and ended_reveal is not None and ended_reveal < reveal:
+            issues.append(
+                Issue(
+                    "error",
+                    "holdings",
+                    i,
+                    f"ended_reveal_floor {ended_reveal} precedes reveal_floor {reveal}: a crawler "
+                    "cannot be known to have lost something before they are known to have it",
+                )
+            )
+        if (ended_event is None) != (ended_reveal is None):
+            issues.append(
+                Issue(
+                    "error",
+                    "holdings",
+                    i,
+                    "ended_event_floor and ended_reveal_floor must both be set or both empty",
+                )
+            )
+        if row.get("entity_id") and row.get("entity_id") == row.get("held_id"):
+            issues.append(Issue("error", "holdings", i, "a crawler cannot hold themselves"))
+
     for i, row in enumerate(rows.get("edges", []), start=1):
         reveal = _as_int(row.get("reveal_floor", ""))
         ended_event = _as_int(row.get("ended_event_floor", "") or "")
@@ -262,6 +288,19 @@ def _check_visibility(rows: Rows) -> list[Issue]:
             [row.get("src", ""), row.get("dst", "")],
             "reveal_floor",
         )
+
+    for i, row in enumerate(rows.get("holdings", []), start=1):
+        # Both ends have to exist for the reader: the crawler and the thing.
+        check(
+            "holdings",
+            i,
+            _as_int(row.get("reveal_floor", "")),
+            [row.get("entity_id", ""), row.get("held_id", "")],
+            "reveal_floor",
+        )
+
+    for i, row in enumerate(rows.get("stats", []), start=1):
+        check("stats", i, _as_int(row.get("floor", "")), [row.get("entity_id", "")], "floor")
 
     types = {r["id"]: r.get("type", "") for r in rows.get("entities", []) if r.get("id")}
     for i, row in enumerate(rows.get("mechanics", []), start=1):

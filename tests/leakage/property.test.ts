@@ -70,6 +70,40 @@ describe.each(floors)('at floor %i', (floor) => {
     for (const m of h.mechanics()) expect(m.introducedFloor).toBeLessThanOrEqual(floor);
   });
 
+  it('reveals no holding early, and none already lost', () => {
+    for (const id of ids) {
+      for (const held of h.holdingsFor(id)) {
+        expect(held.revealFloor).toBeLessThanOrEqual(floor);
+        if (held.endedRevealFloor !== null) expect(held.endedRevealFloor).toBeGreaterThan(floor);
+      }
+    }
+  });
+
+  it('never puts a thing on a sheet before the reader meets the thing', () => {
+    const visible = new Set(ids);
+    for (const id of ids) {
+      for (const held of h.holdingsFor(id)) expect(visible.has(held.heldId)).toBe(true);
+    }
+  });
+
+  it('reveals no stat line from a floor ahead', () => {
+    for (const id of ids) {
+      const line = h.statsFor(id);
+      if (line) expect(line.floor).toBeLessThanOrEqual(floor);
+    }
+  });
+
+  it('builds a sheet only from records visible now', () => {
+    for (const id of h.sheetIds()) {
+      const sheet = h.sheetFor(id)!;
+      expect(sheet.statsAsOf === null || sheet.statsAsOf <= floor).toBe(true);
+      for (const held of [...sheet.gear, ...sheet.skills, ...sheet.spells]) {
+        expect(held.revealFloor).toBeLessThanOrEqual(floor);
+        expect(held.entity.introducedFloor).toBeLessThanOrEqual(floor);
+      }
+    }
+  });
+
   it('places no node that is not visible', () => {
     const visible = new Set(ids);
     for (const n of h.nodes()) expect(visible.has(n.entity.id)).toBe(true);
@@ -83,6 +117,9 @@ describe.each(floors)('at floor %i', (floor) => {
       expect(h.factsFor(e.id)).toEqual([]);
       expect(h.statusFor(e.id)).toBeUndefined();
       expect(h.edgesFor(e.id)).toEqual([]);
+      expect(h.holdingsFor(e.id)).toEqual([]);
+      expect(h.statsFor(e.id)).toBeUndefined();
+      expect(h.sheetFor(e.id)).toBeUndefined();
     }
   });
 });

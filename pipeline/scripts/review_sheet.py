@@ -42,7 +42,7 @@ def main() -> int:
     add("excluded from headline numbers and counted separately in the Ledger.\n")
 
     counts = Counter()
-    for table in ("entities", "facts", "mechanics", "edges"):
+    for table in ("entities", "facts", "mechanics", "edges", "holdings", "stats"):
         for row in rows[table]:
             if "confidence" in row:
                 counts[row["confidence"]] += 1
@@ -50,7 +50,7 @@ def main() -> int:
     add("## Where the corpus stands\n")
     add(f"| Table | Rows |")
     add("|---|---:|")
-    for table in ("entities", "aliases", "facts", "status", "edges", "mechanics"):
+    for table in ("entities", "aliases", "facts", "status", "edges", "mechanics", "holdings", "stats"):
         add(f"| {table} | {len(rows[table])} |")
     add("")
     add(f"Of {total} rows carrying a confidence: " + ", ".join(
@@ -91,6 +91,28 @@ def main() -> int:
             named = sorted(e["canonical_name"] for e in here if e["type"] == kind)
             add(f"- **{kind}**: {', '.join(named)}")
         add("")
+
+    add("## Character sheets\n")
+    add("Only Carl and Donut have floor-scoped source pages, so only they have sheets.")
+    add("Every other character's wiki infobox is current as of book 8.\n")
+    add("| Crawler | Floor | Level | STR | INT | CON | DEX | CHA |")
+    add("|---|---:|---:|---:|---:|---:|---:|---:|")
+    for st in sorted(rows["stats"], key=lambda r: (r["entity_id"], int(r["floor"]))):
+        add(
+            f"| {names.get(st['entity_id'], st['entity_id'])} | {st['floor']} | {st['level']} | "
+            f"{st['str']} | {st['int']} | {st['con']} | {st['dex']} | {st['cha']} |"
+        )
+    add("")
+    held = {}
+    for h in rows["holdings"]:
+        held.setdefault(h["entity_id"], []).append(h)
+    for who, items in sorted(held.items()):
+        add(f"**{names.get(who, who)}** holds {len(items)} recorded things: " + ", ".join(
+            f"{names.get(i['held_id'], i['held_id'])} (floor {i['reveal_floor']}"
+            + (f", lost floor {i['ended_reveal_floor']}" if i["ended_reveal_floor"] else "")
+            + ")"
+            for i in sorted(items, key=lambda r: names.get(r["held_id"], ""))
+        ) + ".\n")
 
     add("## Status\n")
     add("Only what books 1 and 2 establish. Every death the wiki records for these")

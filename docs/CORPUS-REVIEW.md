@@ -11,14 +11,16 @@ excluded from headline numbers and counted separately in the Ledger.
 
 | Table | Rows |
 |---|---:|
-| entities | 125 |
+| entities | 147 |
 | aliases | 14 |
 | facts | 163 |
 | status | 20 |
 | edges | 53 |
 | mechanics | 66 |
+| holdings | 50 |
+| stats | 4 |
 
-Of 282 rows carrying a confidence: **228** certain, **44** probable, **10** inferred.
+Of 336 rows carrying a confidence: **282** certain, **44** probable, **10** inferred.
 
 ## Priced records
 
@@ -272,23 +274,24 @@ an estimate with no rubric behind it.
 - **location**: Dungeon Entrance, The Surface, The World Dungeon
 - **race**: Cat, Human
 
-### Floor 1 (71)
+### Floor 1 (87)
 
 - **character**: Chris Andrews, Elle McGibbons, Ferdinand, Frank Q, Hekla, Imani, Mordecai
 - **faction**: Borant Corporation, Le Mouvement, Royal Court of Princess Donut, The Bopca, The Syndicate
-- **item**: Benefactor Box, Boss Box, Bronze Box, Crawler Biscuit, Crowd Control Box, Desperado Pass Tattoo, Enchanted Nightgaunt Cloak of Stoutness, Enchanted Toe Ring of the Splatter Skunk, Enchanted Trollskin Shirt of Pummeling, Enhanced Pet Biscuit, Experience Cookies, Goblin Box, Goblin Dynamite, Goblin Pass Tattoo, Goblin Smoke Bomb, Gold Box, Healing Potion, Iron Skin Potion, Magic Item Box, Mana Potion, Mechanic's Box, Permacube, Platinum Box, Silver Box, Silver Ring, Skill Potion, Talisman of the Slate Butterfly, Torch
+- **item**: Benefactor Box, Boss Box, Bracelet, Bronze Box, Crawler Biscuit, Crowd Control Box, Desperado Pass Tattoo, Enchanted Crown of the Sepsis Whore, Enchanted Fae Scale Quadruped Crupper of the Fleet, Enchanted Nightgaunt Cloak of Stoutness, Enchanted Spiked Kneepads of the Shade Gnoll Riot Forces, Enchanted Toe Ring of the Splatter Skunk, Enchanted Trollskin Shirt of Pummeling, Enchanted War Gauntlet of the Exalted Grull, Enhanced Pet Biscuit, Experience Cookies, Goblin Box, Goblin Dynamite, Goblin Pass Tattoo, Goblin Smoke Bomb, Gold Box, Healing Potion, Iron Skin Potion, Magic Item Box, Mana Potion, Mechanic's Box, Permacube, Platinum Box, Silver Box, Silver Ring, Skill Potion, Talisman of the Slate Butterfly, Torch, Unenchanted Boxers
 - **location**: First Floor, Safe Room, The Desperado Club
 - **monster**: Bad Llama, Blender Fiend, Bugaboo, Chilly Goat, Goblins, Hoarder, Rat-kin, Rats, Scat Thug, Slime, Troglodyte, Tuskling
 - **race**: Bopca
-- **skill**: Chopper Pilot Skill, Confusing Fog Spell, Dangerous Explosives Handling Skill, Determine Value Skill, Explosives Handling Skill, Fire Fingers Spell, Foot Soldier Skill, Goblin Explosives Skill, IED Skill, Iron Punch Skill, Light on Your Feet Skill, Magic Missile, Minion Army Spell, Puddle Jumper Spell, Regeneration Skill
+- **skill**: Back Claw, Bare Knuckle Skill, Chopper Pilot Skill, Confusing Fog Spell, Dangerous Explosives Handling Skill, Determine Value Skill, Dodge Skill, Explosives Handling Skill, Fire Fingers Spell, Foot Soldier Skill, Goblin Explosives Skill, Good First Impression Skill, IED Skill, Iron Punch Skill, Light on Your Feet Skill, Magic Missile, Minion Army Spell, Powerful Strike Skill, Puddle Jumper Spell, Pugilism Skill, Regeneration Skill, Slice Attack, Smush Skill, Torch Spell, Unarmed Combat Skill
 
-### Floor 2 (20)
+### Floor 2 (26)
 
 - **character**: Li Jun, Li Na, Maestro, Miriam Dom, Mongo
 - **faction**: Skull Empire
-- **item**: Carl's Jug O'Boom, Enchanted Pedicure Kit of the Sylph, Goblin Oil, Mana Toast, Mother of All Bombs
+- **item**: Carl's Jug O'Boom, Enchanted BigBoi Boxers, Enchanted Pedicure Kit of the Sylph, Goblin Oil, Mana Toast, Mother of All Bombs
 - **location**: Second Floor
 - **monster**: Brain Boiler, Clurichaun, Danger Dingo, Frenzied Gerbil, Kobold, Krakaren Clone, Mind Horror, Rage Elemental
+- **skill**: Aiming Skill, Incendiary Device Handling Skill, Second Chance Spell, Slingshot Skill, Steady Hand Skill
 
 ### Floor 3 (20)
 
@@ -297,6 +300,22 @@ an estimate with no rubric behind it.
 - **location**: The Over City
 - **race**: Primal
 - **skill**: Character Actor Skill, Fear Spell
+
+## Character sheets
+
+Only Carl and Donut have floor-scoped source pages, so only they have sheets.
+Every other character's wiki infobox is current as of book 8.
+
+| Crawler | Floor | Level | STR | INT | CON | DEX | CHA |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Carl | 1 | 10 | 12 | 3 | 12 | 5 | 4 |
+| Carl | 2 | 13 | 12 | 3 | 14 | 6 | 4 |
+| Princess Donut | 1 | 10 | 20 | 26 | 2 | 12 | 43 |
+| Princess Donut | 2 | 11 | 21 | 27 | 4 | 12 | 45 |
+
+**Carl** holds 33 recorded things: Aiming Skill (floor 2), Bare Knuckle Skill (floor 1, lost floor 2), Chopper Pilot Skill (floor 1), Compensated Anarchist (floor 3), Dangerous Explosives Handling Skill (floor 1), Desperado Pass Tattoo (floor 1), Determine Value Skill (floor 1), Enchanted BigBoi Boxers (floor 2), Enchanted Nightgaunt Cloak of Stoutness (floor 1), Enchanted Pedicure Kit of the Sylph (floor 2), Enchanted Spiked Kneepads of the Shade Gnoll Riot Forces (floor 1), Enchanted Toe Ring of the Splatter Skunk (floor 1), Enchanted Trollskin Shirt of Pummeling (floor 1), Enchanted War Gauntlet of the Exalted Grull (floor 1), Explosives Handling Skill (floor 1), Foot Soldier Skill (floor 1), Goblin Explosives Skill (floor 1), Goblin Pass Tattoo (floor 1), Human (floor 0, lost floor 3), IED Skill (floor 1), Incendiary Device Handling Skill (floor 2), Iron Punch Skill (floor 1), Leather Coat (floor 1), Powerful Strike Skill (floor 1), Primal (floor 3), Pugilism Skill (floor 1), Regeneration Skill (floor 1), Silver Ring (floor 1), Slingshot Skill (floor 2), Smush Skill (floor 1), Steady Hand Skill (floor 2), Unarmed Combat Skill (floor 1), Unenchanted Boxers (floor 1, lost floor 2).
+
+**Princess Donut** holds 17 recorded things: Artist Alley Mogul (floor 3), Back Claw (floor 1), Bracelet (floor 1), Cat (floor 0), Desperado Pass Tattoo (floor 1), Dodge Skill (floor 1), Enchanted Crown of the Sepsis Whore (floor 1), Enchanted Fae Scale Quadruped Crupper of the Fleet (floor 1), Former Child Actor (floor 3), Good First Impression Skill (floor 1), Light on Your Feet Skill (floor 1), Magic Missile (floor 1), Puddle Jumper Spell (floor 1), Second Chance Spell (floor 2), Slice Attack (floor 1), Talisman of the Slate Butterfly (floor 1), Torch Spell (floor 1).
 
 ## Status
 

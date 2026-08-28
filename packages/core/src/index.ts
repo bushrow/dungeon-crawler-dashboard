@@ -17,4 +17,5 @@ export {
   EDGE_TYPES,
   COST_TYPES,
   EFFECT_CATEGORIES,
+  HOLDING_KINDS,
 } from './types';

@@ -18,31 +18,43 @@
   <body>
     <main class="ledger">
       <div class="ledger__main">
-        <section class="panel">
-          <div class="panel__head">
-            <span class="eyebrow">Effect by cost</span>
-            <span class="eyebrow" data-facet-count></span>
-          </div>
-          <div class="facets" data-facets></div>
-          <p class="note facets__caption">
-            Effect scale is comparable inside a category and not across them, so each category
-            is drawn on its own. Most costs here are a kind rather than an amount, so the
-            horizontal axis is the kind of cost. Coverage counts how many carry a figure.
-          </p>
-        </section>
+        <div class="views" role="tablist" aria-label="Ledger view">
+          <button class="views__tab" role="tab" data-view="sheets">Character sheets</button>
+          <button class="views__tab" role="tab" data-view="catalogue">Catalogue</button>
+        </div>
 
-        <section class="panel">
-          <div class="panel__head">
-            <span class="eyebrow">Classes and items</span>
-            <span class="eyebrow" data-row-count></span>
-          </div>
-          <div class="table__scroll">
-            <table class="table" data-table>
-              <thead></thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        </section>
+        <div data-panel="sheets">
+          <nav class="crawlers" data-crawlers aria-label="Crawlers"></nav>
+          <section class="panel sheet" data-sheet></section>
+        </div>
+
+        <div data-panel="catalogue" hidden>
+          <section class="panel">
+            <div class="panel__head">
+              <span class="eyebrow">Effect by cost</span>
+              <span class="eyebrow" data-facet-count></span>
+            </div>
+            <div class="facets" data-facets></div>
+            <p class="note facets__caption">
+              Effect scale is comparable inside a category and not across them, so each category
+              is drawn on its own. Most costs here are a kind rather than an amount, so the
+              horizontal axis is the kind of cost.
+            </p>
+          </section>
+
+          <section class="panel" style="margin-top:var(--pad)">
+            <div class="panel__head">
+              <span class="eyebrow">Classes and items</span>
+              <span class="eyebrow" data-row-count></span>
+            </div>
+            <div class="table__scroll">
+              <table class="table" data-table>
+                <thead></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </section>
+        </div>
       </div>
 
       <aside class="ledger__rail">
@@ -50,11 +62,7 @@
           <div class="panel__head"><span class="eyebrow">Record</span></div>
           <div data-record></div>
         </section>
-        <section class="panel">
-          <div class="panel__head"><span class="eyebrow">Coverage</span></div>
-          <div data-coverage></div>
-        </section>
-        <section class="panel">
+        <section class="panel" data-filter-panel>
           <div class="panel__head"><span class="eyebrow">Filters</span></div>
           <div class="filters" data-filters></div>
         </section>

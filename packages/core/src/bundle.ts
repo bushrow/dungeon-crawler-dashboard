@@ -1,5 +1,5 @@
 import bundleJson from '../../../data/dist/dcc-bundle.json';
-import type { Alias, Edge, Entity, Mechanic, Point, Status } from './types';
+import type { Alias, Edge, Entity, Holding, Mechanic, Point, StatLine, Status } from './types';
 
 /** The raw bundle shape. Deliberately not exported from the package index. */
 export interface BundleData {
@@ -11,6 +11,8 @@ export interface BundleData {
   status: Status[];
   edges: Edge[];
   mechanics: Mechanic[];
+  holdings: Holding[];
+  stats: StatLine[];
   layout: Record<string, Point>;
 }
 

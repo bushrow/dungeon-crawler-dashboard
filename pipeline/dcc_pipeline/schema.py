@@ -49,6 +49,9 @@ EFFECT_CATEGORIES = (
     "information",
 )
 
+#: What a character can be holding on a sheet.
+HOLDING_KINDS = ("gear", "skill", "spell", "class", "race")
+
 #: Entity types that may carry a `mechanics` row. A location has no price.
 PRICEABLE_TYPES = ("class", "race", "skill", "item")
 
@@ -148,6 +151,48 @@ TABLES: dict[str, Table] = {
         ),
         unique=("entity_id",),
     ),
+    "holdings": Table(
+        "holdings",
+        (
+            Column("entity_id", kind="ref", ref="entities"),
+            Column("held_id", kind="ref", ref="entities"),
+            Column("kind", kind="enum", values=HOLDING_KINDS),
+            Column("slot", required=False),
+            Column("level", kind="int", required=False),
+            Column("event_floor", kind="floor"),
+            Column("reveal_floor", kind="floor"),
+            Column("ended_event_floor", kind="floor", required=False),
+            Column("ended_reveal_floor", kind="floor", required=False),
+            Column("source"),
+            Column("confidence", kind="enum", values=CONFIDENCE),
+        ),
+        unique=("entity_id", "held_id", "event_floor"),
+    ),
+    "stats": Table(
+        "stats",
+        (
+            Column("entity_id", kind="ref", ref="entities"),
+            Column("floor", kind="floor"),
+            Column("level", kind="int"),
+            Column("str", kind="int"),
+            Column("int", kind="int"),
+            Column("con", kind="int"),
+            Column("dex", kind="int"),
+            Column("cha", kind="int"),
+            Column("source"),
+            Column("confidence", kind="enum", values=CONFIDENCE),
+        ),
+        unique=("entity_id", "floor"),
+    ),
 }
 
-TABLE_ORDER = ("entities", "aliases", "facts", "status", "edges", "mechanics")
+TABLE_ORDER = (
+    "entities",
+    "aliases",
+    "facts",
+    "status",
+    "edges",
+    "mechanics",
+    "holdings",
+    "stats",
+)

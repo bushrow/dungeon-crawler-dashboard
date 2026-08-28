@@ -30,6 +30,7 @@ RENAMES = {
     "ended_event_floor": "endedEventFloor",
     "ended_reveal_floor": "endedRevealFloor",
     "cost_type": "costType",
+    "held_id": "heldId",
     "cost_value": "costValue",
     "effect_category": "effectCategory",
     "effect_scale": "effectScale",
@@ -37,6 +38,13 @@ RENAMES = {
 
 #: Fields that are integers in the bundle, or null when the cell is empty.
 NUMERIC = {
+    "floor",
+    "level",
+    "str",
+    "int",
+    "con",
+    "dex",
+    "cha",
     "introducedFloor",
     "revealFloor",
     "eventFloor",
@@ -48,7 +56,16 @@ NUMERIC = {
 
 #: Fields kept as null rather than "" when empty, so a missing value reads as
 #: missing in TypeScript instead of as an empty string.
-NULLABLE = {"endedEventFloor", "endedRevealFloor", "notes", "restrictions", "costValue", "duration"}
+NULLABLE = {
+    "endedEventFloor",
+    "endedRevealFloor",
+    "notes",
+    "restrictions",
+    "costValue",
+    "duration",
+    "slot",
+    "level",
+}
 
 
 def _convert(row: dict[str, str]) -> dict[str, object]:
@@ -75,6 +92,8 @@ def build(rows: dict[str, list[dict[str, str]]]) -> dict[str, object]:
         "status": [_convert(r) for r in rows["status"]],
         "edges": [_convert(r) for r in rows["edges"]],
         "mechanics": [_convert(r) for r in rows["mechanics"]],
+        "holdings": [_convert(r) for r in rows["holdings"]],
+        "stats": [_convert(r) for r in rows["stats"]],
         "layout": layout,
     }
 
@@ -95,7 +114,8 @@ def main() -> int:
     DIST.write_text(json.dumps(bundle, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     counts = ", ".join(
-        f"{len(bundle[t])} {t}" for t in ("entities", "aliases", "facts", "status", "edges", "mechanics")
+        f"{len(bundle[t])} {t}"
+        for t in ("entities", "aliases", "facts", "status", "edges", "mechanics", "holdings", "stats")
     )
     print(f"wrote {DIST.relative_to(ROOT)} v{BUNDLE_VERSION}: {counts}, {len(bundle['layout'])} laid out")
     return 0

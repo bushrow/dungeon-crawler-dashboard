@@ -97,8 +97,12 @@ can be visible while its gloss is still withheld. When `significance_floor`
 equals `reveal_floor` there is nothing withheld.
 
 `confidence` is one of `certain`, `probable`, `inferred`, and describes the
-annotation, not the story. `inferred` rows are excluded from headline numbers
-and counted in the Ledger's coverage panel.
+annotation, not the story.
+
+**Confidence is a review field and is never shown in either app.** It says
+something about my sourcing, not about the dungeon, and a reader cannot act on
+it. `inferred` rows are simply left out of the views; `docs/CORPUS-REVIEW.md` is
+where confidence is read.
 
 ### `status.csv`
 
@@ -141,6 +145,32 @@ why the Ledger scatter is faceted by category and makes no cross-category claim.
 See `docs/LIMITATIONS.md`.
 
 - `introduced_floor` runs on the reveal clock, same as `entities.csv`.
+
+### `holdings.csv`
+
+`entity_id · held_id · kind · slot · level · event_floor · reveal_floor · ended_event_floor · ended_reveal_floor · source · confidence`
+
+What a crawler has and knows. `kind` is one of `gear`, `skill`, `spell`,
+`class`, `race`. `slot` is the equipment slot for gear and empty otherwise;
+`level` is the skill's level where the source records one.
+
+Both clocks again: gear picked up on floor 1 and lost on floor 2 carries an
+`ended_reveal_floor` of 2 and leaves the sheet exactly when the reader learns it
+is gone. Same rule as `edges.csv`, and the same test covers it.
+
+Only Carl and Donut have rows here. They are the only crawlers with per-floor
+pages on the wiki; every other character has a single infobox whose gear and
+level are current as of book 8, and reading those would put late-series loadout
+on an early-floor sheet.
+
+### `stats.csv`
+
+`entity_id · floor · level · str · int · con · dex · cha · source · confidence`
+
+End-of-floor stat line, one row per crawler per floor. `floor` runs on the
+reveal clock. A floor with no row is not an error: the access layer falls back
+to the most recent earlier line and reports which floor it came from, so a sheet
+says "as of floor 2" rather than inventing a floor 3.
 
 ## Provenance
 

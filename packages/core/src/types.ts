@@ -20,6 +20,8 @@ export const ENTITY_TYPES = [
   'monster',
 ] as const;
 
+export const HOLDING_KINDS = ['gear', 'skill', 'spell', 'class', 'race'] as const;
+
 export const CONFIDENCE_LEVELS = ['certain', 'probable', 'inferred'] as const;
 export const STATUS_VALUES = ['active', 'departed', 'unknown'] as const;
 export const EDGE_TYPES = ['allied', 'hostile', 'kin', 'sponsor', 'subordinate', 'party'] as const;
@@ -47,6 +49,7 @@ export const EFFECT_CATEGORIES = [
 ] as const;
 
 export type EntityType = (typeof ENTITY_TYPES)[number];
+export type HoldingKind = (typeof HOLDING_KINDS)[number];
 export type Confidence = (typeof CONFIDENCE_LEVELS)[number];
 export type StatusValue = (typeof STATUS_VALUES)[number];
 export type EdgeType = (typeof EDGE_TYPES)[number];
@@ -152,4 +155,56 @@ export interface Coverage {
   mechanicsExcluded: number;
   /** Visible rows whose cost is an actual number rather than free text. */
   mechanicsPriced: number;
+}
+
+/** A thing a crawler has, with the floor they got it and the floor they lost it. */
+export interface Holding {
+  entityId: string;
+  heldId: string;
+  kind: HoldingKind;
+  slot: string | null;
+  level: number | null;
+  eventFloor: number;
+  revealFloor: number;
+  endedEventFloor: number | null;
+  endedRevealFloor: number | null;
+  source: string;
+  confidence: Confidence;
+}
+
+/** End-of-floor stat line. */
+export interface StatLine {
+  entityId: string;
+  floor: number;
+  level: number;
+  str: number;
+  int: number;
+  con: number;
+  dex: number;
+  cha: number;
+  source: string;
+  confidence: Confidence;
+}
+
+/** A holding joined to the entity it points at, which is what a sheet renders. */
+export interface HeldEntity extends Holding {
+  entity: Entity;
+}
+
+/**
+ * One crawler's character sheet at a horizon.
+ *
+ * `statsAsOf` is the floor the stat line actually comes from, which can lag the
+ * horizon when a later floor has no recorded stats. Showing the last known line
+ * and saying which floor it came from beats showing nothing.
+ */
+export interface Sheet {
+  character: Entity;
+  stats: StatLine | null;
+  statsAsOf: number | null;
+  races: HeldEntity[];
+  classes: HeldEntity[];
+  gear: HeldEntity[];
+  skills: HeldEntity[];
+  spells: HeldEntity[];
 }

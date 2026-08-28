@@ -1,0 +1,5 @@
+entity_id,floor,level,str,int,con,dex,cha,source,confidence
+carl,1,10,12,3,12,5,4,wiki:Carl-Floor_1,certain
+carl,2,13,12,3,14,6,4,wiki:Carl-Floor_2,certain
+donut,1,10,20,26,2,12,43,wiki:Donut-Floor_1,certain
+donut,2,11,21,27,4,12,45,wiki:Donut-Floor_2,certain
