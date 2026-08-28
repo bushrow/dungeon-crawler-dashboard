@@ -112,6 +112,22 @@ weak data stays visible rather than blending into the totals. Stated plainly in
 
 ## Changed from the original spec
 
+**Bounded quotation of the System, amending §7.** The source spec kept System
+text out entirely, on the grounds that the humour lives in the exact wording.
+That reasoning is sound and is exactly why the records read as datasheets
+without it: paraphrasing "when simple brutality isn't enough, newsboy cap not
+included" throws away the only thing that made it worth recording.
+
+The line is now drawn at length rather than at kind. One or two sentences per
+entity, hard-capped at 26 words, shown as a marked quotation attributed to the
+System and linked to its page. Full notifications and achievement text stay
+out, and so does any attempt to assemble a passage across several records. The
+wiki's own editors draw a comparable line, declining to reproduce the longest
+of these entries in full and saying so in the page body.
+
+The cap is a commitment rather than an intention, so a test fails if any
+excerpt exceeds it.
+
 **Free-text search is now in.** The source spec ruled it out, and that was right
 when the corpus was hypothetical and twenty rows. At 444 entities across nine
 floors, 326 of which have no relationship and no price, browsing without search

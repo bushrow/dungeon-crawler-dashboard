@@ -84,6 +84,9 @@ TABLES: dict[str, Table] = {
             Column("introduced_floor", kind="floor"),
             # Prose from the wiki, with its marked spoiler blocks stripped.
             Column("description", required=False),
+            # A bounded excerpt of the System's own words. See
+            # pipeline/scripts/extract_system_quotes.py for the cap.
+            Column("system_quote", required=False),
             Column("notes", required=False),
         ),
         unique=("id",),

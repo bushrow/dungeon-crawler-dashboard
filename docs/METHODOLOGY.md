@@ -201,8 +201,13 @@ markers, wiki page ids, or `inferred`. Every row carries a `confidence` of
 story. Inferred rows are excluded from headline numbers and counted in the
 Ledger's coverage panel.
 
-No book text lives in this repo, including in `data/raw/`, which is gitignored.
-No System notification or achievement text verbatim, anywhere. The humour in the
-series lives in the exact wording, which is exactly why it stays out.
+No book text lives in this repo beyond the bounded excerpts described below,
+and `data/raw/` is gitignored.
+
+Each entity may carry one short excerpt of the System's own description: one or
+two sentences, capped at 26 words, shown as a marked quotation attributed to the
+System and linked to the page it came from. This amends §7 of the original spec,
+which excluded such text entirely; the reasoning is in the design doc and the
+cap is enforced by a test. Full notification and achievement text stays out.
 
 This is an unofficial fan project. Go buy the books.

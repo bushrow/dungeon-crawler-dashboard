@@ -130,6 +130,14 @@ function renderRecord(h: Horizon, record: CorpusRecord | undefined): void {
         }</span>
       </div>
       ${entity.description ? `<p class="card__desc">${entity.description}</p>` : ''}
+      ${
+        entity.systemQuote
+          ? `<figure class="sysquote">
+               <blockquote>${entity.systemQuote}</blockquote>
+               <figcaption>The System</figcaption>
+             </figure>`
+          : ''
+      }
       ${entity.notes ? `<p class="note" style="margin:0.6rem 0 0">${entity.notes}</p>` : ''}
       ${
         // Rendered only when a status row is visible. No row means nothing is

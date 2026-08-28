@@ -830,6 +830,7 @@
       "id": "carl",
       "introducedFloor": 0,
       "notes": "Crawler 4122. Coast Guard veteran, marine technician, Seattle.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -838,6 +839,7 @@
       "id": "donut",
       "introducedFloor": 0,
       "notes": "Beatrice's award-winning show cat. Gains speech in the dungeon.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -846,6 +848,7 @@
       "id": "beatrice",
       "introducedFloor": 0,
       "notes": "Carl's girlfriend and Donut's owner. Called Bea.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -854,6 +857,7 @@
       "id": "monobrow_sam",
       "introducedFloor": 0,
       "notes": "Carl's friend on Earth.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -862,6 +866,7 @@
       "id": "mordecai",
       "introducedFloor": 1,
       "notes": "Non-combatant NPC. Guide and trainer to Carl and Donut.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -870,6 +875,7 @@
       "id": "frank_q",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -878,6 +884,7 @@
       "id": "hekla",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -886,6 +893,7 @@
       "id": "chris_andrews",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -894,6 +902,7 @@
       "id": "imani",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -902,6 +911,7 @@
       "id": "ferdinand",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -910,6 +920,7 @@
       "id": "elle_mcgibbons",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -918,6 +929,7 @@
       "id": "li_jun",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -926,6 +938,7 @@
       "id": "li_na",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -934,6 +947,7 @@
       "id": "maestro",
       "introducedFloor": 2,
       "notes": "Show host and god sponsor.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -942,6 +956,7 @@
       "id": "mongo",
       "introducedFloor": 2,
       "notes": "Donut's raptor companion.",
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -950,6 +965,7 @@
       "id": "miriam_dom",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -958,6 +974,7 @@
       "id": "tsarina_signet",
       "introducedFloor": 3,
       "notes": "Summoner and fairy-class NPC of the Over City.",
+      "systemQuote": "The High-Elf King Finian, leader of the Liana Sector of the Hunting Grounds, was such a horny bastard, it was said he'd bedded women from over\u2026",
       "type": "character"
     },
     {
@@ -966,6 +983,7 @@
       "id": "prepotente",
       "introducedFloor": 3,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -974,6 +992,7 @@
       "id": "florin",
       "introducedFloor": 3,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -982,6 +1001,7 @@
       "id": "katia_grim",
       "introducedFloor": 3,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -990,6 +1010,7 @@
       "id": "bautista",
       "introducedFloor": 3,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -998,6 +1019,7 @@
       "id": "quan_ch",
       "introducedFloor": 3,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -1006,6 +1028,7 @@
       "id": "the_system",
       "introducedFloor": 0,
       "notes": "The dungeon's administrative intelligence.",
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1014,6 +1037,7 @@
       "id": "crawlers",
       "introducedFloor": 0,
       "notes": "Surviving humans admitted to the dungeon.",
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1022,6 +1046,7 @@
       "id": "syndicate",
       "introducedFloor": 1,
       "notes": "Galactic authority that licenses the show.",
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1030,6 +1055,7 @@
       "id": "borant",
       "introducedFloor": 1,
       "notes": "Operator of this season of Dungeon Crawler World.",
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1038,6 +1064,7 @@
       "id": "bopca",
       "introducedFloor": 1,
       "notes": "Species staffing safe rooms. Grouped as a faction; the schema has no species type.",
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1046,6 +1073,7 @@
       "id": "royal_court",
       "introducedFloor": 1,
       "notes": "Donut's retinue of pets and followers.",
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1054,6 +1082,7 @@
       "id": "le_mouvement",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1062,6 +1091,7 @@
       "id": "skull_empire",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -1070,6 +1100,7 @@
       "id": "surface",
       "introducedFloor": 0,
       "notes": "Earth above the dungeon, before and during the Transformation.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1078,6 +1109,7 @@
       "id": "dungeon",
       "introducedFloor": 0,
       "notes": "Eighteen floors.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1086,6 +1118,7 @@
       "id": "dungeon_entrance",
       "introducedFloor": 0,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1094,6 +1127,7 @@
       "id": "floor_one",
       "introducedFloor": 1,
       "notes": "Tutorial level beneath the ruins.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1102,6 +1136,7 @@
       "id": "safe_room",
       "introducedFloor": 1,
       "notes": "Rest, storage, and a shop between encounters.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1110,6 +1145,7 @@
       "id": "floor_two",
       "introducedFloor": 2,
       "notes": "Second tutorial level.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1118,6 +1154,7 @@
       "id": "floor_three",
       "introducedFloor": 3,
       "notes": "Third floor. Guarded medieval villages among monster-filled ruins, roughly the size of Arizona.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1126,6 +1163,7 @@
       "id": "desperado_club",
       "introducedFloor": 1,
       "notes": "Members-only crawler club. Named on floor 1 by the Desperado Pass tattoo, though crawlers reach it later, so its reveal floor is 1.",
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -1134,6 +1172,7 @@
       "id": "human",
       "introducedFloor": 0,
       "notes": "Default race before third-floor selection.",
+      "systemQuote": "",
       "type": "race"
     },
     {
@@ -1142,6 +1181,7 @@
       "id": "cat",
       "introducedFloor": 0,
       "notes": null,
+      "systemQuote": "",
       "type": "race"
     },
     {
@@ -1150,6 +1190,7 @@
       "id": "primal",
       "introducedFloor": 3,
       "notes": "Carl's race, selected on the third floor.",
+      "systemQuote": "For the first several seasons of Dungeon Crawler World, all contestants started off as Primals\u2026",
       "type": "race"
     },
     {
@@ -1158,6 +1199,7 @@
       "id": "bopca_race",
       "introducedFloor": 1,
       "notes": "Safe-room attendant species.",
+      "systemQuote": "",
       "type": "race"
     },
     {
@@ -1166,6 +1208,7 @@
       "id": "compensated_anarchist",
       "introducedFloor": 3,
       "notes": "Carl's class. Monk/rogue hybrid.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1174,6 +1217,7 @@
       "id": "former_child_actor",
       "introducedFloor": 3,
       "notes": "Donut's class. Bard/rogue jack-of-all-trades, Earth class.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1182,6 +1226,7 @@
       "id": "artist_alley_mogul",
       "introducedFloor": 3,
       "notes": "Donut's merchant class, taken alongside Former Child Actor.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1190,6 +1235,7 @@
       "id": "monster_truck_driver",
       "introducedFloor": 3,
       "notes": "Katia Grim's class. Jouster, Earth class.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1198,6 +1244,7 @@
       "id": "prizefighter",
       "introducedFloor": 3,
       "notes": "Monk class.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1206,6 +1253,7 @@
       "id": "bomb_squad_tech",
       "introducedFloor": 3,
       "notes": "Earth class.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1214,6 +1262,7 @@
       "id": "shieldmaiden",
       "introducedFloor": 3,
       "notes": "Hekla's class. Berserker.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1222,6 +1271,7 @@
       "id": "swashbuckler",
       "introducedFloor": 3,
       "notes": "Bautista's class. Swordsman.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1230,6 +1280,7 @@
       "id": "necrobard",
       "introducedFloor": 3,
       "notes": "Bard class.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1238,6 +1289,7 @@
       "id": "blizzardmancer",
       "introducedFloor": 3,
       "notes": "Elle McGibbons's third-floor class.",
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -1246,6 +1298,7 @@
       "id": "explosives_handling",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1254,6 +1307,7 @@
       "id": "ied_skill",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "It\u2019s one thing to take a grenade and toss it\u2026",
       "type": "skill"
     },
     {
@@ -1262,6 +1316,7 @@
       "id": "goblin_explosives",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1270,6 +1325,7 @@
       "id": "iron_punch",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "When simple brutality isn\u2019t enough. Newsboy cap not included\u2026",
       "type": "skill"
     },
     {
@@ -1278,6 +1334,7 @@
       "id": "regeneration_skill",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1286,6 +1343,7 @@
       "id": "light_on_your_feet",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1294,6 +1352,7 @@
       "id": "foot_soldier",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1302,6 +1361,7 @@
       "id": "determine_value",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "Hopefully now you\u2019ll realize all those Magic: The Gathering cards are nothing more than just meaningless pieces of paper, and you should have spent your money\u2026",
       "type": "skill"
     },
     {
@@ -1310,6 +1370,7 @@
       "id": "chopper_pilot",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1318,6 +1379,7 @@
       "id": "dangerous_explosives",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1326,6 +1388,7 @@
       "id": "character_actor",
       "introducedFloor": 3,
       "notes": "Grants Donut an extra class each floor.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1334,6 +1397,7 @@
       "id": "magic_missile",
       "introducedFloor": 1,
       "notes": "Spell.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1342,6 +1406,7 @@
       "id": "fire_fingers",
       "introducedFloor": 1,
       "notes": "Spell.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1350,6 +1415,7 @@
       "id": "confusing_fog",
       "introducedFloor": 1,
       "notes": "Spell.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1358,6 +1424,7 @@
       "id": "puddle_jumper",
       "introducedFloor": 1,
       "notes": "Spell.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1366,6 +1433,7 @@
       "id": "minion_army",
       "introducedFloor": 1,
       "notes": "Spell.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1374,6 +1442,7 @@
       "id": "fear_spell",
       "introducedFloor": 3,
       "notes": "Spell granted by Compensated Anarchist.",
+      "systemQuote": "Cost: 3 Mana If successfully cast, the effected mob either runs away, or stands its ground, but its Dexterity is lowered by an increasing amount per\u2026",
       "type": "skill"
     },
     {
@@ -1382,6 +1451,7 @@
       "id": "trollskin_shirt",
       "introducedFloor": 1,
       "notes": "Worn by Carl from the first hour.",
+      "systemQuote": "The wearer of this shirt gains +7 to the Regeneration skill\u2026",
       "type": "item"
     },
     {
@@ -1390,6 +1460,7 @@
       "id": "nightgaunt_cloak",
       "introducedFloor": 1,
       "notes": "Attached to Carl's leather coat. Occupies the neck slot.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1398,6 +1469,7 @@
       "id": "splatter_skunk_toe_ring",
       "introducedFloor": 1,
       "notes": "Worn on Carl's right index toe.",
+      "systemQuote": "Imbues wearer with +3 Strength and gives +3 to the Powerful Strike Skill\u2026",
       "type": "item"
     },
     {
@@ -1406,6 +1478,7 @@
       "id": "goblin_pass_tattoo",
       "introducedFloor": 1,
       "notes": "Carl's left inner forearm.",
+      "systemQuote": "Now you\u2019ll never get a good job!\u2026",
       "type": "item"
     },
     {
@@ -1414,6 +1487,7 @@
       "id": "desperado_pass_tattoo",
       "introducedFloor": 1,
       "notes": "Carl's neck. Grants club access.",
+      "systemQuote": "Now you\u2019re running with the type of kids who sit in the back of the bus\u2026",
       "type": "item"
     },
     {
@@ -1422,6 +1496,7 @@
       "id": "healing_potion",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "Increases your health by at least 50%\u2026",
       "type": "item"
     },
     {
@@ -1430,6 +1505,7 @@
       "id": "mana_potion",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1438,6 +1514,7 @@
       "id": "iron_skin_potion",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1446,6 +1523,7 @@
       "id": "skill_potion",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "Drinking this adds a single level to the Determine Value skill\u2026",
       "type": "item"
     },
     {
@@ -1454,6 +1532,7 @@
       "id": "goblin_dynamite",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "The System AI whispers the description in its game show voice: Goblin Dynamite\u2026",
       "type": "item"
     },
     {
@@ -1462,6 +1541,7 @@
       "id": "goblin_smoke_bomb",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "Most crawlers can only view cursory information about Goblin Smoke Bombs and other explosives\u2026",
       "type": "item"
     },
     {
@@ -1470,6 +1550,7 @@
       "id": "torch_item",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1478,6 +1559,7 @@
       "id": "crawler_biscuit",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1486,6 +1568,7 @@
       "id": "enhanced_pet_biscuit",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "So, it looks like a regular pet biscuit\u2026",
       "type": "item"
     },
     {
@@ -1494,6 +1577,7 @@
       "id": "experience_cookies",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1502,6 +1586,7 @@
       "id": "permacube",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1510,6 +1595,7 @@
       "id": "slate_butterfly_talisman",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "Talisman of the Slate Butterfly Those who remember and commemorate the sad tale of the Slate Butterfly are given a boon by the fairies of the\u2026",
       "type": "item"
     },
     {
@@ -1518,6 +1604,7 @@
       "id": "silver_ring",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1526,6 +1613,7 @@
       "id": "leather_coat",
       "introducedFloor": 0,
       "notes": "Carl's own coat. The right sleeve is dissolved by a slime on the first floor.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1534,6 +1622,7 @@
       "id": "pink_crocs",
       "introducedFloor": 0,
       "notes": "Ill-fitting. What Carl was wearing when the Transformation hit.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1542,6 +1631,7 @@
       "id": "zippo",
       "introducedFloor": 0,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1550,6 +1640,7 @@
       "id": "pedicure_kit",
       "introducedFloor": 2,
       "notes": "Carl begins using it on the second floor.",
+      "systemQuote": "This kit contains 12 essential items for proper foot care\u2026",
       "type": "item"
     },
     {
@@ -1558,6 +1649,7 @@
       "id": "jug_o_boom",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "Carl\u2019s Jug O\u2019 Boom Type: Incendiary Tossable Effect: When lit and tossed, results in a small explosion, followed by burning splash damage over a wide area\u2026",
       "type": "item"
     },
     {
@@ -1566,6 +1658,7 @@
       "id": "moab",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1574,6 +1667,7 @@
       "id": "goblin_oil",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1582,6 +1676,7 @@
       "id": "mana_toast",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1590,6 +1685,7 @@
       "id": "bronze_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1598,6 +1694,7 @@
       "id": "silver_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1606,6 +1703,7 @@
       "id": "gold_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1614,6 +1712,7 @@
       "id": "platinum_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1622,6 +1721,7 @@
       "id": "boss_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1630,6 +1730,7 @@
       "id": "goblin_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1638,6 +1739,7 @@
       "id": "benefactor_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1646,6 +1748,7 @@
       "id": "magic_item_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1654,6 +1757,7 @@
       "id": "mechanics_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1662,6 +1766,7 @@
       "id": "crowd_control_box",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1670,6 +1775,7 @@
       "id": "goblins",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "What Goblins lack in physical strength they make up in pure spunk.",
       "type": "monster"
     },
     {
@@ -1678,6 +1784,7 @@
       "id": "slime",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1686,6 +1793,7 @@
       "id": "rats",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1694,6 +1802,7 @@
       "id": "rat_kin",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1702,6 +1811,7 @@
       "id": "bugaboo",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "You know that creepy, unkempt guy who lives on the corner?\u2026",
       "type": "monster"
     },
     {
@@ -1710,6 +1820,7 @@
       "id": "hoarder",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "Trapped in her pile of rubbish, abandoned by society, the war inside her head has seeped out of her mind and infected both her body and\u2026",
       "type": "monster"
     },
     {
@@ -1718,6 +1829,7 @@
       "id": "tuskling",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1726,6 +1838,7 @@
       "id": "troglodyte",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1734,6 +1847,7 @@
       "id": "chilly_goat",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1742,6 +1856,7 @@
       "id": "bad_llama",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "It\u2019s a llama, but it\u2019s bad\u2026",
       "type": "monster"
     },
     {
@@ -1750,6 +1865,7 @@
       "id": "blender_fiend",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1758,6 +1874,7 @@
       "id": "scat_thug",
       "introducedFloor": 1,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1766,6 +1883,7 @@
       "id": "kobold",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1774,6 +1892,7 @@
       "id": "brain_boiler",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1782,6 +1901,7 @@
       "id": "clurichaun",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "If you hear banjo music, run\u2026",
       "type": "monster"
     },
     {
@@ -1790,6 +1910,7 @@
       "id": "danger_dingo",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "The AI approximated a terrible Australian accent\u2026",
       "type": "monster"
     },
     {
@@ -1798,6 +1919,7 @@
       "id": "frenzied_gerbil",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "From the description of Ralph: Part earth rodent, part the embodiment of death, Frenzied Gerbils are regular mobs one might encounter on the fifth or seventh\u2026",
       "type": "monster"
     },
     {
@@ -1806,6 +1928,7 @@
       "id": "mind_horror",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1814,6 +1937,7 @@
       "id": "rage_elemental",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "Rage Elemental \u2013 Level 93 The first recorded summoning of a Rage Elemental, blah, blah, blah\u2026",
       "type": "monster"
     },
     {
@@ -1822,6 +1946,7 @@
       "id": "krakaren_clone",
       "introducedFloor": 2,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -1830,6 +1955,7 @@
       "id": "war_gauntlet_of_the_exalted_grull",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1838,6 +1964,7 @@
       "id": "boxer_shorts",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1846,6 +1973,7 @@
       "id": "spiked_kneepads_of_the_shade_gnoll_riot_forces",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1854,6 +1982,7 @@
       "id": "bare_knuckle_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1862,6 +1991,7 @@
       "id": "powerful_strike_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1870,6 +2000,7 @@
       "id": "pugilism_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1878,6 +2009,7 @@
       "id": "smush_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1886,6 +2018,7 @@
       "id": "unarmed_combat_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1894,6 +2027,7 @@
       "id": "bigboi_boxers",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1902,6 +2036,7 @@
       "id": "aiming_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1910,6 +2045,7 @@
       "id": "slingshot_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1918,6 +2054,7 @@
       "id": "steady_hand_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1926,6 +2063,7 @@
       "id": "incendiary_device_handling_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1934,6 +2072,7 @@
       "id": "crown_of_the_sepsis_whore",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1942,6 +2081,7 @@
       "id": "fae_scale_quadruped_crupper_of_the_fleet",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1950,6 +2090,7 @@
       "id": "bracelet",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -1958,6 +2099,7 @@
       "id": "back_claw",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1966,6 +2108,7 @@
       "id": "dodge_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1974,6 +2117,7 @@
       "id": "good_first_impression_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1982,6 +2126,7 @@
       "id": "slice_attack",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1990,6 +2135,7 @@
       "id": "torch_spell",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -1998,6 +2144,7 @@
       "id": "second_chance_spell",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2006,6 +2153,7 @@
       "id": "1914_box",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2014,6 +2162,7 @@
       "id": "1965_harley_davidson_motorcycle",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2022,6 +2171,7 @@
       "id": "adjutant",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -2030,6 +2180,7 @@
       "id": "agent_provocateur_class",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "The mysterious Agent Provocateur prides himself in being invisible\u2026",
       "type": "class"
     },
     {
@@ -2038,6 +2189,7 @@
       "id": "alpha_male_carl",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2046,6 +2198,7 @@
       "id": "arrow_of_enthusiastic_double_gonorrhea",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This is a regular arrow, but the tip is dipped in a poison that will inflict you with Enthusiastic Double Gonorrhea\u2026",
       "type": "item"
     },
     {
@@ -2054,6 +2207,7 @@
       "id": "asojano",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This is a non-corporeal spirit. Also known as the Lord of Smallpox, Asojano is one of the most respected and feared of the Orishas, a former\u2026",
       "type": "character"
     },
     {
@@ -2062,6 +2216,7 @@
       "id": "astral_paw_spell",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2070,6 +2225,7 @@
       "id": "babababoon",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -2078,6 +2234,7 @@
       "id": "bactrian",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -2086,6 +2243,7 @@
       "id": "bang_bro_spell",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Bang Bro Cost: 5 Mana Target: Temporarily Enchant Equipped Item Duration: 5 minutes + 1 minute per level of spell\u2026",
       "type": "skill"
     },
     {
@@ -2094,6 +2252,7 @@
       "id": "bard_s_golden_throat",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Important inventions and discoveries of the 1900\u2019s that changed the world\u2026",
       "type": "item"
     },
     {
@@ -2102,6 +2261,7 @@
       "id": "bear_witness_spell",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2110,6 +2270,7 @@
       "id": "big_boy_blue",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Big Boy Blue \u2013 Level 40 The good ol\u2019 Big Boy Blue is the largest of the jellyfish one might find floating around\u2026",
       "type": "monster"
     },
     {
@@ -2118,6 +2279,7 @@
       "id": "bin",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2126,6 +2288,7 @@
       "id": "bitch_what_spell",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Type: Berserking Spell + partial invulnerability\u2026",
       "type": "skill"
     },
     {
@@ -2134,6 +2297,7 @@
       "id": "black_nimbus",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Affected target will suffer the effects of this spell for (30 + [Caster\u2019s Intelligence+Constitution] \u2013 [Target\u2019s Intelligence/2]) Seconds\u2026",
       "type": "skill"
     },
     {
@@ -2142,6 +2306,7 @@
       "id": "blister_ghoul",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Blister Ghoul \u2013 Level 20 The thing with the Blister Ghoul is that it is so damn tenacious\u2026",
       "type": "monster"
     },
     {
@@ -2150,6 +2315,7 @@
       "id": "blood_sultanate",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -2158,6 +2324,7 @@
       "id": "bomb_upgrade_patch",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This patch is finely made from Spider Reaper Minion thread silk\u2026",
       "type": "item"
     },
     {
@@ -2166,6 +2333,7 @@
       "id": "bonnie",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Little Bonnie only loves two things in this world\u2026",
       "type": "character"
     },
     {
@@ -2174,6 +2342,7 @@
       "id": "book_burner_patch",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This patch depicts a burning book\u2026",
       "type": "item"
     },
     {
@@ -2182,6 +2351,7 @@
       "id": "book_burner_spell",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Once per day, you may cause an opponent your level or lower to forget a spell for a period of 30 hours\u2026",
       "type": "skill"
     },
     {
@@ -2190,6 +2360,7 @@
       "id": "boomer",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2198,6 +2369,7 @@
       "id": "bounty_box",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2206,6 +2378,7 @@
       "id": "bravvo",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2214,6 +2387,7 @@
       "id": "bronze_condom",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2222,6 +2396,7 @@
       "id": "butcher_s_masquerade_spell",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2230,6 +2405,7 @@
       "id": "cave_mudge_bonker",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "In the hierarchy of Cave Mudge society, the Bonker is about as high on the list as a commoner can get\u2026",
       "type": "monster"
     },
     {
@@ -2238,6 +2414,7 @@
       "id": "celestial_grenade",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Celestial Grenade These little balls of fun were developed by the nuns of Enyo during the first enlightenment, back when the gods had to compete for\u2026",
       "type": "item"
     },
     {
@@ -2246,6 +2423,7 @@
       "id": "chaco",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "It\u2019s the dungeon darling, giver-of-prizes, slayer of gods, former Crawler champion, it\u2019s Chaco the Bard!\u2026",
       "type": "character"
     },
     {
@@ -2254,6 +2432,7 @@
       "id": "champion_pack",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Offered only to those who have defeated the keymaster, the champion pack contains the following items: *Backup slot: Allows space for two extra totems to be\u2026",
       "type": "item"
     },
     {
@@ -2262,6 +2441,7 @@
       "id": "children_of_inpewt",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -2270,6 +2450,7 @@
       "id": "circe_took",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2278,6 +2459,7 @@
       "id": "clay",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2286,6 +2468,7 @@
       "id": "cleaner_bot",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2294,6 +2477,7 @@
       "id": "clint_smashgrab",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Light Recon Specialist A long time ago, Clint and his people were of a race called the Chee\u2026",
       "type": "character"
     },
     {
@@ -2302,6 +2486,7 @@
       "id": "cloud_of_exhaust_spell",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2310,6 +2495,7 @@
       "id": "coffee_shop_author_kit",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Alcoholism and crippling self-doubt not included\u2026",
       "type": "item"
     },
     {
@@ -2318,6 +2504,7 @@
       "id": "combo_card",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "You ever mix two completely incompatible foods together to see how they taste?\u2026",
       "type": "item"
     },
     {
@@ -2326,6 +2513,7 @@
       "id": "commandant_kane",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2334,6 +2522,7 @@
       "id": "community_pool",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2342,6 +2531,7 @@
       "id": "concierge_shark",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "These psychos are of the bite-first, ask-questions-later school of underwater diplomacy\u2026",
       "type": "monster"
     },
     {
@@ -2350,6 +2540,7 @@
       "id": "control_sigil",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2358,6 +2549,7 @@
       "id": "cornets",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Well, what did you expect in an opera?\u2026",
       "type": "monster"
     },
     {
@@ -2366,6 +2558,7 @@
       "id": "cosmic_buff_potion",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2374,6 +2567,7 @@
       "id": "crafter_s_box",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2382,6 +2576,7 @@
       "id": "crixus",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2390,6 +2585,7 @@
       "id": "dark_hive",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -2398,6 +2594,7 @@
       "id": "de_sleeving_box",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2406,6 +2603,7 @@
       "id": "death_ray",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2414,6 +2612,7 @@
       "id": "did_you_really_just_cast_fireball_in_a_room_this_small_b",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2422,6 +2621,7 @@
       "id": "dirigible_gnome",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "race"
     },
     {
@@ -2430,6 +2630,7 @@
       "id": "dirty_little_phased_bolt",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "It must be repaired before you may use it\u2026",
       "type": "item"
     },
     {
@@ -2438,6 +2639,7 @@
       "id": "dismemberment_limited",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2446,6 +2648,7 @@
       "id": "diwata",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2454,6 +2657,7 @@
       "id": "donita_grace",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2462,6 +2666,7 @@
       "id": "dr_ratchet_s_guide_to_building_automatons_for_fun_and_pr",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2470,6 +2675,7 @@
       "id": "dragon_chain_tattoo",
       "introducedFloor": 7,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2478,6 +2684,7 @@
       "id": "drakea_s_enchanted_kerchief_of_disorder",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This handy-dandy, versatile garment can be worn around the neck, in the hair, or on your face if you want to cosplay as a cowboy robbing\u2026",
       "type": "item"
     },
     {
@@ -2486,6 +2693,7 @@
       "id": "drek",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "What kind of asshole doesn't love babies?\u2026",
       "type": "monster"
     },
     {
@@ -2494,6 +2702,7 @@
       "id": "dromedarian",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "race"
     },
     {
@@ -2502,6 +2711,7 @@
       "id": "dungeon_anarchist_s_cookbook_item",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2510,6 +2720,7 @@
       "id": "dwarven_battery_fabricator",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2518,6 +2729,7 @@
       "id": "dwarven_industrial_light_duty_automaton_contraption",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "This contraption is in Sleep Mode\u2026",
       "type": "item"
     },
     {
@@ -2526,6 +2738,7 @@
       "id": "earth_upgrade_patch",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This patch depicts the planet Earth, which is currently under the regency of the Borant System\u2026",
       "type": "item"
     },
     {
@@ -2534,6 +2747,7 @@
       "id": "edict",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2542,6 +2756,7 @@
       "id": "eighth_floor",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -2550,6 +2765,7 @@
       "id": "elmer",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "So there are bears, which are the vicious, brutal-yet-somehow-cuddly creatures we all know and love\u2026",
       "type": "character"
     },
     {
@@ -2558,6 +2774,7 @@
       "id": "emberus",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Warning: This is a deity. He is invulnerable on this floor\u2026",
       "type": "character"
     },
     {
@@ -2566,6 +2783,7 @@
       "id": "emberus_tattoos",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2574,6 +2792,7 @@
       "id": "emerald",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2582,6 +2801,7 @@
       "id": "anarchist_s_battle_rattle",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This sleeveless jacket in its current form only offers meager protections compared to some other items of this caliber\u2026",
       "type": "item"
     },
     {
@@ -2590,6 +2810,7 @@
       "id": "auto_buckler_of_the_peach_pit",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2598,6 +2819,7 @@
       "id": "collar_charm_of_the_effete_bourgeoisie",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Enchanted Collar Charm of the Effete Bourgeoisie The middle size of the chains of leadership, this pendant signifies you as a member of the elite\u2026",
       "type": "item"
     },
     {
@@ -2606,6 +2828,7 @@
       "id": "gnome_farseer",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Used to sight long-range targets for their bomb runs, the FarSeerer is credited as one of the key inventions that allowed the Dirigible Gnomes to obtain\u2026",
       "type": "item"
     },
     {
@@ -2614,6 +2837,7 @@
       "id": "hairbrush_of_the_beefmaster",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "This item may only be used on a male with an average hair length of 25 centimeters or longer\u2026",
       "type": "item"
     },
     {
@@ -2622,6 +2846,7 @@
       "id": "handcuffs",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "My safe word is, \u201cHarder, Daddy.\u201d You know what these are\u2026",
       "type": "item"
     },
     {
@@ -2630,6 +2855,7 @@
       "id": "lock_box_of_the_night_wyrm",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Ahh, what\u2019s in the box? What\u2019s in the fucking box? Two of three seals have been broken\u2026",
       "type": "item"
     },
     {
@@ -2638,6 +2864,7 @@
       "id": "mongoliensis_saddle",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Adjusted to fit Cat species. Magically affixes itself to the dreaded Mongoliensis, turning everyone\u2019s favorite murder chicken into a mount\u2026",
       "type": "item"
     },
     {
@@ -2646,6 +2873,7 @@
       "id": "nipple_ring_of_the_superior_fire_demon_s_hand_maiden",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This may only be equipped on a quadruped\u2026",
       "type": "item"
     },
     {
@@ -2654,6 +2882,7 @@
       "id": "obsidian_bracelet_of_the_raggle_rouser",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This item has been upgraded three times\u2026",
       "type": "item"
     },
     {
@@ -2662,6 +2891,7 @@
       "id": "paupers_ring_of_the_steadfast_emberus",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "I'm sure any jewelry that bears his name will be a perfectly fine, normal piece of magical gear\u2026",
       "type": "item"
     },
     {
@@ -2670,6 +2900,7 @@
       "id": "repeating_crossbow_of_the_scavenger_mother_of_mothers",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Warning: You have a dick. Enchanted Repeating Crossbow of the Scavenger Mother of Mothers This is a Unique item\u2026",
       "type": "item"
     },
     {
@@ -2678,6 +2909,7 @@
       "id": "roll_of_never_ending_duct_tape",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Odds are good you know who Ted Bundy is\u2026",
       "type": "item"
     },
     {
@@ -2686,6 +2918,7 @@
       "id": "shade_gnoll_riot_forces_crowd_control_shield",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Sometimes the galaxy isn\u2019t a happy place\u2026",
       "type": "item"
     },
     {
@@ -2694,6 +2927,7 @@
       "id": "shade_gnoll_riot_forces_telescoping_crowd_control_baton",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "This enchanted truncheon is designed to crack skulls and to teach those ungrateful bastards to show some got-damned respect\u2026",
       "type": "item"
     },
     {
@@ -2702,6 +2936,7 @@
       "id": "spiked_knee_pads_of_the_munificent_goddess_kina",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "This is a Unique item. This is a Divine Item\u2026",
       "type": "item"
     },
     {
@@ -2710,6 +2945,7 @@
       "id": "toe_ring_of_the_leprous_bandit",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This is a unique item. Most children in the universe know the exciting tale of the Leprous Bandit, the infamous human thief whose people were starving\u2026",
       "type": "item"
     },
     {
@@ -2718,6 +2954,7 @@
       "id": "toe_ring_of_the_well_balanced",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "This special, dainty, perfectly delightful toe ring (which, by the way, must be equipped on your left pinky toe\u2026",
       "type": "item"
     },
     {
@@ -2726,6 +2963,7 @@
       "id": "venomous_elven_rock_chucker",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "The mounted, fast-attack artillery specialists of the Dream don\u2019t bring siege engines with them when they go raiding\u2026",
       "type": "item"
     },
     {
@@ -2734,6 +2972,7 @@
       "id": "wrestling_belt_of_the_great_gorgo",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "This enchanted belt offers the following benefits: * +5% Strength * +5% Constitution * +The Avalanche Benefit.",
       "type": "item"
     },
     {
@@ -2742,6 +2981,7 @@
       "id": "enemy_of_the_church_tattoo",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2750,6 +2990,7 @@
       "id": "engine_of_tomorrow",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2758,6 +2999,7 @@
       "id": "engineer_s_key",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2766,6 +3008,7 @@
       "id": "epitome_noflex",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2774,6 +3017,7 @@
       "id": "epitome_tagg",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2782,6 +3026,7 @@
       "id": "experience_mob",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -2790,6 +3035,7 @@
       "id": "fang",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2798,6 +3044,7 @@
       "id": "feral_goose",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -2806,6 +3053,7 @@
       "id": "festering_ghoul",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Festering Ghoul \u2013 Level 18 One of the unfortunate side effects of the Rev-Up Amazing Cure-All Vitamin Immunity Shot is the possibility of addiction\u2026",
       "type": "monster"
     },
     {
@@ -2814,6 +3062,7 @@
       "id": "fifth_floor",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -2822,6 +3071,7 @@
       "id": "filthy_little_crawlers_book_of_voodoo",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Warning: You may not trade this item\u2026",
       "type": "item"
     },
     {
@@ -2830,6 +3080,7 @@
       "id": "fireball_spell",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2838,6 +3089,7 @@
       "id": "flamengo",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -2846,6 +3098,7 @@
       "id": "football_hooligan_class",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -2854,6 +3107,7 @@
       "id": "four_leaf_clover_patch",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "This upgrade patch depicts a perfectly-perfect, mouthwatering human foot treading upon a patch of four-leaf clovers, creasing them as it presses down with gentle but oh-so-firm\u2026",
       "type": "item"
     },
     {
@@ -2862,6 +3116,7 @@
       "id": "fourth_floor",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -2870,6 +3125,7 @@
       "id": "funeral_bell",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Funeral Bell \u2013 Level 95 I would apologize in advance for this description, but an apology would imply that I\u2019m sorry\u2026",
       "type": "race"
     },
     {
@@ -2878,6 +3134,7 @@
       "id": "gangway_chock",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2886,6 +3143,7 @@
       "id": "gate_of_the_feral_gods",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "The artifact's three components are described separately by the system\u2026",
       "type": "item"
     },
     {
@@ -2894,6 +3152,7 @@
       "id": "geraldo",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "You sure about that? Level: 70\u2026",
       "type": "character"
     },
     {
@@ -2902,6 +3161,7 @@
       "id": "ghazi",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "As a glass mage who specializes in the study of both transmutation and the teleportation of energized particles, Ghazi told his colleagues at the Larracos College\u2026",
       "type": "character"
     },
     {
@@ -2910,6 +3170,7 @@
       "id": "ghommid",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Part of the Pueblo de los Olvidados Quest description: Have you ever looked through a microscope at a drop of seawater?\u2026",
       "type": "monster"
     },
     {
@@ -2918,6 +3179,7 @@
       "id": "glamoured_fragment",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -2926,6 +3188,7 @@
       "id": "glass_cannon_class",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -2934,6 +3197,7 @@
       "id": "gnomish_drop_bear",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This is one of the Dirigible Gnome\u2019s earliest fast-attack planes\u2026",
       "type": "item"
     },
     {
@@ -2942,6 +3206,7 @@
       "id": "gnomish_knock_knock",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "I wouldn\u2019t be tapping on the thing\u2026",
       "type": "item"
     },
     {
@@ -2950,6 +3215,7 @@
       "id": "gnomish_legate_balloon",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Of all the vehicles left aboard the dreadnaught Wasteland, the Vahana is perhaps the oldest\u2026",
       "type": "item"
     },
     {
@@ -2958,6 +3224,7 @@
       "id": "gods",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -2966,6 +3233,7 @@
       "id": "goiter",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Council member of this settlement. One of the few races who managed to not get fully wiped out by Scolopendra\u2019s nine-tier attack, the bugbears are now\u2026",
       "type": "character"
     },
     {
@@ -2974,6 +3242,7 @@
       "id": "good_mana_potion",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -2982,6 +3251,7 @@
       "id": "gore_gore",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Of all the \u2018taurs out there, from Centaurs to Bisontaurs to Rhinotaurs, the ManTauR is one of the weirdest\u2026",
       "type": "character"
     },
     {
@@ -2990,6 +3260,7 @@
       "id": "graupel",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -2998,6 +3269,7 @@
       "id": "gross_atomizers",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3006,6 +3278,7 @@
       "id": "growler_gary",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3014,6 +3287,7 @@
       "id": "grrl_power_box",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3022,6 +3296,7 @@
       "id": "grull",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3030,6 +3305,7 @@
       "id": "hamed",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3038,6 +3314,7 @@
       "id": "hell_kissed_celestial_skill_potion_of_the_prince_of_woe",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "In case you haven\u2019t figured this out yet, we\u2019re trying to kick things up a notch this year\u2026",
       "type": "item"
     },
     {
@@ -3046,6 +3323,7 @@
       "id": "heyzoos",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "I am the way, motherfucker. Level: 140\u2026",
       "type": "character"
     },
     {
@@ -3054,6 +3332,7 @@
       "id": "hobgoblin_disco_ball",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Effect: It\u2019s a real trip. Status: 25\u2026",
       "type": "item"
     },
     {
@@ -3062,6 +3341,7 @@
       "id": "holger",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3070,6 +3350,7 @@
       "id": "horton",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3078,6 +3359,7 @@
       "id": "houston",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3086,6 +3368,7 @@
       "id": "hunters",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -3094,6 +3377,7 @@
       "id": "hunting_trophy",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "It\u2019s the hand of a hunter\u2026",
       "type": "item"
     },
     {
@@ -3102,6 +3386,7 @@
       "id": "i_take_it_all_back_potion",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3110,6 +3395,7 @@
       "id": "i_m_wet_box",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3118,6 +3404,7 @@
       "id": "imogen",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Queen Imogen - High Elf Cleric Sorceress Level 145 Country Boss This isn't just any high elf\u2026",
       "type": "character"
     },
     {
@@ -3126,6 +3413,7 @@
       "id": "inle",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3134,6 +3422,7 @@
       "id": "instacot_60",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3142,6 +3431,7 @@
       "id": "interdiction_auxillary_railway_repair_cart",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "The simplest of the powered railway carts\u2026",
       "type": "item"
     },
     {
@@ -3150,6 +3440,7 @@
       "id": "interdiction_rapid_response_railway_repair_cart",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "The main workhorse vehicle of the Hobgoblin Interdiction Team\u2026",
       "type": "item"
     },
     {
@@ -3158,6 +3449,7 @@
       "id": "jamal",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3166,6 +3458,7 @@
       "id": "jelly_bomb",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3174,6 +3467,7 @@
       "id": "jellyfish_salve",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "If you can\u2019t talk someone into peeing on you after you get stung by a Pain Amplifier Jelly, then this will do the trick\u2026",
       "type": "item"
     },
     {
@@ -3182,6 +3476,7 @@
       "id": "jikininki_janitor_ghouls",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Of all the types of ghouls one may find in the Iron Tangle Rail System, the Jikininki is the most common, the most well-behaved, and the\u2026",
       "type": "monster"
     },
     {
@@ -3190,6 +3485,7 @@
       "id": "jola",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Beware, beware, little children, beware! Through the flurries and through the cold, Jola comes\u2026",
       "type": "character"
     },
     {
@@ -3198,6 +3494,7 @@
       "id": "juice_box",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3206,6 +3503,7 @@
       "id": "just_wait_until_your_daddy_gets_home",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Also imbues Fear within blast radius\u2026",
       "type": "item"
     },
     {
@@ -3214,6 +3512,7 @@
       "id": "kina",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "[T]he sea goddess Kina, who is really just a weird, horny\u2014and when I say horny, I am using both versions of that term\u2014sea-urchin-like, bottom feeder of\u2026",
       "type": "character"
     },
     {
@@ -3222,6 +3521,7 @@
       "id": "king_croissant",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3230,6 +3530,7 @@
       "id": "kiwi",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "They say an asteroid is what wiped out the dinosaurs on this planet\u2026",
       "type": "character"
     },
     {
@@ -3238,6 +3539,7 @@
       "id": "krakaren_crotch_dumplings",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Once upon a time, on a distant planet, there lived a lonely creature\u2026",
       "type": "monster"
     },
     {
@@ -3246,6 +3548,7 @@
       "id": "kravyad",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3254,6 +3557,7 @@
       "id": "kua_tin_rebreather",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3262,6 +3566,7 @@
       "id": "laundry_day_spell",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -3270,6 +3575,7 @@
       "id": "lazarus_a_bang_bang",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "It\u2019s the calamitous, rapturous, and ultimately hazardous master of the life-death boomerang\u2026",
       "type": "character"
     },
     {
@@ -3278,6 +3584,7 @@
       "id": "left_fang_of_the_green_sultan",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3286,6 +3593,7 @@
       "id": "legba",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3294,6 +3602,7 @@
       "id": "legionnaires_of_the_damned_spell",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Tome of Legionnaires of the Damned\u2026",
       "type": "skill"
     },
     {
@@ -3302,6 +3611,7 @@
       "id": "leon",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "A master politician and stickler for rules, Leon might have been a tax attorney in another life\u2026",
       "type": "character"
     },
     {
@@ -3310,6 +3620,7 @@
       "id": "letter_from_the_council",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3318,6 +3629,7 @@
       "id": "letter_from_the_glass_wizard",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3326,6 +3638,7 @@
       "id": "limp_richard",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Mole men and mole women actually just call themselves \u201cMen\u201d and \u201cWomen,\u201d and quite frankly, it\u2019s exhausting\u2026",
       "type": "character"
     },
     {
@@ -3334,6 +3647,7 @@
       "id": "liquid_therapy",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3342,6 +3656,7 @@
       "id": "literal_fire_ants",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "This is a trap monster. Like regular fire ants, but with more enthusiasm\u2026",
       "type": "monster"
     },
     {
@@ -3350,6 +3665,7 @@
       "id": "live_ammo_ball",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Live ammo balls are a common and versatile ranged weapon of the Dirigible Gnomes\u2026",
       "type": "item"
     },
     {
@@ -3358,6 +3674,7 @@
       "id": "loot_punch_card",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3366,6 +3683,7 @@
       "id": "louis",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3374,6 +3692,7 @@
       "id": "low_thi",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3382,6 +3701,7 @@
       "id": "lucky_bitch_box",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3390,6 +3710,7 @@
       "id": "lunette",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3398,6 +3719,7 @@
       "id": "lusca",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Sharktopus is much cooler sounding than Octo-Shark\u2026",
       "type": "character"
     },
     {
@@ -3406,6 +3728,7 @@
       "id": "madison",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Madison\u2019s real name was probably something like Jennifer or Ruth, but she had it legally changed to something more trendy right around the same time as\u2026",
       "type": "character"
     },
     {
@@ -3414,6 +3737,7 @@
       "id": "makeup_sex_is_the_best_sex_box",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3422,6 +3746,7 @@
       "id": "male_thorny_devil",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "These pokey fuckers are pretty common in desert-themed worlds\u2026",
       "type": "monster"
     },
     {
@@ -3430,6 +3755,7 @@
       "id": "mantaur",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Of Gore-Gore: Of all the \u2018taurs out there, from Centaurs to Bisontaurs to Rhinotaurs, the ManTauR is one of the weirdest\u2026",
       "type": "monster"
     },
     {
@@ -3438,6 +3764,7 @@
       "id": "massage_coupon",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Has work been getting you down?\u2026",
       "type": "item"
     },
     {
@@ -3446,6 +3773,7 @@
       "id": "meatus",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3454,6 +3782,7 @@
       "id": "midnight_epicure_upgrade_patch",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This scary-ass fable is used to terrify children across the universe\u2026",
       "type": "item"
     },
     {
@@ -3462,6 +3791,7 @@
       "id": "monk_seal",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Description of Yago, the Monk Seal Picket Sentry Ahh, the monk seal\u2026",
       "type": "monster"
     },
     {
@@ -3470,6 +3800,7 @@
       "id": "mute_spell",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -3478,6 +3809,7 @@
       "id": "mysterious_bone_key_benefit",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Mysterious Bone Key This benefit may only be used once for obvious reasons\u2026",
       "type": "skill"
     },
     {
@@ -3486,6 +3818,7 @@
       "id": "nadine",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "They're super fuzzy and kinda cute as long as you don't look at their faces\u2026",
       "type": "character"
     },
     {
@@ -3494,6 +3827,7 @@
       "id": "naiad_confederacy",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -3502,6 +3836,7 @@
       "id": "nebular",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -3510,6 +3845,7 @@
       "id": "necklace_of_indelible_woe",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3518,6 +3854,7 @@
       "id": "night_weasel",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This a pet of Hunter Zabit\u2026",
       "type": "monster"
     },
     {
@@ -3526,6 +3863,7 @@
       "id": "night_wyrm_s_nasty_little_web_of_suffering_tattoo",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "Bearers of this sigil are given access to the Guild of Suffering.",
       "type": "item"
     },
     {
@@ -3534,6 +3872,7 @@
       "id": "nightmare_express",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3542,6 +3881,7 @@
       "id": "ninth_floor",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -3550,6 +3890,7 @@
       "id": "octo_shark",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This is a minion of Lusca\u2026",
       "type": "monster"
     },
     {
@@ -3558,6 +3899,7 @@
       "id": "odius_creeper",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3566,6 +3908,7 @@
       "id": "opposite_day_ring",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3574,6 +3917,7 @@
       "id": "orchid_of_eileithyia_s_grace",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "198-199 of the Kindle and print editions, or at 3:30 of Chapter 19 in the audiobook\u2026",
       "type": "item"
     },
     {
@@ -3582,6 +3926,7 @@
       "id": "orren",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3590,6 +3935,7 @@
       "id": "oshun",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3598,6 +3944,7 @@
       "id": "pvp_coupon",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "If you have this coupon in your inventory, and you kill the crawler whose name appears on the backside of this coupon, you will receive the\u2026",
       "type": "item"
     },
     {
@@ -3606,6 +3953,7 @@
       "id": "pain_amplifier_jellyfish",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3614,6 +3962,7 @@
       "id": "peace_upgrade_patch",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This patch depicts a peace symbol\u2026",
       "type": "item"
     },
     {
@@ -3622,6 +3971,7 @@
       "id": "penelope",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Warning: This beast is magically protected by Taranis\u2026",
       "type": "character"
     },
     {
@@ -3630,6 +3980,7 @@
       "id": "penn",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3638,6 +3989,7 @@
       "id": "ping_spell",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Ping Cost: 5 Mana Also known as, \u201cHere piggy, piggy,\u201d or \u201cThe Night Dread,\u201d Ping is a hunting and artillery-aiming tool for those who do not\u2026",
       "type": "skill"
     },
     {
@@ -3646,6 +3998,7 @@
       "id": "platinum_sharpening_stone",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Warning: This item has a short shelf life\u2026",
       "type": "item"
     },
     {
@@ -3654,6 +4007,7 @@
       "id": "player_killer_skull",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -3662,6 +4016,7 @@
       "id": "pollyslog",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Of all the monsters from prehistoric Kua-Tin mythology, the Pollyslogs are some of the most fearsome\u2026",
       "type": "monster"
     },
     {
@@ -3670,6 +4025,7 @@
       "id": "portal",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3678,6 +4034,7 @@
       "id": "potion_of_bloodlust",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "It\u2019s like giving yourself a PCP enema after spending the day riding the Night Train Express\u2026",
       "type": "item"
     },
     {
@@ -3686,6 +4043,7 @@
       "id": "potion_of_half_splat",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3694,6 +4052,7 @@
       "id": "potsy",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "He will be automatically hostile toward you because you worship Emberus\u2026",
       "type": "character"
     },
     {
@@ -3702,6 +4061,7 @@
       "id": "pox_slug",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3710,6 +4070,7 @@
       "id": "precision_card",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3718,6 +4079,7 @@
       "id": "princess_posse",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -3726,6 +4088,7 @@
       "id": "prism_industries_capacitating_and_focusing_goggles",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "This one-of-a-kind item was a gift from Princess D\u2019Nadia of the Prism Kingdom to Princess Donut of the Blood Sultanate\u2026",
       "type": "item"
     },
     {
@@ -3734,6 +4097,7 @@
       "id": "psycho_sticker",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3742,6 +4106,7 @@
       "id": "quetzalcoatlus",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3750,6 +4115,7 @@
       "id": "raul_the_crab",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "The land crabs, masters of the Juego de man\u00ed fighting style, have trained their whole lives for this moment\u2026",
       "type": "character"
     },
     {
@@ -3758,6 +4124,7 @@
       "id": "razor_fox",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3766,6 +4133,7 @@
       "id": "reaper_spider_minion_patch",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This upgrade patch depicts a traveling Reaper Spider Minion merchant\u2026",
       "type": "item"
     },
     {
@@ -3774,6 +4142,7 @@
       "id": "red_beret",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3782,6 +4151,7 @@
       "id": "reef_explorer",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3790,6 +4160,7 @@
       "id": "reminiscence_hydra_of_malicious_compliance",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "441-444 of the Kindle and Paperback editions, or starting at the 9:51min marker of Chapter 46 in the audiobook\u2026",
       "type": "character"
     },
     {
@@ -3798,6 +4169,7 @@
       "id": "rev_up_magic_hair_restoration_tonic",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3806,6 +4178,7 @@
       "id": "rev_up_vitamin_shots",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "At stage one, sufferers are overcome with violent tremors\u2026",
       "type": "item"
     },
     {
@@ -3814,6 +4187,7 @@
       "id": "robot_donut",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3822,6 +4196,7 @@
       "id": "rockard_s_ring_of_sniping",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This amber-stoned ring is named after Rockard, one of the dungeon\u2019s most infamous crawlers\u2026",
       "type": "item"
     },
     {
@@ -3830,6 +4205,7 @@
       "id": "rosetta_thagra",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3838,6 +4214,7 @@
       "id": "ruckus",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3846,6 +4223,7 @@
       "id": "rude_dolph_the_blood_nosed_slay_deer",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This creature is intangible until all the puppets have been killed\u2026",
       "type": "character"
     },
     {
@@ -3854,6 +4232,7 @@
       "id": "run_little_guenter_run_spell",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "This spellbook is a Special Edition\u2026",
       "type": "skill"
     },
     {
@@ -3862,6 +4241,7 @@
       "id": "sappy_gold_ring",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3870,6 +4250,7 @@
       "id": "satchel_bomb",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3878,6 +4259,7 @@
       "id": "scavenger_s_daughter_upgrade_patch",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3886,6 +4268,7 @@
       "id": "scroll_of_build_trench",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "(x5) Boy, I hope you're up on your knowledge of the fighting techniques of the first world war\u2026",
       "type": "item"
     },
     {
@@ -3894,6 +4277,7 @@
       "id": "scroll_of_water_breathing",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Allows you to breathe underwater. Lasts as many seconds as your intelligence stat times three\u2026",
       "type": "item"
     },
     {
@@ -3902,6 +4286,7 @@
       "id": "self_immolation_spell",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Requires to be in Emberus' good graces to cast\u2026",
       "type": "skill"
     },
     {
@@ -3910,6 +4295,7 @@
       "id": "seventh_floor",
       "introducedFloor": 7,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -3918,6 +4304,7 @@
       "id": "shango",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3926,6 +4313,7 @@
       "id": "shattering_train_bomb",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Shattering Train Bomb Type: A steam boiler made with a shocking disregard for safety\u2026",
       "type": "item"
     },
     {
@@ -3934,6 +4322,7 @@
       "id": "sheet_music",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -3942,6 +4331,7 @@
       "id": "sheol_bricks",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "If Santa gives coal to the regular naughty kids, he\u2019d probably give this stuff to history\u2019s greatest villains, like Hans Gruber and the guy who invented\u2026",
       "type": "item"
     },
     {
@@ -3950,6 +4340,7 @@
       "id": "shi_maria",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Yeah, good luck with that. Reaper Spider Minions are regular mobs one may find on the Fifteenth Floor, working as minions of something kinda fucked up\u2026",
       "type": "character"
     },
     {
@@ -3958,6 +4349,7 @@
       "id": "shock_chomper",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -3966,6 +4358,7 @@
       "id": "sierra",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This is a Bereft Minion of Viscount Fog The great, now-deceased hunter of vampires and all thing undead, Viscount Fog had trained his trusty mount, Sierra\u2026",
       "type": "character"
     },
     {
@@ -3974,6 +4367,7 @@
       "id": "silfa",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3982,6 +4376,7 @@
       "id": "simoom",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -3990,6 +4385,7 @@
       "id": "sixth_floor",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -3998,6 +4394,7 @@
       "id": "size_up_potion",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4006,6 +4403,7 @@
       "id": "skewer_belle",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "is a mushroom that, upon touching the top, extrudes a spike and causes skin to boil if it pierces you, The spike only activates if you\u2026",
       "type": "item"
     },
     {
@@ -4014,6 +4412,7 @@
       "id": "skyfowl_upgrade_patch",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "This patch depicts the twelve flaming arrows the great Skyfowl hero Radiant Star shot into his grandfather in order to end the frozen time that plagued\u2026",
       "type": "item"
     },
     {
@@ -4022,6 +4421,7 @@
       "id": "skylar_spinach",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Origin: Cuba Summoning duration: 60 seconds\u2026",
       "type": "character"
     },
     {
@@ -4030,6 +4430,7 @@
       "id": "sluggalo",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "They're like miniature, drunk, and angry Juggalos\u2026",
       "type": "monster"
     },
     {
@@ -4038,6 +4439,7 @@
       "id": "spirit_box",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Lowers spirit resistance, and a random non-corporeal entity from the area is summoned to the location and will attempt to possess you\u2026",
       "type": "skill"
     },
     {
@@ -4046,6 +4448,7 @@
       "id": "spunky_jefferson_the_enchanted_nickel_sock_of_the_elderl",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This weapon has been upgraded twice, this is a sapient weapon, this is an incremental damage weapon\u2026",
       "type": "item"
     },
     {
@@ -4054,6 +4457,7 @@
       "id": "squonk",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This damn thing is so ugly, so miserable that it is in a constant state of depression\u2026",
       "type": "monster"
     },
     {
@@ -4062,6 +4466,7 @@
       "id": "station_mimic",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -4070,6 +4475,7 @@
       "id": "stock_certificate",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "The bearer of this instrument now holds one share of common stock in the Sigmund Textiles Foundry, a publicly-traded company based in the Gun-ya system within\u2026",
       "type": "item"
     },
     {
@@ -4078,6 +4484,7 @@
       "id": "stuffed_grulke_infantry_figure",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "(With tags) This is the most common variation of the Grulke line of collectible figures\u2026",
       "type": "item"
     },
     {
@@ -4086,6 +4493,7 @@
       "id": "stuffed_slate_butterfly_figure",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "(With tags.) The slate butterfly is one of the more common figures in Jaxbrin\u2019s newest lineup\u2026",
       "type": "item"
     },
     {
@@ -4094,6 +4502,7 @@
       "id": "svern",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "Have you ever visited the home of an elderly widow and seen her collection of miniature spoons?\u2026",
       "type": "character"
     },
     {
@@ -4102,6 +4511,7 @@
       "id": "swordfish_interlopers",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -4110,6 +4520,7 @@
       "id": "t_ghee_card",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4118,6 +4529,7 @@
       "id": "team_retribution",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "faction"
     },
     {
@@ -4126,6 +4538,7 @@
       "id": "that_wasn_t_too_smart_was_it_box",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4134,6 +4547,7 @@
       "id": "tipid",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -4142,6 +4556,7 @@
       "id": "tom",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Did you know that turkeys naturally have brown feathers, but the ones you see here in this farm are all white?\u2026",
       "type": "character"
     },
     {
@@ -4150,6 +4565,7 @@
       "id": "torn_book_page",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "This piece of paper was mercilessly ripped from a perfectly innocent book\u2026",
       "type": "item"
     },
     {
@@ -4158,6 +4574,7 @@
       "id": "tracked_all_terrain_suicide_machine_the_royal_chariot",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "If a snowmobile got drunk on moonshine and had a sweaty, ill-advised night with a hillbilly\u2019s coon-hunting ATV, this oversized birth defect of a vehicle would\u2026",
       "type": "item"
     },
     {
@@ -4166,6 +4583,7 @@
       "id": "train_conductor_s_souvenir_hat",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4174,6 +4592,7 @@
       "id": "turkey",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Roast at 325 for about 13-15 minutes per pound\u2026",
       "type": "monster"
     },
     {
@@ -4182,6 +4601,7 @@
       "id": "twinkle_toes",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -4190,6 +4610,7 @@
       "id": "ugly_ass_backpack_with_a_completely_useless_design_that_",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4198,6 +4619,7 @@
       "id": "uncle_morty_s_insta_lawn_kill_and_undead_repellant_extra",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4206,6 +4628,7 @@
       "id": "untangling_the_iron_tangle",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "location"
     },
     {
@@ -4214,6 +4637,7 @@
       "id": "unwashed",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -4222,6 +4646,7 @@
       "id": "ursensus",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "I just love it when I\u2019m allowed to create new monsters within the confines of the game rules\u2026",
       "type": "race"
     },
     {
@@ -4230,6 +4655,7 @@
       "id": "velma_the_flamethrower",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4238,6 +4664,7 @@
       "id": "veriluxx_realpet_dungeon_crawl_special_edition_exclusive",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "The ultimate play toy, Veriluxx RealPet Companions are budget-friendly, nearly indestructible collectibles that will give your child hours and hours of fun\u2026",
       "type": "item"
     },
     {
@@ -4246,6 +4673,7 @@
       "id": "viper_queen_class",
       "introducedFloor": 7,
       "notes": null,
+      "systemQuote": "",
       "type": "class"
     },
     {
@@ -4254,6 +4682,7 @@
       "id": "visitor",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "This is one of the rare urban legend cryptids that actually existed, believe it or not\u2026",
       "type": "monster"
     },
     {
@@ -4262,6 +4691,7 @@
       "id": "vocal_coach_training_room",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4270,6 +4700,7 @@
       "id": "wall_monitor",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -4278,6 +4709,7 @@
       "id": "wall_of_fire_spell",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -4286,6 +4718,7 @@
       "id": "wand_of_nighty_night",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Knocks an opponent out onto their ass\u2026",
       "type": "item"
     },
     {
@@ -4294,6 +4727,7 @@
       "id": "war_crimes_spell",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "As this spell is unable to be properly trained, it will start at level 5, and it will increase by 5 each time it is cast\u2026",
       "type": "skill"
     },
     {
@@ -4302,6 +4736,7 @@
       "id": "warrior_s_gold_helmet_of_resistance",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4310,6 +4745,7 @@
       "id": "widget",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "Not all gremlins are bad or evil\u2026",
       "type": "character"
     },
     {
@@ -4318,6 +4754,7 @@
       "id": "wrath_ghouls",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     },
     {
@@ -4326,6 +4763,7 @@
       "id": "wynne",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "The Dirigible Gnomes were once a peaceful race\u2026",
       "type": "character"
     },
     {
@@ -4334,6 +4772,7 @@
       "id": "yago",
       "introducedFloor": 8,
       "notes": null,
+      "systemQuote": "Before becoming a card: Ahh, the monk seal\u2026",
       "type": "character"
     },
     {
@@ -4342,6 +4781,7 @@
       "id": "you_re_not_done_yet_spell",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "As part of the description for Levi the 7th: Of all the War Mage spells soldiers encounter during the brutal, mass combat that will occur on\u2026",
       "type": "skill"
     },
     {
@@ -4350,6 +4790,7 @@
       "id": "ysalte",
       "introducedFloor": 5,
       "notes": null,
+      "systemQuote": "",
       "type": "character"
     },
     {
@@ -4358,6 +4799,7 @@
       "id": "zerzura_spell",
       "introducedFloor": 6,
       "notes": null,
+      "systemQuote": "",
       "type": "skill"
     },
     {
@@ -4366,6 +4808,7 @@
       "id": "zhang_s_cape_of_odds",
       "introducedFloor": 9,
       "notes": null,
+      "systemQuote": "",
       "type": "item"
     },
     {
@@ -4374,6 +4817,7 @@
       "id": "zlurpies",
       "introducedFloor": 4,
       "notes": null,
+      "systemQuote": "",
       "type": "monster"
     }
   ],

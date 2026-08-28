@@ -35,3 +35,14 @@ it('the header states the book range the corpus actually reaches', () => {
   expect(lastBook(3)).toBe(2);
   expect(lastBook(2)).toBe(1);
 });
+
+it('keeps every System quote inside the excerpt cap', () => {
+  // Bounded quotation is the whole basis on which these are included at all.
+  // The cap is a commitment, so it is enforced rather than trusted.
+  const CAP = 26;
+  const tooLong = raw.entities
+    .filter((e) => e.systemQuote)
+    .filter((e) => e.systemQuote!.split(/\s+/).length > CAP)
+    .map((e) => `${e.canonicalName} (${e.systemQuote!.split(/\s+/).length} words)`);
+  expect(tooLong).toEqual([]);
+});

@@ -356,6 +356,39 @@ body {
   line-height: 1.5;
 }
 
+/* The System's own words, quoted and attributed. Bounded excerpts: see
+   pipeline/scripts/extract_system_quotes.py and docs/LIMITATIONS.md. */
+.sysquote {
+  margin: 0.8rem 0 0;
+  padding: 0.6rem 0.7rem;
+  background: var(--rack);
+  color: var(--rack-ink);
+}
+
+.sysquote blockquote {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.79rem;
+  line-height: 1.5;
+}
+
+.sysquote blockquote::before {
+  content: '\201C';
+}
+
+.sysquote blockquote::after {
+  content: '\201D';
+}
+
+.sysquote figcaption {
+  margin-top: 0.4rem;
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rack-muted);
+}
+
 .card__section {
   margin-top: 1rem;
   padding-top: 0.7rem;

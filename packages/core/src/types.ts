@@ -64,6 +64,8 @@ export interface Entity {
   introducedFloor: number;
   /** What the thing is, in prose. Spoiler blocks are stripped at compile. */
   description: string | null;
+  /** A short excerpt of the System's own description, quoted and attributed. */
+  systemQuote: string | null;
   notes: string | null;
 }
 

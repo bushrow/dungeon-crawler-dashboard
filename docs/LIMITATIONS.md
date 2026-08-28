@@ -101,6 +101,17 @@ the editor who wrote it: prose written from a whole-series vantage point can
 mention a later development without wrapping it in a spoiler template. The
 markup catches what was marked, not what was not.
 
+## System quotes are excerpts, not the entry
+
+167 entities carry one. Each is the first sentence or two of the System's
+description, cut at 26 words, so most end mid-thought on an ellipsis. They are
+there to give the voice, not to reproduce the entry, and the link on each record
+goes to the page holding the rest.
+
+Extraction walks past the stat block that opens these entries, and skips wiki
+editorial notes, so a line about the entry is never quoted as though the System
+said it. Both are heuristics, and an odd one will slip through.
+
 ## Search covers names, not prose
 
 Search matches entity names and revealed aliases. It does not search the text of

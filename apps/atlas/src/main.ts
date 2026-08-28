@@ -208,6 +208,14 @@ function renderCard(h: Horizon): void {
       </div>
       ${entity.description ? `<p class="card__desc">${entity.description}</p>` : ''}
       ${
+        entity.systemQuote
+          ? `<figure class="sysquote">
+               <blockquote>${entity.systemQuote}</blockquote>
+               <figcaption>The System</figcaption>
+             </figure>`
+          : ''
+      }
+      ${
         // Rendered only when a status row is actually visible. No row means
         // nothing is drawn at all, because an "unknown" badge would say that
         // something about this character is being withheld.

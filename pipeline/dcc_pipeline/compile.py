@@ -30,6 +30,7 @@ RENAMES = {
     "ended_event_floor": "endedEventFloor",
     "ended_reveal_floor": "endedRevealFloor",
     "cost_type": "costType",
+    "system_quote": "systemQuote",
     "held_id": "heldId",
     "cost_value": "costValue",
     "effect_category": "effectCategory",
@@ -66,6 +67,7 @@ NULLABLE = {
     "slot",
     "level",
     "description",
+    "system_quote",
 }
 
 

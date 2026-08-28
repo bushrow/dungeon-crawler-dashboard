@@ -187,7 +187,9 @@ Leakage tests run against `packages/core`, so both apps inherit them.
 ## 7. IP and posture
 
 - Narrative annotations sourced from your own reading notes and the community wiki. No book text in the repo, including in `data/raw/`.
-- Published fields are structured facts, paraphrase, and numbers. **No System notification or achievement text, verbatim, anywhere.** The humor lives in the exact wording, which is precisely why it stays out.
+- Published fields are structured facts, paraphrase, and numbers. ~~**No System notification or achievement text, verbatim, anywhere.** The humor lives in the exact wording, which is precisely why it stays out.~~
+
+  **Amended.** Bounded quotation is now allowed: one or two sentences of the System's own description per entity, hard-capped at 26 words, attributed on screen and linked to its source. Full notification and achievement text still stays out. The reasoning is in `docs/superpowers/specs/2026-08-22-dcc-dashboard-design.md`; the cap is enforced by a test.
 - Label as an unofficial fan project prominently, with a link to the books.
 - Recommend this repo be public. Your other two projects list source as private, which leaves an external reader nothing to evaluate your standards by — and this is the one with a test suite worth showing.
 
