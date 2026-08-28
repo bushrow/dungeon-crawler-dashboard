@@ -11,16 +11,16 @@ excluded from headline numbers and counted separately in the Ledger.
 
 | Table | Rows |
 |---|---:|
-| entities | 147 |
+| entities | 444 |
 | aliases | 14 |
-| facts | 163 |
-| status | 20 |
+| facts | 473 |
+| status | 21 |
 | edges | 53 |
 | mechanics | 66 |
 | holdings | 50 |
-| stats | 4 |
+| stats | 17 |
 
-Of 336 rows carrying a confidence: **282** certain, **44** probable, **10** inferred.
+Of 659 rows carrying a confidence: **592** certain, **57** probable, **10** inferred.
 
 ## Priced records
 
@@ -263,6 +263,316 @@ an estimate with no rubric behind it.
 | Fear Spell | costs 3 mana | 3 | — | certain | [Fear Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fear_Spell) |
 | Primal | has advantage All higher-tier skills are unlocked and can train to level 20, Abilities associated with the base race | 3 | — | certain | [Primal](https://dungeon-crawler-carl.fandom.com/wiki/Primal) |
 | Primal | has weakness -1 to all base stats | 3 | — | certain | [Primal](https://dungeon-crawler-carl.fandom.com/wiki/Primal) |
+| 1965 Harley Davidson Motorcycle | comes from Earth | 4 | — | certain | [1965 Harley Davidson Motorcycle](https://dungeon-crawler-carl.fandom.com/wiki/1965_Harley_Davidson_Motorcycle) |
+| Babababoon | has weakness Suffering from the DTs | 4 | — | certain | [Babababoon](https://dungeon-crawler-carl.fandom.com/wiki/Babababoon) |
+| Bang Bro Spell | does Adds both fire and electrical damage to any currently-equipped item., May inflict Burn and Shock on targets | 4 | — | certain | [Bang Bro Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bang_Bro_Spell) |
+| Bang Bro Spell | targets Temporarily Enchant Equipped Item | 4 | — | certain | [Bang Bro Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bang_Bro_Spell) |
+| Bang Bro Spell | lasts 5 minutes + 1 minute per level of spell. | 4 | — | certain | [Bang Bro Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bang_Bro_Spell) |
+| Bang Bro Spell | costs 5 mp | 4 | — | certain | [Bang Bro Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bang_Bro_Spell) |
+| Bang Bro Spell | is associated with Tome from Bronze Boss Box | 4 | — | certain | [Bang Bro Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bang_Bro_Spell) |
+| Bin | works as Producer for Planet Beautiful | 4 | — | certain | [Bin](https://dungeon-crawler-carl.fandom.com/wiki/Bin) |
+| Bounty Box | comes from Claim a Crawler's Bounty | 4 | — | certain | [Bounty Box](https://dungeon-crawler-carl.fandom.com/wiki/Bounty_Box) |
+| Chaco | works as Host of The Prize Carousel Prize counter attendant Faction Wars field correspondent | 4 | — | certain | [Chaco](https://dungeon-crawler-carl.fandom.com/wiki/Chaco) |
+| Cleaner Bot | does Cleans Personal Space | 4 | — | certain | [Cleaner Bot](https://dungeon-crawler-carl.fandom.com/wiki/Cleaner_Bot) |
+| Cleaner Bot | comes from Bopca | 4 | — | certain | [Cleaner Bot](https://dungeon-crawler-carl.fandom.com/wiki/Cleaner_Bot) |
+| Control Sigil | does Creates gated effect that prevents certain types of individuals from passing | 4 | — | certain | [Control Sigil](https://dungeon-crawler-carl.fandom.com/wiki/Control_Sigil) |
+| Cornets | has advantage Aural Attack that imbues Queasy Debuff | 4 | — | certain | [Cornets](https://dungeon-crawler-carl.fandom.com/wiki/Cornets) |
+| Crafter's Box | comes from Martha Stewart Achievement | 4 | — | certain | [Crafter's Box](https://dungeon-crawler-carl.fandom.com/wiki/Crafter's_Box) |
+| Dirty Little Phased Bolt | does Reduce Health to 10% (or 1% if second bolt), Temporary Amnesia, Bleed Effect, You do not receive credit for kill | 4 | — | certain | [Dirty Little Phased Bolt](https://dungeon-crawler-carl.fandom.com/wiki/Dirty_Little_Phased_Bolt) |
+| Dismemberment Limited | does Contains War Mage | 4 | — | certain | [Dismemberment Limited](https://dungeon-crawler-carl.fandom.com/wiki/Dismemberment_Limited) |
+| Dismemberment Limited | comes from Fourth Floor | 4 | — | certain | [Dismemberment Limited](https://dungeon-crawler-carl.fandom.com/wiki/Dismemberment_Limited) |
+| Donita Grace | comes from Earth | 4 | — | certain | [Donita Grace](https://dungeon-crawler-carl.fandom.com/wiki/Donita_Grace) |
+| Dungeon Anarchist's Cookbook (Item) | does Scratchpad + 1 Page | 4 | — | certain | [Dungeon Anarchist's Cookbook (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon_Anarchist's_Cookbook_(Item)) |
+| Dungeon Anarchist's Cookbook (Item) | comes from The Prize Carousel | 4 | — | certain | [Dungeon Anarchist's Cookbook (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon_Anarchist's_Cookbook_(Item)) |
+| Dwarven Battery Fabricator | does Produces and Charges Batteries | 4 | — | certain | [Dwarven Battery Fabricator](https://dungeon-crawler-carl.fandom.com/wiki/Dwarven_Battery_Fabricator) |
+| Dwarven Battery Fabricator | comes from Limp Richard's General Store | 4 | — | certain | [Dwarven Battery Fabricator](https://dungeon-crawler-carl.fandom.com/wiki/Dwarven_Battery_Fabricator) |
+| Enchanted Auto Buckler of the Peach Pit | does Shatter Spell | 4 | — | certain | [Enchanted Auto Buckler of the Peach Pit](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Auto_Buckler_of_the_Peach_Pit) |
+| Enchanted Auto Buckler of the Peach Pit | comes from Loot Box | 4 | — | certain | [Enchanted Auto Buckler of the Peach Pit](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Auto_Buckler_of_the_Peach_Pit) |
+| Enchanted Mongoliensis Saddle | does Allows Donut to ride Mongo | 4 | — | certain | [Enchanted Mongoliensis Saddle](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Mongoliensis_Saddle) |
+| Enchanted Mongoliensis Saddle | comes from Platinum Fan Box | 4 | — | certain | [Enchanted Mongoliensis Saddle](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Mongoliensis_Saddle) |
+| Enchanted Repeating Crossbow of the Scavenger Mother of Mothers | does Repeating Crossbow | 4 | — | certain | [Enchanted Repeating Crossbow of the Scavenger Mother of Mothers](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Repeating_Crossbow_of_the_Scavenger_Mother_of_Mothers) |
+| Enchanted Repeating Crossbow of the Scavenger Mother of Mothers | comes from Legendary Grrl Power Box | 4 | — | certain | [Enchanted Repeating Crossbow of the Scavenger Mother of Mothers](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Repeating_Crossbow_of_the_Scavenger_Mother_of_Mothers) |
+| Enchanted Shade Gnoll Riot Forces Crowd Control Shield | does +5% to Constitution., +5 to the Rooted in Place Skill, +Upgrades Rush Skill to Crowd Blast Skill. | 4 | — | certain | [Enchanted Shade Gnoll Riot Forces Crowd Control Shield](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Shade_Gnoll_Riot_Forces_Crowd_Control_Shield) |
+| Enchanted Shade Gnoll Riot Forces Crowd Control Shield | comes from Fan Box | 4 | — | certain | [Enchanted Shade Gnoll Riot Forces Crowd Control Shield](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Shade_Gnoll_Riot_Forces_Crowd_Control_Shield) |
+| Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton | does Casts level 5 Cone of Knockback | 4 | — | certain | [Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Shade_Gnoll_Riot_Forces_Telescoping_Crowd_Control_Baton) |
+| Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton | comes from Fan Box | 4 | — | certain | [Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Shade_Gnoll_Riot_Forces_Telescoping_Crowd_Control_Baton) |
+| Enchanted Wrestling Belt of the Great Gorgo | does +5% Strength, +5% Constitution, The Avalanche Benefit | 4 | — | certain | [Enchanted Wrestling Belt of the Great Gorgo](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Wrestling_Belt_of_the_Great_Gorgo) |
+| Enchanted Wrestling Belt of the Great Gorgo | comes from Platinum Slam Master Box | 4 | — | certain | [Enchanted Wrestling Belt of the Great Gorgo](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Wrestling_Belt_of_the_Great_Gorgo) |
+| Engineer's Key | does Allows entrance to engineer's car on the Iron Tangle | 4 | — | certain | [Engineer's Key](https://dungeon-crawler-carl.fandom.com/wiki/Engineer's_Key) |
+| Engineer's Key | comes from Engineers | 4 | — | certain | [Engineer's Key](https://dungeon-crawler-carl.fandom.com/wiki/Engineer's_Key) |
+| Festering Ghoul | has weakness Suffering from the DTs | 4 | — | certain | [Festering Ghoul](https://dungeon-crawler-carl.fandom.com/wiki/Festering_Ghoul) |
+| Fourth Floor | lasts 10 Days | 4 | — | certain | [Fourth Floor](https://dungeon-crawler-carl.fandom.com/wiki/Fourth_Floor) |
+| Gangway Chock | does Block mobs from entering subway cars on the Iron Tangle | 4 | — | certain | [Gangway Chock](https://dungeon-crawler-carl.fandom.com/wiki/Gangway_Chock) |
+| Gangway Chock | comes from Engineer's Table | 4 | — | certain | [Gangway Chock](https://dungeon-crawler-carl.fandom.com/wiki/Gangway_Chock) |
+| Gods | has advantage Grant worshippers unique spells, stat boosts, and floor boons | 4 | — | certain | [Gods](https://dungeon-crawler-carl.fandom.com/wiki/Gods) |
+| Gods | has weakness Can inflict devastating Smites and permanent debuffs | 4 | — | certain | [Gods](https://dungeon-crawler-carl.fandom.com/wiki/Gods) |
+| Gore-Gore | works as Ochre Line Train Engineer | 4 | — | certain | [Gore-Gore](https://dungeon-crawler-carl.fandom.com/wiki/Gore-Gore) |
+| Gore-Gore | comes from Dungeon | 4 | — | certain | [Gore-Gore](https://dungeon-crawler-carl.fandom.com/wiki/Gore-Gore) |
+| Gross Atomizers | has advantage Poison area of effect attack | 4 | — | certain | [Gross Atomizers](https://dungeon-crawler-carl.fandom.com/wiki/Gross_Atomizers) |
+| Gross Atomizers | has weakness Easy to kill | 4 | — | certain | [Gross Atomizers](https://dungeon-crawler-carl.fandom.com/wiki/Gross_Atomizers) |
+| Growler Gary | works as Bartender for The Downward Dog | 4 | — | certain | [Growler Gary](https://dungeon-crawler-carl.fandom.com/wiki/Growler_Gary) |
+| Growler Gary | comes from Dungeon | 4 | — | certain | [Growler Gary](https://dungeon-crawler-carl.fandom.com/wiki/Growler_Gary) |
+| Grrl Power Box | comes from Killing a mob using a human male corpse | 4 | — | certain | [Grrl Power Box](https://dungeon-crawler-carl.fandom.com/wiki/Grrl_Power_Box) |
+| Grull | works as God of War | 4 | — | certain | [Grull](https://dungeon-crawler-carl.fandom.com/wiki/Grull) |
+| Grull | comes from Celestial Ascendency | 4 | — | certain | [Grull](https://dungeon-crawler-carl.fandom.com/wiki/Grull) |
+| Interdiction Auxillary Railway Repair Cart | comes from Station 75 on the Iron Tangle | 4 | — | certain | [Interdiction Auxillary Railway Repair Cart](https://dungeon-crawler-carl.fandom.com/wiki/Interdiction_Auxillary_Railway_Repair_Cart) |
+| Interdiction Rapid-Response Railway Repair Cart | comes from Station 75 on the Iron Tangle | 4 | — | certain | [Interdiction Rapid-Response Railway Repair Cart](https://dungeon-crawler-carl.fandom.com/wiki/Interdiction_Rapid-Response_Railway_Repair_Cart) |
+| Jelly Bomb | does Derails a train on the Iron Tangle | 4 | — | certain | [Jelly Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Jelly_Bomb) |
+| Jelly Bomb | comes from Sapper's Table | 4 | — | certain | [Jelly Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Jelly_Bomb) |
+| Left Fang of the Green Sultan | comes from Eva | 4 | — | certain | [Left Fang of the Green Sultan](https://dungeon-crawler-carl.fandom.com/wiki/Left_Fang_of_the_Green_Sultan) |
+| Limp Richard | works as Proprietor of the general store “Limp Richard’s Sundries.” | 4 | — | certain | [Limp Richard](https://dungeon-crawler-carl.fandom.com/wiki/Limp_Richard) |
+| Literal Fire Ants | has advantage On Fire | 4 | — | certain | [Literal Fire Ants](https://dungeon-crawler-carl.fandom.com/wiki/Literal_Fire_Ants) |
+| Madison | works as Human Resources Associate | 4 | — | certain | [Madison](https://dungeon-crawler-carl.fandom.com/wiki/Madison) |
+| Madison | comes from Dungeon | 4 | — | certain | [Madison](https://dungeon-crawler-carl.fandom.com/wiki/Madison) |
+| Nightmare Express | comes from Fourth Floor | 4 | — | certain | [Nightmare Express](https://dungeon-crawler-carl.fandom.com/wiki/Nightmare_Express) |
+| PVP Coupon | does Rewards crawlers for killing Party members | 4 | — | certain | [PVP Coupon](https://dungeon-crawler-carl.fandom.com/wiki/PVP_Coupon) |
+| PVP Coupon | comes from Player Killer Skull | 4 | — | certain | [PVP Coupon](https://dungeon-crawler-carl.fandom.com/wiki/PVP_Coupon) |
+| Pollyslog | has advantage Secrete acid from fingers | 4 | — | certain | [Pollyslog](https://dungeon-crawler-carl.fandom.com/wiki/Pollyslog) |
+| Portal | does Teleport from one location to another | 4 | — | certain | [Portal](https://dungeon-crawler-carl.fandom.com/wiki/Portal) |
+| Prism Industries Capacitating and Focusing Goggles | comes from Benefactor Box | 4 | — | certain | [Prism Industries Capacitating and Focusing Goggles](https://dungeon-crawler-carl.fandom.com/wiki/Prism_Industries_Capacitating_and_Focusing_Goggles) |
+| Rev-Up Magic Hair Restoration Tonic | does Stimulates hair growth | 4 | — | certain | [Rev-Up Magic Hair Restoration Tonic](https://dungeon-crawler-carl.fandom.com/wiki/Rev-Up_Magic_Hair_Restoration_Tonic) |
+| Rev-Up Magic Hair Restoration Tonic | comes from Gore-Gore's Corpse | 4 | — | certain | [Rev-Up Magic Hair Restoration Tonic](https://dungeon-crawler-carl.fandom.com/wiki/Rev-Up_Magic_Hair_Restoration_Tonic) |
+| Rev-Up Vitamin Shots | does Induces a powerful, sedative high. Missing a dose causes severe withdrawal (the DTs), physical mutation, and death or zombification. | 4 | — | certain | [Rev-Up Vitamin Shots](https://dungeon-crawler-carl.fandom.com/wiki/Rev-Up_Vitamin_Shots) |
+| Rev-Up Vitamin Shots | comes from Krakaren (Manufacturer) / Pookas (Distributors) | 4 | — | certain | [Rev-Up Vitamin Shots](https://dungeon-crawler-carl.fandom.com/wiki/Rev-Up_Vitamin_Shots) |
+| Rosetta Thagra | works as Journalist / Show Host Filmmaker Host of Shadow Boxer Former Game Guide Former Desperado Club merchant | 4 | — | certain | [Rosetta Thagra](https://dungeon-crawler-carl.fandom.com/wiki/Rosetta_Thagra) |
+| Shattering Train Bomb | does BOOM! | 4 | — | certain | [Shattering Train Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Shattering_Train_Bomb) |
+| Shattering Train Bomb | comes from Nightmare Express (Fourth Floor | 4 | — | certain | [Shattering Train Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Shattering_Train_Bomb) |
+| Sheol Bricks | does coal, but better | 4 | — | certain | [Sheol Bricks](https://dungeon-crawler-carl.fandom.com/wiki/Sheol_Bricks) |
+| Sheol Bricks | comes from Lesser Demon MILF, Fifteenth Floor | 4 | — | certain | [Sheol Bricks](https://dungeon-crawler-carl.fandom.com/wiki/Sheol_Bricks) |
+| Shock Chomper | has advantage Electrical Attack | 4 | — | certain | [Shock Chomper](https://dungeon-crawler-carl.fandom.com/wiki/Shock_Chomper) |
+| Shock Chomper | has weakness Attack can be canceled by hitting them | 4 | — | certain | [Shock Chomper](https://dungeon-crawler-carl.fandom.com/wiki/Shock_Chomper) |
+| Silfa | works as Baker | 4 | — | certain | [Silfa](https://dungeon-crawler-carl.fandom.com/wiki/Silfa) |
+| Station Mimic | works as City Boss | 4 | — | certain | [Station Mimic](https://dungeon-crawler-carl.fandom.com/wiki/Station_Mimic) |
+| Station Mimic | comes from Dungeon | 4 | — | certain | [Station Mimic](https://dungeon-crawler-carl.fandom.com/wiki/Station_Mimic) |
+| Stuffed Grulke Infantry Figure | does Summons Grulke to location for limited period of time | 4 | — | certain | [Stuffed Grulke Infantry Figure](https://dungeon-crawler-carl.fandom.com/wiki/Stuffed_Grulke_Infantry_Figure) |
+| Stuffed Grulke Infantry Figure | comes from Miss Quill's apartment | 4 | — | certain | [Stuffed Grulke Infantry Figure](https://dungeon-crawler-carl.fandom.com/wiki/Stuffed_Grulke_Infantry_Figure) |
+| Train Conductor's Souvenir Hat | comes from I'm on a train Achievement | 4 | — | certain | [Train Conductor's Souvenir Hat](https://dungeon-crawler-carl.fandom.com/wiki/Train_Conductor's_Souvenir_Hat) |
+| Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear | does Variable additional mass | 4 | — | certain | [Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear](https://dungeon-crawler-carl.fandom.com/wiki/Ugly_Ass_Backpack_With_a_Completely_Useless_Design_that_Only_an_Idiot_Would_Wear) |
+| Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear | comes from Carl Armorer's Workshop | 4 | — | certain | [Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear](https://dungeon-crawler-carl.fandom.com/wiki/Ugly_Ass_Backpack_With_a_Completely_Useless_Design_that_Only_an_Idiot_Would_Wear) |
+| Widget | works as Iron Tangle Steam Engine Train Technician | 4 | — | certain | [Widget](https://dungeon-crawler-carl.fandom.com/wiki/Widget) |
+| Widget | comes from Dungeon | 4 | — | certain | [Widget](https://dungeon-crawler-carl.fandom.com/wiki/Widget) |
+| Wrath Ghouls | has weakness Suffering from the DTs | 4 | — | certain | [Wrath Ghouls](https://dungeon-crawler-carl.fandom.com/wiki/Wrath_Ghouls) |
+| Bonnie | works as Door Gunner ( Party Planner airship) | 5 | — | certain | [Bonnie](https://dungeon-crawler-carl.fandom.com/wiki/Bonnie) |
+| Bonnie | comes from The Dungeon (Fifth Floor, Air Quadrant) | 5 | — | certain | [Bonnie](https://dungeon-crawler-carl.fandom.com/wiki/Bonnie) |
+| Celestial Grenade | does Summons a god for 1 minute, If you worship the god, you receive Divine Intervention | 5 | — | certain | [Celestial Grenade](https://dungeon-crawler-carl.fandom.com/wiki/Celestial_Grenade) |
+| Cloud of Exhaust Spell | is associated with Pest Exterminator Class | 5 | — | certain | [Cloud of Exhaust Spell](https://dungeon-crawler-carl.fandom.com/wiki/Cloud_of_Exhaust_Spell) |
+| Coffee Shop Author Kit | does Scratchpad +1 Page | 5 | — | certain | [Coffee Shop Author Kit](https://dungeon-crawler-carl.fandom.com/wiki/Coffee_Shop_Author_Kit) |
+| Coffee Shop Author Kit | comes from Gold Makeup Sex is the Best Sex Box | 5 | — | certain | [Coffee Shop Author Kit](https://dungeon-crawler-carl.fandom.com/wiki/Coffee_Shop_Author_Kit) |
+| Crixus | works as Sniper Captain | 5 | — | certain | [Crixus](https://dungeon-crawler-carl.fandom.com/wiki/Crixus) |
+| Drakea's Enchanted Kerchief of Disorder | does +5 Detect Trap Skill, Tripper Spell, Level 15, Remote Detonator Benefit | 5 | — | certain | [Drakea's Enchanted Kerchief of Disorder](https://dungeon-crawler-carl.fandom.com/wiki/Drakea's_Enchanted_Kerchief_of_Disorder) |
+| Drakea's Enchanted Kerchief of Disorder | comes from Gold Boss Box | 5 | — | certain | [Drakea's Enchanted Kerchief of Disorder](https://dungeon-crawler-carl.fandom.com/wiki/Drakea's_Enchanted_Kerchief_of_Disorder) |
+| Earth Upgrade Patch | does +5% to Strength, Immunity from cloud-based attacks | 5 | — | certain | [Earth Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Earth_Upgrade_Patch) |
+| Earth Upgrade Patch | comes from Platinum Spicy Box | 5 | — | certain | [Earth Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Earth_Upgrade_Patch) |
+| Emberus | works as God | 5 | — | certain | [Emberus](https://dungeon-crawler-carl.fandom.com/wiki/Emberus) |
+| Emberus | comes from Celestial Ascendency | 5 | — | certain | [Emberus](https://dungeon-crawler-carl.fandom.com/wiki/Emberus) |
+| Emberus Tattoos | does Marks as worshipper of Emberus | 5 | — | certain | [Emberus Tattoos](https://dungeon-crawler-carl.fandom.com/wiki/Emberus_Tattoos) |
+| Emberus Tattoos | comes from Emberus | 5 | — | certain | [Emberus Tattoos](https://dungeon-crawler-carl.fandom.com/wiki/Emberus_Tattoos) |
+| Emerald | comes from The World Dungeon (NPC) | 5 | — | certain | [Emerald](https://dungeon-crawler-carl.fandom.com/wiki/Emerald) |
+| Enchanted Anarchist's Battle Rattle | does +1 STR, +1 INT, +1 CON, +1 DEX, +1 CHA, +50% Range - all thrown explosives, +50% Accuracy - all thrown explosives, Access: Desperado Club, Access: Naughty Boys Employment Agency | 5 | — | certain | [Enchanted Anarchist's Battle Rattle](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Anarchist's_Battle_Rattle) |
+| Enchanted Anarchist's Battle Rattle | comes from Platinum Spicy Box | 5 | — | certain | [Enchanted Anarchist's Battle Rattle](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Anarchist's_Battle_Rattle) |
+| Enchanted Gnome Farseer | does +75% accuracy of gravity-based bombs | 5 | — | certain | [Enchanted Gnome Farseer](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Gnome_Farseer) |
+| Enchanted Gnome Farseer | comes from Skarn | 5 | — | certain | [Enchanted Gnome Farseer](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Gnome_Farseer) |
+| Enchanted Roll of Never-ending Duct Tape | does 50 meter long replenishing duct tape | 5 | — | certain | [Enchanted Roll of Never-ending Duct Tape](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Roll_of_Never-ending_Duct_Tape) |
+| Enchanted Roll of Never-ending Duct Tape | comes from Silver Fan Box | 5 | — | certain | [Enchanted Roll of Never-ending Duct Tape](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Roll_of_Never-ending_Duct_Tape) |
+| Enchanted Toe Ring of the Leprous Bandit | does Sticky Feet Benefit, Super Spreader Benefit | 5 | — | certain | [Enchanted Toe Ring of the Leprous Bandit](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Leprous_Bandit) |
+| Enchanted Toe Ring of the Leprous Bandit | comes from Achievement | 5 | — | certain | [Enchanted Toe Ring of the Leprous Bandit](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Leprous_Bandit) |
+| Fifth Floor | lasts 15 Days | 5 | — | certain | [Fifth Floor](https://dungeon-crawler-carl.fandom.com/wiki/Fifth_Floor) |
+| Gate of the Feral Gods | does Opens long-distance teleportation portals, Releases a maddened feral god from the Nothing when the portal closes | 5 | — | certain | [Gate of the Feral Gods](https://dungeon-crawler-carl.fandom.com/wiki/Gate_of_the_Feral_Gods) |
+| Gate of the Feral Gods | comes from Looted in three pieces (two watches and a winding box) from Henrik the Changeling, Commandant Kane, and the Mad Dune Mage on the Fifth Floor, within the Necropolis of Anser | 5 | — | certain | [Gate of the Feral Gods](https://dungeon-crawler-carl.fandom.com/wiki/Gate_of_the_Feral_Gods) |
+| Ghazi | works as Glass Mage | 5 | — | certain | [Ghazi](https://dungeon-crawler-carl.fandom.com/wiki/Ghazi) |
+| Glass Cannon Class | does Increases training speed on all spells, Reduces cost of casting spells | 5 | — | certain | [Glass Cannon Class](https://dungeon-crawler-carl.fandom.com/wiki/Glass_Cannon_Class) |
+| Gnomish Drop Bear | comes from Dirigible Gnomes | 5 | — | certain | [Gnomish Drop Bear](https://dungeon-crawler-carl.fandom.com/wiki/Gnomish_Drop_Bear) |
+| Gnomish Knock-Knock | does Thermobaric Explosion. | 5 | — | certain | [Gnomish Knock-Knock](https://dungeon-crawler-carl.fandom.com/wiki/Gnomish_Knock-Knock) |
+| Gnomish Knock-Knock | comes from Fifth Floor Bubble #543 | 5 | — | certain | [Gnomish Knock-Knock](https://dungeon-crawler-carl.fandom.com/wiki/Gnomish_Knock-Knock) |
+| Graupel | does MASSIVE DEADLY ICE STORM | 5 | — | certain | [Graupel](https://dungeon-crawler-carl.fandom.com/wiki/Graupel) |
+| Graupel | targets Area | 5 | — | certain | [Graupel](https://dungeon-crawler-carl.fandom.com/wiki/Graupel) |
+| Graupel | costs 50 MP | 5 | — | certain | [Graupel](https://dungeon-crawler-carl.fandom.com/wiki/Graupel) |
+| Hobgoblin Disco Ball | does It’s a real trip. | 5 | — | certain | [Hobgoblin Disco Ball](https://dungeon-crawler-carl.fandom.com/wiki/Hobgoblin_Disco_Ball) |
+| I'm Wet Box | comes from I was in the Pool! Achievement Rock Bottom Achievement | 5 | — | certain | [I'm Wet Box](https://dungeon-crawler-carl.fandom.com/wiki/I'm_Wet_Box) |
+| Jellyfish Salve | does Removes the pain portion of the Kill Me Now It Hurts debuff. | 5 | — | certain | [Jellyfish Salve](https://dungeon-crawler-carl.fandom.com/wiki/Jellyfish_Salve) |
+| Jellyfish Salve | comes from Loot Boxes | 5 | — | certain | [Jellyfish Salve](https://dungeon-crawler-carl.fandom.com/wiki/Jellyfish_Salve) |
+| Juice Box | works as Prostitute at the Toe | 5 | — | certain | [Juice Box](https://dungeon-crawler-carl.fandom.com/wiki/Juice_Box) |
+| Juice Box | comes from Hump Town, Fifth Floor | 5 | — | certain | [Juice Box](https://dungeon-crawler-carl.fandom.com/wiki/Juice_Box) |
+| Kua-Tin Rebreather | does Gilled creatures can breathe on land | 5 | — | certain | [Kua-Tin Rebreather](https://dungeon-crawler-carl.fandom.com/wiki/Kua-Tin_Rebreather) |
+| Kua-Tin Rebreather | comes from Kua-Tin | 5 | — | certain | [Kua-Tin Rebreather](https://dungeon-crawler-carl.fandom.com/wiki/Kua-Tin_Rebreather) |
+| Leon | works as Negotiator | 5 | — | certain | [Leon](https://dungeon-crawler-carl.fandom.com/wiki/Leon) |
+| Louis | comes from Miami, Florida, Earth | 5 | — | certain | [Louis](https://dungeon-crawler-carl.fandom.com/wiki/Louis) |
+| Makeup Sex is the Best Sex Box | does + semi-random loot | 5 | — | certain | [Makeup Sex is the Best Sex Box](https://dungeon-crawler-carl.fandom.com/wiki/Makeup_Sex_is_the_Best_Sex_Box) |
+| Makeup Sex is the Best Sex Box | comes from System AI's Smush fetish Achievement | 5 | — | certain | [Makeup Sex is the Best Sex Box](https://dungeon-crawler-carl.fandom.com/wiki/Makeup_Sex_is_the_Best_Sex_Box) |
+| Male Thorny Devil | has advantage 20% more damage to those with a Extinction Sigil Tattoo (Wall Monitor Race) | 5 | — | certain | [Male Thorny Devil](https://dungeon-crawler-carl.fandom.com/wiki/Male_Thorny_Devil) |
+| Orren | works as Syndicate Liaison, Desperado Club Manager (cover) | 5 | — | certain | [Orren](https://dungeon-crawler-carl.fandom.com/wiki/Orren) |
+| Orren | comes from Knot | 5 | — | certain | [Orren](https://dungeon-crawler-carl.fandom.com/wiki/Orren) |
+| Platinum Sharpening Stone | does Applied to a spiked offensive weapon:, Plus (2 x current level)% damage to all attacks., Plus 1 to all current stat buffs. | 5 | — | certain | [Platinum Sharpening Stone](https://dungeon-crawler-carl.fandom.com/wiki/Platinum_Sharpening_Stone) |
+| Platinum Sharpening Stone | comes from Platinum Quest Box | 5 | — | certain | [Platinum Sharpening Stone](https://dungeon-crawler-carl.fandom.com/wiki/Platinum_Sharpening_Stone) |
+| Potion of Bloodlust | comes from Silver Pacifist Box | 5 | — | certain | [Potion of Bloodlust](https://dungeon-crawler-carl.fandom.com/wiki/Potion_of_Bloodlust) |
+| Rockard's Ring of Sniping | does Ripe Benefit, Loaded Benefit | 5 | — | certain | [Rockard's Ring of Sniping](https://dungeon-crawler-carl.fandom.com/wiki/Rockard's_Ring_of_Sniping) |
+| Rockard's Ring of Sniping | comes from Quan Ch's hand | 5 | — | certain | [Rockard's Ring of Sniping](https://dungeon-crawler-carl.fandom.com/wiki/Rockard's_Ring_of_Sniping) |
+| Sappy Gold Ring | comes from Quan Ch's Arm | 5 | — | certain | [Sappy Gold Ring](https://dungeon-crawler-carl.fandom.com/wiki/Sappy_Gold_Ring) |
+| Scroll of Water Breathing | does Allows a crawler to breathe underwater | 5 | — | certain | [Scroll of Water Breathing](https://dungeon-crawler-carl.fandom.com/wiki/Scroll_of_Water_Breathing) |
+| Scroll of Water Breathing | comes from Platinum That Wasn't Too Smart, Was It? Box | 5 | — | certain | [Scroll of Water Breathing](https://dungeon-crawler-carl.fandom.com/wiki/Scroll_of_Water_Breathing) |
+| Twinkle Toes | does Makes a minion run really fast | 5 | — | certain | [Twinkle Toes](https://dungeon-crawler-carl.fandom.com/wiki/Twinkle_Toes) |
+| Twinkle Toes | targets Minion | 5 | — | certain | [Twinkle Toes](https://dungeon-crawler-carl.fandom.com/wiki/Twinkle_Toes) |
+| Twinkle Toes | lasts As many seconds as the caster's intelligence level | 5 | — | certain | [Twinkle Toes](https://dungeon-crawler-carl.fandom.com/wiki/Twinkle_Toes) |
+| Wall of Fire Spell | targets area around the caster | 5 | — | certain | [Wall of Fire Spell](https://dungeon-crawler-carl.fandom.com/wiki/Wall_of_Fire_Spell) |
+| Wall of Fire Spell | costs 15 mana | 5 | — | certain | [Wall of Fire Spell](https://dungeon-crawler-carl.fandom.com/wiki/Wall_of_Fire_Spell) |
+| Agent Provocateur Class | does + experience on Explosives skills | 6 | — | certain | [Agent Provocateur Class](https://dungeon-crawler-carl.fandom.com/wiki/Agent_Provocateur_Class) |
+| Arrow of Enthusiastic Double Gonorrhea | comes from The Dream Hunters | 6 | — | certain | [Arrow of Enthusiastic Double Gonorrhea](https://dungeon-crawler-carl.fandom.com/wiki/Arrow_of_Enthusiastic_Double_Gonorrhea) |
+| Bomb Upgrade Patch | does +11% to Constitution, +6% damage to all explosives, +2 to the Dangerous Explosives Handling Skill, +15% Discount from traveling Spider Reaper Minion merchants | 6 | — | certain | [Bomb Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Bomb_Upgrade_Patch) |
+| Bomb Upgrade Patch | comes from Gold Spicy Box | 6 | — | certain | [Bomb Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Bomb_Upgrade_Patch) |
+| Bravvo | works as Hunter | 6 | — | certain | [Bravvo](https://dungeon-crawler-carl.fandom.com/wiki/Bravvo) |
+| Bronze Condom | does Safe Sex | 6 | — | certain | [Bronze Condom](https://dungeon-crawler-carl.fandom.com/wiki/Bronze_Condom) |
+| Bronze Condom | comes from It itches when I pee Achievement | 6 | — | certain | [Bronze Condom](https://dungeon-crawler-carl.fandom.com/wiki/Bronze_Condom) |
+| Butcher's Masquerade Spell | targets A guest list assembled by Apito | 6 | — | certain | [Butcher's Masquerade Spell](https://dungeon-crawler-carl.fandom.com/wiki/Butcher's_Masquerade_Spell) |
+| Butcher's Masquerade Spell | lasts A single evening, ending when the party concludes or the peace seal is broken | 6 | — | certain | [Butcher's Masquerade Spell](https://dungeon-crawler-carl.fandom.com/wiki/Butcher's_Masquerade_Spell) |
+| Community Pool | does Infection/disease from Target A transfers to Target B. | 6 | — | certain | [Community Pool](https://dungeon-crawler-carl.fandom.com/wiki/Community_Pool) |
+| Community Pool | targets 2 Targets, physically in contact with caster | 6 | — | certain | [Community Pool](https://dungeon-crawler-carl.fandom.com/wiki/Community_Pool) |
+| Community Pool | lasts Instant | 6 | — | certain | [Community Pool](https://dungeon-crawler-carl.fandom.com/wiki/Community_Pool) |
+| De-Sleeving Box | comes from Removing outworlder sponsors from the god they are piloting | 6 | — | certain | [De-Sleeving Box](https://dungeon-crawler-carl.fandom.com/wiki/De-Sleeving_Box) |
+| Did You Really Just Cast Fireball in a Room this Small Box | comes from Achievement | 6 | — | certain | [Did You Really Just Cast Fireball in a Room this Small Box](https://dungeon-crawler-carl.fandom.com/wiki/Did_You_Really_Just_Cast_Fireball_in_a_Room_this_Small_Box) |
+| Edict | works as Merchant, Hunter | 6 | — | certain | [Edict](https://dungeon-crawler-carl.fandom.com/wiki/Edict) |
+| Elmer | works as Former Mayor | 6 | — | certain | [Elmer](https://dungeon-crawler-carl.fandom.com/wiki/Elmer) |
+| Enchanted Collar Charm of the Effete Bourgeoisie | does +8 Dexterity, +4 Intelligence, +10 to the Snitch Skill | 6 | — | certain | [Enchanted Collar Charm of the Effete Bourgeoisie](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Collar_Charm_of_the_Effete_Bourgeoisie) |
+| Enchanted Collar Charm of the Effete Bourgeoisie | comes from Recieve after becoming mayor of Point Mongo | 6 | — | certain | [Enchanted Collar Charm of the Effete Bourgeoisie](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Collar_Charm_of_the_Effete_Bourgeoisie) |
+| Enemy of the Church Tattoo | does 25% bonus damage against adherents of Deity., Adherents of deity attack on sight., Tattoo cannot be concealed. | 6 | — | certain | [Enemy of the Church Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Enemy_of_the_Church_Tattoo) |
+| Enemy of the Church Tattoo | comes from Apostate Box | 6 | — | certain | [Enemy of the Church Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Enemy_of_the_Church_Tattoo) |
+| Ferdinand | works as Familiar to Queen Imogen Co-Warlord of Team Retribution Mayor of Shanty Town | 6 | — | certain | [Ferdinand](https://dungeon-crawler-carl.fandom.com/wiki/Ferdinand) |
+| Ferdinand | comes from Earth (Seattle, Washington) | 6 | — | certain | [Ferdinand](https://dungeon-crawler-carl.fandom.com/wiki/Ferdinand) |
+| Fireball Spell | does FIREBALL | 6 | — | certain | [Fireball Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fireball_Spell) |
+| Good Mana Potion | does (200) MP over 120 seconds | 6 | — | certain | [Good Mana Potion](https://dungeon-crawler-carl.fandom.com/wiki/Good_Mana_Potion) |
+| Good Mana Potion | comes from Adventurer Box (Floor 8) | 6 | — | certain | [Good Mana Potion](https://dungeon-crawler-carl.fandom.com/wiki/Good_Mana_Potion) |
+| Imogen | works as Ruler of the high elves | 6 | — | certain | [Imogen](https://dungeon-crawler-carl.fandom.com/wiki/Imogen) |
+| Instacot 60 | does + fully rested after 1 min sleep + Great Rest bonus | 6 | — | certain | [Instacot 60](https://dungeon-crawler-carl.fandom.com/wiki/Instacot_60) |
+| Instacot 60 | comes from Dungeon Market OR Guild | 6 | — | certain | [Instacot 60](https://dungeon-crawler-carl.fandom.com/wiki/Instacot_60) |
+| Laundry Day Spell | targets Someone wearing armor, line of sight | 6 | — | certain | [Laundry Day Spell](https://dungeon-crawler-carl.fandom.com/wiki/Laundry_Day_Spell) |
+| Midnight Epicure Upgrade Patch | does Protection against Vampirism, Protection against Lycanthropy, +25% Magical damage against all sapient undead | 6 | — | certain | [Midnight Epicure Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Midnight_Epicure_Upgrade_Patch) |
+| Midnight Epicure Upgrade Patch | comes from Gold Benefactor Box | 6 | — | certain | [Midnight Epicure Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Midnight_Epicure_Upgrade_Patch) |
+| Nadine | works as Teacher | 6 | — | certain | [Nadine](https://dungeon-crawler-carl.fandom.com/wiki/Nadine) |
+| Night Wyrm's Nasty Little Web of Suffering Tattoo | does Guild of Suffering Membership | 6 | — | certain | [Night Wyrm's Nasty Little Web of Suffering Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Night_Wyrm's_Nasty_Little_Web_of_Suffering_Tattoo) |
+| Opposite Day Ring | does Rebounds spells at caster | 6 | — | certain | [Opposite Day Ring](https://dungeon-crawler-carl.fandom.com/wiki/Opposite_Day_Ring) |
+| Satchel Bomb | comes from Boss Box | 6 | — | certain | [Satchel Bomb](https://dungeon-crawler-carl.fandom.com/wiki/Satchel_Bomb) |
+| Sixth Floor | lasts 17 Days | 6 | — | certain | [Sixth Floor](https://dungeon-crawler-carl.fandom.com/wiki/Sixth_Floor) |
+| Skewer Belle | does Useful Alchemical properties | 6 | — | certain | [Skewer Belle](https://dungeon-crawler-carl.fandom.com/wiki/Skewer_Belle) |
+| Skewer Belle | comes from Sixth Floor | 6 | — | certain | [Skewer Belle](https://dungeon-crawler-carl.fandom.com/wiki/Skewer_Belle) |
+| Skyfowl Upgrade Patch | does +5% to Dexterity, +5% damage to all ranged projectiles | 6 | — | certain | [Skyfowl Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Skyfowl_Upgrade_Patch) |
+| Skyfowl Upgrade Patch | comes from Gold Ranged Weapon Box | 6 | — | certain | [Skyfowl Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Skyfowl_Upgrade_Patch) |
+| Vocal Coach Training Room | does + Bard-related skills | 6 | — | certain | [Vocal Coach Training Room](https://dungeon-crawler-carl.fandom.com/wiki/Vocal_Coach_Training_Room) |
+| Vocal Coach Training Room | comes from Loot Boxes, Marketplace | 6 | — | certain | [Vocal Coach Training Room](https://dungeon-crawler-carl.fandom.com/wiki/Vocal_Coach_Training_Room) |
+| Zerzura Spell | does Relocates target, Creates Children of Inpewt | 6 | — | certain | [Zerzura Spell](https://dungeon-crawler-carl.fandom.com/wiki/Zerzura_Spell) |
+| Zerzura Spell | targets Full Settlement + NPCs | 6 | — | certain | [Zerzura Spell](https://dungeon-crawler-carl.fandom.com/wiki/Zerzura_Spell) |
+| Zerzura Spell | lasts Instantaneous, 5 minutes to cast | 6 | — | certain | [Zerzura Spell](https://dungeon-crawler-carl.fandom.com/wiki/Zerzura_Spell) |
+| Dragon Chain Tattoo | does Grants the Level 13 skill Profane Iron (Once a day, for ~30 seconds) | 7 | — | certain | [Dragon Chain Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Dragon_Chain_Tattoo) |
+| Dragon Chain Tattoo | comes from Crafted by Katia Grim | 7 | — | certain | [Dragon Chain Tattoo](https://dungeon-crawler-carl.fandom.com/wiki/Dragon_Chain_Tattoo) |
+| Seventh Floor | lasts 20 Days (scheduled) / ~10 Minutes (actual) | 7 | — | certain | [Seventh Floor](https://dungeon-crawler-carl.fandom.com/wiki/Seventh_Floor) |
+| Alpha Male Carl | does Protective Shield, Hob-lobber, War Gauntlet | 8 | — | certain | [Alpha Male Carl](https://dungeon-crawler-carl.fandom.com/wiki/Alpha_Male_Carl) |
+| Bitch, What? Spell | does You catch on fire, You become invulnerable to blunt damage, You get really angry and kill every goddamn thing in the room | 8 | — | certain | [Bitch, What? Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bitch,_What?_Spell) |
+| Bitch, What? Spell | targets Self only | 8 | — | certain | [Bitch, What? Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bitch,_What?_Spell) |
+| Bitch, What? Spell | lasts 20 Seconds | 8 | — | certain | [Bitch, What? Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bitch,_What?_Spell) |
+| Bitch, What? Spell | costs Item Based | 8 | — | certain | [Bitch, What? Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bitch,_What?_Spell) |
+| Bitch, What? Spell | is associated with Enchanted Nipple Ring of the Superior Fire Demon’s Hand Maiden | 8 | — | certain | [Bitch, What? Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bitch,_What?_Spell) |
+| Black Nimbus | does Instantly removes target from the blessing of their deity and all associated buffs and effects., Higher levels increase the possibility of forcing a smite upon the target | 8 | — | certain | [Black Nimbus](https://dungeon-crawler-carl.fandom.com/wiki/Black_Nimbus) |
+| Black Nimbus | lasts (30 + [Caster’s Intelligence+Constitution] – [Target’s Intelligence/2]) Seconds | 8 | — | certain | [Black Nimbus](https://dungeon-crawler-carl.fandom.com/wiki/Black_Nimbus) |
+| Black Nimbus | is associated with Enchanted Nipple Ring of the Defiler | 8 | — | certain | [Black Nimbus](https://dungeon-crawler-carl.fandom.com/wiki/Black_Nimbus) |
+| Book Burner Patch | does +15% to Intelligence, The Book Burner benefit | 8 | — | certain | [Book Burner Patch](https://dungeon-crawler-carl.fandom.com/wiki/Book_Burner_Patch) |
+| Book Burner Patch | comes from Gold Talk of the Town Box | 8 | — | certain | [Book Burner Patch](https://dungeon-crawler-carl.fandom.com/wiki/Book_Burner_Patch) |
+| Book Burner Spell | does Cause an opponent to forget a spell | 8 | — | certain | [Book Burner Spell](https://dungeon-crawler-carl.fandom.com/wiki/Book_Burner_Spell) |
+| Book Burner Spell | lasts 30 hours | 8 | — | certain | [Book Burner Spell](https://dungeon-crawler-carl.fandom.com/wiki/Book_Burner_Spell) |
+| Book Burner Spell | is associated with Book Burner Patch | 8 | — | certain | [Book Burner Spell](https://dungeon-crawler-carl.fandom.com/wiki/Book_Burner_Spell) |
+| Champion Pack | comes from Defeating keymaster on the Eighth Floor | 8 | — | certain | [Champion Pack](https://dungeon-crawler-carl.fandom.com/wiki/Champion_Pack) |
+| Cosmic Buff Potion | does + 10 to Random Stat | 8 | — | certain | [Cosmic Buff Potion](https://dungeon-crawler-carl.fandom.com/wiki/Cosmic_Buff_Potion) |
+| Cosmic Buff Potion | comes from Platinum Here's Some Good Shit Because You're Gonna Need It Box | 8 | — | certain | [Cosmic Buff Potion](https://dungeon-crawler-carl.fandom.com/wiki/Cosmic_Buff_Potion) |
+| Death Ray | does Insta-death | 8 | — | certain | [Death Ray](https://dungeon-crawler-carl.fandom.com/wiki/Death_Ray) |
+| Death Ray | targets Short Range | 8 | — | certain | [Death Ray](https://dungeon-crawler-carl.fandom.com/wiki/Death_Ray) |
+| Death Ray | lasts Instant | 8 | — | certain | [Death Ray](https://dungeon-crawler-carl.fandom.com/wiki/Death_Ray) |
+| Eighth Floor | lasts 21 Days | 8 | — | certain | [Eighth Floor](https://dungeon-crawler-carl.fandom.com/wiki/Eighth_Floor) |
+| Enchanted Lock Box of the Night Wyrm | does Contains a celestial boon | 8 | — | certain | [Enchanted Lock Box of the Night Wyrm](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Lock_Box_of_the_Night_Wyrm) |
+| Enchanted Lock Box of the Night Wyrm | comes from Loot Box | 8 | — | certain | [Enchanted Lock Box of the Night Wyrm](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Lock_Box_of_the_Night_Wyrm) |
+| Enchanted Nipple Ring of the Superior Fire Demon’s Hand Maiden | comes from Legendary Beguilers Box | 8 | — | certain | [Enchanted Nipple Ring of the Superior Fire Demon’s Hand Maiden](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Nipple_Ring_of_the_Superior_Fire_Demon’s_Hand_Maiden) |
+| Enchanted Paupers Ring of the Steadfast Emberus | does cancels health-sapping debuff effects, cancel disease debuff effects, may numb other debuffs, does NOT remove debuffs | 8 | — | certain | [Enchanted Paupers Ring of the Steadfast Emberus](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Paupers_Ring_of_the_Steadfast_Emberus) |
+| Enchanted Paupers Ring of the Steadfast Emberus | comes from Blessed Sun Enchantments Shop at Club Vanquisher | 8 | — | certain | [Enchanted Paupers Ring of the Steadfast Emberus](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Paupers_Ring_of_the_Steadfast_Emberus) |
+| Filthy Little Crawlers Book of Voodoo | comes from Prepotente Box | 8 | — | certain | [Filthy Little Crawlers Book of Voodoo](https://dungeon-crawler-carl.fandom.com/wiki/Filthy_Little_Crawlers_Book_of_Voodoo) |
+| Geraldo | works as Monk Seal Picket Sentry | 8 | — | certain | [Geraldo](https://dungeon-crawler-carl.fandom.com/wiki/Geraldo) |
+| Geraldo | comes from Eighth Floor Cuba | 8 | — | certain | [Geraldo](https://dungeon-crawler-carl.fandom.com/wiki/Geraldo) |
+| Hamed | works as Leader of the Guild of Suffering, Manager of the Desperado Club | 8 | — | certain | [Hamed](https://dungeon-crawler-carl.fandom.com/wiki/Hamed) |
+| Hamed | comes from Outside the Dungeon (Early Indentured Servant) | 8 | — | certain | [Hamed](https://dungeon-crawler-carl.fandom.com/wiki/Hamed) |
+| HeyZoos | comes from Eighth Floor Ecuador | 8 | — | certain | [HeyZoos](https://dungeon-crawler-carl.fandom.com/wiki/HeyZoos) |
+| Jola | comes from Iceland | 8 | — | certain | [Jola](https://dungeon-crawler-carl.fandom.com/wiki/Jola) |
+| Lazarus-A-Bang-Bang | comes from Combo Card | 8 | — | certain | [Lazarus-A-Bang-Bang](https://dungeon-crawler-carl.fandom.com/wiki/Lazarus-A-Bang-Bang) |
+| Legionnaires of the Damned Spell | does wailing spirit minions | 8 | — | certain | [Legionnaires of the Damned Spell](https://dungeon-crawler-carl.fandom.com/wiki/Legionnaires_of_the_Damned_Spell) |
+| Legionnaires of the Damned Spell | targets recently unequipped armor and weapons | 8 | — | certain | [Legionnaires of the Damned Spell](https://dungeon-crawler-carl.fandom.com/wiki/Legionnaires_of_the_Damned_Spell) |
+| Legionnaires of the Damned Spell | lasts [(Spell Level x 2) + INT] seconds | 8 | — | certain | [Legionnaires of the Damned Spell](https://dungeon-crawler-carl.fandom.com/wiki/Legionnaires_of_the_Damned_Spell) |
+| Legionnaires of the Damned Spell | costs 25 mp | 8 | — | certain | [Legionnaires of the Damned Spell](https://dungeon-crawler-carl.fandom.com/wiki/Legionnaires_of_the_Damned_Spell) |
+| Loot Punch Card | comes from Celestial Loot Achievement | 8 | — | certain | [Loot Punch Card](https://dungeon-crawler-carl.fandom.com/wiki/Loot_Punch_Card) |
+| Massage Coupon | does Free massage at the Desperado Club | 8 | — | certain | [Massage Coupon](https://dungeon-crawler-carl.fandom.com/wiki/Massage_Coupon) |
+| Mute Spell | does Muted Debuff (target cannot cast spells) | 8 | — | certain | [Mute Spell](https://dungeon-crawler-carl.fandom.com/wiki/Mute_Spell) |
+| Mute Spell | targets Single Target | 8 | — | certain | [Mute Spell](https://dungeon-crawler-carl.fandom.com/wiki/Mute_Spell) |
+| Mute Spell | lasts Based on Skill / Target Level | 8 | — | certain | [Mute Spell](https://dungeon-crawler-carl.fandom.com/wiki/Mute_Spell) |
+| Mysterious Bone Key Benefit | does Creates a key from a user's bones | 8 | — | certain | [Mysterious Bone Key Benefit](https://dungeon-crawler-carl.fandom.com/wiki/Mysterious_Bone_Key_Benefit) |
+| Mysterious Bone Key Benefit | targets Self Bones | 8 | — | certain | [Mysterious Bone Key Benefit](https://dungeon-crawler-carl.fandom.com/wiki/Mysterious_Bone_Key_Benefit) |
+| Mysterious Bone Key Benefit | is associated with Scavenger's Daughter Upgrade Patch | 8 | — | certain | [Mysterious Bone Key Benefit](https://dungeon-crawler-carl.fandom.com/wiki/Mysterious_Bone_Key_Benefit) |
+| Orchid of Eileithyia's Grace | does One of 3 Boons | 8 | — | certain | [Orchid of Eileithyia's Grace](https://dungeon-crawler-carl.fandom.com/wiki/Orchid_of_Eileithyia's_Grace) |
+| Orchid of Eileithyia's Grace | comes from Celestial Loot Box | 8 | — | certain | [Orchid of Eileithyia's Grace](https://dungeon-crawler-carl.fandom.com/wiki/Orchid_of_Eileithyia's_Grace) |
+| Peace Upgrade Patch | does Neutral mobs are less likely to fall into aggro, +10% to Dexterity, +10% skill in playing the bongos | 8 | — | certain | [Peace Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Peace_Upgrade_Patch) |
+| Peace Upgrade Patch | comes from Gold Pacifist's Box | 8 | — | certain | [Peace Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Peace_Upgrade_Patch) |
+| Raul the Crab | works as Totem Card / Minion | 8 | — | certain | [Raul the Crab](https://dungeon-crawler-carl.fandom.com/wiki/Raul_the_Crab) |
+| Raul the Crab | comes from Cuba (Eighth Floor) | 8 | — | certain | [Raul the Crab](https://dungeon-crawler-carl.fandom.com/wiki/Raul_the_Crab) |
+| Reaper Spider Minion Patch | does Access to the Midnight Market. Safety or Sanity not guaranteed., You will receive a notification if any traveling merchants are nearby., Plus 5% to Dexterity | 8 | — | certain | [Reaper Spider Minion Patch](https://dungeon-crawler-carl.fandom.com/wiki/Reaper_Spider_Minion_Patch) |
+| Reaper Spider Minion Patch | comes from Platinum Hell In A Handbasket Box | 8 | — | certain | [Reaper Spider Minion Patch](https://dungeon-crawler-carl.fandom.com/wiki/Reaper_Spider_Minion_Patch) |
+| Reminiscence Hydra of Malicious Compliance | works as City Boss | 8 | — | certain | [Reminiscence Hydra of Malicious Compliance](https://dungeon-crawler-carl.fandom.com/wiki/Reminiscence_Hydra_of_Malicious_Compliance) |
+| Scavenger's Daughter Upgrade Patch | comes from Celestial Predator Box | 8 | — | certain | [Scavenger's Daughter Upgrade Patch](https://dungeon-crawler-carl.fandom.com/wiki/Scavenger's_Daughter_Upgrade_Patch) |
+| Scroll of Build Trench | does Creates a trench 2.3 meters deep and 2 meters wide, the length is variable based on users intelligence and strength. | 8 | — | certain | [Scroll of Build Trench](https://dungeon-crawler-carl.fandom.com/wiki/Scroll_of_Build_Trench) |
+| Scroll of Build Trench | comes from Silver Spam Box/ Adventurer Boxs | 8 | — | certain | [Scroll of Build Trench](https://dungeon-crawler-carl.fandom.com/wiki/Scroll_of_Build_Trench) |
+| Self-Immolation Spell | targets Self | 8 | — | certain | [Self-Immolation Spell](https://dungeon-crawler-carl.fandom.com/wiki/Self-Immolation_Spell) |
+| Self-Immolation Spell | lasts Instantaneous. Fire burst lasts up to three seconds. | 8 | — | certain | [Self-Immolation Spell](https://dungeon-crawler-carl.fandom.com/wiki/Self-Immolation_Spell) |
+| Self-Immolation Spell | costs Nothing | 8 | — | certain | [Self-Immolation Spell](https://dungeon-crawler-carl.fandom.com/wiki/Self-Immolation_Spell) |
+| Shi Maria | works as Totem T'Ghee Card (formerly) | 8 | — | certain | [Shi Maria](https://dungeon-crawler-carl.fandom.com/wiki/Shi_Maria) |
+| Shi Maria | comes from The Celestial Realm (banished to the Eighth Floor) | 8 | — | certain | [Shi Maria](https://dungeon-crawler-carl.fandom.com/wiki/Shi_Maria) |
+| Skylar Spinach | works as Monk Seal Picket Sentry | 8 | — | certain | [Skylar Spinach](https://dungeon-crawler-carl.fandom.com/wiki/Skylar_Spinach) |
+| Skylar Spinach | comes from Eighth Floor Cuba | 8 | — | certain | [Skylar Spinach](https://dungeon-crawler-carl.fandom.com/wiki/Skylar_Spinach) |
+| Spirit Box | does Roots target in place or (see description) | 8 | — | certain | [Spirit Box](https://dungeon-crawler-carl.fandom.com/wiki/Spirit_Box) |
+| Spirit Box | targets Corporeal dumbasses who step on it. That means you. | 8 | — | certain | [Spirit Box](https://dungeon-crawler-carl.fandom.com/wiki/Spirit_Box) |
+| Spirit Box | lasts You will be rooted in place for sixty seconds. If you end up possessed, that’s pretty damn permanent. | 8 | — | certain | [Spirit Box](https://dungeon-crawler-carl.fandom.com/wiki/Spirit_Box) |
+| T'Ghee Card | does Stores and commands a captured mob, Enables card combat | 8 | — | certain | [T'Ghee Card](https://dungeon-crawler-carl.fandom.com/wiki/T'Ghee_Card) |
+| T'Ghee Card | comes from Flagging a creature at 5% health or below, Looted from defeated opponents | 8 | — | certain | [T'Ghee Card](https://dungeon-crawler-carl.fandom.com/wiki/T'Ghee_Card) |
+| Velma the Flamethrower | does Fire Damage | 8 | — | certain | [Velma the Flamethrower](https://dungeon-crawler-carl.fandom.com/wiki/Velma_the_Flamethrower) |
+| Warrior's Gold Helmet of Resistance | does Provides unknown resistance; restricted to sword-wielders. | 8 | — | certain | [Warrior's Gold Helmet of Resistance](https://dungeon-crawler-carl.fandom.com/wiki/Warrior's_Gold_Helmet_of_Resistance) |
+| Warrior's Gold Helmet of Resistance | comes from Boss Box (Eighth Floor) | 8 | — | certain | [Warrior's Gold Helmet of Resistance](https://dungeon-crawler-carl.fandom.com/wiki/Warrior's_Gold_Helmet_of_Resistance) |
+| 1914 Box | comes from Gavrilo Princip Achievement | 9 | — | certain | [1914 Box](https://dungeon-crawler-carl.fandom.com/wiki/1914_Box) |
+| Bear Witness Spell | does Raptures all users outside to target location | 9 | — | certain | [Bear Witness Spell](https://dungeon-crawler-carl.fandom.com/wiki/Bear_Witness_Spell) |
+| Enchanted Hairbrush of the Beefmaster | does Shining Charisma Benefit., Speedster Benefit., Plus 25% to your constitution., Level 10 Entourage Spell., Plus your hair will be shiny and healthy, and it will goddamn glisten. | 9 | — | certain | [Enchanted Hairbrush of the Beefmaster](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Hairbrush_of_the_Beefmaster) |
+| Enchanted Hairbrush of the Beefmaster | comes from Who Let the Gods Out This Time Box, Celestial Orgy of Chaos Achievement. | 9 | — | certain | [Enchanted Hairbrush of the Beefmaster](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Hairbrush_of_the_Beefmaster) |
+| Enchanted Spiked Knee Pads of the Munificent Goddess Kina | does +25% Damage Reflect for melee attacks., Breathe Underwater Benefit, Level 15 Swim Skill, Level 10 Iron Stomach Skill, Level 10 Eater of the Dead Skill | 9 | — | certain | [Enchanted Spiked Knee Pads of the Munificent Goddess Kina](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Spiked_Knee_Pads_of_the_Munificent_Goddess_Kina) |
+| Enchanted Spiked Knee Pads of the Munificent Goddess Kina | comes from Celestial Orgy of Chaos Achievement Who Let the Gods Out This Time Box | 9 | — | certain | [Enchanted Spiked Knee Pads of the Munificent Goddess Kina](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Spiked_Knee_Pads_of_the_Munificent_Goddess_Kina) |
+| Enchanted Toe Ring of the Well-Balanced | does Heart Balance Skill, Level 5, Mind Balance Skill, Level 5, Physical Balance Skill, Level 5, Extra Steady Balance Skill, Walk on Air Skill | 9 | — | certain | [Enchanted Toe Ring of the Well-Balanced](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Well-Balanced) |
+| Enchanted Toe Ring of the Well-Balanced | comes from Unbirthing Achievement | 9 | — | certain | [Enchanted Toe Ring of the Well-Balanced](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Toe_Ring_of_the_Well-Balanced) |
+| Engine of Tomorrow | does Slows down the perception of time | 9 | — | certain | [Engine of Tomorrow](https://dungeon-crawler-carl.fandom.com/wiki/Engine_of_Tomorrow) |
+| Engine of Tomorrow | comes from Celestial Orgy of Chaos Achievement Who Let the Gods Out This Time Box | 9 | — | certain | [Engine of Tomorrow](https://dungeon-crawler-carl.fandom.com/wiki/Engine_of_Tomorrow) |
+| Four-Leaf Clover Patch | does Lucky Shot | 9 | — | certain | [Four-Leaf Clover Patch](https://dungeon-crawler-carl.fandom.com/wiki/Four-Leaf_Clover_Patch) |
+| Four-Leaf Clover Patch | comes from Legendary Lucky Bitch Box | 9 | — | certain | [Four-Leaf Clover Patch](https://dungeon-crawler-carl.fandom.com/wiki/Four-Leaf_Clover_Patch) |
+| Hell-Kissed Celestial Skill Potion of the Prince of Woe | does Gloom Wraith Phase Skill | 9 | — | certain | [Hell-Kissed Celestial Skill Potion of the Prince of Woe](https://dungeon-crawler-carl.fandom.com/wiki/Hell-Kissed_Celestial_Skill_Potion_of_the_Prince_of_Woe) |
+| Hell-Kissed Celestial Skill Potion of the Prince of Woe | comes from Heavy Metal Box | 9 | — | certain | [Hell-Kissed Celestial Skill Potion of the Prince of Woe](https://dungeon-crawler-carl.fandom.com/wiki/Hell-Kissed_Celestial_Skill_Potion_of_the_Prince_of_Woe) |
+| Jamal | works as Mercenary | 9 | — | certain | [Jamal](https://dungeon-crawler-carl.fandom.com/wiki/Jamal) |
+| Jamal | comes from Tsarina Signet's Tattoos | 9 | — | certain | [Jamal](https://dungeon-crawler-carl.fandom.com/wiki/Jamal) |
+| Kina | comes from Twelfth Floor | 9 | — | certain | [Kina](https://dungeon-crawler-carl.fandom.com/wiki/Kina) |
+| Lucky Bitch Box | comes from Liquified Achievement | 9 | — | certain | [Lucky Bitch Box](https://dungeon-crawler-carl.fandom.com/wiki/Lucky_Bitch_Box) |
+| Meatus | comes from Dungeon | 9 | — | certain | [Meatus](https://dungeon-crawler-carl.fandom.com/wiki/Meatus) |
+| Necklace of Indelible Woe | comes from King Rust | 9 | — | certain | [Necklace of Indelible Woe](https://dungeon-crawler-carl.fandom.com/wiki/Necklace_of_Indelible_Woe) |
+| Ninth Floor | lasts 30 Days, or 90 hours after a winner is declared, whichever is sooner | 9 | — | certain | [Ninth Floor](https://dungeon-crawler-carl.fandom.com/wiki/Ninth_Floor) |
+| Run, Little Guenter, Run Spell | targets Summoning Spell | 9 | — | certain | [Run, Little Guenter, Run Spell](https://dungeon-crawler-carl.fandom.com/wiki/Run,_Little_Guenter,_Run_Spell) |
+| Run, Little Guenter, Run Spell | lasts 20 seconds, plus 1 second per mana point | 9 | — | certain | [Run, Little Guenter, Run Spell](https://dungeon-crawler-carl.fandom.com/wiki/Run,_Little_Guenter,_Run_Spell) |
+| Run, Little Guenter, Run Spell | costs Variable. Miniumum 20 mp. | 9 | — | certain | [Run, Little Guenter, Run Spell](https://dungeon-crawler-carl.fandom.com/wiki/Run,_Little_Guenter,_Run_Spell) |
+| Run, Little Guenter, Run Spell | is associated with 1914 Box | 9 | — | certain | [Run, Little Guenter, Run Spell](https://dungeon-crawler-carl.fandom.com/wiki/Run,_Little_Guenter,_Run_Spell) |
+| Tipid | works as Former Crawler, Game Guide, Waste Management Worker, Mercenary Colonel | 9 | — | certain | [Tipid](https://dungeon-crawler-carl.fandom.com/wiki/Tipid) |
+| Tipid | comes from Crest System | 9 | — | certain | [Tipid](https://dungeon-crawler-carl.fandom.com/wiki/Tipid) |
+| War Crimes Spell | does Oh boy. | 9 | — | certain | [War Crimes Spell](https://dungeon-crawler-carl.fandom.com/wiki/War_Crimes_Spell) |
+| War Crimes Spell | targets A line-of-sight beam extending from caster’s eyes that shoots in a narrow cone. | 9 | — | certain | [War Crimes Spell](https://dungeon-crawler-carl.fandom.com/wiki/War_Crimes_Spell) |
+| War Crimes Spell | lasts See description. | 9 | — | certain | [War Crimes Spell](https://dungeon-crawler-carl.fandom.com/wiki/War_Crimes_Spell) |
+| War Crimes Spell | costs 1 mana point. | 9 | — | certain | [War Crimes Spell](https://dungeon-crawler-carl.fandom.com/wiki/War_Crimes_Spell) |
+| War Crimes Spell | is associated with 1914 Box | 9 | — | certain | [War Crimes Spell](https://dungeon-crawler-carl.fandom.com/wiki/War_Crimes_Spell) |
+| You're Not Done Yet Spell | does Turns creature into undead Flesher minion | 9 | — | certain | [You're Not Done Yet Spell](https://dungeon-crawler-carl.fandom.com/wiki/You're_Not_Done_Yet_Spell) |
+| You're Not Done Yet Spell | targets Enemy with skin | 9 | — | certain | [You're Not Done Yet Spell](https://dungeon-crawler-carl.fandom.com/wiki/You're_Not_Done_Yet_Spell) |
+| You're Not Done Yet Spell | lasts Instant | 9 | — | certain | [You're Not Done Yet Spell](https://dungeon-crawler-carl.fandom.com/wiki/You're_Not_Done_Yet_Spell) |
+| Zhang's Cape of Odds | does Roll the Dice Skill | 9 | — | certain | [Zhang's Cape of Odds](https://dungeon-crawler-carl.fandom.com/wiki/Zhang's_Cape_of_Odds) |
+| Zhang's Cape of Odds | comes from Who Let the Gods Out This Time Box, Celestial Orgy of Chaos Achievement. | 9 | — | certain | [Zhang's Cape of Odds](https://dungeon-crawler-carl.fandom.com/wiki/Zhang's_Cape_of_Odds) |
 
 ## Entities by floor
 
@@ -301,6 +611,62 @@ an estimate with no rubric behind it.
 - **race**: Primal
 - **skill**: Character Actor Skill, Fear Spell
 
+### Floor 4 (75)
+
+- **character**: Bin, Chaco, Donita Grace, Gore-Gore, Growler Gary, Grull, Limp Richard, Madison, Penelope, Rosetta Thagra, Silfa, Simoom, Station Mimic, Widget
+- **class**: Football Hooligan Class
+- **faction**: Player Killer Skull
+- **item**: 1965 Harley Davidson Motorcycle, Bounty Box, Cleaner Bot, Control Sigil, Crafter's Box, Dirty Little Phased Bolt, Dismemberment Limited, Dungeon Anarchist's Cookbook (Item), Dwarven Battery Fabricator, Dwarven Industrial Light-Duty Automaton Contraption, Enchanted Auto Buckler of the Peach Pit, Enchanted Mongoliensis Saddle, Enchanted Repeating Crossbow of the Scavenger Mother of Mothers, Enchanted Shade Gnoll Riot Forces Crowd Control Shield, Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton, Enchanted Wrestling Belt of the Great Gorgo, Engineer's Key, Gangway Chock, Grrl Power Box, Interdiction Auxillary Railway Repair Cart, Interdiction Rapid-Response Railway Repair Cart, Jelly Bomb, Left Fang of the Green Sultan, Nightmare Express, PVP Coupon, Portal, Prism Industries Capacitating and Focusing Goggles, Rev-Up Magic Hair Restoration Tonic, Rev-Up Vitamin Shots, Shattering Train Bomb, Sheol Bricks, Stuffed Grulke Infantry Figure, That Wasn't Too Smart, Was It? Box, Train Conductor's Souvenir Hat, Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear
+- **location**: Fourth Floor, Untangling the Iron Tangle
+- **monster**: Babababoon, Cornets, Krakaren Crotch Dumplings, Razor Fox, Wrath Ghouls
+- **race**: Blister Ghoul, Cave Mudge Bonker, Drek, Festering Ghoul, Gods, Gross Atomizers, Jikininki Janitor Ghouls, Kravyad, Literal Fire Ants, ManTauR, Pollyslog, Psycho Sticker, Shock Chomper, Wall Monitor, Zlurpies
+- **skill**: Astral Paw Spell, Bang Bro Spell
+
+### Floor 5 (68)
+
+- **character**: Bonnie, Clay, Commandant Kane, Crixus, Emberus, Emerald, Epitome Noflex, Feral Goose, Ghazi, Juice Box, Leon, Louis, Low Thi, Lusca, Orren, Quetzalcoatlus, Robot Donut, Ruckus, Svern, Wynne, Ysalte
+- **class**: Glass Cannon Class
+- **item**: Celestial Grenade, Coffee Shop Author Kit, Drakea's Enchanted Kerchief of Disorder, Earth Upgrade Patch, Emberus Tattoos, Enchanted Anarchist's Battle Rattle, Enchanted Gnome Farseer, Enchanted Handcuffs, Enchanted Roll of Never-ending Duct Tape, Enchanted Toe Ring of the Leprous Bandit, Gate of the Feral Gods, Gnomish Drop Bear, Gnomish Knock-Knock, Gnomish Legate Balloon, Hobgoblin Disco Ball, I'm Wet Box, Jellyfish Salve, Kua-Tin Rebreather, Letter from the Council, Letter from the Glass Wizard, Live Ammo Ball, Makeup Sex is the Best Sex Box, Platinum Sharpening Stone, Potion of Bloodlust, Potion of Half Splat, Rockard's Ring of Sniping, Sappy Gold Ring, Scroll of Water Breathing, Stock Certificate, Torn Book Page, Tracked All-Terrain Suicide Machine. The Royal Chariot, Veriluxx RealPet Dungeon Crawl Special Edition Exclusive
+- **location**: Fifth Floor
+- **monster**: Bactrian, Big Boy Blue, Concierge Shark, Pain Amplifier Jellyfish
+- **race**: Dirigible Gnome, Dromedarian, Male Thorny Devil, Octo-Shark
+- **skill**: Cloud of Exhaust Spell, Graupel, Ping Spell, Twinkle Toes, Wall of Fire Spell
+
+### Floor 6 (56)
+
+- **character**: Bravvo, Circe Took, Clint Smashgrab, Diwata, Edict, Elmer, Goiter, Holger, Horton, Imogen, Kiwi, Lunette, Nadine, Sierra
+- **class**: Agent Provocateur Class
+- **faction**: Dark Hive, Flamengo, Hunters, Naiad Confederacy, Nebular
+- **item**: Arrow of Enthusiastic Double Gonorrhea, Bomb Upgrade Patch, Bronze Condom, De-Sleeving Box, Did You Really Just Cast Fireball in a Room this Small Box, Dr. Ratchet's Guide to Building Automatons for Fun and Profit, Enchanted Collar Charm of the Effete Bourgeoisie, Enchanted Obsidian Bracelet of the Raggle Rouser, Enchanted Venomous Elven Rock Chucker, Enemy of the Church Tattoo, Good Mana Potion, Hunting Trophy, I Take It All Back Potion, Instacot 60, Just Wait Until Your Daddy Gets Home, Midnight Epicure Upgrade Patch, Night Wyrm's Nasty Little Web of Suffering Tattoo, Opposite Day Ring, Satchel Bomb, Sheet Music, Size-Up Potion, Skewer Belle, Skyfowl Upgrade Patch, Stuffed Slate Butterfly Figure, Uncle Morty’s Insta Lawn-Kill and Undead Repellant, Extra-Strength Edition, Vocal Coach Training Room
+- **location**: Sixth Floor
+- **race**: Funeral Bell, Glamoured Fragment, Night Weasel, Odius Creeper
+- **skill**: Butcher's Masquerade Spell, Community Pool, Fireball Spell, Laundry Day Spell, Zerzura Spell
+
+### Floor 7 (3)
+
+- **class**: Viper Queen Class
+- **item**: Dragon Chain Tattoo
+- **location**: Seventh Floor
+
+### Floor 8 (64)
+
+- **character**: Asojano, Geraldo, Hamed, HeyZoos, Inle, Jola, Lazarus-A-Bang-Bang, Legba, Oshun, Potsy, Raul the Crab, Reef Explorer, Reminiscence Hydra of Malicious Compliance, Rude-Dolph the Blood-Nosed Slay-Deer, Shango, Shi Maria, Skylar Spinach, Swordfish Interlopers, Tom, Yago
+- **item**: Alpha Male Carl, Bard's Golden Throat, Book Burner Patch, Champion Pack, Combo Card, Cosmic Buff Potion, Enchanted Lock Box of the Night Wyrm, Enchanted Nipple Ring of the Superior Fire Demon’s Hand Maiden, Enchanted Paupers Ring of the Steadfast Emberus, Filthy Little Crawlers Book of Voodoo, King Croissant, Liquid Therapy, Loot Punch Card, Massage Coupon, Orchid of Eileithyia's Grace, Peace Upgrade Patch, Precision Card, Reaper Spider Minion Patch, Red Beret, Scavenger's Daughter Upgrade Patch, Scroll of Build Trench, Spunky Jefferson the Enchanted Nickel Sock of the Elderly Miser, T'Ghee Card, Velma the Flamethrower, Wand of Nighty Night, Warrior's Gold Helmet of Resistance
+- **location**: Eighth Floor
+- **monster**: Experience (Mob), Sluggalo
+- **race**: Ghommid, Monk Seal, Pox Slug, Squonk, Turkey, Visitor
+- **skill**: Bitch, What? Spell, Black Nimbus, Book Burner Spell, Death Ray, Legionnaires of the Damned Spell, Mute Spell, Mysterious Bone Key Benefit, Self-Immolation Spell, Spirit Box
+
+### Floor 9 (31)
+
+- **character**: Boomer, Epitome Tagg, Fang, Houston, Jamal, Kina, Meatus, Penn, Tipid, Unwashed
+- **faction**: Adjutant, Blood Sultanate, Princess Posse, Team Retribution
+- **item**: 1914 Box, Enchanted Hairbrush of the Beefmaster, Enchanted Spiked Knee Pads of the Munificent Goddess Kina, Enchanted Toe Ring of the Well-Balanced, Engine of Tomorrow, Four-Leaf Clover Patch, Hell-Kissed Celestial Skill Potion of the Prince of Woe, Lucky Bitch Box, Necklace of Indelible Woe, Zhang's Cape of Odds
+- **location**: Ninth Floor
+- **monster**: Children of Inpewt
+- **race**: Ursensus
+- **skill**: Bear Witness Spell, Run, Little Guenter, Run Spell, War Crimes Spell, You're Not Done Yet Spell
+
 ## Character sheets
 
 Only Carl and Donut have floor-scoped source pages, so only they have sheets.
@@ -310,8 +676,21 @@ Every other character's wiki infobox is current as of book 8.
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Carl | 1 | 10 | 12 | 3 | 12 | 5 | 4 |
 | Carl | 2 | 13 | 12 | 3 | 14 | 6 | 4 |
+| Carl | 3 | 27 |  |  |  |  |  |
+| Carl | 4 | 41 | 67 | 18 | 44 | 31 | 30 |
+| Carl | 5 | 47 |  |  |  |  |  |
+| Carl | 6 | 63 |  |  |  |  |  |
+| Carl | 7 | 73 |  |  |  |  |  |
+| Carl | 8 | 81 |  |  |  |  |  |
+| Carl | 9 | 84 |  |  |  |  |  |
 | Princess Donut | 1 | 10 | 20 | 26 | 2 | 12 | 43 |
 | Princess Donut | 2 | 11 | 21 | 27 | 4 | 12 | 45 |
+| Princess Donut | 3 | 26 | 33 | 38 | 7 | 22 | 96 |
+| Princess Donut | 4 | 33 | 48 | 56 | 25 | 20 | 129 |
+| Princess Donut | 5 | 39 |  |  |  |  |  |
+| Princess Donut | 6 | 63 |  |  |  |  |  |
+| Princess Donut | 7 | 63 |  |  |  |  |  |
+| Princess Donut | 8 | 135 |  |  |  |  |  |
 
 **Carl** holds 33 recorded things: Aiming Skill (floor 2), Bare Knuckle Skill (floor 1, lost floor 2), Chopper Pilot Skill (floor 1), Compensated Anarchist (floor 3), Dangerous Explosives Handling Skill (floor 1), Desperado Pass Tattoo (floor 1), Determine Value Skill (floor 1), Enchanted BigBoi Boxers (floor 2), Enchanted Nightgaunt Cloak of Stoutness (floor 1), Enchanted Pedicure Kit of the Sylph (floor 2), Enchanted Spiked Kneepads of the Shade Gnoll Riot Forces (floor 1), Enchanted Toe Ring of the Splatter Skunk (floor 1), Enchanted Trollskin Shirt of Pummeling (floor 1), Enchanted War Gauntlet of the Exalted Grull (floor 1), Explosives Handling Skill (floor 1), Foot Soldier Skill (floor 1), Goblin Explosives Skill (floor 1), Goblin Pass Tattoo (floor 1), Human (floor 0, lost floor 3), IED Skill (floor 1), Incendiary Device Handling Skill (floor 2), Iron Punch Skill (floor 1), Leather Coat (floor 1), Powerful Strike Skill (floor 1), Primal (floor 3), Pugilism Skill (floor 1), Regeneration Skill (floor 1), Silver Ring (floor 1), Slingshot Skill (floor 2), Smush Skill (floor 1), Steady Hand Skill (floor 2), Unarmed Combat Skill (floor 1), Unenchanted Boxers (floor 1, lost floor 2).
 
@@ -346,4 +725,5 @@ of anything.
 | Prepotente | active | 3 |
 | Quan Ch | active | 3 |
 | Tsarina Signet | active | 3 |
+| Hekla | departed | 4 |
 

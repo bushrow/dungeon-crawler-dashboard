@@ -62,7 +62,16 @@ function renderGraph(h: Horizon): void {
   const edges = h.edges();
   const positions = new Map(nodes.map((n) => [n.entity.id, n.position]));
 
-  countLabel.textContent = `${nodes.length} nodes · ${edges.length} edges`;
+  const unplaced = h.unplacedCount();
+  countLabel.textContent =
+    `${nodes.length} nodes · ${edges.length} edges` +
+    (unplaced ? ` · ${unplaced} with no recorded relationship, not drawn` : '');
+
+  // The layout box grows with the corpus, so the viewBox follows it. Padding
+  // leaves room for the labels, which sit under the nodes and run wide.
+  const { width, height } = h.layoutExtent;
+  const padX = Math.round(width * 0.09);
+  graph.setAttribute('viewBox', `${-padX} -60 ${width + padX * 2} ${height + 140}`);
 
   edgeLayer.replaceChildren();
   for (const edge of edges) {

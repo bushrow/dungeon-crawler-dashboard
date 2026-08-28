@@ -9,6 +9,8 @@ from __future__ import annotations
 
 import json
 
+import pytest
+
 from dcc_pipeline import BUNDLE_VERSION, MAX_FLOOR
 from dcc_pipeline.compile import build
 from dcc_pipeline.layout import GRAPH_TYPES, compute
@@ -23,9 +25,9 @@ ENTITIES = [
 EDGES = [{"src": "a", "dst": "b", "type": "party"}, {"src": "b", "dst": "sword", "type": "party"}]
 
 
-def test_layout_covers_only_graph_types():
+def test_layout_covers_only_connected_graph_types():
     laid_out = compute(ENTITIES, EDGES)
-    assert set(laid_out) == {"a", "b", "f"}
+    assert set(laid_out) == {"a", "b"}
     assert "sword" not in laid_out, "items are corpus records, not graph nodes"
     assert set(GRAPH_TYPES) == {"character", "faction"}
 
@@ -34,18 +36,31 @@ def test_layout_is_deterministic():
     assert compute(ENTITIES, EDGES) == compute(ENTITIES, EDGES)
 
 
-def test_layout_includes_isolated_nodes():
-    # 'f' has no edges. A node with no visible relationships still has to be
-    # drawable, or a faction only ever referenced later would have no position.
-    assert "f" in compute(ENTITIES, EDGES)
+def test_layout_omits_nodes_with_no_relationship():
+    # 'f' has no edges anywhere in the corpus. Giving it a position would
+    # scatter an isolated dot across the canvas and stretch the layout away
+    # from the graph that actually exists. The Atlas says how many it omits.
+    assert "f" not in compute(ENTITIES, EDGES)
 
 
 def test_layout_fits_the_viewbox():
-    from dcc_pipeline.layout import SCALE_X, SCALE_Y
+    from dcc_pipeline.layout import extent
 
-    for point in compute(ENTITIES, EDGES).values():
-        assert 0 <= point["x"] <= SCALE_X
-        assert 0 <= point["y"] <= SCALE_Y
+    laid_out = compute(ENTITIES, EDGES)
+    width, height = extent(len(laid_out))
+    for point in laid_out.values():
+        assert 0 <= point["x"] <= width
+        assert 0 <= point["y"] <= height
+
+
+def test_extent_grows_with_the_node_count():
+    from dcc_pipeline.layout import extent
+
+    small = extent(10)
+    large = extent(200)
+    assert large[0] > small[0] and large[1] > small[1]
+    # A fixed box stops fitting once MIN_GAP times the count exceeds its area.
+    assert large[0] / large[1] == pytest.approx(small[0] / small[1], rel=1e-2)
 
 
 def test_layout_of_empty_corpus_is_empty():
@@ -71,11 +86,25 @@ def test_bundle_is_json_serialisable_and_stable():
     assert first == second
 
 
-def test_every_graph_entity_has_coordinates():
+def test_every_connected_graph_entity_has_coordinates():
     rows = read_tables()
     bundle = build(rows)
-    expected = {e["id"] for e in rows["entities"] if e["type"] in GRAPH_TYPES}
-    assert set(bundle["layout"]) == expected
+    graph = {e["id"] for e in rows["entities"] if e["type"] in GRAPH_TYPES}
+    connected = {
+        end
+        for edge in rows["edges"]
+        for end in (edge["src"], edge["dst"])
+        if edge["src"] in graph and edge["dst"] in graph
+    }
+    assert set(bundle["layout"]) == connected
+
+
+def test_bundle_reports_the_layout_extent():
+    bundle = build(read_tables())
+    box = bundle["layoutExtent"]
+    for point in bundle["layout"].values():
+        assert 0 <= point["x"] <= box["width"]
+        assert 0 <= point["y"] <= box["height"]
 
 
 def _min_gap(laid_out):

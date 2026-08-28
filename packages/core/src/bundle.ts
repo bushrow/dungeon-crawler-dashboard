@@ -14,6 +14,7 @@ export interface BundleData {
   holdings: Holding[];
   stats: StatLine[];
   layout: Record<string, Point>;
+  layoutExtent: { width: number; height: number };
 }
 
 export interface RawFact {

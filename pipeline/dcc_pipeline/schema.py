@@ -173,12 +173,15 @@ TABLES: dict[str, Table] = {
         (
             Column("entity_id", kind="ref", ref="entities"),
             Column("floor", kind="floor"),
-            Column("level", kind="int"),
-            Column("str", kind="int"),
-            Column("int", kind="int"),
-            Column("con", kind="int"),
-            Column("dex", kind="int"),
-            Column("cha", kind="int"),
+            # Every field but the floor is optional. The source records a level
+            # for almost every book but a full stat line for only a few, and a
+            # sheet showing the level it knows beats a sheet showing nothing.
+            Column("level", kind="int", required=False),
+            Column("str", kind="int", required=False),
+            Column("int", kind="int", required=False),
+            Column("con", kind="int", required=False),
+            Column("dex", kind="int", required=False),
+            Column("cha", kind="int", required=False),
             Column("source"),
             Column("confidence", kind="enum", values=CONFIDENCE),
         ),

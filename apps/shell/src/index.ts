@@ -11,8 +11,9 @@ const STORE_KEY = 'dcc.floor';
 
 export type Route = 'atlas' | 'ledger';
 
+/** Colour means one thing everywhere: the floor a record was learned on. */
 export function floorColor(floor: number): string {
-  return `var(--f${Math.min(floor, 8)})`;
+  return `var(--f${Math.min(floor, 9)})`;
 }
 
 function readFloor(maxFloor: number): number {

@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 from . import BUNDLE_VERSION, MAX_FLOOR
-from .layout import compute as compute_layout
+from .layout import compute as compute_layout, extent as layout_extent
 from .validate import errors, read_tables, validate
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -83,6 +83,7 @@ def _convert(row: dict[str, str]) -> dict[str, object]:
 
 def build(rows: dict[str, list[dict[str, str]]]) -> dict[str, object]:
     layout = compute_layout(rows["entities"], rows["edges"])
+    width, height = layout_extent(len(layout))
     return {
         "version": BUNDLE_VERSION,
         "maxFloor": MAX_FLOOR,
@@ -95,6 +96,7 @@ def build(rows: dict[str, list[dict[str, str]]]) -> dict[str, object]:
         "holdings": [_convert(r) for r in rows["holdings"]],
         "stats": [_convert(r) for r in rows["stats"]],
         "layout": layout,
+        "layoutExtent": {"width": width, "height": height},
     }
 
 

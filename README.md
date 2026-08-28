@@ -6,7 +6,7 @@ Two views over one annotated corpus, both filtered to the floor you have read to
   embargo bar and nodes fade in where they were always going to be.
 - **Ledger** is the character sheets: Carl and Donut, their stats, kit, skills,
   and spells at the floor you have read to. Scrub and the sheet changes with
-  them. Behind a second tab, a catalogue of every priced class and item.
+  them, and it says which floor each part was last recorded on. Behind a second tab, a catalogue of every priced class and item.
 
 Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 
@@ -15,7 +15,7 @@ Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 ```bash
 npm install
 npm run dev        # both views, one dev server
-npm test           # 106 leakage tests against the access layer
+npm test           # 214 leakage tests against the access layer
 npm run build      # static site into dist/
 ```
 
@@ -23,7 +23,7 @@ The pipeline is Python, managed with uv:
 
 ```bash
 npm run data:validate   # check the curated tables
-npm run data:test       # 38 pipeline tests
+npm run data:test       # 40 pipeline tests
 npm run data            # recompile data/dist/dcc-bundle.json
 npm run data:verify     # committed bundle still matches the tables
 npm run data:review     # regenerate docs/CORPUS-REVIEW.md
@@ -49,8 +49,10 @@ Spoiler safety is a property of the system, not a feature of each view.
 
 ## What is in it
 
-147 entities, 163 facts, 53 relationships, 66 priced records, and 50 recorded
-holdings across floors 0 to 3, which is books 1 and 2. Every row carries a source and a confidence, and
+444 entities, 473 facts, 53 relationships, 66 priced records, and 50 recorded
+holdings across floors 0 to 9, which is books 1 to 8. Floors 0 to 3 are authored
+record by record; floors 4 to 9 carry entities and facts but not yet prices,
+relationships, or sheet kit. Every row carries a source and a confidence, and
 `docs/CORPUS-REVIEW.md` lists all of them with a link to the page each came
 from.
 

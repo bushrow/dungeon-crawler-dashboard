@@ -5,4 +5,4 @@ Nothing here ships to the browser. The apps read only the compiled bundle in
 """
 
 BUNDLE_VERSION = "0.1.0"
-MAX_FLOOR = 3
+MAX_FLOOR = 9

@@ -29,8 +29,9 @@ ITERATIONS = 400
 
 #: The graph panel is a wide rectangle, so the layout is computed in one. A
 #: square layout letterboxes inside the panel and wastes most of its width.
-SCALE_X = 1800.0
-SCALE_Y = 980.0
+#: The box grows with the node count: MIN_GAP is fixed, so a fixed box stops
+#: being satisfiable once there are enough nodes and they pile up at the edges.
+ASPECT = 1800.0 / 980.0
 
 #: Minimum gap between two nodes in scaled units. Spring layouts happily stack
 #: weakly-connected nodes on top of each other, and a label sits under every
@@ -98,20 +99,39 @@ def _spring(nodes: list[str], edges: list[tuple[str, str]]) -> dict[str, list[fl
     return pos
 
 
-def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, float]]:
-    """Return {entity_id: {"x": int, "y": int}} in a SCALE_X by SCALE_Y box."""
-    nodes = sorted(graph_nodes(entities))
-    if not nodes:
-        return {}
+def extent(count: int) -> tuple[int, int]:
+    """A 16:9 box with room for `count` nodes at MIN_GAP separation.
 
-    keep = set(nodes)
+    Whole units, because coordinates are rounded to whole units and a fractional
+    bound would sit just under a coordinate that rounded up to meet it.
+    """
+    area = max(count, 1) * MIN_GAP * MIN_GAP * 1.35
+    height = math.sqrt(area / ASPECT)
+    return math.ceil(height * ASPECT), math.ceil(height)
+
+
+def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, float]]:
+    """Return {entity_id: {"x": int, "y": int}} for every connected graph node.
+
+    Nodes with no relationship anywhere in the corpus get no position and are
+    not drawn. Including them would scatter isolated dots across the canvas and
+    stretch the layout away from the graph that actually exists.
+    """
+    candidates = set(graph_nodes(entities))
     pairs = sorted(
         {
             (edge["src"], edge["dst"])
             for edge in edges
-            if edge.get("src") in keep and edge.get("dst") in keep and edge["src"] != edge["dst"]
+            if edge.get("src") in candidates
+            and edge.get("dst") in candidates
+            and edge["src"] != edge["dst"]
         }
     )
+    nodes = sorted({n for pair in pairs for n in pair})
+    if not nodes:
+        return {}
+
+    scale_x, scale_y = extent(len(nodes))
 
     raw = _spring(nodes, pairs)
 
@@ -127,19 +147,19 @@ def compute(entities: list[dict], edges: list[dict]) -> dict[str, dict[str, floa
 
     scaled = {
         node: [
-            norm(raw[node][0], x_min, x_max, SCALE_X),
-            norm(raw[node][1], y_min, y_max, SCALE_Y),
+            norm(raw[node][0], x_min, x_max, scale_x),
+            norm(raw[node][1], y_min, y_max, scale_y),
         ]
         for node in nodes
     }
-    _relax(scaled)
+    _relax(scaled, scale_x, scale_y)
 
-    # Integers, not decimals. The box is 1800 by 980, so whole units are finer
-    # than the renderer can use, and sub-unit precision only records noise.
+    # Integers, not decimals. Whole units are finer than the renderer can use,
+    # and sub-unit precision only records floating-point noise.
     return {node: {"x": round(p[0]), "y": round(p[1])} for node, p in scaled.items()}
 
 
-def _relax(points: dict[str, list[float]]) -> None:
+def _relax(points: dict[str, list[float]], scale_x: float, scale_y: float) -> None:
     """Push overlapping nodes apart, in place.
 
     Deterministic: fixed step count, fixed iteration order, no randomness. Runs
@@ -171,8 +191,8 @@ def _relax(points: dict[str, list[float]]) -> None:
         # push two nodes that were separated into a corner back on top of each
         # other, with no iteration left to notice.
         for point in points.values():
-            point[0] = min(max(point[0], 0.0), SCALE_X)
-            point[1] = min(max(point[1], 0.0), SCALE_Y)
+            point[0] = min(max(point[0], 0.0), scale_x)
+            point[1] = min(max(point[1], 0.0), scale_y)
 
         if not moved:
             break

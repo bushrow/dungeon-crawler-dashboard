@@ -114,6 +114,25 @@ export class Horizon {
       .map((e) => ({ entity: e, position: layout[e.id]! }));
   }
 
+  /** The box the frozen coordinates live in, for the renderer's viewBox. */
+  get layoutExtent(): { width: number; height: number } {
+    return unwrap(this.bundle).layoutExtent;
+  }
+
+  /**
+   * Visible characters and factions the graph cannot place.
+   *
+   * A node with no relationship anywhere in the corpus has no coordinates, so
+   * it is not drawn. Reporting the count keeps that from being a silent
+   * omission: the reader can see the graph is not the whole cast.
+   */
+  unplacedCount(): number {
+    const { layout } = unwrap(this.bundle);
+    return this.entities().filter(
+      (e) => (e.type === 'character' || e.type === 'faction') && layout[e.id] === undefined,
+    ).length;
+  }
+
   edgesFor(id: string): Edge[] {
     return this.edges().filter((e) => e.src === id || e.dst === id);
   }
@@ -194,6 +213,7 @@ export class Horizon {
       character,
       stats: stats ?? null,
       statsAsOf: stats ? stats.floor : null,
+      kitAsOf: held.length ? Math.max(...held.map((x) => x.revealFloor)) : null,
       races: held.filter((h) => h.kind === 'race'),
       classes: held.filter((h) => h.kind === 'class'),
       gear: held.filter((h) => h.kind === 'gear'),

@@ -15,6 +15,7 @@ export function syntheticBundle(overrides: Partial<BundleData> = {}) {
     holdings: [],
     stats: [],
     layout: {},
+    layoutExtent: { width: 1800, height: 980 },
   };
   return wrap({ ...base, ...overrides });
 }

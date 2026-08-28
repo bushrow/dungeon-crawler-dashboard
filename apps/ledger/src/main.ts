@@ -403,12 +403,19 @@ function renderSheets(h: Horizon): void {
         <h2 class="sheet__name">${sheet.character.canonicalName}</h2>
         <div class="sheet__ident">${identity || 'No race or class chosen yet'}</div>
       </div>
-      ${sheet.stats ? `<div class="sheet__level">Level<b>${sheet.stats.level}</b></div>` : ''}
+      ${
+        sheet.stats?.level !== null && sheet.stats !== null
+          ? `<div class="sheet__level">Level<b>${sheet.stats.level}</b></div>`
+          : ''
+      }
     </div>
     ${
-      sheet.stats
+      // Only drawn when the source actually records attributes. A level-only
+      // line is common at higher floors and must not render as five nulls.
+      sheet.stats && STATS.some(([key]) => sheet.stats![key] !== null)
         ? `<dl class="stats">${STATS.map(
-            ([key, label]) => `<div><dt>${label}</dt><dd>${sheet.stats![key]}</dd></div>`,
+            ([key, label]) =>
+              `<div><dt>${label}</dt><dd>${sheet.stats![key] ?? '&mdash;'}</dd></div>`,
           ).join('')}</dl>`
         : ''
     }
@@ -416,13 +423,7 @@ function renderSheets(h: Horizon): void {
       ${block('Equipped', gearRows ? `<dl class="slots">${gearRows}</dl>` : '')}
       ${block('Skills', list(sheet.skills)) + block('Spells', list(sheet.spells))}
     </div>
-    ${
-      // The wiki has no floor 3 sheet yet, so the line can lag the horizon.
-      sheet.statsAsOf !== null && sheet.statsAsOf < h.floor
-        ? `<p class="sheet__asof">Stats and kit as of floor ${sheet.statsAsOf}.` +
-          ` Floor ${h.floor} is not recorded yet.</p>`
-        : ''
-    }`;
+    ${staleNote(sheet, h.floor)}`;
 
   for (const button of sheetBox.querySelectorAll<HTMLButtonElement>('[data-held]')) {
     button.addEventListener('click', () => {
@@ -430,6 +431,28 @@ function renderSheets(h: Horizon): void {
       repaint();
     });
   }
+}
+
+/**
+ * Say which floor the sheet is actually from.
+ *
+ * Stats and kit come from different sources and run out at different floors:
+ * the per-book tables carry a level well past where the per-floor pages stop
+ * recording gear. Claiming either is current when it is not would be the
+ * quietest kind of wrong.
+ */
+function staleNote(sheet: Sheet, floor: number): string {
+  const parts: string[] = [];
+  if (sheet.statsAsOf !== null && sheet.statsAsOf < floor) {
+    parts.push(`stats as of floor ${sheet.statsAsOf}`);
+  }
+  if (sheet.kitAsOf !== null && sheet.kitAsOf < floor) {
+    parts.push(`kit as of floor ${sheet.kitAsOf}`);
+  }
+  if (parts.length === 0) return '';
+  const list = parts.join(', ');
+  const sentence = list.charAt(0).toUpperCase() + list.slice(1);
+  return `<p class="sheet__asof">${sentence}. Floor ${floor} is not fully recorded.</p>`;
 }
 
 function setView(next: View): void {

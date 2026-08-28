@@ -10,8 +10,9 @@ through the horizon access layer in `packages/core`.
 ## Floors
 
 A **floor** is an integer. `0` means the prologue, before the dungeon opens.
-Floors `1` through `3` are the dungeon floors covered by the v1 corpus: books 1
-and 2, ending with the Over City.
+Floors `1` through `9` are the dungeon floors covered by the corpus: books 1
+through 8. Book 1 covers floors 1 and 2; from book 2 on, each book is one
+floor.
 
 A **horizon** is a floor. It is the only filter parameter in the system.
 

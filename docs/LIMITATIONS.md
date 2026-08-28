@@ -81,10 +81,43 @@ Rows marked `inferred` are left out of the Ledger entirely instead of being
 displayed with a caveat attached. `docs/CORPUS-REVIEW.md` is where confidence is
 meant to be read.
 
-## Scope is floors 0 through 3
+## Floors 4 to 9 are broad but shallow
 
-Books 1 and 2, ending with the Over City. Book 1 covers floors 1 and 2; book 2
-is floor 3. Everything past that is absent, not withheld.
+The corpus covers floors 0 to 9, which is books 1 to 8. Floors 0 to 3 were
+authored record by record. Floors 4 to 9 were expanded from the wiki's floor
+categories, which gives entities and transcribed facts but not the rest:
+
+- **No priced records.** The catalogue still stops at floor 3. Pricing the ~250
+  new classes, skills, and items means inventing an `effect_scale` for each,
+  and that column already has no rubric behind it. Guessing 250 more would make
+  the Ledger worse, not bigger.
+- **No relationships.** The Atlas graph is still the floors 0-3 cast. Character
+  infoboxes list allies and organisations, but those are current as of book 8,
+  so an alliance formed in book 7 would appear at floor 4. Relationship data for
+  later floors needs the books, not the wiki.
+- **No sheet kit.** Gear and skills stop at floor 3, so a sheet says so.
+
+The Atlas draws only characters and factions that have a recorded relationship
+and prints how many it is leaving out, so the omission is visible rather than
+silent.
+
+## Status is deliberately incomplete
+
+Twenty characters in the corpus are marked deceased on the wiki, and only one,
+Hekla, carries a citation saying which book. A death is recorded only when it is
+dated, because an undated one placed on the wrong floor shows a reader a death
+several books early.
+
+Everyone else stays `active`. That is wrong for characters who die later, and it
+is wrong in the safe direction: it withholds rather than reveals, and it keeps a
+doomed character indistinguishable from a spared one, which is the property the
+matched-pair test exists to protect.
+
+## One stat line looks wrong
+
+The wiki's Book 7 table puts Donut at level 135 while Carl is at 81. It is
+transcribed faithfully because that is what the source says, and it is flagged
+here because it does not look right.
 
 The wiki records series-current status for every character, most of it cited to
 books 3 through 8. None of that is in the corpus. Status rows cover only what

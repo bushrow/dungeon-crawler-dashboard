@@ -65,6 +65,15 @@ clock as everything else, so they inherit the leakage suite without new
 machinery. A holding is visible on exactly the terms an edge is: revealed by
 now, and not already known to have ended.
 
+Levels and stats past floor 2 come from the per-book tables on the main
+character pages, mapped book 1 to floor 2 and book N to floor N+1 thereafter.
+The mapping is checkable: book 1's final line is level 13 at 12/3/14/6/4, which
+is exactly what the floor 2 page records independently.
+
+Every stat field but the floor is optional, because the source carries a level
+for almost every book and a full attribute line for only a few. A sheet renders
+the attribute grid only when it has attributes, rather than five nulls.
+
 `statsFor` returns the most recent line at or before the horizon rather than
 requiring one per floor, and `sheetFor` reports the floor it came from. Showing
 the last known line and naming its floor is honest; inventing a current one is
@@ -77,7 +86,12 @@ to show are left out rather than displayed with a warning attached.
 ## Layout
 
 The graph layout is computed once, at compile time, over the whole corpus, and
-frozen into the bundle. The views render only the horizon-visible subgraph at
+frozen into the bundle. It covers only characters and factions that have a
+relationship somewhere in the corpus: placing isolated nodes would scatter dots
+across the canvas and stretch the layout away from the graph that exists. The
+box grows with the node count, since the minimum gap between nodes is fixed and
+a fixed box stops being satisfiable. The Atlas prints how many entities it is
+leaving out. The views render only the horizon-visible subgraph at
 those fixed coordinates. Nodes past the horizon are absent from the DOM rather
 than hidden with CSS.
 

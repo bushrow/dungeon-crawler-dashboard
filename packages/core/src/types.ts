@@ -176,12 +176,14 @@ export interface Holding {
 export interface StatLine {
   entityId: string;
   floor: number;
-  level: number;
-  str: number;
-  int: number;
-  con: number;
-  dex: number;
-  cha: number;
+  /** Every field but the floor is optional: the source records a level for
+   *  almost every book but a full attribute line for only a few. */
+  level: number | null;
+  str: number | null;
+  int: number | null;
+  con: number | null;
+  dex: number | null;
+  cha: number | null;
   source: string;
   confidence: Confidence;
 }
@@ -202,6 +204,8 @@ export interface Sheet {
   character: Entity;
   stats: StatLine | null;
   statsAsOf: number | null;
+  /** Highest floor any visible holding was recorded on, so a stale kit says so. */
+  kitAsOf: number | null;
   races: HeldEntity[];
   classes: HeldEntity[];
   gear: HeldEntity[];

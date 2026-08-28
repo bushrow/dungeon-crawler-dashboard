@@ -1632,6 +1632,2085 @@
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
       "type": "skill"
+    },
+    {
+      "canonicalName": "1914 Box",
+      "id": "1914_box",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "1965 Harley Davidson Motorcycle",
+      "id": "1965_harley_davidson_motorcycle",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Adjutant",
+      "id": "adjutant",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Agent Provocateur Class",
+      "id": "agent_provocateur_class",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "class"
+    },
+    {
+      "canonicalName": "Alpha Male Carl",
+      "id": "alpha_male_carl",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Arrow of Enthusiastic Double Gonorrhea",
+      "id": "arrow_of_enthusiastic_double_gonorrhea",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Asojano",
+      "id": "asojano",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Astral Paw Spell",
+      "id": "astral_paw_spell",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Babababoon",
+      "id": "babababoon",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Bactrian",
+      "id": "bactrian",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Bang Bro Spell",
+      "id": "bang_bro_spell",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Bard's Golden Throat",
+      "id": "bard_s_golden_throat",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Bear Witness Spell",
+      "id": "bear_witness_spell",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Big Boy Blue",
+      "id": "big_boy_blue",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Bin",
+      "id": "bin",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Bitch, What? Spell",
+      "id": "bitch_what_spell",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Black Nimbus",
+      "id": "black_nimbus",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Blister Ghoul",
+      "id": "blister_ghoul",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Blood Sultanate",
+      "id": "blood_sultanate",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Bomb Upgrade Patch",
+      "id": "bomb_upgrade_patch",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Bonnie",
+      "id": "bonnie",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Book Burner Patch",
+      "id": "book_burner_patch",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Book Burner Spell",
+      "id": "book_burner_spell",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Boomer",
+      "id": "boomer",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Bounty Box",
+      "id": "bounty_box",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Bravvo",
+      "id": "bravvo",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Bronze Condom",
+      "id": "bronze_condom",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Butcher's Masquerade Spell",
+      "id": "butcher_s_masquerade_spell",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Cave Mudge Bonker",
+      "id": "cave_mudge_bonker",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Celestial Grenade",
+      "id": "celestial_grenade",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Chaco",
+      "id": "chaco",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Champion Pack",
+      "id": "champion_pack",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Children of Inpewt",
+      "id": "children_of_inpewt",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Circe Took",
+      "id": "circe_took",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Clay",
+      "id": "clay",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Cleaner Bot",
+      "id": "cleaner_bot",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Clint Smashgrab",
+      "id": "clint_smashgrab",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Cloud of Exhaust Spell",
+      "id": "cloud_of_exhaust_spell",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Coffee Shop Author Kit",
+      "id": "coffee_shop_author_kit",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Combo Card",
+      "id": "combo_card",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Commandant Kane",
+      "id": "commandant_kane",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Community Pool",
+      "id": "community_pool",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Concierge Shark",
+      "id": "concierge_shark",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Control Sigil",
+      "id": "control_sigil",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Cornets",
+      "id": "cornets",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Cosmic Buff Potion",
+      "id": "cosmic_buff_potion",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Crafter's Box",
+      "id": "crafter_s_box",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Crixus",
+      "id": "crixus",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Dark Hive",
+      "id": "dark_hive",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "De-Sleeving Box",
+      "id": "de_sleeving_box",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Death Ray",
+      "id": "death_ray",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Did You Really Just Cast Fireball in a Room this Small Box",
+      "id": "did_you_really_just_cast_fireball_in_a_room_this_small_b",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Dirigible Gnome",
+      "id": "dirigible_gnome",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Dirty Little Phased Bolt",
+      "id": "dirty_little_phased_bolt",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Dismemberment Limited",
+      "id": "dismemberment_limited",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Diwata",
+      "id": "diwata",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Donita Grace",
+      "id": "donita_grace",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Dr. Ratchet's Guide to Building Automatons for Fun and Profit",
+      "id": "dr_ratchet_s_guide_to_building_automatons_for_fun_and_pr",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Dragon Chain Tattoo",
+      "id": "dragon_chain_tattoo",
+      "introducedFloor": 7,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Drakea's Enchanted Kerchief of Disorder",
+      "id": "drakea_s_enchanted_kerchief_of_disorder",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Drek",
+      "id": "drek",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Dromedarian",
+      "id": "dromedarian",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Dungeon Anarchist's Cookbook (Item)",
+      "id": "dungeon_anarchist_s_cookbook_item",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Dwarven Battery Fabricator",
+      "id": "dwarven_battery_fabricator",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Dwarven Industrial Light-Duty Automaton Contraption",
+      "id": "dwarven_industrial_light_duty_automaton_contraption",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Earth Upgrade Patch",
+      "id": "earth_upgrade_patch",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Edict",
+      "id": "edict",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Eighth Floor",
+      "id": "eighth_floor",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Elmer",
+      "id": "elmer",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Emberus",
+      "id": "emberus",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Emberus Tattoos",
+      "id": "emberus_tattoos",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Emerald",
+      "id": "emerald",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Enchanted Anarchist's Battle Rattle",
+      "id": "anarchist_s_battle_rattle",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Auto Buckler of the Peach Pit",
+      "id": "auto_buckler_of_the_peach_pit",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Collar Charm of the Effete Bourgeoisie",
+      "id": "collar_charm_of_the_effete_bourgeoisie",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Gnome Farseer",
+      "id": "gnome_farseer",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Hairbrush of the Beefmaster",
+      "id": "hairbrush_of_the_beefmaster",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Handcuffs",
+      "id": "handcuffs",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Lock Box of the Night Wyrm",
+      "id": "lock_box_of_the_night_wyrm",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Mongoliensis Saddle",
+      "id": "mongoliensis_saddle",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Nipple Ring of the Superior Fire Demon\u2019s Hand Maiden",
+      "id": "nipple_ring_of_the_superior_fire_demon_s_hand_maiden",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Obsidian Bracelet of the Raggle Rouser",
+      "id": "obsidian_bracelet_of_the_raggle_rouser",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Paupers Ring of the Steadfast Emberus",
+      "id": "paupers_ring_of_the_steadfast_emberus",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Repeating Crossbow of the Scavenger Mother of Mothers",
+      "id": "repeating_crossbow_of_the_scavenger_mother_of_mothers",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Roll of Never-ending Duct Tape",
+      "id": "roll_of_never_ending_duct_tape",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Shade Gnoll Riot Forces Crowd Control Shield",
+      "id": "shade_gnoll_riot_forces_crowd_control_shield",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton",
+      "id": "shade_gnoll_riot_forces_telescoping_crowd_control_baton",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Spiked Knee Pads of the Munificent Goddess Kina",
+      "id": "spiked_knee_pads_of_the_munificent_goddess_kina",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Toe Ring of the Leprous Bandit",
+      "id": "toe_ring_of_the_leprous_bandit",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Toe Ring of the Well-Balanced",
+      "id": "toe_ring_of_the_well_balanced",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Venomous Elven Rock Chucker",
+      "id": "venomous_elven_rock_chucker",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enchanted Wrestling Belt of the Great Gorgo",
+      "id": "wrestling_belt_of_the_great_gorgo",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Enemy of the Church Tattoo",
+      "id": "enemy_of_the_church_tattoo",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Engine of Tomorrow",
+      "id": "engine_of_tomorrow",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Engineer's Key",
+      "id": "engineer_s_key",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Epitome Noflex",
+      "id": "epitome_noflex",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Epitome Tagg",
+      "id": "epitome_tagg",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Experience (Mob)",
+      "id": "experience_mob",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Fang",
+      "id": "fang",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Feral Goose",
+      "id": "feral_goose",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Festering Ghoul",
+      "id": "festering_ghoul",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Fifth Floor",
+      "id": "fifth_floor",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Filthy Little Crawlers Book of Voodoo",
+      "id": "filthy_little_crawlers_book_of_voodoo",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Fireball Spell",
+      "id": "fireball_spell",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Flamengo",
+      "id": "flamengo",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Football Hooligan Class",
+      "id": "football_hooligan_class",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "class"
+    },
+    {
+      "canonicalName": "Four-Leaf Clover Patch",
+      "id": "four_leaf_clover_patch",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Fourth Floor",
+      "id": "fourth_floor",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Funeral Bell",
+      "id": "funeral_bell",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Gangway Chock",
+      "id": "gangway_chock",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Gate of the Feral Gods",
+      "id": "gate_of_the_feral_gods",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Geraldo",
+      "id": "geraldo",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Ghazi",
+      "id": "ghazi",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Ghommid",
+      "id": "ghommid",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Glamoured Fragment",
+      "id": "glamoured_fragment",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Glass Cannon Class",
+      "id": "glass_cannon_class",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "class"
+    },
+    {
+      "canonicalName": "Gnomish Drop Bear",
+      "id": "gnomish_drop_bear",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Gnomish Knock-Knock",
+      "id": "gnomish_knock_knock",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Gnomish Legate Balloon",
+      "id": "gnomish_legate_balloon",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Gods",
+      "id": "gods",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Goiter",
+      "id": "goiter",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Good Mana Potion",
+      "id": "good_mana_potion",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Gore-Gore",
+      "id": "gore_gore",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Graupel",
+      "id": "graupel",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Gross Atomizers",
+      "id": "gross_atomizers",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Growler Gary",
+      "id": "growler_gary",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Grrl Power Box",
+      "id": "grrl_power_box",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Grull",
+      "id": "grull",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Hamed",
+      "id": "hamed",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Hell-Kissed Celestial Skill Potion of the Prince of Woe",
+      "id": "hell_kissed_celestial_skill_potion_of_the_prince_of_woe",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "HeyZoos",
+      "id": "heyzoos",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Hobgoblin Disco Ball",
+      "id": "hobgoblin_disco_ball",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Holger",
+      "id": "holger",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Horton",
+      "id": "horton",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Houston",
+      "id": "houston",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Hunters",
+      "id": "hunters",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Hunting Trophy",
+      "id": "hunting_trophy",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "I Take It All Back Potion",
+      "id": "i_take_it_all_back_potion",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "I'm Wet Box",
+      "id": "i_m_wet_box",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Imogen",
+      "id": "imogen",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Inle",
+      "id": "inle",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Instacot 60",
+      "id": "instacot_60",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Interdiction Auxillary Railway Repair Cart",
+      "id": "interdiction_auxillary_railway_repair_cart",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Interdiction Rapid-Response Railway Repair Cart",
+      "id": "interdiction_rapid_response_railway_repair_cart",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Jamal",
+      "id": "jamal",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Jelly Bomb",
+      "id": "jelly_bomb",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Jellyfish Salve",
+      "id": "jellyfish_salve",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Jikininki Janitor Ghouls",
+      "id": "jikininki_janitor_ghouls",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Jola",
+      "id": "jola",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Juice Box",
+      "id": "juice_box",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Just Wait Until Your Daddy Gets Home",
+      "id": "just_wait_until_your_daddy_gets_home",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Kina",
+      "id": "kina",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "King Croissant",
+      "id": "king_croissant",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Kiwi",
+      "id": "kiwi",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Krakaren Crotch Dumplings",
+      "id": "krakaren_crotch_dumplings",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Kravyad",
+      "id": "kravyad",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Kua-Tin Rebreather",
+      "id": "kua_tin_rebreather",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Laundry Day Spell",
+      "id": "laundry_day_spell",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Lazarus-A-Bang-Bang",
+      "id": "lazarus_a_bang_bang",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Left Fang of the Green Sultan",
+      "id": "left_fang_of_the_green_sultan",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Legba",
+      "id": "legba",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Legionnaires of the Damned Spell",
+      "id": "legionnaires_of_the_damned_spell",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Leon",
+      "id": "leon",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Letter from the Council",
+      "id": "letter_from_the_council",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Letter from the Glass Wizard",
+      "id": "letter_from_the_glass_wizard",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Limp Richard",
+      "id": "limp_richard",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Liquid Therapy",
+      "id": "liquid_therapy",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Literal Fire Ants",
+      "id": "literal_fire_ants",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Live Ammo Ball",
+      "id": "live_ammo_ball",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Loot Punch Card",
+      "id": "loot_punch_card",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Louis",
+      "id": "louis",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Low Thi",
+      "id": "low_thi",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Lucky Bitch Box",
+      "id": "lucky_bitch_box",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Lunette",
+      "id": "lunette",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Lusca",
+      "id": "lusca",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Madison",
+      "id": "madison",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Makeup Sex is the Best Sex Box",
+      "id": "makeup_sex_is_the_best_sex_box",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Male Thorny Devil",
+      "id": "male_thorny_devil",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "ManTauR",
+      "id": "mantaur",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Massage Coupon",
+      "id": "massage_coupon",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Meatus",
+      "id": "meatus",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Midnight Epicure Upgrade Patch",
+      "id": "midnight_epicure_upgrade_patch",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Monk Seal",
+      "id": "monk_seal",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Mute Spell",
+      "id": "mute_spell",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Mysterious Bone Key Benefit",
+      "id": "mysterious_bone_key_benefit",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Nadine",
+      "id": "nadine",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Naiad Confederacy",
+      "id": "naiad_confederacy",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Nebular",
+      "id": "nebular",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Necklace of Indelible Woe",
+      "id": "necklace_of_indelible_woe",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Night Weasel",
+      "id": "night_weasel",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Night Wyrm's Nasty Little Web of Suffering Tattoo",
+      "id": "night_wyrm_s_nasty_little_web_of_suffering_tattoo",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Nightmare Express",
+      "id": "nightmare_express",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Ninth Floor",
+      "id": "ninth_floor",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Octo-Shark",
+      "id": "octo_shark",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Odius Creeper",
+      "id": "odius_creeper",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Opposite Day Ring",
+      "id": "opposite_day_ring",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Orchid of Eileithyia's Grace",
+      "id": "orchid_of_eileithyia_s_grace",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Orren",
+      "id": "orren",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Oshun",
+      "id": "oshun",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "PVP Coupon",
+      "id": "pvp_coupon",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Pain Amplifier Jellyfish",
+      "id": "pain_amplifier_jellyfish",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Peace Upgrade Patch",
+      "id": "peace_upgrade_patch",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Penelope",
+      "id": "penelope",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Penn",
+      "id": "penn",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Ping Spell",
+      "id": "ping_spell",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Platinum Sharpening Stone",
+      "id": "platinum_sharpening_stone",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Player Killer Skull",
+      "id": "player_killer_skull",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Pollyslog",
+      "id": "pollyslog",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Portal",
+      "id": "portal",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Potion of Bloodlust",
+      "id": "potion_of_bloodlust",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Potion of Half Splat",
+      "id": "potion_of_half_splat",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Potsy",
+      "id": "potsy",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Pox Slug",
+      "id": "pox_slug",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Precision Card",
+      "id": "precision_card",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Princess Posse",
+      "id": "princess_posse",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "Prism Industries Capacitating and Focusing Goggles",
+      "id": "prism_industries_capacitating_and_focusing_goggles",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Psycho Sticker",
+      "id": "psycho_sticker",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Quetzalcoatlus",
+      "id": "quetzalcoatlus",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Raul the Crab",
+      "id": "raul_the_crab",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Razor Fox",
+      "id": "razor_fox",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Reaper Spider Minion Patch",
+      "id": "reaper_spider_minion_patch",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Red Beret",
+      "id": "red_beret",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Reef Explorer",
+      "id": "reef_explorer",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Reminiscence Hydra of Malicious Compliance",
+      "id": "reminiscence_hydra_of_malicious_compliance",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Rev-Up Magic Hair Restoration Tonic",
+      "id": "rev_up_magic_hair_restoration_tonic",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Rev-Up Vitamin Shots",
+      "id": "rev_up_vitamin_shots",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Robot Donut",
+      "id": "robot_donut",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Rockard's Ring of Sniping",
+      "id": "rockard_s_ring_of_sniping",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Rosetta Thagra",
+      "id": "rosetta_thagra",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Ruckus",
+      "id": "ruckus",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Rude-Dolph the Blood-Nosed Slay-Deer",
+      "id": "rude_dolph_the_blood_nosed_slay_deer",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Run, Little Guenter, Run Spell",
+      "id": "run_little_guenter_run_spell",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Sappy Gold Ring",
+      "id": "sappy_gold_ring",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Satchel Bomb",
+      "id": "satchel_bomb",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Scavenger's Daughter Upgrade Patch",
+      "id": "scavenger_s_daughter_upgrade_patch",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Scroll of Build Trench",
+      "id": "scroll_of_build_trench",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Scroll of Water Breathing",
+      "id": "scroll_of_water_breathing",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Self-Immolation Spell",
+      "id": "self_immolation_spell",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Seventh Floor",
+      "id": "seventh_floor",
+      "introducedFloor": 7,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Shango",
+      "id": "shango",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Shattering Train Bomb",
+      "id": "shattering_train_bomb",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Sheet Music",
+      "id": "sheet_music",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Sheol Bricks",
+      "id": "sheol_bricks",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Shi Maria",
+      "id": "shi_maria",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Shock Chomper",
+      "id": "shock_chomper",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Sierra",
+      "id": "sierra",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Silfa",
+      "id": "silfa",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Simoom",
+      "id": "simoom",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Sixth Floor",
+      "id": "sixth_floor",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Size-Up Potion",
+      "id": "size_up_potion",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Skewer Belle",
+      "id": "skewer_belle",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Skyfowl Upgrade Patch",
+      "id": "skyfowl_upgrade_patch",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Skylar Spinach",
+      "id": "skylar_spinach",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Sluggalo",
+      "id": "sluggalo",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Spirit Box",
+      "id": "spirit_box",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Spunky Jefferson the Enchanted Nickel Sock of the Elderly Miser",
+      "id": "spunky_jefferson_the_enchanted_nickel_sock_of_the_elderl",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Squonk",
+      "id": "squonk",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Station Mimic",
+      "id": "station_mimic",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Stock Certificate",
+      "id": "stock_certificate",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Stuffed Grulke Infantry Figure",
+      "id": "stuffed_grulke_infantry_figure",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Stuffed Slate Butterfly Figure",
+      "id": "stuffed_slate_butterfly_figure",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Svern",
+      "id": "svern",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Swordfish Interlopers",
+      "id": "swordfish_interlopers",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "T'Ghee Card",
+      "id": "t_ghee_card",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Team Retribution",
+      "id": "team_retribution",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "faction"
+    },
+    {
+      "canonicalName": "That Wasn't Too Smart, Was It? Box",
+      "id": "that_wasn_t_too_smart_was_it_box",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Tipid",
+      "id": "tipid",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Tom",
+      "id": "tom",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Torn Book Page",
+      "id": "torn_book_page",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Tracked All-Terrain Suicide Machine. The Royal Chariot",
+      "id": "tracked_all_terrain_suicide_machine_the_royal_chariot",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Train Conductor's Souvenir Hat",
+      "id": "train_conductor_s_souvenir_hat",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Turkey",
+      "id": "turkey",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Twinkle Toes",
+      "id": "twinkle_toes",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear",
+      "id": "ugly_ass_backpack_with_a_completely_useless_design_that_",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Uncle Morty\u2019s Insta Lawn-Kill and Undead Repellant, Extra-Strength Edition",
+      "id": "uncle_morty_s_insta_lawn_kill_and_undead_repellant_extra",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Untangling the Iron Tangle",
+      "id": "untangling_the_iron_tangle",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "location"
+    },
+    {
+      "canonicalName": "Unwashed",
+      "id": "unwashed",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Ursensus",
+      "id": "ursensus",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Velma the Flamethrower",
+      "id": "velma_the_flamethrower",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Veriluxx RealPet Dungeon Crawl Special Edition Exclusive",
+      "id": "veriluxx_realpet_dungeon_crawl_special_edition_exclusive",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Viper Queen Class",
+      "id": "viper_queen_class",
+      "introducedFloor": 7,
+      "notes": null,
+      "type": "class"
+    },
+    {
+      "canonicalName": "Visitor",
+      "id": "visitor",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Vocal Coach Training Room",
+      "id": "vocal_coach_training_room",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Wall Monitor",
+      "id": "wall_monitor",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
+    },
+    {
+      "canonicalName": "Wall of Fire Spell",
+      "id": "wall_of_fire_spell",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Wand of Nighty Night",
+      "id": "wand_of_nighty_night",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "War Crimes Spell",
+      "id": "war_crimes_spell",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Warrior's Gold Helmet of Resistance",
+      "id": "warrior_s_gold_helmet_of_resistance",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Widget",
+      "id": "widget",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Wrath Ghouls",
+      "id": "wrath_ghouls",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "monster"
+    },
+    {
+      "canonicalName": "Wynne",
+      "id": "wynne",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Yago",
+      "id": "yago",
+      "introducedFloor": 8,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "You're Not Done Yet Spell",
+      "id": "you_re_not_done_yet_spell",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Ysalte",
+      "id": "ysalte",
+      "introducedFloor": 5,
+      "notes": null,
+      "type": "character"
+    },
+    {
+      "canonicalName": "Zerzura Spell",
+      "id": "zerzura_spell",
+      "introducedFloor": 6,
+      "notes": null,
+      "type": "skill"
+    },
+    {
+      "canonicalName": "Zhang's Cape of Odds",
+      "id": "zhang_s_cape_of_odds",
+      "introducedFloor": 9,
+      "notes": null,
+      "type": "item"
+    },
+    {
+      "canonicalName": "Zlurpies",
+      "id": "zlurpies",
+      "introducedFloor": 4,
+      "notes": null,
+      "type": "race"
     }
   ],
   "facts": [
@@ -3590,6 +5669,3726 @@
       "significanceFloor": 2,
       "source": "wiki:Mother_of_All_Bombs_(MOAB)",
       "subjectId": "moab"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f164",
+      "notes": null,
+      "object": "Gavrilo Princip Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:1914_Box",
+      "subjectId": "1914_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f165",
+      "notes": null,
+      "object": "Earth",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:1965_Harley_Davidson_Motorcycle",
+      "subjectId": "1965_harley_davidson_motorcycle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f166",
+      "notes": null,
+      "object": "+ experience on Explosives skills",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Agent_Provocateur_Class",
+      "subjectId": "agent_provocateur_class"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f167",
+      "notes": null,
+      "object": "Protective Shield, Hob-lobber, War Gauntlet",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Alpha_Male_Carl",
+      "subjectId": "alpha_male_carl"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f168",
+      "notes": null,
+      "object": "The Dream Hunters",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Arrow_of_Enthusiastic_Double_Gonorrhea",
+      "subjectId": "arrow_of_enthusiastic_double_gonorrhea"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f169",
+      "notes": null,
+      "object": "Suffering from the DTs",
+      "predicate": "has_weakness",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Babababoon",
+      "subjectId": "babababoon"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f170",
+      "notes": null,
+      "object": "Adds both fire and electrical damage to any currently-equipped item., May inflict Burn and Shock on targets",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bang_Bro_Spell",
+      "subjectId": "bang_bro_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f171",
+      "notes": null,
+      "object": "Temporarily Enchant Equipped Item",
+      "predicate": "targets",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bang_Bro_Spell",
+      "subjectId": "bang_bro_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f172",
+      "notes": null,
+      "object": "5 minutes + 1 minute per level of spell.",
+      "predicate": "lasts",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bang_Bro_Spell",
+      "subjectId": "bang_bro_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f173",
+      "notes": null,
+      "object": "5 mp",
+      "predicate": "costs",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bang_Bro_Spell",
+      "subjectId": "bang_bro_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f174",
+      "notes": null,
+      "object": "Tome from Bronze Boss Box",
+      "predicate": "is_associated_with",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bang_Bro_Spell",
+      "subjectId": "bang_bro_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f175",
+      "notes": null,
+      "object": "Raptures all users outside to target location",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Bear_Witness_Spell",
+      "subjectId": "bear_witness_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f176",
+      "notes": null,
+      "object": "Producer for Planet Beautiful",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bin",
+      "subjectId": "bin"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f177",
+      "notes": null,
+      "object": "You catch on fire, You become invulnerable to blunt damage, You get really angry and kill every goddamn thing in the room",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Bitch,_What?_Spell",
+      "subjectId": "bitch_what_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f178",
+      "notes": null,
+      "object": "Self only",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Bitch,_What?_Spell",
+      "subjectId": "bitch_what_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f179",
+      "notes": null,
+      "object": "20 Seconds",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Bitch,_What?_Spell",
+      "subjectId": "bitch_what_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f180",
+      "notes": null,
+      "object": "Item Based",
+      "predicate": "costs",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Bitch,_What?_Spell",
+      "subjectId": "bitch_what_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f181",
+      "notes": null,
+      "object": "Enchanted Nipple Ring of the Superior Fire Demon\u2019s Hand Maiden",
+      "predicate": "is_associated_with",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Bitch,_What?_Spell",
+      "subjectId": "bitch_what_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f182",
+      "notes": null,
+      "object": "Instantly removes target from the blessing of their deity and all associated buffs and effects., Higher levels increase the possibility of forcing a smite upon the target",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Black_Nimbus",
+      "subjectId": "black_nimbus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f183",
+      "notes": null,
+      "object": "(30 + [Caster\u2019s Intelligence+Constitution] \u2013 [Target\u2019s Intelligence/2]) Seconds",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Black_Nimbus",
+      "subjectId": "black_nimbus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f184",
+      "notes": null,
+      "object": "Enchanted Nipple Ring of the Defiler",
+      "predicate": "is_associated_with",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Black_Nimbus",
+      "subjectId": "black_nimbus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f185",
+      "notes": null,
+      "object": "+11% to Constitution, +6% damage to all explosives, +2 to the Dangerous Explosives Handling Skill, +15% Discount from traveling Spider Reaper Minion merchants",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Bomb_Upgrade_Patch",
+      "subjectId": "bomb_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f186",
+      "notes": null,
+      "object": "Gold Spicy Box",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Bomb_Upgrade_Patch",
+      "subjectId": "bomb_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f187",
+      "notes": null,
+      "object": "Door Gunner ( Party Planner airship)",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Bonnie",
+      "subjectId": "bonnie"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f188",
+      "notes": null,
+      "object": "The Dungeon (Fifth Floor, Air Quadrant)",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Bonnie",
+      "subjectId": "bonnie"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f189",
+      "notes": null,
+      "object": "+15% to Intelligence, The Book Burner benefit",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Book_Burner_Patch",
+      "subjectId": "book_burner_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f190",
+      "notes": null,
+      "object": "Gold Talk of the Town Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Book_Burner_Patch",
+      "subjectId": "book_burner_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f191",
+      "notes": null,
+      "object": "Cause an opponent to forget a spell",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Book_Burner_Spell",
+      "subjectId": "book_burner_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f192",
+      "notes": null,
+      "object": "30 hours",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Book_Burner_Spell",
+      "subjectId": "book_burner_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f193",
+      "notes": null,
+      "object": "Book Burner Patch",
+      "predicate": "is_associated_with",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Book_Burner_Spell",
+      "subjectId": "book_burner_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f194",
+      "notes": null,
+      "object": "Claim a Crawler's Bounty",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Bounty_Box",
+      "subjectId": "bounty_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f195",
+      "notes": null,
+      "object": "Hunter",
+      "predicate": "works_as",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Bravvo",
+      "subjectId": "bravvo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f196",
+      "notes": null,
+      "object": "Safe Sex",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Bronze_Condom",
+      "subjectId": "bronze_condom"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f197",
+      "notes": null,
+      "object": "It itches when I pee Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Bronze_Condom",
+      "subjectId": "bronze_condom"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f198",
+      "notes": null,
+      "object": "A guest list assembled by Apito",
+      "predicate": "targets",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Butcher's_Masquerade_Spell",
+      "subjectId": "butcher_s_masquerade_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f199",
+      "notes": null,
+      "object": "A single evening, ending when the party concludes or the peace seal is broken",
+      "predicate": "lasts",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Butcher's_Masquerade_Spell",
+      "subjectId": "butcher_s_masquerade_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f200",
+      "notes": null,
+      "object": "Summons a god for 1 minute, If you worship the god, you receive Divine Intervention",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Celestial_Grenade",
+      "subjectId": "celestial_grenade"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f201",
+      "notes": null,
+      "object": "Host of The Prize Carousel Prize counter attendant Faction Wars field correspondent",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Chaco",
+      "subjectId": "chaco"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f202",
+      "notes": null,
+      "object": "Defeating keymaster on the Eighth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Champion_Pack",
+      "subjectId": "champion_pack"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f203",
+      "notes": null,
+      "object": "Cleans Personal Space",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Cleaner_Bot",
+      "subjectId": "cleaner_bot"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f204",
+      "notes": null,
+      "object": "Bopca",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Cleaner_Bot",
+      "subjectId": "cleaner_bot"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f205",
+      "notes": null,
+      "object": "Pest Exterminator Class",
+      "predicate": "is_associated_with",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Cloud_of_Exhaust_Spell",
+      "subjectId": "cloud_of_exhaust_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f206",
+      "notes": null,
+      "object": "Scratchpad +1 Page",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Coffee_Shop_Author_Kit",
+      "subjectId": "coffee_shop_author_kit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f207",
+      "notes": null,
+      "object": "Gold Makeup Sex is the Best Sex Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Coffee_Shop_Author_Kit",
+      "subjectId": "coffee_shop_author_kit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f208",
+      "notes": null,
+      "object": "Infection/disease from Target A transfers to Target B.",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Community_Pool",
+      "subjectId": "community_pool"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f209",
+      "notes": null,
+      "object": "2 Targets, physically in contact with caster",
+      "predicate": "targets",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Community_Pool",
+      "subjectId": "community_pool"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f210",
+      "notes": null,
+      "object": "Instant",
+      "predicate": "lasts",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Community_Pool",
+      "subjectId": "community_pool"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f211",
+      "notes": null,
+      "object": "Creates gated effect that prevents certain types of individuals from passing",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Control_Sigil",
+      "subjectId": "control_sigil"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f212",
+      "notes": null,
+      "object": "Aural Attack that imbues Queasy Debuff",
+      "predicate": "has_advantage",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Cornets",
+      "subjectId": "cornets"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f213",
+      "notes": null,
+      "object": "+ 10 to Random Stat",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Cosmic_Buff_Potion",
+      "subjectId": "cosmic_buff_potion"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f214",
+      "notes": null,
+      "object": "Platinum Here's Some Good Shit Because You're Gonna Need It Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Cosmic_Buff_Potion",
+      "subjectId": "cosmic_buff_potion"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f215",
+      "notes": null,
+      "object": "Martha Stewart Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Crafter's_Box",
+      "subjectId": "crafter_s_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f216",
+      "notes": null,
+      "object": "Sniper Captain",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Crixus",
+      "subjectId": "crixus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f217",
+      "notes": null,
+      "object": "Removing outworlder sponsors from the god they are piloting",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:De-Sleeving_Box",
+      "subjectId": "de_sleeving_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f218",
+      "notes": null,
+      "object": "Insta-death",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Death_Ray",
+      "subjectId": "death_ray"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f219",
+      "notes": null,
+      "object": "Short Range",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Death_Ray",
+      "subjectId": "death_ray"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f220",
+      "notes": null,
+      "object": "Instant",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Death_Ray",
+      "subjectId": "death_ray"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f221",
+      "notes": null,
+      "object": "Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Did_You_Really_Just_Cast_Fireball_in_a_Room_this_Small_Box",
+      "subjectId": "did_you_really_just_cast_fireball_in_a_room_this_small_b"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f222",
+      "notes": null,
+      "object": "Reduce Health to 10% (or 1% if second bolt), Temporary Amnesia, Bleed Effect, You do not receive credit for kill",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dirty_Little_Phased_Bolt",
+      "subjectId": "dirty_little_phased_bolt"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f223",
+      "notes": null,
+      "object": "Contains War Mage",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dismemberment_Limited",
+      "subjectId": "dismemberment_limited"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f224",
+      "notes": null,
+      "object": "Fourth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dismemberment_Limited",
+      "subjectId": "dismemberment_limited"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f225",
+      "notes": null,
+      "object": "Earth",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Donita_Grace",
+      "subjectId": "donita_grace"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 7,
+      "id": "f226",
+      "notes": null,
+      "object": "Grants the Level 13 skill Profane Iron (Once a day, for ~30 seconds)",
+      "predicate": "does",
+      "revealFloor": 7,
+      "significanceFloor": 7,
+      "source": "wiki:Dragon_Chain_Tattoo",
+      "subjectId": "dragon_chain_tattoo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 7,
+      "id": "f227",
+      "notes": null,
+      "object": "Crafted by Katia Grim",
+      "predicate": "comes_from",
+      "revealFloor": 7,
+      "significanceFloor": 7,
+      "source": "wiki:Dragon_Chain_Tattoo",
+      "subjectId": "dragon_chain_tattoo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f228",
+      "notes": null,
+      "object": "+5 Detect Trap Skill, Tripper Spell, Level 15, Remote Detonator Benefit",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Drakea's_Enchanted_Kerchief_of_Disorder",
+      "subjectId": "drakea_s_enchanted_kerchief_of_disorder"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f229",
+      "notes": null,
+      "object": "Gold Boss Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Drakea's_Enchanted_Kerchief_of_Disorder",
+      "subjectId": "drakea_s_enchanted_kerchief_of_disorder"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f230",
+      "notes": null,
+      "object": "Scratchpad + 1 Page",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dungeon_Anarchist's_Cookbook_(Item)",
+      "subjectId": "dungeon_anarchist_s_cookbook_item"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f231",
+      "notes": null,
+      "object": "The Prize Carousel",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dungeon_Anarchist's_Cookbook_(Item)",
+      "subjectId": "dungeon_anarchist_s_cookbook_item"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f232",
+      "notes": null,
+      "object": "Produces and Charges Batteries",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dwarven_Battery_Fabricator",
+      "subjectId": "dwarven_battery_fabricator"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f233",
+      "notes": null,
+      "object": "Limp Richard's General Store",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Dwarven_Battery_Fabricator",
+      "subjectId": "dwarven_battery_fabricator"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f234",
+      "notes": null,
+      "object": "+5% to Strength, Immunity from cloud-based attacks",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Earth_Upgrade_Patch",
+      "subjectId": "earth_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f235",
+      "notes": null,
+      "object": "Platinum Spicy Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Earth_Upgrade_Patch",
+      "subjectId": "earth_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f236",
+      "notes": null,
+      "object": "Merchant, Hunter",
+      "predicate": "works_as",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Edict",
+      "subjectId": "edict"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f237",
+      "notes": null,
+      "object": "21 Days",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Eighth_Floor",
+      "subjectId": "eighth_floor"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f238",
+      "notes": null,
+      "object": "Former Mayor",
+      "predicate": "works_as",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Elmer",
+      "subjectId": "elmer"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f239",
+      "notes": null,
+      "object": "God",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Emberus",
+      "subjectId": "emberus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f240",
+      "notes": null,
+      "object": "Celestial Ascendency",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Emberus",
+      "subjectId": "emberus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f241",
+      "notes": null,
+      "object": "Marks as worshipper of Emberus",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Emberus_Tattoos",
+      "subjectId": "emberus_tattoos"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f242",
+      "notes": null,
+      "object": "Emberus",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Emberus_Tattoos",
+      "subjectId": "emberus_tattoos"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f243",
+      "notes": null,
+      "object": "The World Dungeon (NPC)",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Emerald",
+      "subjectId": "emerald"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f244",
+      "notes": null,
+      "object": "+1 STR, +1 INT, +1 CON, +1 DEX, +1 CHA, +50% Range - all thrown explosives, +50% Accuracy - all thrown explosives, Access: Desperado Club, Access: Naughty Boys Employment Agency",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Anarchist's_Battle_Rattle",
+      "subjectId": "anarchist_s_battle_rattle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f245",
+      "notes": null,
+      "object": "Platinum Spicy Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Anarchist's_Battle_Rattle",
+      "subjectId": "anarchist_s_battle_rattle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f246",
+      "notes": null,
+      "object": "Shatter Spell",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Auto_Buckler_of_the_Peach_Pit",
+      "subjectId": "auto_buckler_of_the_peach_pit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f247",
+      "notes": null,
+      "object": "Loot Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Auto_Buckler_of_the_Peach_Pit",
+      "subjectId": "auto_buckler_of_the_peach_pit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f248",
+      "notes": null,
+      "object": "+8 Dexterity, +4 Intelligence, +10 to the Snitch Skill",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Enchanted_Collar_Charm_of_the_Effete_Bourgeoisie",
+      "subjectId": "collar_charm_of_the_effete_bourgeoisie"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f249",
+      "notes": null,
+      "object": "Recieve after becoming mayor of Point Mongo",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Enchanted_Collar_Charm_of_the_Effete_Bourgeoisie",
+      "subjectId": "collar_charm_of_the_effete_bourgeoisie"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f250",
+      "notes": null,
+      "object": "+75% accuracy of gravity-based bombs",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Gnome_Farseer",
+      "subjectId": "gnome_farseer"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f251",
+      "notes": null,
+      "object": "Skarn",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Gnome_Farseer",
+      "subjectId": "gnome_farseer"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f252",
+      "notes": null,
+      "object": "Shining Charisma Benefit., Speedster Benefit., Plus 25% to your constitution., Level 10 Entourage Spell., Plus your hair will be shiny and healthy, and it will goddamn glisten.",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Enchanted_Hairbrush_of_the_Beefmaster",
+      "subjectId": "hairbrush_of_the_beefmaster"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f253",
+      "notes": null,
+      "object": "Who Let the Gods Out This Time Box, Celestial Orgy of Chaos Achievement.",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Enchanted_Hairbrush_of_the_Beefmaster",
+      "subjectId": "hairbrush_of_the_beefmaster"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f254",
+      "notes": null,
+      "object": "Contains a celestial boon",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Enchanted_Lock_Box_of_the_Night_Wyrm",
+      "subjectId": "lock_box_of_the_night_wyrm"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f255",
+      "notes": null,
+      "object": "Loot Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Enchanted_Lock_Box_of_the_Night_Wyrm",
+      "subjectId": "lock_box_of_the_night_wyrm"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f256",
+      "notes": null,
+      "object": "Allows Donut to ride Mongo",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Mongoliensis_Saddle",
+      "subjectId": "mongoliensis_saddle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f257",
+      "notes": null,
+      "object": "Platinum Fan Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Mongoliensis_Saddle",
+      "subjectId": "mongoliensis_saddle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f258",
+      "notes": null,
+      "object": "Legendary Beguilers Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Enchanted_Nipple_Ring_of_the_Superior_Fire_Demon\u2019s_Hand_Maiden",
+      "subjectId": "nipple_ring_of_the_superior_fire_demon_s_hand_maiden"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f259",
+      "notes": null,
+      "object": "cancels health-sapping debuff effects, cancel disease debuff effects, may numb other debuffs, does NOT remove debuffs",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Enchanted_Paupers_Ring_of_the_Steadfast_Emberus",
+      "subjectId": "paupers_ring_of_the_steadfast_emberus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f260",
+      "notes": null,
+      "object": "Blessed Sun Enchantments Shop at Club Vanquisher",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Enchanted_Paupers_Ring_of_the_Steadfast_Emberus",
+      "subjectId": "paupers_ring_of_the_steadfast_emberus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f261",
+      "notes": null,
+      "object": "Repeating Crossbow",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Repeating_Crossbow_of_the_Scavenger_Mother_of_Mothers",
+      "subjectId": "repeating_crossbow_of_the_scavenger_mother_of_mothers"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f262",
+      "notes": null,
+      "object": "Legendary Grrl Power Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Repeating_Crossbow_of_the_Scavenger_Mother_of_Mothers",
+      "subjectId": "repeating_crossbow_of_the_scavenger_mother_of_mothers"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f263",
+      "notes": null,
+      "object": "50 meter long replenishing duct tape",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Roll_of_Never-ending_Duct_Tape",
+      "subjectId": "roll_of_never_ending_duct_tape"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f264",
+      "notes": null,
+      "object": "Silver Fan Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Roll_of_Never-ending_Duct_Tape",
+      "subjectId": "roll_of_never_ending_duct_tape"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f265",
+      "notes": null,
+      "object": "+5% to Constitution., +5 to the Rooted in Place Skill, +Upgrades Rush Skill to Crowd Blast Skill.",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Shade_Gnoll_Riot_Forces_Crowd_Control_Shield",
+      "subjectId": "shade_gnoll_riot_forces_crowd_control_shield"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f266",
+      "notes": null,
+      "object": "Fan Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Shade_Gnoll_Riot_Forces_Crowd_Control_Shield",
+      "subjectId": "shade_gnoll_riot_forces_crowd_control_shield"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f267",
+      "notes": null,
+      "object": "Casts level 5 Cone of Knockback",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Shade_Gnoll_Riot_Forces_Telescoping_Crowd_Control_Baton",
+      "subjectId": "shade_gnoll_riot_forces_telescoping_crowd_control_baton"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f268",
+      "notes": null,
+      "object": "Fan Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Shade_Gnoll_Riot_Forces_Telescoping_Crowd_Control_Baton",
+      "subjectId": "shade_gnoll_riot_forces_telescoping_crowd_control_baton"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f269",
+      "notes": null,
+      "object": "+25% Damage Reflect for melee attacks., Breathe Underwater Benefit, Level 15 Swim Skill, Level 10 Iron Stomach Skill, Level 10 Eater of the Dead Skill",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Enchanted_Spiked_Knee_Pads_of_the_Munificent_Goddess_Kina",
+      "subjectId": "spiked_knee_pads_of_the_munificent_goddess_kina"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f270",
+      "notes": null,
+      "object": "Celestial Orgy of Chaos Achievement Who Let the Gods Out This Time Box",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Enchanted_Spiked_Knee_Pads_of_the_Munificent_Goddess_Kina",
+      "subjectId": "spiked_knee_pads_of_the_munificent_goddess_kina"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f271",
+      "notes": null,
+      "object": "Sticky Feet Benefit, Super Spreader Benefit",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Toe_Ring_of_the_Leprous_Bandit",
+      "subjectId": "toe_ring_of_the_leprous_bandit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f272",
+      "notes": null,
+      "object": "Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Enchanted_Toe_Ring_of_the_Leprous_Bandit",
+      "subjectId": "toe_ring_of_the_leprous_bandit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f273",
+      "notes": null,
+      "object": "Heart Balance Skill, Level 5, Mind Balance Skill, Level 5, Physical Balance Skill, Level 5, Extra Steady Balance Skill, Walk on Air Skill",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Enchanted_Toe_Ring_of_the_Well-Balanced",
+      "subjectId": "toe_ring_of_the_well_balanced"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f274",
+      "notes": null,
+      "object": "Unbirthing Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Enchanted_Toe_Ring_of_the_Well-Balanced",
+      "subjectId": "toe_ring_of_the_well_balanced"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f275",
+      "notes": null,
+      "object": "+5% Strength, +5% Constitution, The Avalanche Benefit",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Wrestling_Belt_of_the_Great_Gorgo",
+      "subjectId": "wrestling_belt_of_the_great_gorgo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f276",
+      "notes": null,
+      "object": "Platinum Slam Master Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Enchanted_Wrestling_Belt_of_the_Great_Gorgo",
+      "subjectId": "wrestling_belt_of_the_great_gorgo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f277",
+      "notes": null,
+      "object": "25% bonus damage against adherents of Deity., Adherents of deity attack on sight., Tattoo cannot be concealed.",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Enemy_of_the_Church_Tattoo",
+      "subjectId": "enemy_of_the_church_tattoo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f278",
+      "notes": null,
+      "object": "Apostate Box",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Enemy_of_the_Church_Tattoo",
+      "subjectId": "enemy_of_the_church_tattoo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f279",
+      "notes": null,
+      "object": "Slows down the perception of time",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Engine_of_Tomorrow",
+      "subjectId": "engine_of_tomorrow"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f280",
+      "notes": null,
+      "object": "Celestial Orgy of Chaos Achievement Who Let the Gods Out This Time Box",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Engine_of_Tomorrow",
+      "subjectId": "engine_of_tomorrow"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f281",
+      "notes": null,
+      "object": "Allows entrance to engineer's car on the Iron Tangle",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Engineer's_Key",
+      "subjectId": "engineer_s_key"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f282",
+      "notes": null,
+      "object": "Engineers",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Engineer's_Key",
+      "subjectId": "engineer_s_key"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f283",
+      "notes": null,
+      "object": "Familiar to Queen Imogen Co-Warlord of Team Retribution Mayor of Shanty Town",
+      "predicate": "works_as",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Ferdinand",
+      "subjectId": "ferdinand"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f284",
+      "notes": null,
+      "object": "Earth (Seattle, Washington)",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Ferdinand",
+      "subjectId": "ferdinand"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f285",
+      "notes": null,
+      "object": "Suffering from the DTs",
+      "predicate": "has_weakness",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Festering_Ghoul",
+      "subjectId": "festering_ghoul"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f286",
+      "notes": null,
+      "object": "15 Days",
+      "predicate": "lasts",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Fifth_Floor",
+      "subjectId": "fifth_floor"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f287",
+      "notes": null,
+      "object": "Prepotente Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Filthy_Little_Crawlers_Book_of_Voodoo",
+      "subjectId": "filthy_little_crawlers_book_of_voodoo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f288",
+      "notes": null,
+      "object": "FIREBALL",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Fireball_Spell",
+      "subjectId": "fireball_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f289",
+      "notes": null,
+      "object": "Lucky Shot",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Four-Leaf_Clover_Patch",
+      "subjectId": "four_leaf_clover_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f290",
+      "notes": null,
+      "object": "Legendary Lucky Bitch Box",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Four-Leaf_Clover_Patch",
+      "subjectId": "four_leaf_clover_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f291",
+      "notes": null,
+      "object": "10 Days",
+      "predicate": "lasts",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Fourth_Floor",
+      "subjectId": "fourth_floor"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f292",
+      "notes": null,
+      "object": "Block mobs from entering subway cars on the Iron Tangle",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gangway_Chock",
+      "subjectId": "gangway_chock"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f293",
+      "notes": null,
+      "object": "Engineer's Table",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gangway_Chock",
+      "subjectId": "gangway_chock"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f294",
+      "notes": null,
+      "object": "Opens long-distance teleportation portals, Releases a maddened feral god from the Nothing when the portal closes",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Gate_of_the_Feral_Gods",
+      "subjectId": "gate_of_the_feral_gods"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f295",
+      "notes": null,
+      "object": "Looted in three pieces (two watches and a winding box) from Henrik the Changeling, Commandant Kane, and the Mad Dune Mage on the Fifth Floor, within the Necropolis of Anser",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Gate_of_the_Feral_Gods",
+      "subjectId": "gate_of_the_feral_gods"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f296",
+      "notes": null,
+      "object": "Monk Seal Picket Sentry",
+      "predicate": "works_as",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Geraldo",
+      "subjectId": "geraldo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f297",
+      "notes": null,
+      "object": "Eighth Floor Cuba",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Geraldo",
+      "subjectId": "geraldo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f298",
+      "notes": null,
+      "object": "Glass Mage",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Ghazi",
+      "subjectId": "ghazi"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f299",
+      "notes": null,
+      "object": "Increases training speed on all spells, Reduces cost of casting spells",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Glass_Cannon_Class",
+      "subjectId": "glass_cannon_class"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f300",
+      "notes": null,
+      "object": "Dirigible Gnomes",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Gnomish_Drop_Bear",
+      "subjectId": "gnomish_drop_bear"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f301",
+      "notes": null,
+      "object": "Thermobaric Explosion.",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Gnomish_Knock-Knock",
+      "subjectId": "gnomish_knock_knock"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f302",
+      "notes": null,
+      "object": "Fifth Floor Bubble #543",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Gnomish_Knock-Knock",
+      "subjectId": "gnomish_knock_knock"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f303",
+      "notes": null,
+      "object": "Grant worshippers unique spells, stat boosts, and floor boons",
+      "predicate": "has_advantage",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gods",
+      "subjectId": "gods"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f304",
+      "notes": null,
+      "object": "Can inflict devastating Smites and permanent debuffs",
+      "predicate": "has_weakness",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gods",
+      "subjectId": "gods"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f305",
+      "notes": null,
+      "object": "(200) MP over 120 seconds",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Good_Mana_Potion",
+      "subjectId": "good_mana_potion"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f306",
+      "notes": null,
+      "object": "Adventurer Box (Floor 8)",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Good_Mana_Potion",
+      "subjectId": "good_mana_potion"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f307",
+      "notes": null,
+      "object": "Ochre Line Train Engineer",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gore-Gore",
+      "subjectId": "gore_gore"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f308",
+      "notes": null,
+      "object": "Dungeon",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gore-Gore",
+      "subjectId": "gore_gore"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f309",
+      "notes": null,
+      "object": "MASSIVE DEADLY ICE STORM",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Graupel",
+      "subjectId": "graupel"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f310",
+      "notes": null,
+      "object": "Area",
+      "predicate": "targets",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Graupel",
+      "subjectId": "graupel"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f311",
+      "notes": null,
+      "object": "50 MP",
+      "predicate": "costs",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Graupel",
+      "subjectId": "graupel"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f312",
+      "notes": null,
+      "object": "Poison area of effect attack",
+      "predicate": "has_advantage",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gross_Atomizers",
+      "subjectId": "gross_atomizers"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f313",
+      "notes": null,
+      "object": "Easy to kill",
+      "predicate": "has_weakness",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Gross_Atomizers",
+      "subjectId": "gross_atomizers"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f314",
+      "notes": null,
+      "object": "Bartender for The Downward Dog",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Growler_Gary",
+      "subjectId": "growler_gary"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f315",
+      "notes": null,
+      "object": "Dungeon",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Growler_Gary",
+      "subjectId": "growler_gary"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f316",
+      "notes": null,
+      "object": "Killing a mob using a human male corpse",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Grrl_Power_Box",
+      "subjectId": "grrl_power_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f317",
+      "notes": null,
+      "object": "God of War",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Grull",
+      "subjectId": "grull"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f318",
+      "notes": null,
+      "object": "Celestial Ascendency",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Grull",
+      "subjectId": "grull"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f319",
+      "notes": null,
+      "object": "Leader of the Guild of Suffering, Manager of the Desperado Club",
+      "predicate": "works_as",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Hamed",
+      "subjectId": "hamed"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f320",
+      "notes": null,
+      "object": "Outside the Dungeon (Early Indentured Servant)",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Hamed",
+      "subjectId": "hamed"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f321",
+      "notes": null,
+      "object": "Gloom Wraith Phase Skill",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Hell-Kissed_Celestial_Skill_Potion_of_the_Prince_of_Woe",
+      "subjectId": "hell_kissed_celestial_skill_potion_of_the_prince_of_woe"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f322",
+      "notes": null,
+      "object": "Heavy Metal Box",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Hell-Kissed_Celestial_Skill_Potion_of_the_Prince_of_Woe",
+      "subjectId": "hell_kissed_celestial_skill_potion_of_the_prince_of_woe"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f323",
+      "notes": null,
+      "object": "Eighth Floor Ecuador",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:HeyZoos",
+      "subjectId": "heyzoos"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f324",
+      "notes": null,
+      "object": "It\u2019s a real trip.",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Hobgoblin_Disco_Ball",
+      "subjectId": "hobgoblin_disco_ball"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f325",
+      "notes": null,
+      "object": "I was in the Pool! Achievement Rock Bottom Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:I'm_Wet_Box",
+      "subjectId": "i_m_wet_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f326",
+      "notes": null,
+      "object": "Ruler of the high elves",
+      "predicate": "works_as",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Imogen",
+      "subjectId": "imogen"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f327",
+      "notes": null,
+      "object": "+ fully rested after 1 min sleep + Great Rest bonus",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Instacot_60",
+      "subjectId": "instacot_60"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f328",
+      "notes": null,
+      "object": "Dungeon Market OR Guild",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Instacot_60",
+      "subjectId": "instacot_60"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f329",
+      "notes": null,
+      "object": "Station 75 on the Iron Tangle",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Interdiction_Auxillary_Railway_Repair_Cart",
+      "subjectId": "interdiction_auxillary_railway_repair_cart"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f330",
+      "notes": null,
+      "object": "Station 75 on the Iron Tangle",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Interdiction_Rapid-Response_Railway_Repair_Cart",
+      "subjectId": "interdiction_rapid_response_railway_repair_cart"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f331",
+      "notes": null,
+      "object": "Mercenary",
+      "predicate": "works_as",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Jamal",
+      "subjectId": "jamal"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f332",
+      "notes": null,
+      "object": "Tsarina Signet's Tattoos",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Jamal",
+      "subjectId": "jamal"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f333",
+      "notes": null,
+      "object": "Derails a train on the Iron Tangle",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Jelly_Bomb",
+      "subjectId": "jelly_bomb"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f334",
+      "notes": null,
+      "object": "Sapper's Table",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Jelly_Bomb",
+      "subjectId": "jelly_bomb"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f335",
+      "notes": null,
+      "object": "Removes the pain portion of the Kill Me Now It Hurts debuff.",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Jellyfish_Salve",
+      "subjectId": "jellyfish_salve"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f336",
+      "notes": null,
+      "object": "Loot Boxes",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Jellyfish_Salve",
+      "subjectId": "jellyfish_salve"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f337",
+      "notes": null,
+      "object": "Iceland",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Jola",
+      "subjectId": "jola"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f338",
+      "notes": null,
+      "object": "Prostitute at the Toe",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Juice_Box",
+      "subjectId": "juice_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f339",
+      "notes": null,
+      "object": "Hump Town, Fifth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Juice_Box",
+      "subjectId": "juice_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f340",
+      "notes": null,
+      "object": "Twelfth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Kina",
+      "subjectId": "kina"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f341",
+      "notes": null,
+      "object": "Gilled creatures can breathe on land",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Kua-Tin_Rebreather",
+      "subjectId": "kua_tin_rebreather"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f342",
+      "notes": null,
+      "object": "Kua-Tin",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Kua-Tin_Rebreather",
+      "subjectId": "kua_tin_rebreather"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f343",
+      "notes": null,
+      "object": "Someone wearing armor, line of sight",
+      "predicate": "targets",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Laundry_Day_Spell",
+      "subjectId": "laundry_day_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f344",
+      "notes": null,
+      "object": "Combo Card",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Lazarus-A-Bang-Bang",
+      "subjectId": "lazarus_a_bang_bang"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f345",
+      "notes": null,
+      "object": "Eva",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Left_Fang_of_the_Green_Sultan",
+      "subjectId": "left_fang_of_the_green_sultan"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f346",
+      "notes": null,
+      "object": "wailing spirit minions",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Legionnaires_of_the_Damned_Spell",
+      "subjectId": "legionnaires_of_the_damned_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f347",
+      "notes": null,
+      "object": "recently unequipped armor and weapons",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Legionnaires_of_the_Damned_Spell",
+      "subjectId": "legionnaires_of_the_damned_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f348",
+      "notes": null,
+      "object": "[(Spell Level x 2) + INT] seconds",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Legionnaires_of_the_Damned_Spell",
+      "subjectId": "legionnaires_of_the_damned_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f349",
+      "notes": null,
+      "object": "25 mp",
+      "predicate": "costs",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Legionnaires_of_the_Damned_Spell",
+      "subjectId": "legionnaires_of_the_damned_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f350",
+      "notes": null,
+      "object": "Negotiator",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Leon",
+      "subjectId": "leon"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f351",
+      "notes": null,
+      "object": "Proprietor of the general store \u201cLimp Richard\u2019s Sundries.\u201d",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Limp_Richard",
+      "subjectId": "limp_richard"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f352",
+      "notes": null,
+      "object": "On Fire",
+      "predicate": "has_advantage",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Literal_Fire_Ants",
+      "subjectId": "literal_fire_ants"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f353",
+      "notes": null,
+      "object": "Celestial Loot Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Loot_Punch_Card",
+      "subjectId": "loot_punch_card"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f354",
+      "notes": null,
+      "object": "Miami, Florida, Earth",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Louis",
+      "subjectId": "louis"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f355",
+      "notes": null,
+      "object": "Liquified Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Lucky_Bitch_Box",
+      "subjectId": "lucky_bitch_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f356",
+      "notes": null,
+      "object": "Human Resources Associate",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Madison",
+      "subjectId": "madison"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f357",
+      "notes": null,
+      "object": "Dungeon",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Madison",
+      "subjectId": "madison"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f358",
+      "notes": null,
+      "object": "+ semi-random loot",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Makeup_Sex_is_the_Best_Sex_Box",
+      "subjectId": "makeup_sex_is_the_best_sex_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f359",
+      "notes": null,
+      "object": "System AI's Smush fetish Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Makeup_Sex_is_the_Best_Sex_Box",
+      "subjectId": "makeup_sex_is_the_best_sex_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f360",
+      "notes": null,
+      "object": "20% more damage to those with a Extinction Sigil Tattoo (Wall Monitor Race)",
+      "predicate": "has_advantage",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Male_Thorny_Devil",
+      "subjectId": "male_thorny_devil"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f361",
+      "notes": null,
+      "object": "Free massage at the Desperado Club",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Massage_Coupon",
+      "subjectId": "massage_coupon"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f362",
+      "notes": null,
+      "object": "Dungeon",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Meatus",
+      "subjectId": "meatus"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f363",
+      "notes": null,
+      "object": "Protection against Vampirism, Protection against Lycanthropy, +25% Magical damage against all sapient undead",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Midnight_Epicure_Upgrade_Patch",
+      "subjectId": "midnight_epicure_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f364",
+      "notes": null,
+      "object": "Gold Benefactor Box",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Midnight_Epicure_Upgrade_Patch",
+      "subjectId": "midnight_epicure_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f365",
+      "notes": null,
+      "object": "Muted Debuff (target cannot cast spells)",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Mute_Spell",
+      "subjectId": "mute_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f366",
+      "notes": null,
+      "object": "Single Target",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Mute_Spell",
+      "subjectId": "mute_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f367",
+      "notes": null,
+      "object": "Based on Skill / Target Level",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Mute_Spell",
+      "subjectId": "mute_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f368",
+      "notes": null,
+      "object": "Creates a key from a user's bones",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Mysterious_Bone_Key_Benefit",
+      "subjectId": "mysterious_bone_key_benefit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f369",
+      "notes": null,
+      "object": "Self Bones",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Mysterious_Bone_Key_Benefit",
+      "subjectId": "mysterious_bone_key_benefit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f370",
+      "notes": null,
+      "object": "Scavenger's Daughter Upgrade Patch",
+      "predicate": "is_associated_with",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Mysterious_Bone_Key_Benefit",
+      "subjectId": "mysterious_bone_key_benefit"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f371",
+      "notes": null,
+      "object": "Teacher",
+      "predicate": "works_as",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Nadine",
+      "subjectId": "nadine"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f372",
+      "notes": null,
+      "object": "King Rust",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Necklace_of_Indelible_Woe",
+      "subjectId": "necklace_of_indelible_woe"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f373",
+      "notes": null,
+      "object": "Guild of Suffering Membership",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Night_Wyrm's_Nasty_Little_Web_of_Suffering_Tattoo",
+      "subjectId": "night_wyrm_s_nasty_little_web_of_suffering_tattoo"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f374",
+      "notes": null,
+      "object": "Fourth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Nightmare_Express",
+      "subjectId": "nightmare_express"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f375",
+      "notes": null,
+      "object": "30 Days, or 90 hours after a winner is declared, whichever is sooner",
+      "predicate": "lasts",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Ninth_Floor",
+      "subjectId": "ninth_floor"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f376",
+      "notes": null,
+      "object": "Rebounds spells at caster",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Opposite_Day_Ring",
+      "subjectId": "opposite_day_ring"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f377",
+      "notes": null,
+      "object": "One of 3 Boons",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Orchid_of_Eileithyia's_Grace",
+      "subjectId": "orchid_of_eileithyia_s_grace"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f378",
+      "notes": null,
+      "object": "Celestial Loot Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Orchid_of_Eileithyia's_Grace",
+      "subjectId": "orchid_of_eileithyia_s_grace"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f379",
+      "notes": null,
+      "object": "Syndicate Liaison, Desperado Club Manager (cover)",
+      "predicate": "works_as",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Orren",
+      "subjectId": "orren"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f380",
+      "notes": null,
+      "object": "Knot",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Orren",
+      "subjectId": "orren"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f381",
+      "notes": null,
+      "object": "Rewards crawlers for killing Party members",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:PVP_Coupon",
+      "subjectId": "pvp_coupon"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f382",
+      "notes": null,
+      "object": "Player Killer Skull",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:PVP_Coupon",
+      "subjectId": "pvp_coupon"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f383",
+      "notes": null,
+      "object": "Neutral mobs are less likely to fall into aggro, +10% to Dexterity, +10% skill in playing the bongos",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Peace_Upgrade_Patch",
+      "subjectId": "peace_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f384",
+      "notes": null,
+      "object": "Gold Pacifist's Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Peace_Upgrade_Patch",
+      "subjectId": "peace_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f385",
+      "notes": null,
+      "object": "Applied to a spiked offensive weapon:, Plus (2 x current level)% damage to all attacks., Plus 1 to all current stat buffs.",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Platinum_Sharpening_Stone",
+      "subjectId": "platinum_sharpening_stone"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f386",
+      "notes": null,
+      "object": "Platinum Quest Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Platinum_Sharpening_Stone",
+      "subjectId": "platinum_sharpening_stone"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f387",
+      "notes": null,
+      "object": "Secrete acid from fingers",
+      "predicate": "has_advantage",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Pollyslog",
+      "subjectId": "pollyslog"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f388",
+      "notes": null,
+      "object": "Teleport from one location to another",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Portal",
+      "subjectId": "portal"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f389",
+      "notes": null,
+      "object": "Silver Pacifist Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Potion_of_Bloodlust",
+      "subjectId": "potion_of_bloodlust"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f390",
+      "notes": null,
+      "object": "Benefactor Box",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Prism_Industries_Capacitating_and_Focusing_Goggles",
+      "subjectId": "prism_industries_capacitating_and_focusing_goggles"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f391",
+      "notes": null,
+      "object": "Totem Card / Minion",
+      "predicate": "works_as",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Raul_the_Crab",
+      "subjectId": "raul_the_crab"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f392",
+      "notes": null,
+      "object": "Cuba (Eighth Floor)",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Raul_the_Crab",
+      "subjectId": "raul_the_crab"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f393",
+      "notes": null,
+      "object": "Access to the Midnight Market. Safety or Sanity not guaranteed., You will receive a notification if any traveling merchants are nearby., Plus 5% to Dexterity",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Reaper_Spider_Minion_Patch",
+      "subjectId": "reaper_spider_minion_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f394",
+      "notes": null,
+      "object": "Platinum Hell In A Handbasket Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Reaper_Spider_Minion_Patch",
+      "subjectId": "reaper_spider_minion_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f395",
+      "notes": null,
+      "object": "City Boss",
+      "predicate": "works_as",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Reminiscence_Hydra_of_Malicious_Compliance",
+      "subjectId": "reminiscence_hydra_of_malicious_compliance"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f396",
+      "notes": null,
+      "object": "Stimulates hair growth",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Rev-Up_Magic_Hair_Restoration_Tonic",
+      "subjectId": "rev_up_magic_hair_restoration_tonic"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f397",
+      "notes": null,
+      "object": "Gore-Gore's Corpse",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Rev-Up_Magic_Hair_Restoration_Tonic",
+      "subjectId": "rev_up_magic_hair_restoration_tonic"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f398",
+      "notes": null,
+      "object": "Induces a powerful, sedative high. Missing a dose causes severe withdrawal (the DTs), physical mutation, and death or zombification.",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Rev-Up_Vitamin_Shots",
+      "subjectId": "rev_up_vitamin_shots"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f399",
+      "notes": null,
+      "object": "Krakaren (Manufacturer) / Pookas (Distributors)",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Rev-Up_Vitamin_Shots",
+      "subjectId": "rev_up_vitamin_shots"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f400",
+      "notes": null,
+      "object": "Ripe Benefit, Loaded Benefit",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Rockard's_Ring_of_Sniping",
+      "subjectId": "rockard_s_ring_of_sniping"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f401",
+      "notes": null,
+      "object": "Quan Ch's hand",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Rockard's_Ring_of_Sniping",
+      "subjectId": "rockard_s_ring_of_sniping"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f402",
+      "notes": null,
+      "object": "Journalist / Show Host Filmmaker Host of Shadow Boxer Former Game Guide Former Desperado Club merchant",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Rosetta_Thagra",
+      "subjectId": "rosetta_thagra"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f403",
+      "notes": null,
+      "object": "Summoning Spell",
+      "predicate": "targets",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Run,_Little_Guenter,_Run_Spell",
+      "subjectId": "run_little_guenter_run_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f404",
+      "notes": null,
+      "object": "20 seconds, plus 1 second per mana point",
+      "predicate": "lasts",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Run,_Little_Guenter,_Run_Spell",
+      "subjectId": "run_little_guenter_run_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f405",
+      "notes": null,
+      "object": "Variable. Miniumum 20 mp.",
+      "predicate": "costs",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Run,_Little_Guenter,_Run_Spell",
+      "subjectId": "run_little_guenter_run_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f406",
+      "notes": null,
+      "object": "1914 Box",
+      "predicate": "is_associated_with",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Run,_Little_Guenter,_Run_Spell",
+      "subjectId": "run_little_guenter_run_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f407",
+      "notes": null,
+      "object": "Quan Ch's Arm",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Sappy_Gold_Ring",
+      "subjectId": "sappy_gold_ring"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f408",
+      "notes": null,
+      "object": "Boss Box",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Satchel_Bomb",
+      "subjectId": "satchel_bomb"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f409",
+      "notes": null,
+      "object": "Celestial Predator Box",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Scavenger's_Daughter_Upgrade_Patch",
+      "subjectId": "scavenger_s_daughter_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f410",
+      "notes": null,
+      "object": "Creates a trench 2.3 meters deep and 2 meters wide, the length is variable based on users intelligence and strength.",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Scroll_of_Build_Trench",
+      "subjectId": "scroll_of_build_trench"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f411",
+      "notes": null,
+      "object": "Silver Spam Box/ Adventurer Boxs",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Scroll_of_Build_Trench",
+      "subjectId": "scroll_of_build_trench"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f412",
+      "notes": null,
+      "object": "Allows a crawler to breathe underwater",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Scroll_of_Water_Breathing",
+      "subjectId": "scroll_of_water_breathing"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f413",
+      "notes": null,
+      "object": "Platinum That Wasn't Too Smart, Was It? Box",
+      "predicate": "comes_from",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Scroll_of_Water_Breathing",
+      "subjectId": "scroll_of_water_breathing"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f414",
+      "notes": null,
+      "object": "Self",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Self-Immolation_Spell",
+      "subjectId": "self_immolation_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f415",
+      "notes": null,
+      "object": "Instantaneous. Fire burst lasts up to three seconds.",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Self-Immolation_Spell",
+      "subjectId": "self_immolation_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f416",
+      "notes": null,
+      "object": "Nothing",
+      "predicate": "costs",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Self-Immolation_Spell",
+      "subjectId": "self_immolation_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 7,
+      "id": "f417",
+      "notes": null,
+      "object": "20 Days (scheduled) / ~10 Minutes (actual)",
+      "predicate": "lasts",
+      "revealFloor": 7,
+      "significanceFloor": 7,
+      "source": "wiki:Seventh_Floor",
+      "subjectId": "seventh_floor"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f418",
+      "notes": null,
+      "object": "BOOM!",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Shattering_Train_Bomb",
+      "subjectId": "shattering_train_bomb"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f419",
+      "notes": null,
+      "object": "Nightmare Express (Fourth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Shattering_Train_Bomb",
+      "subjectId": "shattering_train_bomb"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f420",
+      "notes": null,
+      "object": "coal, but better",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Sheol_Bricks",
+      "subjectId": "sheol_bricks"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f421",
+      "notes": null,
+      "object": "Lesser Demon MILF, Fifteenth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Sheol_Bricks",
+      "subjectId": "sheol_bricks"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f422",
+      "notes": null,
+      "object": "Totem T'Ghee Card (formerly)",
+      "predicate": "works_as",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Shi_Maria",
+      "subjectId": "shi_maria"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f423",
+      "notes": null,
+      "object": "The Celestial Realm (banished to the Eighth Floor)",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Shi_Maria",
+      "subjectId": "shi_maria"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f424",
+      "notes": null,
+      "object": "Electrical Attack",
+      "predicate": "has_advantage",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Shock_Chomper",
+      "subjectId": "shock_chomper"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f425",
+      "notes": null,
+      "object": "Attack can be canceled by hitting them",
+      "predicate": "has_weakness",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Shock_Chomper",
+      "subjectId": "shock_chomper"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f426",
+      "notes": null,
+      "object": "Baker",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Silfa",
+      "subjectId": "silfa"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f427",
+      "notes": null,
+      "object": "17 Days",
+      "predicate": "lasts",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Sixth_Floor",
+      "subjectId": "sixth_floor"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f428",
+      "notes": null,
+      "object": "Useful Alchemical properties",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Skewer_Belle",
+      "subjectId": "skewer_belle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f429",
+      "notes": null,
+      "object": "Sixth Floor",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Skewer_Belle",
+      "subjectId": "skewer_belle"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f430",
+      "notes": null,
+      "object": "+5% to Dexterity, +5% damage to all ranged projectiles",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Skyfowl_Upgrade_Patch",
+      "subjectId": "skyfowl_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f431",
+      "notes": null,
+      "object": "Gold Ranged Weapon Box",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Skyfowl_Upgrade_Patch",
+      "subjectId": "skyfowl_upgrade_patch"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f432",
+      "notes": null,
+      "object": "Monk Seal Picket Sentry",
+      "predicate": "works_as",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Skylar_Spinach",
+      "subjectId": "skylar_spinach"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f433",
+      "notes": null,
+      "object": "Eighth Floor Cuba",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Skylar_Spinach",
+      "subjectId": "skylar_spinach"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f434",
+      "notes": null,
+      "object": "Roots target in place or (see description)",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Spirit_Box",
+      "subjectId": "spirit_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f435",
+      "notes": null,
+      "object": "Corporeal dumbasses who step on it. That means you.",
+      "predicate": "targets",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Spirit_Box",
+      "subjectId": "spirit_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f436",
+      "notes": null,
+      "object": "You will be rooted in place for sixty seconds. If you end up possessed, that\u2019s pretty damn permanent.",
+      "predicate": "lasts",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Spirit_Box",
+      "subjectId": "spirit_box"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f437",
+      "notes": null,
+      "object": "City Boss",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Station_Mimic",
+      "subjectId": "station_mimic"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f438",
+      "notes": null,
+      "object": "Dungeon",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Station_Mimic",
+      "subjectId": "station_mimic"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f439",
+      "notes": null,
+      "object": "Summons Grulke to location for limited period of time",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Stuffed_Grulke_Infantry_Figure",
+      "subjectId": "stuffed_grulke_infantry_figure"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f440",
+      "notes": null,
+      "object": "Miss Quill's apartment",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Stuffed_Grulke_Infantry_Figure",
+      "subjectId": "stuffed_grulke_infantry_figure"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f441",
+      "notes": null,
+      "object": "Stores and commands a captured mob, Enables card combat",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:T'Ghee_Card",
+      "subjectId": "t_ghee_card"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f442",
+      "notes": null,
+      "object": "Flagging a creature at 5% health or below, Looted from defeated opponents",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:T'Ghee_Card",
+      "subjectId": "t_ghee_card"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f443",
+      "notes": null,
+      "object": "Former Crawler, Game Guide, Waste Management Worker, Mercenary Colonel",
+      "predicate": "works_as",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Tipid",
+      "subjectId": "tipid"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f444",
+      "notes": null,
+      "object": "Crest System",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Tipid",
+      "subjectId": "tipid"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f445",
+      "notes": null,
+      "object": "I'm on a train Achievement",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Train_Conductor's_Souvenir_Hat",
+      "subjectId": "train_conductor_s_souvenir_hat"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f446",
+      "notes": null,
+      "object": "Makes a minion run really fast",
+      "predicate": "does",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Twinkle_Toes",
+      "subjectId": "twinkle_toes"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f447",
+      "notes": null,
+      "object": "Minion",
+      "predicate": "targets",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Twinkle_Toes",
+      "subjectId": "twinkle_toes"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f448",
+      "notes": null,
+      "object": "As many seconds as the caster's intelligence level",
+      "predicate": "lasts",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Twinkle_Toes",
+      "subjectId": "twinkle_toes"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f449",
+      "notes": null,
+      "object": "Variable additional mass",
+      "predicate": "does",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Ugly_Ass_Backpack_With_a_Completely_Useless_Design_that_Only_an_Idiot_Would_Wear",
+      "subjectId": "ugly_ass_backpack_with_a_completely_useless_design_that_"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f450",
+      "notes": null,
+      "object": "Carl Armorer's Workshop",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Ugly_Ass_Backpack_With_a_Completely_Useless_Design_that_Only_an_Idiot_Would_Wear",
+      "subjectId": "ugly_ass_backpack_with_a_completely_useless_design_that_"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f451",
+      "notes": null,
+      "object": "Fire Damage",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Velma_the_Flamethrower",
+      "subjectId": "velma_the_flamethrower"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f452",
+      "notes": null,
+      "object": "+ Bard-related skills",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Vocal_Coach_Training_Room",
+      "subjectId": "vocal_coach_training_room"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f453",
+      "notes": null,
+      "object": "Loot Boxes, Marketplace",
+      "predicate": "comes_from",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Vocal_Coach_Training_Room",
+      "subjectId": "vocal_coach_training_room"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f454",
+      "notes": null,
+      "object": "area around the caster",
+      "predicate": "targets",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Wall_of_Fire_Spell",
+      "subjectId": "wall_of_fire_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 5,
+      "id": "f455",
+      "notes": null,
+      "object": "15 mana",
+      "predicate": "costs",
+      "revealFloor": 5,
+      "significanceFloor": 5,
+      "source": "wiki:Wall_of_Fire_Spell",
+      "subjectId": "wall_of_fire_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f456",
+      "notes": null,
+      "object": "Oh boy.",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:War_Crimes_Spell",
+      "subjectId": "war_crimes_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f457",
+      "notes": null,
+      "object": "A line-of-sight beam extending from caster\u2019s eyes that shoots in a narrow cone.",
+      "predicate": "targets",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:War_Crimes_Spell",
+      "subjectId": "war_crimes_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f458",
+      "notes": null,
+      "object": "See description.",
+      "predicate": "lasts",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:War_Crimes_Spell",
+      "subjectId": "war_crimes_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f459",
+      "notes": null,
+      "object": "1 mana point.",
+      "predicate": "costs",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:War_Crimes_Spell",
+      "subjectId": "war_crimes_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f460",
+      "notes": null,
+      "object": "1914 Box",
+      "predicate": "is_associated_with",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:War_Crimes_Spell",
+      "subjectId": "war_crimes_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f461",
+      "notes": null,
+      "object": "Provides unknown resistance; restricted to sword-wielders.",
+      "predicate": "does",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Warrior's_Gold_Helmet_of_Resistance",
+      "subjectId": "warrior_s_gold_helmet_of_resistance"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 8,
+      "id": "f462",
+      "notes": null,
+      "object": "Boss Box (Eighth Floor)",
+      "predicate": "comes_from",
+      "revealFloor": 8,
+      "significanceFloor": 8,
+      "source": "wiki:Warrior's_Gold_Helmet_of_Resistance",
+      "subjectId": "warrior_s_gold_helmet_of_resistance"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f463",
+      "notes": null,
+      "object": "Iron Tangle Steam Engine Train Technician",
+      "predicate": "works_as",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Widget",
+      "subjectId": "widget"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f464",
+      "notes": null,
+      "object": "Dungeon",
+      "predicate": "comes_from",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Widget",
+      "subjectId": "widget"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 4,
+      "id": "f465",
+      "notes": null,
+      "object": "Suffering from the DTs",
+      "predicate": "has_weakness",
+      "revealFloor": 4,
+      "significanceFloor": 4,
+      "source": "wiki:Wrath_Ghouls",
+      "subjectId": "wrath_ghouls"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f466",
+      "notes": null,
+      "object": "Turns creature into undead Flesher minion",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:You're_Not_Done_Yet_Spell",
+      "subjectId": "you_re_not_done_yet_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f467",
+      "notes": null,
+      "object": "Enemy with skin",
+      "predicate": "targets",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:You're_Not_Done_Yet_Spell",
+      "subjectId": "you_re_not_done_yet_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f468",
+      "notes": null,
+      "object": "Instant",
+      "predicate": "lasts",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:You're_Not_Done_Yet_Spell",
+      "subjectId": "you_re_not_done_yet_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f469",
+      "notes": null,
+      "object": "Relocates target, Creates Children of Inpewt",
+      "predicate": "does",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Zerzura_Spell",
+      "subjectId": "zerzura_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f470",
+      "notes": null,
+      "object": "Full Settlement + NPCs",
+      "predicate": "targets",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Zerzura_Spell",
+      "subjectId": "zerzura_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 6,
+      "id": "f471",
+      "notes": null,
+      "object": "Instantaneous, 5 minutes to cast",
+      "predicate": "lasts",
+      "revealFloor": 6,
+      "significanceFloor": 6,
+      "source": "wiki:Zerzura_Spell",
+      "subjectId": "zerzura_spell"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f472",
+      "notes": null,
+      "object": "Roll the Dice Skill",
+      "predicate": "does",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Zhang's_Cape_of_Odds",
+      "subjectId": "zhang_s_cape_of_odds"
+    },
+    {
+      "confidence": "certain",
+      "eventFloor": 9,
+      "id": "f473",
+      "notes": null,
+      "object": "Who Let the Gods Out This Time Box, Celestial Orgy of Chaos Achievement.",
+      "predicate": "comes_from",
+      "revealFloor": 9,
+      "significanceFloor": 9,
+      "source": "wiki:Zhang's_Cape_of_Odds",
+      "subjectId": "zhang_s_cape_of_odds"
     }
   ],
   "holdings": [
@@ -4246,127 +10045,131 @@
   ],
   "layout": {
     "bautista": {
-      "x": 167,
-      "y": 692
+      "x": 122,
+      "y": 646
     },
     "beatrice": {
-      "x": 1555,
-      "y": 558
+      "x": 1500,
+      "y": 539
     },
     "bopca": {
-      "x": 692,
-      "y": 195
+      "x": 662,
+      "y": 178
     },
     "borant": {
-      "x": 704,
-      "y": 395
+      "x": 685,
+      "y": 377
     },
     "carl": {
-      "x": 996,
-      "y": 659
+      "x": 963,
+      "y": 601
     },
     "chris_andrews": {
-      "x": 366,
-      "y": 937
+      "x": 356,
+      "y": 922
     },
     "crawlers": {
-      "x": 686,
-      "y": 785
+      "x": 655,
+      "y": 756
     },
     "donut": {
-      "x": 1116,
-      "y": 499
+      "x": 1082,
+      "y": 440
     },
     "elle_mcgibbons": {
-      "x": 566,
-      "y": 944
+      "x": 556,
+      "y": 930
     },
     "ferdinand": {
-      "x": 1070,
-      "y": 935
+      "x": 1031,
+      "y": 912
     },
     "florin": {
-      "x": 1269,
-      "y": 909
+      "x": 1228,
+      "y": 877
     },
     "frank_q": {
-      "x": 1185,
-      "y": 724
+      "x": 1139,
+      "y": 697
     },
     "hekla": {
-      "x": 342,
-      "y": 546
+      "x": 344,
+      "y": 533
     },
     "imani": {
-      "x": 394,
-      "y": 739
+      "x": 304,
+      "y": 729
     },
     "katia_grim": {
-      "x": 799,
-      "y": 620
+      "x": 757,
+      "y": 584
     },
     "le_mouvement": {
-      "x": 1800,
-      "y": 598
+      "x": 1725,
+      "y": 569
     },
     "li_jun": {
       "x": 0,
-      "y": 875
+      "y": 816
     },
     "li_na": {
-      "x": 170,
-      "y": 980
+      "x": 157,
+      "y": 940
     },
     "maestro": {
-      "x": 504,
-      "y": 429
+      "x": 485,
+      "y": 391
     },
     "miriam_dom": {
-      "x": 762,
-      "y": 980
+      "x": 756,
+      "y": 940
     },
     "mongo": {
-      "x": 1316,
-      "y": 485
+      "x": 1281,
+      "y": 460
     },
     "monobrow_sam": {
-      "x": 1789,
-      "y": 797
+      "x": 1719,
+      "y": 769
     },
     "mordecai": {
-      "x": 920,
-      "y": 461
+      "x": 880,
+      "y": 419
     },
     "prepotente": {
-      "x": 898,
-      "y": 833
+      "x": 879,
+      "y": 782
     },
     "quan_ch": {
-      "x": 599,
-      "y": 605
+      "x": 556,
+      "y": 582
     },
     "royal_court": {
-      "x": 1479,
-      "y": 370
+      "x": 1441,
+      "y": 340
     },
     "skull_empire": {
-      "x": 58,
+      "x": 56,
       "y": 0
     },
     "syndicate": {
-      "x": 295,
-      "y": 164
+      "x": 283,
+      "y": 157
     },
     "the_system": {
-      "x": 1596,
-      "y": 848
+      "x": 1524,
+      "y": 814
     },
     "tsarina_signet": {
-      "x": 1389,
-      "y": 671
+      "x": 1334,
+      "y": 653
     }
   },
-  "maxFloor": 3,
+  "layoutExtent": {
+    "height": 940,
+    "width": 1725
+  },
+  "maxFloor": 9,
   "mechanics": [
     {
       "confidence": "certain",
@@ -5187,6 +10990,90 @@
       "str": 12
     },
     {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "carl",
+      "floor": 3,
+      "int": null,
+      "level": 27,
+      "source": "wiki:Carl#Book_2",
+      "str": null
+    },
+    {
+      "cha": 30,
+      "con": 44,
+      "confidence": "probable",
+      "dex": 31,
+      "entityId": "carl",
+      "floor": 4,
+      "int": 18,
+      "level": 41,
+      "source": "wiki:Carl#Book_3",
+      "str": 67
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "carl",
+      "floor": 5,
+      "int": null,
+      "level": 47,
+      "source": "wiki:Carl#Book_4",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "carl",
+      "floor": 6,
+      "int": null,
+      "level": 63,
+      "source": "wiki:Carl#Book_5",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "carl",
+      "floor": 7,
+      "int": null,
+      "level": 73,
+      "source": "wiki:Carl#Book_6",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "carl",
+      "floor": 8,
+      "int": null,
+      "level": 81,
+      "source": "wiki:Carl#Book_7",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "carl",
+      "floor": 9,
+      "int": null,
+      "level": 84,
+      "source": "wiki:Carl#Book_8",
+      "str": null
+    },
+    {
       "cha": 43,
       "con": 2,
       "confidence": "certain",
@@ -5209,9 +11096,87 @@
       "level": 11,
       "source": "wiki:Donut-Floor_2",
       "str": 21
+    },
+    {
+      "cha": 96,
+      "con": 7,
+      "confidence": "probable",
+      "dex": 22,
+      "entityId": "donut",
+      "floor": 3,
+      "int": 38,
+      "level": 26,
+      "source": "wiki:Donut#Book_2",
+      "str": 33
+    },
+    {
+      "cha": 129,
+      "con": 25,
+      "confidence": "probable",
+      "dex": 20,
+      "entityId": "donut",
+      "floor": 4,
+      "int": 56,
+      "level": 33,
+      "source": "wiki:Donut#Book_3",
+      "str": 48
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "donut",
+      "floor": 5,
+      "int": null,
+      "level": 39,
+      "source": "wiki:Donut#Book_4",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "donut",
+      "floor": 6,
+      "int": null,
+      "level": 63,
+      "source": "wiki:Donut#Book_5",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "donut",
+      "floor": 7,
+      "int": null,
+      "level": 63,
+      "source": "wiki:Donut#Book_6",
+      "str": null
+    },
+    {
+      "cha": null,
+      "con": null,
+      "confidence": "probable",
+      "dex": null,
+      "entityId": "donut",
+      "floor": 8,
+      "int": null,
+      "level": 135,
+      "source": "wiki:Donut#Book_7",
+      "str": null
     }
   ],
   "status": [
+    {
+      "entityId": "beatrice",
+      "eventFloor": 0,
+      "revealFloor": 0,
+      "status": "active"
+    },
     {
       "entityId": "carl",
       "eventFloor": 0,
@@ -5225,13 +11190,13 @@
       "status": "active"
     },
     {
-      "entityId": "beatrice",
-      "eventFloor": 0,
-      "revealFloor": 0,
+      "entityId": "chris_andrews",
+      "eventFloor": 1,
+      "revealFloor": 1,
       "status": "active"
     },
     {
-      "entityId": "mordecai",
+      "entityId": "elle_mcgibbons",
       "eventFloor": 1,
       "revealFloor": 1,
       "status": "active"
@@ -5249,19 +11214,13 @@
       "status": "active"
     },
     {
-      "entityId": "chris_andrews",
-      "eventFloor": 1,
-      "revealFloor": 1,
-      "status": "active"
-    },
-    {
       "entityId": "imani",
       "eventFloor": 1,
       "revealFloor": 1,
       "status": "active"
     },
     {
-      "entityId": "elle_mcgibbons",
+      "entityId": "mordecai",
       "eventFloor": 1,
       "revealFloor": 1,
       "status": "active"
@@ -5279,7 +11238,7 @@
       "status": "active"
     },
     {
-      "entityId": "mongo",
+      "entityId": "maestro",
       "eventFloor": 2,
       "revealFloor": 2,
       "status": "active"
@@ -5291,13 +11250,19 @@
       "status": "active"
     },
     {
-      "entityId": "maestro",
+      "entityId": "mongo",
       "eventFloor": 2,
       "revealFloor": 2,
       "status": "active"
     },
     {
-      "entityId": "tsarina_signet",
+      "entityId": "bautista",
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "status": "active"
+    },
+    {
+      "entityId": "florin",
       "eventFloor": 3,
       "revealFloor": 3,
       "status": "active"
@@ -5315,22 +11280,22 @@
       "status": "active"
     },
     {
-      "entityId": "florin",
-      "eventFloor": 3,
-      "revealFloor": 3,
-      "status": "active"
-    },
-    {
-      "entityId": "bautista",
-      "eventFloor": 3,
-      "revealFloor": 3,
-      "status": "active"
-    },
-    {
       "entityId": "quan_ch",
       "eventFloor": 3,
       "revealFloor": 3,
       "status": "active"
+    },
+    {
+      "entityId": "tsarina_signet",
+      "eventFloor": 3,
+      "revealFloor": 3,
+      "status": "active"
+    },
+    {
+      "entityId": "hekla",
+      "eventFloor": 4,
+      "revealFloor": 4,
+      "status": "departed"
     }
   ],
   "version": "0.1.0"
