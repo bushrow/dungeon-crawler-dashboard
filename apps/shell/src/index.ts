@@ -75,11 +75,7 @@ export function mountShell({ route, heading, render }: ShellOptions): Shell {
   rack.className = 'rack';
   rack.innerHTML = `
     <div class="rack__mark">
-      <span class="rack__bars" aria-hidden="true">
-        <i style="background:var(--f1)"></i>
-        <i style="background:var(--f2)"></i>
-        <i style="background:var(--f3)"></i>
-      </span>
+      <img class="rack__icon" src="../../icon-180.png" alt="" width="32" height="32" />
       Dungeon Crawler Carl
     </div>
     <nav class="rack__routes">

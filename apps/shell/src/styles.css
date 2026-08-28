@@ -132,15 +132,11 @@ body {
   border-right: 1px solid var(--rack-line);
 }
 
-.rack__bars {
-  display: flex;
-  width: 1.1rem;
-  height: 1.1rem;
-  flex-direction: column;
-}
-
-.rack__bars i {
-  flex: 1;
+.rack__icon {
+  width: 1.95rem;
+  height: 1.95rem;
+  /* Transparent artwork, so it sits straight on the rack. */
+  display: block;
 }
 
 .rack__routes {

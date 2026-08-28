@@ -2,24 +2,22 @@
 
 Run with: uv run --with pillow python scripts/make-icons.py
 
-Two deliberate changes from the source. The wide empty margin is trimmed, so
-the cat is large enough to read at 32 pixels, while keeping the whole subject
-inside the frame. And the flat background is lightened from the source's
-near-black purple: the artwork is a dark brown cat with a near-black outline,
-which disappears against it at tab size. The lighter purple keeps the source's
-colour identity while giving the outline something to sit against.
+Two changes from the source. The wide empty margin is trimmed so the cat is
+large enough to read at 32 pixels, keeping the whole subject inside the frame.
+And the flat background is dropped to transparency, so the icon sits on
+whatever is behind it: a light browser tab, a dark one, or the dark rack in the
+site header. Against the source's own near-black purple the dark brown fur and
+near-black outline disappeared at tab size.
 """
 
 from pathlib import Path
 
-from PIL import Image, ImageEnhance
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "assets" / "donut-icon-source.jpeg"
 OUT = ROOT / "public"
 
-#: Lighter than the source's (59, 39, 76), which the outline vanished into.
-BACKGROUND = (183, 148, 214)
 #: 180 is the apple-touch size; 32 is the tab icon. Add 512 here if a web
 #: manifest ever needs one.
 SIZES = (180, 32)
@@ -27,7 +25,10 @@ SIZES = (180, 32)
 #: positive: a negative value crops inside the bounding box and clips the
 #: ears and the outer fur.
 MARGIN = 24
-TOLERANCE = 30  # colour distance that still counts as background
+#: Colour distance that still counts as background. The source is a JPEG, so
+#: the flat purple is not perfectly flat and a tight threshold leaves a fringe.
+#: Above about 80 it starts eating the cat's outline instead.
+TOLERANCE = 60
 
 
 def subject_bounds(image: Image.Image, base: tuple[int, int, int]) -> tuple[int, int, int, int]:
@@ -51,18 +52,17 @@ def main() -> None:
 
     centre_x, centre_y = (left + right) // 2, (top + bottom) // 2
     half = max(right - left, bottom - top) // 2 + MARGIN
-    icon = source.crop((centre_x - half, centre_y - half, centre_x + half, centre_y + half))
+    icon = source.crop(
+        (centre_x - half, centre_y - half, centre_x + half, centre_y + half)
+    ).convert("RGBA")
 
     px = icon.load()
     width, height = icon.size
     for y in range(height):
         for x in range(width):
-            r, g, b = px[x, y]
+            r, g, b, _ = px[x, y]
             if abs(r - base[0]) + abs(g - base[1]) + abs(b - base[2]) < TOLERANCE:
-                px[x, y] = BACKGROUND
-
-    icon = ImageEnhance.Brightness(icon).enhance(1.15)
-    icon = ImageEnhance.Contrast(icon).enhance(1.12)
+                px[x, y] = (0, 0, 0, 0)
 
     OUT.mkdir(exist_ok=True)
     for size in SIZES:
@@ -70,7 +70,8 @@ def main() -> None:
         resized = icon.resize((size, size), Image.LANCZOS)
         # Flat-colour artwork, so a palette costs nothing visually and takes the
         # 512 from a quarter of a megabyte to a few kilobytes.
-        resized.quantize(colors=64, method=Image.MEDIANCUT, dither=Image.NONE).save(
+        # FASTOCTREE rather than the default: it is the method that keeps alpha.
+        resized.quantize(colors=64, method=Image.FASTOCTREE, dither=Image.NONE).save(
             path, optimize=True
         )
         print(f"wrote {path.relative_to(ROOT)} ({path.stat().st_size} bytes)")
