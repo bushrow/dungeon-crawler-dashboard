@@ -383,8 +383,22 @@ function renderSheets(h: Horizon): void {
     .map((r) => r.entity.canonicalName)
     .join(' &middot; ');
 
-  const block = (title: string, body: string) =>
-    body ? `<div class="sheet__block"><h3>${title}</h3>${body}</div>` : '';
+  // Each section is dated separately. Gear and skills come from the per-floor
+  // pages, which stop after floor 2; race and class are recorded elsewhere and
+  // run to floor 3. One combined "as of" line let the later ones hide the
+  // earlier ones, which is how a floor 9 sheet claimed floor 3 kit.
+  const asOf = (items: HeldEntity[]) =>
+    items.length ? Math.max(...items.map((i) => i.revealFloor)) : null;
+
+  const block = (title: string, items: HeldEntity[], body: string) => {
+    if (!body) return '';
+    const floor = asOf(items);
+    const stale =
+      floor !== null && floor < h.floor
+        ? `<span class="sheet__stale">as of floor ${floor}</span>`
+        : '';
+    return `<div class="sheet__block"><h3>${title}${stale}</h3>${body}</div>`;
+  };
 
   const gearRows = sheet.gear
     .map(
@@ -420,8 +434,9 @@ function renderSheets(h: Horizon): void {
         : ''
     }
     <div class="sheet__cols">
-      ${block('Equipped', gearRows ? `<dl class="slots">${gearRows}</dl>` : '')}
-      ${block('Skills', list(sheet.skills)) + block('Spells', list(sheet.spells))}
+      ${block('Equipped', sheet.gear, gearRows ? `<dl class="slots">${gearRows}</dl>` : '')}
+      ${block('Skills', sheet.skills, list(sheet.skills)) +
+        block('Spells', sheet.spells, list(sheet.spells))}
     </div>
     ${staleNote(sheet, h.floor)}`;
 
@@ -442,17 +457,13 @@ function renderSheets(h: Horizon): void {
  * quietest kind of wrong.
  */
 function staleNote(sheet: Sheet, floor: number): string {
-  const parts: string[] = [];
-  if (sheet.statsAsOf !== null && sheet.statsAsOf < floor) {
-    parts.push(`stats as of floor ${sheet.statsAsOf}`);
-  }
-  if (sheet.kitAsOf !== null && sheet.kitAsOf < floor) {
-    parts.push(`kit as of floor ${sheet.kitAsOf}`);
-  }
-  if (parts.length === 0) return '';
-  const list = parts.join(', ');
-  const sentence = list.charAt(0).toUpperCase() + list.slice(1);
-  return `<p class="sheet__asof">${sentence}. Floor ${floor} is not fully recorded.</p>`;
+  const stale = sheet.statsAsOf !== null && sheet.statsAsOf < floor;
+  const attributes = sheet.stats && sheet.stats.str !== null;
+  if (!stale && attributes) return '';
+  return `<p class="sheet__asof">The source records this crawler's gear and skills only for
+    the early floors, and a full attribute line for only a few. Levels are current${
+      stale ? `; attributes are as of floor ${sheet.statsAsOf}` : ''
+    }.</p>`;
 }
 
 function setView(next: View): void {

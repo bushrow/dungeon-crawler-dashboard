@@ -68,10 +68,27 @@ book 8, so reading it into a floor 2 sheet would show late-series equipment to
 someone who has read two books. They are reachable through the Atlas instead,
 which shows only their relationships and facts.
 
-Even for those two, the wiki's floor 3 pages are headings with no content yet.
-A sheet at floor 3 shows the floor 2 line and says so rather than guessing.
-Race and class are the exception: those are recorded separately and do appear at
-floor 3, which is when they are chosen.
+Even for those two, the sheet freezes early, and each part of it freezes at a
+different floor:
+
+| | Carl | Donut |
+|---|---|---|
+| equipped gear | floor 2 | floor 1 |
+| skills | floor 2 | floor 1 |
+| spells | none | floor 2 |
+| attributes | floors 1, 2, 4 | floors 1, 2, 3, 4 |
+| level | to floor 9 | to floor 8 |
+
+Levels keep moving because the main character pages carry a per-book Levels
+table. Gear and skills do not, because they come from the per-floor pages, and
+the wiki's own note on Carl's page says those are "still under development".
+Of the cited skill and gear entries on his main page, seven are from book 1 and
+one is from book 7, so there is nothing there to fill the gap with either.
+
+Each block on the sheet is therefore dated on its own heading: Equipped and
+Skills carry an "as of floor 2" badge rather than one summary line at the
+bottom. An earlier version reported the whole kit as "as of floor 3", which was
+the race and class rows hiding the fact that the gear was two floors older.
 
 ## Search covers names, not prose
 

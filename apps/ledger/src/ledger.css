@@ -507,3 +507,16 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.sheet__stale {
+  margin-left: 0.5rem;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: var(--muted);
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  padding: 0.05rem 0.3rem;
+}

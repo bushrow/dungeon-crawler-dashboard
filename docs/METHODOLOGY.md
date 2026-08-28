@@ -101,6 +101,10 @@ Every stat field but the floor is optional, because the source carries a level
 for almost every book and a full attribute line for only a few. A sheet renders
 the attribute grid only when it has attributes, rather than five nulls.
 
+Each part of a sheet runs out at a different floor, so each is dated where it
+is shown rather than in one summary line. Aggregating them let the latest
+recorded thing speak for the oldest.
+
 `statsFor` returns the most recent line at or before the horizon rather than
 requiring one per floor, and `sheetFor` reports the floor it came from. Showing
 the last known line and naming its floor is honest; inventing a current one is

@@ -216,7 +216,6 @@ export class Horizon {
       character,
       stats: stats ?? null,
       statsAsOf: stats ? stats.floor : null,
-      kitAsOf: held.length ? Math.max(...held.map((x) => x.revealFloor)) : null,
       races: held.filter((h) => h.kind === 'race'),
       classes: held.filter((h) => h.kind === 'class'),
       gear: held.filter((h) => h.kind === 'gear'),

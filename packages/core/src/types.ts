@@ -204,8 +204,6 @@ export interface Sheet {
   character: Entity;
   stats: StatLine | null;
   statsAsOf: number | null;
-  /** Highest floor any visible holding was recorded on, so a stale kit says so. */
-  kitAsOf: number | null;
   races: HeldEntity[];
   classes: HeldEntity[];
   gear: HeldEntity[];
