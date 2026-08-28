@@ -65,13 +65,16 @@ def _check_columns(rows: Rows) -> list[Issue]:
         seen: set[tuple[str, ...]] = set()
 
         for i, row in enumerate(rows.get(name, []), start=1):
-            missing = [c.name for c in table.columns if c.name not in row]
+            # A missing required column means the file is malformed. A missing
+            # optional one just means nobody has filled it in, which is how a
+            # newly added column looks before anything uses it.
+            missing = [c.name for c in table.columns if c.required and c.name not in row]
             if missing:
                 issues.append(Issue("error", name, i, f"missing columns {missing}"))
                 continue
 
             for col in table.columns:
-                value = row[col.name]
+                value = row.get(col.name, "")
 
                 if not value:
                     if col.required:

@@ -229,3 +229,19 @@ def test_fact_object_naming_a_future_entity_is_an_error():
 def test_fact_object_that_is_plain_text_is_left_alone():
     ok = rows(facts=[fact(object="a pair of boots", reveal_floor="0", event_floor="0", significance_floor="0")])
     assert errors(validate(ok)) == []
+
+
+def test_missing_optional_column_is_tolerated():
+    # Adding an optional column to the schema must not invalidate every file
+    # written before it existed.
+    stripped = rows()
+    for row in stripped["entities"]:
+        row.pop("notes", None)
+    assert errors(validate(stripped)) == []
+
+
+def test_missing_required_column_is_still_an_error():
+    stripped = rows()
+    for row in stripped["entities"]:
+        row.pop("canonical_name", None)
+    assert "missing columns" in messages(errors(validate(stripped)))
