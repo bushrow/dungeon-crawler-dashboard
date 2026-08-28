@@ -12,6 +12,17 @@ const STORE_KEY = 'dcc.floor';
 export type Route = 'browse' | 'atlas' | 'ledger';
 
 /** Colour means one thing everywhere: the floor a record was learned on. */
+/**
+ * The last book the corpus reaches, from the last floor it reaches.
+ *
+ * Book 1 covers floors 1 and 2; from book 2 on, one book is one floor. Derived
+ * rather than written down, because the written version said "books 1-2" for a
+ * while after the corpus reached floor 9.
+ */
+export function lastBook(maxFloor: number): number {
+  return Math.max(1, maxFloor - 1);
+}
+
 export function floorColor(floor: number): string {
   return `var(--f${Math.min(floor, 9)})`;
 }
@@ -78,7 +89,7 @@ export function mountShell({ route, heading, render }: ShellOptions): Shell {
     </nav>
     <div class="rack__meta">
       <span>bundle v${versionOf(bundle)}</span>
-      <span data-meta="scope">floors 0&ndash;${maxFloor} &middot; books 1&ndash;2</span>
+      <span data-meta="scope">floors 0&ndash;${maxFloor} &middot; books 1&ndash;${lastBook(maxFloor)}</span>
     </div>`;
 
   for (const link of rack.querySelectorAll<HTMLAnchorElement>('.rack__route')) {

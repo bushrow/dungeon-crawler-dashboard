@@ -41,9 +41,10 @@ The known cost is visible gaps where future nodes will appear. Recorded in
 `LIMITATIONS.md`. The alternative, relaxing the layout per floor, makes the graph
 jump on every tick and destroys the thing the view is for.
 
-**Corpus scope is floors 0 through 3**, books 1 and 2, ending with the Over City.
-Book 1 covers floors 1 and 2; book 2 is floor 3. Small enough to author carefully
-and review in one sitting, and it extends one floor at a time afterwards.
+**Corpus scope is floors 0 through 9**, books 1 through 8. Book 1 covers floors
+1 and 2; from book 2 on, one book is one floor. Floors 0 to 3 are authored
+record by record. Floors 4 to 9 were expanded from the wiki's floor categories
+and carry entities and facts but not prices or sheet kit.
 
 **Ledger v1 is descriptive.** Table, faceted scatter, coverage panel. The
 preregistration, the scoring rubric, the cost-to-effect regression, and the

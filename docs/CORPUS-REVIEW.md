@@ -13,14 +13,14 @@ excluded from headline numbers and counted separately in the Ledger.
 |---|---:|
 | entities | 444 |
 | aliases | 14 |
-| facts | 473 |
+| facts | 469 |
 | status | 21 |
 | edges | 75 |
 | mechanics | 66 |
 | holdings | 50 |
 | stats | 17 |
 
-Of 681 rows carrying a confidence: **592** certain, **79** probable, **10** inferred.
+Of 677 rows carrying a confidence: **588** certain, **79** probable, **10** inferred.
 
 ## Priced records
 
@@ -181,7 +181,6 @@ an estimate with no rubric behind it.
 | Regeneration Skill | does Increased HP recovery, optimized Healing | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
 | Regeneration Skill | targets Self | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
 | Regeneration Skill | lasts Until Healed | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
-| Regeneration Skill | costs 0 | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
 | Regeneration Skill | is associated with Enchanted Trollskin Shirt of Pummeling | 1 | — | certain | [Regeneration Skill](https://dungeon-crawler-carl.fandom.com/wiki/Regeneration_Skill) |
 | Light on Your Feet Skill | does Increases jump height | 1 | — | certain | [Light on Your Feet Skill](https://dungeon-crawler-carl.fandom.com/wiki/Light_on_Your_Feet_Skill) |
 | Light on Your Feet Skill | is associated with Talisman of the Slate Butterfly | 1 | — | certain | [Light on Your Feet Skill](https://dungeon-crawler-carl.fandom.com/wiki/Light_on_Your_Feet_Skill) |
@@ -197,9 +196,6 @@ an estimate with no rubric behind it.
 | Magic Missile | targets line of sight | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
 | Magic Missile | lasts instant | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
 | Magic Missile | costs 5 mp (levels 1-4) | 1 | — | certain | [Magic Missile](https://dungeon-crawler-carl.fandom.com/wiki/Magic_Missile) |
-| Fire Fingers Spell | does ? | 1 | — | certain | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
-| Fire Fingers Spell | targets ? | 1 | — | certain | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
-| Fire Fingers Spell | costs ? | 1 | — | certain | [Fire Fingers Spell](https://dungeon-crawler-carl.fandom.com/wiki/Fire_Fingers_Spell) |
 | Confusing Fog Spell | does Blinds hostile mobs | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
 | Confusing Fog Spell | targets confined area | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
 | Confusing Fog Spell | lasts Intelligence X 5 seconds | 1 | — | certain | [Confusing Fog Spell](https://dungeon-crawler-carl.fandom.com/wiki/Confusing_Fog_Spell) |
@@ -282,8 +278,8 @@ an estimate with no rubric behind it.
 | Dismemberment Limited | does Contains War Mage | 4 | — | certain | [Dismemberment Limited](https://dungeon-crawler-carl.fandom.com/wiki/Dismemberment_Limited) |
 | Dismemberment Limited | comes from Fourth Floor | 4 | — | certain | [Dismemberment Limited](https://dungeon-crawler-carl.fandom.com/wiki/Dismemberment_Limited) |
 | Donita Grace | comes from Earth | 4 | — | certain | [Donita Grace](https://dungeon-crawler-carl.fandom.com/wiki/Donita_Grace) |
-| Dungeon Anarchist's Cookbook (Item) | does Scratchpad + 1 Page | 4 | — | certain | [Dungeon Anarchist's Cookbook (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon_Anarchist's_Cookbook_(Item)) |
-| Dungeon Anarchist's Cookbook (Item) | comes from The Prize Carousel | 4 | — | certain | [Dungeon Anarchist's Cookbook (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon_Anarchist's_Cookbook_(Item)) |
+| Dungeon Anarchist's Cookbook | does Scratchpad + 1 Page | 4 | — | certain | [Dungeon Anarchist's Cookbook (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon_Anarchist's_Cookbook_(Item)) |
+| Dungeon Anarchist's Cookbook | comes from The Prize Carousel | 4 | — | certain | [Dungeon Anarchist's Cookbook (Item)](https://dungeon-crawler-carl.fandom.com/wiki/Dungeon_Anarchist's_Cookbook_(Item)) |
 | Dwarven Battery Fabricator | does Produces and Charges Batteries | 4 | — | certain | [Dwarven Battery Fabricator](https://dungeon-crawler-carl.fandom.com/wiki/Dwarven_Battery_Fabricator) |
 | Dwarven Battery Fabricator | comes from Limp Richard's General Store | 4 | — | certain | [Dwarven Battery Fabricator](https://dungeon-crawler-carl.fandom.com/wiki/Dwarven_Battery_Fabricator) |
 | Enchanted Auto Buckler of the Peach Pit | does Shatter Spell | 4 | — | certain | [Enchanted Auto Buckler of the Peach Pit](https://dungeon-crawler-carl.fandom.com/wiki/Enchanted_Auto_Buckler_of_the_Peach_Pit) |
@@ -616,10 +612,9 @@ an estimate with no rubric behind it.
 - **character**: Bin, Chaco, Donita Grace, Gore-Gore, Growler Gary, Grull, Limp Richard, Madison, Penelope, Rosetta Thagra, Silfa, Simoom, Station Mimic, Widget
 - **class**: Football Hooligan Class
 - **faction**: Player Killer Skull
-- **item**: 1965 Harley Davidson Motorcycle, Bounty Box, Cleaner Bot, Control Sigil, Crafter's Box, Dirty Little Phased Bolt, Dismemberment Limited, Dungeon Anarchist's Cookbook (Item), Dwarven Battery Fabricator, Dwarven Industrial Light-Duty Automaton Contraption, Enchanted Auto Buckler of the Peach Pit, Enchanted Mongoliensis Saddle, Enchanted Repeating Crossbow of the Scavenger Mother of Mothers, Enchanted Shade Gnoll Riot Forces Crowd Control Shield, Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton, Enchanted Wrestling Belt of the Great Gorgo, Engineer's Key, Gangway Chock, Grrl Power Box, Interdiction Auxillary Railway Repair Cart, Interdiction Rapid-Response Railway Repair Cart, Jelly Bomb, Left Fang of the Green Sultan, Nightmare Express, PVP Coupon, Portal, Prism Industries Capacitating and Focusing Goggles, Rev-Up Magic Hair Restoration Tonic, Rev-Up Vitamin Shots, Shattering Train Bomb, Sheol Bricks, Stuffed Grulke Infantry Figure, That Wasn't Too Smart, Was It? Box, Train Conductor's Souvenir Hat, Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear
+- **item**: 1965 Harley Davidson Motorcycle, Bounty Box, Cleaner Bot, Control Sigil, Crafter's Box, Dirty Little Phased Bolt, Dismemberment Limited, Dungeon Anarchist's Cookbook, Dwarven Battery Fabricator, Dwarven Industrial Light-Duty Automaton Contraption, Enchanted Auto Buckler of the Peach Pit, Enchanted Mongoliensis Saddle, Enchanted Repeating Crossbow of the Scavenger Mother of Mothers, Enchanted Shade Gnoll Riot Forces Crowd Control Shield, Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton, Enchanted Wrestling Belt of the Great Gorgo, Engineer's Key, Gangway Chock, Grrl Power Box, Interdiction Auxillary Railway Repair Cart, Interdiction Rapid-Response Railway Repair Cart, Jelly Bomb, Left Fang of the Green Sultan, Nightmare Express, PVP Coupon, Portal, Prism Industries Capacitating and Focusing Goggles, Rev-Up Magic Hair Restoration Tonic, Rev-Up Vitamin Shots, Shattering Train Bomb, Sheol Bricks, Stuffed Grulke Infantry Figure, That Wasn't Too Smart, Was It? Box, Train Conductor's Souvenir Hat, Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear
 - **location**: Fourth Floor, Untangling the Iron Tangle
-- **monster**: Babababoon, Cornets, Krakaren Crotch Dumplings, Razor Fox, Wrath Ghouls
-- **race**: Blister Ghoul, Cave Mudge Bonker, Drek, Festering Ghoul, Gods, Gross Atomizers, Jikininki Janitor Ghouls, Kravyad, Literal Fire Ants, ManTauR, Pollyslog, Psycho Sticker, Shock Chomper, Wall Monitor, Zlurpies
+- **monster**: Babababoon, Blister Ghoul, Cave Mudge Bonker, Cornets, Drek, Festering Ghoul, Gods, Gross Atomizers, Jikininki Janitor Ghouls, Krakaren Crotch Dumplings, Kravyad, Literal Fire Ants, ManTauR, Pollyslog, Psycho Sticker, Razor Fox, Shock Chomper, Wall Monitor, Wrath Ghouls, Zlurpies
 - **skill**: Astral Paw Spell, Bang Bro Spell
 
 ### Floor 5 (68)
@@ -628,8 +623,8 @@ an estimate with no rubric behind it.
 - **class**: Glass Cannon Class
 - **item**: Celestial Grenade, Coffee Shop Author Kit, Drakea's Enchanted Kerchief of Disorder, Earth Upgrade Patch, Emberus Tattoos, Enchanted Anarchist's Battle Rattle, Enchanted Gnome Farseer, Enchanted Handcuffs, Enchanted Roll of Never-ending Duct Tape, Enchanted Toe Ring of the Leprous Bandit, Gate of the Feral Gods, Gnomish Drop Bear, Gnomish Knock-Knock, Gnomish Legate Balloon, Hobgoblin Disco Ball, I'm Wet Box, Jellyfish Salve, Kua-Tin Rebreather, Letter from the Council, Letter from the Glass Wizard, Live Ammo Ball, Makeup Sex is the Best Sex Box, Platinum Sharpening Stone, Potion of Bloodlust, Potion of Half Splat, Rockard's Ring of Sniping, Sappy Gold Ring, Scroll of Water Breathing, Stock Certificate, Torn Book Page, Tracked All-Terrain Suicide Machine. The Royal Chariot, Veriluxx RealPet Dungeon Crawl Special Edition Exclusive
 - **location**: Fifth Floor
-- **monster**: Bactrian, Big Boy Blue, Concierge Shark, Pain Amplifier Jellyfish
-- **race**: Dirigible Gnome, Dromedarian, Male Thorny Devil, Octo-Shark
+- **monster**: Bactrian, Big Boy Blue, Concierge Shark, Male Thorny Devil, Octo-Shark, Pain Amplifier Jellyfish
+- **race**: Dirigible Gnome, Dromedarian
 - **skill**: Cloud of Exhaust Spell, Graupel, Ping Spell, Twinkle Toes, Wall of Fire Spell
 
 ### Floor 6 (56)
@@ -639,7 +634,8 @@ an estimate with no rubric behind it.
 - **faction**: Dark Hive, Flamengo, Hunters, Naiad Confederacy, Nebular
 - **item**: Arrow of Enthusiastic Double Gonorrhea, Bomb Upgrade Patch, Bronze Condom, De-Sleeving Box, Did You Really Just Cast Fireball in a Room this Small Box, Dr. Ratchet's Guide to Building Automatons for Fun and Profit, Enchanted Collar Charm of the Effete Bourgeoisie, Enchanted Obsidian Bracelet of the Raggle Rouser, Enchanted Venomous Elven Rock Chucker, Enemy of the Church Tattoo, Good Mana Potion, Hunting Trophy, I Take It All Back Potion, Instacot 60, Just Wait Until Your Daddy Gets Home, Midnight Epicure Upgrade Patch, Night Wyrm's Nasty Little Web of Suffering Tattoo, Opposite Day Ring, Satchel Bomb, Sheet Music, Size-Up Potion, Skewer Belle, Skyfowl Upgrade Patch, Stuffed Slate Butterfly Figure, Uncle Morty’s Insta Lawn-Kill and Undead Repellant, Extra-Strength Edition, Vocal Coach Training Room
 - **location**: Sixth Floor
-- **race**: Funeral Bell, Glamoured Fragment, Night Weasel, Odius Creeper
+- **monster**: Glamoured Fragment, Night Weasel, Odius Creeper
+- **race**: Funeral Bell
 - **skill**: Butcher's Masquerade Spell, Community Pool, Fireball Spell, Laundry Day Spell, Zerzura Spell
 
 ### Floor 7 (3)
@@ -653,8 +649,7 @@ an estimate with no rubric behind it.
 - **character**: Asojano, Geraldo, Hamed, HeyZoos, Inle, Jola, Lazarus-A-Bang-Bang, Legba, Oshun, Potsy, Raul the Crab, Reef Explorer, Reminiscence Hydra of Malicious Compliance, Rude-Dolph the Blood-Nosed Slay-Deer, Shango, Shi Maria, Skylar Spinach, Swordfish Interlopers, Tom, Yago
 - **item**: Alpha Male Carl, Bard's Golden Throat, Book Burner Patch, Champion Pack, Combo Card, Cosmic Buff Potion, Enchanted Lock Box of the Night Wyrm, Enchanted Nipple Ring of the Superior Fire Demon’s Hand Maiden, Enchanted Paupers Ring of the Steadfast Emberus, Filthy Little Crawlers Book of Voodoo, King Croissant, Liquid Therapy, Loot Punch Card, Massage Coupon, Orchid of Eileithyia's Grace, Peace Upgrade Patch, Precision Card, Reaper Spider Minion Patch, Red Beret, Scavenger's Daughter Upgrade Patch, Scroll of Build Trench, Spunky Jefferson the Enchanted Nickel Sock of the Elderly Miser, T'Ghee Card, Velma the Flamethrower, Wand of Nighty Night, Warrior's Gold Helmet of Resistance
 - **location**: Eighth Floor
-- **monster**: Experience (Mob), Sluggalo
-- **race**: Ghommid, Monk Seal, Pox Slug, Squonk, Turkey, Visitor
+- **monster**: Experience, Ghommid, Monk Seal, Pox Slug, Sluggalo, Squonk, Turkey, Visitor
 - **skill**: Bitch, What? Spell, Black Nimbus, Book Burner Spell, Death Ray, Legionnaires of the Damned Spell, Mute Spell, Mysterious Bone Key Benefit, Self-Immolation Spell, Spirit Box
 
 ### Floor 9 (31)
@@ -698,8 +693,8 @@ Every other character's wiki infobox is current as of book 8.
 
 ## Status
 
-Only what books 1 and 2 establish. Every death the wiki records for these
-characters is cited to book 3 or later, so no departure appears here. An
+Only departures the wiki dates with a book citation. Of the twenty characters
+it marks deceased, one carries such a citation, so the rest are absent. An
 entity with no row renders no status at all, and that absence is not evidence
 of anything.
 

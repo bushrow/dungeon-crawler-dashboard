@@ -138,8 +138,8 @@ Hekla, carries a citation saying which book. A death is recorded only when it is
 dated, because an undated one placed on the wrong floor shows a reader a death
 several books early.
 
-Everyone else stays `active`. That is wrong for characters who die later, and it
-is wrong in the safe direction: it withholds rather than reveals, and it keeps a
+Everyone else stays `active`. That is wrong for characters who do die, and it is
+wrong in the safe direction: it withholds rather than reveals, and it keeps a
 doomed character indistinguishable from a spared one, which is the property the
 matched-pair test exists to protect.
 
@@ -151,7 +151,7 @@ here because it does not look right.
 
 The wiki records series-current status for every character, most of it cited to
 books 3 through 8. None of that is in the corpus. Status rows cover only what
-books 1 and 2 establish, which is why every one of them reads `active`.
+the source dates, which is why all but one read `active`.
 
 ## Most facts are transcribed fields, not written claims
 

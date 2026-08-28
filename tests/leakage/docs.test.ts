@@ -9,6 +9,7 @@
 import { expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { loadBundle } from '@dcc/core';
+import { lastBook } from '../../apps/shell/src/index';
 import { unwrap } from '../../packages/core/src/bundle';
 
 const readme = readFileSync(new URL('../../README.md', import.meta.url), 'utf8');
@@ -26,4 +27,11 @@ it.each(claims)('the README count of %s matches the bundle', (label, actual) => 
   const found = readme.match(new RegExp(String.raw`(\d[\d,]*)\s+${label}`));
   expect(found, `README does not state a count of ${label}`).not.toBeNull();
   expect(Number(found![1]!.replace(/,/g, ''))).toBe(actual);
+});
+
+it('the header states the book range the corpus actually reaches', () => {
+  // It said "books 1-2" for several commits after the corpus reached floor 9.
+  expect(lastBook(raw.maxFloor)).toBe(8);
+  expect(lastBook(3)).toBe(2);
+  expect(lastBook(2)).toBe(1);
 });

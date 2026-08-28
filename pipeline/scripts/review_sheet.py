@@ -115,8 +115,8 @@ def main() -> int:
         ) + ".\n")
 
     add("## Status\n")
-    add("Only what books 1 and 2 establish. Every death the wiki records for these")
-    add("characters is cited to book 3 or later, so no departure appears here. An")
+    add("Only departures the wiki dates with a book citation. Of the twenty characters")
+    add("it marks deceased, one carries such a citation, so the rest are absent. An")
     add("entity with no row renders no status at all, and that absence is not evidence")
     add("of anything.\n")
     add("| Entity | Status | Reveal |")
