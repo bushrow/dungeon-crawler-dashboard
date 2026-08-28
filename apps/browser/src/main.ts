@@ -129,6 +129,7 @@ function renderRecord(h: Horizon, record: CorpusRecord | undefined): void {
           entity.introducedFloor === 0 ? 'before the dungeon' : `floor ${entity.introducedFloor}`
         }</span>
       </div>
+      ${entity.description ? `<p class="card__desc">${entity.description}</p>` : ''}
       ${entity.notes ? `<p class="note" style="margin:0.6rem 0 0">${entity.notes}</p>` : ''}
       ${
         // Rendered only when a status row is visible. No row means nothing is

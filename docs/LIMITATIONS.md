@@ -90,6 +90,17 @@ Skills carry an "as of floor 2" badge rather than one summary line at the
 bottom. An earlier version reported the whole kit as "as of floor 3", which was
 the race and class rows hiding the fact that the gear was two floors older.
 
+## Descriptions are wiki prose, and 235 of 444 entities have one
+
+The rest have no Description section on their page, so their record is still
+the bare fields. Descriptions are trimmed to about 420 characters at a sentence
+boundary.
+
+Marked spoiler blocks are stripped, but a description is only as floor-safe as
+the editor who wrote it: prose written from a whole-series vantage point can
+mention a later development without wrapping it in a spoiler template. The
+markup catches what was marked, not what was not.
+
 ## Search covers names, not prose
 
 Search matches entity names and revealed aliases. It does not search the text of

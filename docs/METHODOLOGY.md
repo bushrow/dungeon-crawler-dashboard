@@ -42,6 +42,18 @@ Two omissions are deliberate:
   you cannot see yet" leaks the existence of the withheld material. The coverage
   panel counts only what is visible.
 
+## Descriptions
+
+Each entity carries a short description taken from its wiki page, because a
+record made only of predicates and objects reads as a datasheet and never says
+what the thing is.
+
+Spoiler safety comes from the wiki's own markup rather than from judgement.
+Editors wrap later-book material in `{{Spoiler|book=N|spoiler=...}}` and flag
+spoiler sections with `{{SpoilH|N}}`; both are removed before any text is kept,
+along with galleries, image captions, and every other template. What survives
+is the baseline paragraph that stands at the entity's introduction.
+
 ## Relationships
 
 Edges for floors 4 and up are derived from wiki fields that carry a citation,

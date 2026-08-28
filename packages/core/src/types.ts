@@ -62,6 +62,8 @@ export interface Entity {
   canonicalName: string;
   /** Reveal clock: the floor at which a reader first meets this entity. */
   introducedFloor: number;
+  /** What the thing is, in prose. Spoiler blocks are stripped at compile. */
+  description: string | null;
   notes: string | null;
 }
 

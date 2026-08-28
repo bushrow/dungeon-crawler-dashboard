@@ -82,6 +82,8 @@ TABLES: dict[str, Table] = {
             Column("type", kind="enum", values=ENTITY_TYPES),
             Column("canonical_name"),
             Column("introduced_floor", kind="floor"),
+            # Prose from the wiki, with its marked spoiler blocks stripped.
+            Column("description", required=False),
             Column("notes", required=False),
         ),
         unique=("id",),

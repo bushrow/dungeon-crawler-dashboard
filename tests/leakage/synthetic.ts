@@ -21,5 +21,5 @@ export function syntheticBundle(overrides: Partial<BundleData> = {}) {
 }
 
 export function entity(id: string, introducedFloor: number, type = 'character' as const) {
-  return { id, type, canonicalName: id, introducedFloor, notes: null };
+  return { id, type, canonicalName: id, introducedFloor, description: null, notes: null };
 }

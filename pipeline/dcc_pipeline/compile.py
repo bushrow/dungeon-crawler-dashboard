@@ -65,6 +65,7 @@ NULLABLE = {
     "duration",
     "slot",
     "level",
+    "description",
 }
 
 

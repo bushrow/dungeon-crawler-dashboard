@@ -826,6 +826,7 @@
   "entities": [
     {
       "canonicalName": "Carl",
+      "description": "Before entering the Dungeon, Carl was a 27-year-old U.S. Coast Guard veteran who worked as a marine technician \"fixing electrical systems for rich assholes and their party boats.\" He shared a two-bedroom apartment in Seattle, WA, with his girlfriend Beatrice and her award-winning cat, Princess Donut the Queen Anne Chonk.",
       "id": "carl",
       "introducedFloor": 0,
       "notes": "Crawler 4122. Coast Guard veteran, marine technician, Seattle.",
@@ -833,6 +834,7 @@
     },
     {
       "canonicalName": "Princess Donut",
+      "description": null,
       "id": "donut",
       "introducedFloor": 0,
       "notes": "Beatrice's award-winning show cat. Gains speech in the dungeon.",
@@ -840,6 +842,7 @@
     },
     {
       "canonicalName": "Beatrice",
+      "description": "Beatrice's wealthy parents raised and showed Persian cats, and Beatrice proudly carried on the tradition: she took Donut to cat shows almost every weekend, and dedicated an entire bedroom of their two-bed apartment to displaying Donut's ribbons, trophies, and multitude of framed photos (plus a closet full of leggings).",
       "id": "beatrice",
       "introducedFloor": 0,
       "notes": "Carl's girlfriend and Donut's owner. Called Bea.",
@@ -847,6 +850,7 @@
     },
     {
       "canonicalName": "Monobrow Sam",
+      "description": "Sam has a reputation, at least by Donut's account, for being smelly and a bad influence: she recalls him coming over to play video games with Carl while the two \"lied about their exploits with women,\" she still uses him as her benchmark for a bad smell, comparing an unwashed army camp on the Eleventh Floor to him. Carl remembers their friendship more fondly.",
       "id": "monobrow_sam",
       "introducedFloor": 0,
       "notes": "Carl's friend on Earth.",
@@ -854,6 +858,7 @@
     },
     {
       "canonicalName": "Mordecai",
+      "description": "Mordecai is the Royal Court's primary source of Dungeon lore, tactical advice, and high-level alchemy, and an indentured employee of Borant Corporation tasked with helping the corporation run crawls. Normally he works as a Game Guide for the first three floors and as a magic guild master on the later ones, where he has relative freedom to pursue potion making and catch up with friends.",
       "id": "mordecai",
       "introducedFloor": 1,
       "notes": "Non-combatant NPC. Guide and trainer to Carl and Donut.",
@@ -861,6 +866,7 @@
     },
     {
       "canonicalName": "Frank Q",
+      "description": "Frank Q lived near Seattle and introduced himself to other crawlers as an Immigration and Customs Enforcement agent. He is the talker of his partnership with Maggie My: calm, apologetic, reasonable, and a practiced enough liar to hold up under sustained questioning from Carl.",
       "id": "frank_q",
       "introducedFloor": 1,
       "notes": null,
@@ -868,6 +874,7 @@
     },
     {
       "canonicalName": "Hekla",
+      "description": "By Odette's account, Hekla was neither evil nor psychotic, but she was intensely practical and cunning, and she did not share Carl's sense of justice, which made her dangerous. Her voice carried very little emotion.",
       "id": "hekla",
       "introducedFloor": 1,
       "notes": null,
@@ -875,6 +882,7 @@
     },
     {
       "canonicalName": "Chris Andrews",
+      "description": "Chris is quiet but deeply empathetic, a capable maintenance and engineering hand with the same compulsive eye for looting that Carl has. His mother once mistook his silence for slowness and placed him in a special school, but as Brandon puts it, his brother is no fool, just a \"Silent Bob\" who is worth listening to on the rare occasions he speaks.",
       "id": "chris_andrews",
       "introducedFloor": 1,
       "notes": null,
@@ -882,6 +890,7 @@
     },
     {
       "canonicalName": "Imani",
+      "description": "Before the Transformation, Imani was a caregiver at Meadow Lark Elder Care Facility in Wenatchee, WA. She entered the Dungeon with a number of patients and former staff members, and received a longsword in an early loot box.",
       "id": "imani",
       "introducedFloor": 1,
       "notes": null,
@@ -889,6 +898,7 @@
     },
     {
       "canonicalName": "Ferdinand",
+      "description": "An unneutered indoor-outdoor tomcat, Gravy Boat had fathered kittens on every female cat within three surrounding blocks and would sit in the tree outside the window whenever Donut was in heat. Beatrice called animal control on him twice without success and once got into a screaming fight with his owner over him.",
       "id": "ferdinand",
       "introducedFloor": 1,
       "notes": null,
@@ -896,6 +906,7 @@
     },
     {
       "canonicalName": "Elle McGibbons",
+      "description": "Before her transformation in the Dungeon, Elle, pronounced \"el,\" was a dotty, wheelchair-bound widow and full-time resident of the Meadow Lark Adult Care Community in Wenatchee, Washington. Her dementia left her only inconsistently aware of her surroundings, but she remained friendly, affectionate, and unexpectedly bawdy, startlingly blunt in her flirting with Carl.",
       "id": "elle_mcgibbons",
       "introducedFloor": 1,
       "notes": null,
@@ -903,6 +914,7 @@
     },
     {
       "canonicalName": "Li Jun",
+      "description": "Li Jun is a thoughtful, gentle man who cares deeply for his family and his friends, and he keeps a mostly positive attitude despite the horrors of the crawl. Offered points enough to pull one companion out of a hopeless fight and pressed to name that person, he refused to name anyone at all, telling Zhang they would die together instead.",
       "id": "li_jun",
       "introducedFloor": 2,
       "notes": null,
@@ -910,6 +922,7 @@
     },
     {
       "canonicalName": "Li Na",
+      "description": "Li Na was the only member of her starting party who did not work at the warehouse the other three came out of. Zhang, her brother's best friend, counts her as family anyway.",
       "id": "li_na",
       "introducedFloor": 2,
       "notes": null,
@@ -917,6 +930,7 @@
     },
     {
       "canonicalName": "Maestro",
+      "description": "The Maestro (or Prince Maestro) is first introduced as host of Death Watch Extreme Dungeon Mayhem, a production owned by his brother Prince Stalwart and funded by their father with what Zev describes as a small stipend.",
       "id": "maestro",
       "introducedFloor": 2,
       "notes": "Show host and god sponsor.",
@@ -924,6 +938,7 @@
     },
     {
       "canonicalName": "Mongo",
+      "description": "Mongo is a highly aggressive and food-motivated dinosaur who views Princess Donut as his \"mommy.\" Initially a hot-headed, untamable monster, he bonded with Donut after she taught him how to properly eviscerate Brindle Grubs. While he rarely listens to Carl, his loyalty to Donut is absolute, and he will instinctively throw himself into life-threatening danger to protect her.",
       "id": "mongo",
       "introducedFloor": 2,
       "notes": "Donut's raptor companion.",
@@ -931,6 +946,7 @@
     },
     {
       "canonicalName": "Miriam Dom",
+      "description": "Bringing fifteen goats into the Dungeon and keeping every one of them alive was unusual enough that Mordecai raised her with Carl as a curiosity.",
       "id": "miriam_dom",
       "introducedFloor": 2,
       "notes": null,
@@ -938,6 +954,7 @@
     },
     {
       "canonicalName": "Tsarina Signet",
+      "description": "Tsarina Signet is the protagonist of Vengeance of the Daughter, a scripted Syndicate drama built around her quest for revenge. The show presents her as a sympathetic outcast \u2014 the daughter of the High Elf King Finian and a Naiad princess \u2014 hunted by the High Elves as a mongrel child of the king and rejected by both sides of her heritage.",
       "id": "tsarina_signet",
       "introducedFloor": 3,
       "notes": "Summoner and fairy-class NPC of the Over City.",
@@ -945,6 +962,7 @@
     },
     {
       "canonicalName": "Prepotente",
+      "description": "Prepotente was one of fifteen brown-and-white Boer goats that Miriam Dom shepherded into the Dungeon. Fittingly, prepotente is Italian for arrogant, bossy, and overbearing. During Third Floor class selection he consumed an Enhanced Pet Biscuit and was transformed into a bipedal Caprid, emerging in a full set of armor with a double-headed battleaxe to fight at Miriam's side.",
       "id": "prepotente",
       "introducedFloor": 3,
       "notes": null,
@@ -952,6 +970,7 @@
     },
     {
       "canonicalName": "Florin",
+      "description": "Florin fights with a magazine-fed Mossberg shotgun that never seems to run out of shells.",
       "id": "florin",
       "introducedFloor": 3,
       "notes": null,
@@ -959,6 +978,7 @@
     },
     {
       "canonicalName": "Katia Grim",
+      "description": "Katia was a university art professor in Reykjav\u00edk, Iceland, before the transformation. A single, well-traveled thirty-something, she's fluent in Icelandic, German, Russian, and English. She enters the Dungeon with her friend and fellow professor, Eva.",
       "id": "katia_grim",
       "introducedFloor": 3,
       "notes": null,
@@ -966,6 +986,7 @@
     },
     {
       "canonicalName": "Daniel Bautista",
+      "description": null,
       "id": "bautista",
       "introducedFloor": 3,
       "notes": null,
@@ -973,6 +994,7 @@
     },
     {
       "canonicalName": "Quan Ch",
+      "description": "Quan Ch makes a poor first impression. Caught within the blast radius of a catastrophic failed spell, he publicly cursed out Carl and Donut in the group Quest chat rather than focusing on his own survival. His outburst earned him a swift block from Donut.",
       "id": "quan_ch",
       "introducedFloor": 3,
       "notes": null,
@@ -980,6 +1002,7 @@
     },
     {
       "canonicalName": "The System",
+      "description": null,
       "id": "the_system",
       "introducedFloor": 0,
       "notes": "The dungeon's administrative intelligence.",
@@ -987,6 +1010,7 @@
     },
     {
       "canonicalName": "The Crawlers",
+      "description": null,
       "id": "crawlers",
       "introducedFloor": 0,
       "notes": "Surviving humans admitted to the dungeon.",
@@ -994,6 +1018,7 @@
     },
     {
       "canonicalName": "The Syndicate",
+      "description": null,
       "id": "syndicate",
       "introducedFloor": 1,
       "notes": "Galactic authority that licenses the show.",
@@ -1001,6 +1026,7 @@
     },
     {
       "canonicalName": "Borant Corporation",
+      "description": null,
       "id": "borant",
       "introducedFloor": 1,
       "notes": "Operator of this season of Dungeon Crawler World.",
@@ -1008,6 +1034,7 @@
     },
     {
       "canonicalName": "The Bopca",
+      "description": null,
       "id": "bopca",
       "introducedFloor": 1,
       "notes": "Species staffing safe rooms. Grouped as a faction; the schema has no species type.",
@@ -1015,6 +1042,7 @@
     },
     {
       "canonicalName": "Royal Court of Princess Donut",
+      "description": "Carl and Princess Donut were partied automatically the moment they descended into the Dungeon, since anyone entering at the same time is grouped by default. Donut holds Party Leader and dictates the group's branding and public-facing persona; Carl handles combat and supplies the explosives. Mongo, Donut's velociraptor pet, serves as Royal Steed.",
       "id": "royal_court",
       "introducedFloor": 1,
       "notes": "Donut's retinue of pets and followers.",
@@ -1022,6 +1050,7 @@
     },
     {
       "canonicalName": "Le Mouvement",
+      "description": "Le Mouvement was a crawler party comprised of (150) African soldiers armed with AK-47s and at least one Red Cross worker. They were featured on the third episode of Dungeon Crawler World: Earth and descended to the Second Floor when the countdown timer struck 6 hours.",
       "id": "le_mouvement",
       "introducedFloor": 1,
       "notes": null,
@@ -1029,6 +1058,7 @@
     },
     {
       "canonicalName": "Skull Empire",
+      "description": "The Skull Empire is a Syndicate system government of orcs, separate from the Orcish Supremacy, the orcish system ruled by the Tusklings. Zev ranked it among the largest and oldest of the Syndicate's governments, and warned that it is not known for measured responses to insults. The empire spans multiple home systems, makes its money selling weapons, and was once described as a strong ally of the Valtay Corporation.",
       "id": "skull_empire",
       "introducedFloor": 2,
       "notes": null,
@@ -1036,6 +1066,7 @@
     },
     {
       "canonicalName": "The Surface",
+      "description": null,
       "id": "surface",
       "introducedFloor": 0,
       "notes": "Earth above the dungeon, before and during the Transformation.",
@@ -1043,6 +1074,7 @@
     },
     {
       "canonicalName": "The World Dungeon",
+      "description": null,
       "id": "dungeon",
       "introducedFloor": 0,
       "notes": "Eighteen floors.",
@@ -1050,6 +1082,7 @@
     },
     {
       "canonicalName": "Dungeon Entrance",
+      "description": "After the Transformation and subsequent System AI announcement, a trumpet-like horn sounds and 150,000 stairwells are randomly distributed in high population areas across Earth. Each stairwell entrance is marked by a spotlight-like light shining upward. Entering the stairwell is not enough to be classified as a \"crawler.\" You must physically set foot on the First Floor.",
       "id": "dungeon_entrance",
       "introducedFloor": 0,
       "notes": null,
@@ -1057,6 +1090,7 @@
     },
     {
       "canonicalName": "First Floor",
+      "description": "The First Floor of the Dungeon is accessed from the surface-level staircases that populate the Earth after the Transformation, and is considered a tutorial floor. It is a sprawling grid of passages and tunnels that look like they were hewn out of rock, and is located below the Earth's surface.",
       "id": "floor_one",
       "introducedFloor": 1,
       "notes": "Tutorial level beneath the ruins.",
@@ -1064,6 +1098,7 @@
     },
     {
       "canonicalName": "Safe Room",
+      "description": null,
       "id": "safe_room",
       "introducedFloor": 1,
       "notes": "Rest, storage, and a shop between encounters.",
@@ -1071,6 +1106,7 @@
     },
     {
       "canonicalName": "Second Floor",
+      "description": "The Second Floor closely mirrors the maze-like layout of the First Floor, a giant grid of wide thoroughfares and twisting tunnels, though the main arteries here are narrower.",
       "id": "floor_two",
       "introducedFloor": 2,
       "notes": "Second tutorial level.",
@@ -1078,6 +1114,7 @@
     },
     {
       "canonicalName": "The Over City",
+      "description": null,
       "id": "floor_three",
       "introducedFloor": 3,
       "notes": "Third floor. Guarded medieval villages among monster-filled ruins, roughly the size of Arizona.",
@@ -1085,6 +1122,7 @@
     },
     {
       "canonicalName": "The Desperado Club",
+      "description": null,
       "id": "desperado_club",
       "introducedFloor": 1,
       "notes": "Members-only crawler club. Named on floor 1 by the Desperado Pass tattoo, though crawlers reach it later, so its reveal floor is 1.",
@@ -1092,6 +1130,7 @@
     },
     {
       "canonicalName": "Human",
+      "description": "Humans are a seeded race, sown by the Syndicate onto compatible worlds and left to grow unattended for thousands of years. Once a civilization takes hold \u2014 and as long as it has a working government \u2014 the Syndicate stages \"First Contact,\" a legal milestone that clears it to return a couple thousand years later and strip the planet of its resources.",
       "id": "human",
       "introducedFloor": 0,
       "notes": "Default race before third-floor selection.",
@@ -1099,6 +1138,7 @@
     },
     {
       "canonicalName": "Cat",
+      "description": "The cat (Felis catus), or the house cat, is the only domesticated species in the family Felidae. Cats have strong flexible bodies, quick reflexes, retractable claws, sharp teeth, and well-developed night vision and sense of smell. Cats can hear sounds too faint or high-pitched for human ears, and both secrete and perceive pheromones.",
       "id": "cat",
       "introducedFloor": 0,
       "notes": null,
@@ -1106,6 +1146,7 @@
     },
     {
       "canonicalName": "Primal",
+      "description": "Primals are known as the \"boogiemen of the cosmos\" and were the first known species to conquer the universe. After a great war spanning all corners of the galaxies, they vanished, leaving behind mysterious remnants of their civilization and technology, including Primal Engines.",
       "id": "primal",
       "introducedFloor": 3,
       "notes": "Carl's race, selected on the third floor.",
@@ -1113,6 +1154,7 @@
     },
     {
       "canonicalName": "Bopca",
+      "description": "Bopca are a stout, green-tinted, hairy dwarfish race that smell vaguely like wet moss. The females and males are equally shaggy. In general, Bopca are good cooks but known for having \"a miserly streak\"; giving discounts goes against their better nature.",
       "id": "bopca_race",
       "introducedFloor": 1,
       "notes": "Safe-room attendant species.",
@@ -1120,6 +1162,7 @@
     },
     {
       "canonicalName": "Compensated Anarchist",
+      "description": null,
       "id": "compensated_anarchist",
       "introducedFloor": 3,
       "notes": "Carl's class. Monk/rogue hybrid.",
@@ -1127,6 +1170,7 @@
     },
     {
       "canonicalName": "Former Child Actor",
+      "description": null,
       "id": "former_child_actor",
       "introducedFloor": 3,
       "notes": "Donut's class. Bard/rogue jack-of-all-trades, Earth class.",
@@ -1134,6 +1178,7 @@
     },
     {
       "canonicalName": "Artist Alley Mogul",
+      "description": null,
       "id": "artist_alley_mogul",
       "introducedFloor": 3,
       "notes": "Donut's merchant class, taken alongside Former Child Actor.",
@@ -1141,6 +1186,7 @@
     },
     {
       "canonicalName": "Monster Truck Driver",
+      "description": null,
       "id": "monster_truck_driver",
       "introducedFloor": 3,
       "notes": "Katia Grim's class. Jouster, Earth class.",
@@ -1148,6 +1194,7 @@
     },
     {
       "canonicalName": "Prizefighter",
+      "description": null,
       "id": "prizefighter",
       "introducedFloor": 3,
       "notes": "Monk class.",
@@ -1155,6 +1202,7 @@
     },
     {
       "canonicalName": "Bomb Squad Tech",
+      "description": null,
       "id": "bomb_squad_tech",
       "introducedFloor": 3,
       "notes": "Earth class.",
@@ -1162,6 +1210,7 @@
     },
     {
       "canonicalName": "Shieldmaiden",
+      "description": null,
       "id": "shieldmaiden",
       "introducedFloor": 3,
       "notes": "Hekla's class. Berserker.",
@@ -1169,6 +1218,7 @@
     },
     {
       "canonicalName": "Swashbuckler",
+      "description": null,
       "id": "swashbuckler",
       "introducedFloor": 3,
       "notes": "Bautista's class. Swordsman.",
@@ -1176,6 +1226,7 @@
     },
     {
       "canonicalName": "NecroBard",
+      "description": null,
       "id": "necrobard",
       "introducedFloor": 3,
       "notes": "Bard class.",
@@ -1183,6 +1234,7 @@
     },
     {
       "canonicalName": "Blizzardmancer",
+      "description": null,
       "id": "blizzardmancer",
       "introducedFloor": 3,
       "notes": "Elle McGibbons's third-floor class.",
@@ -1190,6 +1242,7 @@
     },
     {
       "canonicalName": "Explosives Handling Skill",
+      "description": "Leveling up the skill allows crawlers to view more detailed information when inspecting explosives using the Heads-Up Display (HUD), and unlocks more crafting options. At Explosives Handling level 5, the crawler gains: * The crawler now receive additional information when inspecting explosive devices, such as Type, Status, and more details. See Goblin Smoke Bomb for an example.",
       "id": "explosives_handling",
       "introducedFloor": 1,
       "notes": null,
@@ -1197,6 +1250,7 @@
     },
     {
       "canonicalName": "IED Skill",
+      "description": "IED is a skill gained and leveled by building improvised explosive devices (IEDs). Each level in the IED Skill increases the damage of improvised explosives by 10%, and decreases the chance of early detonation by 1/2.",
       "id": "ied_skill",
       "introducedFloor": 1,
       "notes": null,
@@ -1204,6 +1258,7 @@
     },
     {
       "canonicalName": "Goblin Explosives Skill",
+      "description": "The Goblin Explosives Skill is a skill gained and leveled by handling gunpowder and goblin-made explosives such as Goblin Dynamite and Goblin Smoke Bombs. These devices are notoriously unstable.",
       "id": "goblin_explosives",
       "introducedFloor": 1,
       "notes": null,
@@ -1211,6 +1266,7 @@
     },
     {
       "canonicalName": "Iron Punch Skill",
+      "description": "Iron Punch is a monk/fighter skill that increases the amount of \"enhanced fist\" punching damage a crawler deals by 10% per skill level when the crawler wears a war gauntlet or lumper. It does not negate \"bare knuckle\" bonuses granted by the Pugilism Skill or Powerful Strike Skill. At level 10 it gains an upgrade called the Breadbasket Effect which provides a 10% chance to stun a mob for several seconds.",
       "id": "iron_punch",
       "introducedFloor": 1,
       "notes": null,
@@ -1218,6 +1274,7 @@
     },
     {
       "canonicalName": "Regeneration Skill",
+      "description": "At level 7, it can restore the crawler to full Health in approximately two minutes.",
       "id": "regeneration_skill",
       "introducedFloor": 1,
       "notes": null,
@@ -1225,6 +1282,7 @@
     },
     {
       "canonicalName": "Light on Your Feet Skill",
+      "description": "Light on Your Feet is a skill that allows a crawler to jump higher and farther with each skill level.",
       "id": "light_on_your_feet",
       "introducedFloor": 1,
       "notes": null,
@@ -1232,6 +1290,7 @@
     },
     {
       "canonicalName": "Foot Soldier Skill",
+      "description": "Category:Needs photo Foot Soldier is a melee skill that increases the damage a crawler does by kicking.",
       "id": "foot_soldier",
       "introducedFloor": 1,
       "notes": null,
@@ -1239,6 +1298,7 @@
     },
     {
       "canonicalName": "Determine Value Skill",
+      "description": "Determine Value is a skill that can most likely only be learned from a Skill Potion received in Loot Boxes. The first level of the skill allows a crawler to sort their inventory by item value, but the crawler cannot see the item's actual value or include items currently equipped.",
       "id": "determine_value",
       "introducedFloor": 1,
       "notes": null,
@@ -1246,6 +1306,7 @@
     },
     {
       "canonicalName": "Chopper Pilot Skill",
+      "description": "The Chopper Pilot Skill is gained and leveled by driving a chopper, including Dungeon-made contraptions such as the Goblin Copper Chopper. Choppers are custom motorcycles \"chopped\" from existing motorcycles or built from scratch, which are marked by long front ends and frames without rear suspension. See Also: Goblin Copper Chopper#Operation for examples of leveling up",
       "id": "chopper_pilot",
       "introducedFloor": 1,
       "notes": null,
@@ -1253,6 +1314,7 @@
     },
     {
       "canonicalName": "Dangerous Explosives Handling Skill",
+      "description": "--> It most likely operates similar to the Explosives Handling Skill, in that higher levels of the skill allow crawlers to view more information about dangerous explosives.",
       "id": "dangerous_explosives",
       "introducedFloor": 1,
       "notes": null,
@@ -1260,6 +1322,7 @@
     },
     {
       "canonicalName": "Character Actor Skill",
+      "description": null,
       "id": "character_actor",
       "introducedFloor": 3,
       "notes": "Grants Donut an extra class each floor.",
@@ -1267,6 +1330,7 @@
     },
     {
       "canonicalName": "Magic Missile",
+      "description": "Magic Missile is basic ranged attack spell that shoots hot laser bolts from the caster's eyes, one bolt after another. They look like laser blasts from a sci-fi movie, and can \"be a little loud.\" The attack's power and operation change as it levels up. It can be modified by items such as the Prism Industries Capacitating and Focusing Goggles.",
       "id": "magic_missile",
       "introducedFloor": 1,
       "notes": "Spell.",
@@ -1274,6 +1338,7 @@
     },
     {
       "canonicalName": "Fire Fingers Spell",
+      "description": "Category:Needs photo Fire Fingers is a (presumably) low-cost spell that some crawlers learned on the First Floor. For thirty-one hours after the Dungeon opened, until the first patch update, the spell was not safe to cast.",
       "id": "fire_fingers",
       "introducedFloor": 1,
       "notes": "Spell.",
@@ -1281,6 +1346,7 @@
     },
     {
       "canonicalName": "Confusing Fog Spell",
+      "description": "The billowing cloud of fog is initially opaque but immediately becomes translucent to the caster, crawlers, and white-tagged NPCs; however, mobs remain blinded for its duration. While the fog is active, water beads on the ground and every surface. Scrolls of Confusing Fog are commonly received in Loot Boxes on the First Floor and Second Floor. Scrolls can be casted without spending mana points or learning the spell.",
       "id": "confusing_fog",
       "introducedFloor": 1,
       "notes": "Spell.",
@@ -1288,6 +1354,7 @@
     },
     {
       "canonicalName": "Puddle Jumper Spell",
+      "description": "Puddle Jumper costs (20) mana to cast, and allows the caster and up to three other crawlers, NPCs, or pets to teleport to a surface within line of sight. The maximum allowable teleport distance increases with spell level, but the exact allowable distance is hidden. If the caster tries to teleport to a location that's too far way the spell will fail to cast.",
       "id": "puddle_jumper",
       "introducedFloor": 1,
       "notes": "Spell.",
@@ -1295,6 +1362,7 @@
     },
     {
       "canonicalName": "Minion Army Spell",
+      "description": "The caster must have line of sight on their targets before they can begin casting. After spending (50) mana points, the caster is Rooted in Place for the full casting period (5 minutes at level one, 4 minutes at higher levels) and is surrounded by a shimmering golden glow that intensifies as the timer counts down. The glow is visible even if the caster is invisible.",
       "id": "minion_army",
       "introducedFloor": 1,
       "notes": "Spell.",
@@ -1302,6 +1370,7 @@
     },
     {
       "canonicalName": "Fear Spell",
+      "description": "If Fear is attempted to be cast on mobs that are scary themselves (such as Terror the Clown), the crawler will receive the following message: Warning: scary-ass mobs are immune to Fear effects. Entities under the Magical Fervor buff will be immune to Fear. An Alarm Module can be imbued with Fear, but for crawlers with a low Trap Engineer Skill, this can only be done at a Sapper's Table.",
       "id": "fear_spell",
       "introducedFloor": 3,
       "notes": "Spell granted by Compensated Anarchist.",
@@ -1309,6 +1378,7 @@
     },
     {
       "canonicalName": "Enchanted Trollskin Shirt of Pummeling",
+      "description": "The Enchanted Trollskin Shirt of Pummeling is magical under-armor for melee fighters and tanks: it buffs health regeneration and makes the wearer immune to melee damage debuffs. This item can be upgraded. It is a form-fitting short-sleeve shirt that feels cool to the touch and is made of troll skin.",
       "id": "trollskin_shirt",
       "introducedFloor": 1,
       "notes": "Worn by Carl from the first hour.",
@@ -1316,6 +1386,7 @@
     },
     {
       "canonicalName": "Enchanted Nightgaunt Cloak of Stoutness",
+      "description": "The wearer of this cloak gains +4 to Constitution and becomes resistant to poison and ice-based attacks. In addition, the cloak adds Anti-Piercing resistance to all worn armor. It also makes you look like a dollar store Batman. Warning: if a Nightgaunt spies you wearing this, they probably won\u2019t be too happy with you.",
       "id": "nightgaunt_cloak",
       "introducedFloor": 1,
       "notes": "Attached to Carl's leather coat. Occupies the neck slot.",
@@ -1323,6 +1394,7 @@
     },
     {
       "canonicalName": "Enchanted Toe Ring of the Splatter Skunk",
+      "description": null,
       "id": "splatter_skunk_toe_ring",
       "introducedFloor": 1,
       "notes": "Worn on Carl's right index toe.",
@@ -1330,6 +1402,7 @@
     },
     {
       "canonicalName": "Goblin Pass Tattoo",
+      "description": "The Goblin Pass is a goblin skull tattoo that marks the bearer as a friend of the goblins. It is safe to assume that any crawler might receive this tattoo the first time they cause an explosion worthy of a Goblin Box.",
       "id": "goblin_pass_tattoo",
       "introducedFloor": 1,
       "notes": "Carl's left inner forearm.",
@@ -1337,6 +1410,7 @@
     },
     {
       "canonicalName": "Desperado Pass Tattoo",
+      "description": "The Desperado Pass is a tattoo that grants crawlers access to the Desperado Club, and may be received in an Asshole's Box and/or after a crawler earns their first Player-Killer Skull. The tattoo burns as it is applied to the crawler's neck (or, if a cat, above the right shoulder blade), and looks like a dagger dripping blood.",
       "id": "desperado_pass_tattoo",
       "introducedFloor": 1,
       "notes": "Carl's neck. Grants club access.",
@@ -1344,6 +1418,7 @@
     },
     {
       "canonicalName": "Healing Potion",
+      "description": "The Standard Healing Potion is red and contained in a corked glass bottle approximately 1/3 the size of a coke bottle. When consumed (rather than administered directly from inventory), it tastes like kiwi juice. It heals 50% + of a crawlers' health, but it has no effect on pets. The Standard Healing Potion is sorted under the \"Potions\" and \"Healing\" inventory submenus, and can stack up to 999 per slot.",
       "id": "healing_potion",
       "introducedFloor": 1,
       "notes": null,
@@ -1351,6 +1426,7 @@
     },
     {
       "canonicalName": "Mana Potion",
+      "description": "Regular Mana Potions instantly and completely refill a character's Mana Points. These are commonly found in Loot Boxes on the first six floors of the Dungeon. : See Also: Good Mana Potion",
       "id": "mana_potion",
       "introducedFloor": 1,
       "notes": null,
@@ -1358,6 +1434,7 @@
     },
     {
       "canonicalName": "Iron Skin Potion",
+      "description": "An Iron Skin Potion (or Potion of Iron Skin) is a single-use consumable potion that increases a crawler's \"physical armor\" by 100% for 5 minutes.",
       "id": "iron_skin_potion",
       "introducedFloor": 1,
       "notes": null,
@@ -1365,6 +1442,7 @@
     },
     {
       "canonicalName": "Skill Potion",
+      "description": "A Skill Potion is a special potion that, when consumed, adds a single level to a skill specified in the item's description. Typically received in Loot Boxes, Skill Potions may be the only way to unlock certain Crawler Menu options such as sorting inventory by value.",
       "id": "skill_potion",
       "introducedFloor": 1,
       "notes": null,
@@ -1372,6 +1450,7 @@
     },
     {
       "canonicalName": "Goblin Dynamite",
+      "description": "Goblin Dynamite is an extremely volatile explosive created by Goblins. The red stick is wet and sticky, and the long wick hisses and pops like a sparkler when lit. The wick must be physically lit using a lighter or mechanism.",
       "id": "goblin_dynamite",
       "introducedFloor": 1,
       "notes": null,
@@ -1379,6 +1458,7 @@
     },
     {
       "canonicalName": "Goblin Smoke Bomb",
+      "description": "Category:Needs photo Goblin Smoke Bombs are apple-sized spherical bombs with wicks. After the wick is lit and the fire ignites the bomb, they emit a cloud of stinking, multi-color, opaque smoke that covers a 10 meter radius for three minutes (180 seconds) before dispersing.",
       "id": "goblin_smoke_bomb",
       "introducedFloor": 1,
       "notes": null,
@@ -1386,6 +1466,7 @@
     },
     {
       "canonicalName": "Torch",
+      "description": null,
       "id": "torch_item",
       "introducedFloor": 1,
       "notes": null,
@@ -1393,6 +1474,7 @@
     },
     {
       "canonicalName": "Crawler Biscuit",
+      "description": "Crawler Biscuits are food items that may be received in Bronze and Silver Adventurer Boxes.",
       "id": "crawler_biscuit",
       "introducedFloor": 1,
       "notes": null,
@@ -1400,6 +1482,7 @@
     },
     {
       "canonicalName": "Enhanced Pet Biscuit",
+      "description": "Going through Third Floor Class race selection won't undo the changes from the Enhanced Pet Biscuit, but if the pet has been reclassified as a Crawler after using the biscuit, they can choose to change their race.",
       "id": "enhanced_pet_biscuit",
       "introducedFloor": 1,
       "notes": null,
@@ -1407,6 +1490,7 @@
     },
     {
       "canonicalName": "Experience Cookies",
+      "description": "Experience Cookies look like chocolate chip cookie and taste stale but grant +10 experience (shared among party members) when consumed. A member of your party would get 0.2 of that experience. The experience notification appears above the crawler's head with an audible ping. These cookies may be found in limited-service Safe Rooms on the First Floor, where crawlers are limited to one per day.",
       "id": "experience_cookies",
       "introducedFloor": 1,
       "notes": null,
@@ -1414,6 +1498,7 @@
     },
     {
       "canonicalName": "Permacube",
+      "description": "A permacube generates heat when combined with combustible material such as coal. It has an extremely long lifespan and goes dormant when it runs out of coal, but does not turn off. It reactivates a few minutes after the material is shoveled in. In the Dungeon, Goblins use permacubes instead of Lesser Demons to power steam engines. : See Also: Goblin Copper Chopper",
       "id": "permacube",
       "introducedFloor": 1,
       "notes": null,
@@ -1421,6 +1506,7 @@
     },
     {
       "canonicalName": "Talisman of the Slate Butterfly",
+      "description": "The Talisman of the Slate Butterfly is a small silver butterfly charm on a small silver ring, so it can be attached to collars or other jewelry. It jingles when it moves. See also: Stuffed Slate Butterfly Figure (Book 5)",
       "id": "slate_butterfly_talisman",
       "introducedFloor": 1,
       "notes": null,
@@ -1428,6 +1514,7 @@
     },
     {
       "canonicalName": "Silver Ring",
+      "description": "Category:Needs photo Silver Ring is simple rings that, when equipped on a crawler's finger, boost a specific stat by a set value. They can be found in Silver Loot Boxes.",
       "id": "silver_ring",
       "introducedFloor": 1,
       "notes": null,
@@ -1435,6 +1522,7 @@
     },
     {
       "canonicalName": "Leather Coat",
+      "description": null,
       "id": "leather_coat",
       "introducedFloor": 0,
       "notes": "Carl's own coat. The right sleeve is dissolved by a slime on the first floor.",
@@ -1442,6 +1530,7 @@
     },
     {
       "canonicalName": "Bea's Pink Croc Sandals",
+      "description": null,
       "id": "pink_crocs",
       "introducedFloor": 0,
       "notes": "Ill-fitting. What Carl was wearing when the Transformation hit.",
@@ -1449,6 +1538,7 @@
     },
     {
       "canonicalName": "Zippo Lighter",
+      "description": null,
       "id": "zippo",
       "introducedFloor": 0,
       "notes": null,
@@ -1456,6 +1546,7 @@
     },
     {
       "canonicalName": "Enchanted Pedicure Kit of the Sylph",
+      "description": "The Enchanted Pedicure Kit of the Sylph is a black, zippered folder containing (12) metal pedicure tools. If the crawler makes a show of using some of the tools for ~15 minutes, multiple daily buffs will activate, and their feet will glitter.",
       "id": "pedicure_kit",
       "introducedFloor": 2,
       "notes": "Carl begins using it on the second floor.",
@@ -1463,6 +1554,7 @@
     },
     {
       "canonicalName": "Carl's Jug O'Boom",
+      "description": "Carl's Jug O'Boom is crafted by emptying a clay Rev-Up Toilet-Grade Moonshine jug to about 3/4 full, adding a few ounces of Goblin Oil, and corking the bottle with a Torch. The crawler only has to look at the Torch, select \"Activate\" in their Heads-Up Display (HUD), and throw the bottle.",
       "id": "jug_o_boom",
       "introducedFloor": 2,
       "notes": null,
@@ -1470,6 +1562,7 @@
     },
     {
       "canonicalName": "Mother of All Bombs",
+      "description": null,
       "id": "moab",
       "introducedFloor": 2,
       "notes": null,
@@ -1477,6 +1570,7 @@
     },
     {
       "canonicalName": "Goblin Oil",
+      "description": "Goblin Oil is a liquid combustible that can be mixed with other flammable substances to create highly effective incendiary weapons.",
       "id": "goblin_oil",
       "introducedFloor": 2,
       "notes": null,
@@ -1484,6 +1578,7 @@
     },
     {
       "canonicalName": "Mana Toast",
+      "description": "Mana Toast is a burned triangle of toast that restores mana.",
       "id": "mana_toast",
       "introducedFloor": 2,
       "notes": null,
@@ -1491,6 +1586,7 @@
     },
     {
       "canonicalName": "Bronze Box",
+      "description": null,
       "id": "bronze_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1498,6 +1594,7 @@
     },
     {
       "canonicalName": "Silver Box",
+      "description": null,
       "id": "silver_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1505,6 +1602,7 @@
     },
     {
       "canonicalName": "Gold Box",
+      "description": null,
       "id": "gold_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1512,6 +1610,7 @@
     },
     {
       "canonicalName": "Platinum Box",
+      "description": null,
       "id": "platinum_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1519,6 +1618,7 @@
     },
     {
       "canonicalName": "Boss Box",
+      "description": "A Boss Box is a specialized loot container that the Dungeon AI awards to the specific Crawler (or crawlers) responsible for killing a Boss. The box's tier corresponds to the boss's rank, ranging from Bronze for the weakest bosses up through Celestial for the strongest.",
       "id": "boss_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1526,6 +1626,7 @@
     },
     {
       "canonicalName": "Goblin Box",
+      "description": "Goblin Boxes are a type of Loot Box awarded for using explosives, and generally contain more explosives. Carl received these on the first and second floors, and received similar loot in unspecified boxes on the Third Floor. The boxes appear to be haphazardly assembled with bits of metal, colored by tier, and have a goblin skull etched onto the lid.",
       "id": "goblin_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1533,6 +1634,7 @@
     },
     {
       "canonicalName": "Benefactor Box",
+      "description": "Only a sponsor can send one, and the sponsor chooses the item personally. Because the contents come from outworld commerce rather than the dungeon's own loot tables, a box can deliver gear that is otherwise impossible to find inside, such as a pulse rifle or automated power armor.",
       "id": "benefactor_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1540,6 +1642,7 @@
     },
     {
       "canonicalName": "Magic Item Box",
+      "description": "A Magic Item Box is a type of Loot Box that appears to be awarded to crawlers who practice magic on the First Floor.",
       "id": "magic_item_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1547,6 +1650,7 @@
     },
     {
       "canonicalName": "Mechanic's Box",
+      "description": "Mechanic's Boxes are Loot Boxes awarded for building contraptions inside the Dungeon. They typically contain crafting tools.",
       "id": "mechanics_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1554,6 +1658,7 @@
     },
     {
       "canonicalName": "Crowd Control Box",
+      "description": "The Crowd Control Box is a Loot Box distributed for dispatching multiple mobs in a single attack.",
       "id": "crowd_control_box",
       "introducedFloor": 1,
       "notes": null,
@@ -1561,6 +1666,7 @@
     },
     {
       "canonicalName": "Goblins",
+      "description": "Goblins are small, reckless, and mechanically gifted humanoids. They build complex steam-powered machines\u2014using coal and water stored in a permacube instead of a lesser demon\u2014including the Goblin Murder Dozer and Goblin Copper Chopper. Their society is structured around clan loyalty.",
       "id": "goblins",
       "introducedFloor": 1,
       "notes": null,
@@ -1568,6 +1674,7 @@
     },
     {
       "canonicalName": "Slime",
+      "description": "Slimes are toxic, arm-less mobs found on at least the First Floor and Seventh Floor of the Dungeon.",
       "id": "slime",
       "introducedFloor": 1,
       "notes": null,
@@ -1575,6 +1682,7 @@
     },
     {
       "canonicalName": "Rats",
+      "description": null,
       "id": "rats",
       "introducedFloor": 1,
       "notes": null,
@@ -1582,6 +1690,7 @@
     },
     {
       "canonicalName": "Rat-kin",
+      "description": "Rat-kin are bipedal, furry, rat-like creatures that stand around 5 ft (1.5 meters) tall. They appear to wear clothing.",
       "id": "rat_kin",
       "introducedFloor": 1,
       "notes": null,
@@ -1589,6 +1698,7 @@
     },
     {
       "canonicalName": "Bugaboo",
+      "description": "Approximately 7 ft tall, Bugaboos look both \"terrifying and cartoonish.\" They take the general shape of a bear with no neck, enormous owl-like eyes, \"comically skinny legs,\" and long but \"absurdly thin\" arms. They are covered in obsidian-colored hair.",
       "id": "bugaboo",
       "introducedFloor": 1,
       "notes": null,
@@ -1596,6 +1706,7 @@
     },
     {
       "canonicalName": "Hoarder",
+      "description": "The Hoarder appears to be a 15' (4.5m) tall \"enormously\" obese human woman, approximately 35 years old, with matted black hair and open sores and scabs across her skin. She has only one tooth. She wears a filthy ripped t-shirt, no bra, and tight blue sweatpants with PINK on the leg.",
       "id": "hoarder",
       "introducedFloor": 1,
       "notes": null,
@@ -1603,6 +1714,7 @@
     },
     {
       "canonicalName": "Tuskling",
+      "description": "Tusklings are pink-scorned orcs with wide warthog-like heads that sit too close to their shoulders and wide torsos about 1.5 times larger than a human's, but are comically stubby from the waist down; they stand roughly 4' 6\" tall. Their faces are marked by black eyes and four crossed tusks: two long, curved tusks at the front, and a second pair further back. Some female Tusklings choose to pierce their tusks.",
       "id": "tuskling",
       "introducedFloor": 1,
       "notes": null,
@@ -1610,6 +1722,7 @@
     },
     {
       "canonicalName": "Troglodyte",
+      "description": "Troglodytes are muscular, humanoid mobs dressed in loincloths. Their head and torsos resemble Komodo dragons, but their scaly legs are long and bent, almost kangaroo-like. Their attacks may inflict a devastatingly painful Poison Debuff.",
       "id": "troglodyte",
       "introducedFloor": 1,
       "notes": null,
@@ -1617,6 +1730,7 @@
     },
     {
       "canonicalName": "Chilly Goat",
+      "description": "Chilly Goats are a mob found on the First Floor. They are white, horned goats with mouths full of fangs.",
       "id": "chilly_goat",
       "introducedFloor": 1,
       "notes": null,
@@ -1624,6 +1738,7 @@
     },
     {
       "canonicalName": "Bad Llama",
+      "description": "With giant yellow buckteeth and tan fur, Bad Llamas are approximately the size of a horse. A pouch in their throats allows them to spit red, baseball-sized gobs of scorching lava-spit from their mouths. It glows red when they prepare to spit; if the pouch is ruptured during this stage, it will burn the llama's throat and kill it. The lava spit smells of sulfur and cools from crimson to red.",
       "id": "bad_llama",
       "introducedFloor": 1,
       "notes": null,
@@ -1631,6 +1746,7 @@
     },
     {
       "canonicalName": "Blender Fiend",
+      "description": "Blender Fiends are an unknown mob type that initially populated the First Floor, but were relocated to a lower level some 62 hours after the Dungeon opened due to concerns that they may wipe out the crawlers.",
       "id": "blender_fiend",
       "introducedFloor": 1,
       "notes": null,
@@ -1638,6 +1754,7 @@
     },
     {
       "canonicalName": "Scat Thug",
+      "description": "Category:Needs photo Scat Thugs are level 3 First Floor mobs. They are bipedal racoon-headed monsters that stand approximately 2 ft tall, are roughly as strong as Goblins, and are armed with spears.",
       "id": "scat_thug",
       "introducedFloor": 1,
       "notes": null,
@@ -1645,6 +1762,7 @@
     },
     {
       "canonicalName": "Kobold",
+      "description": "Kobolds are a Second Floor mob that resemble chihuahuas in size and appearance, but stand upright and walk on their hind legs. They wear metal caps with a spike, and chainmail armor that appears to have been made from beer tabs.",
       "id": "kobold",
       "introducedFloor": 2,
       "notes": null,
@@ -1652,6 +1770,7 @@
     },
     {
       "canonicalName": "Brain Boiler",
+      "description": "Brain Boilers look like a cross between a squid and an umbrella. They have a psionic attack that can be countered with high charisma. The Fear Spell is ineffective on them.",
       "id": "brain_boiler",
       "introducedFloor": 2,
       "notes": null,
@@ -1659,6 +1778,7 @@
     },
     {
       "canonicalName": "Clurichaun",
+      "description": "Small and troll-like with humanoid bodies and oversized heads, Clurichaun are marked by curly black hair, hooked noses, small feet, and very few teeth. They make a puglike gurgling noise when attack.",
       "id": "clurichaun",
       "introducedFloor": 2,
       "notes": null,
@@ -1666,6 +1786,7 @@
     },
     {
       "canonicalName": "Danger Dingo",
+      "description": "Danger Dingoes are roughly the size of mastiffs (which typically stand 2' 6\"+ tall and weigh 120-230 lbs), with absurdly long and sharp fangs that make them look \"almost prehistoric.\" The fur on their faces looks like heavy metal corpse paint. When killed, they drop \"Poor Dingo Pelts\" and/or a few gold coins.",
       "id": "danger_dingo",
       "introducedFloor": 2,
       "notes": null,
@@ -1673,6 +1794,7 @@
     },
     {
       "canonicalName": "Frenzied Gerbil",
+      "description": "Category: needs photo are a mob found on the Second Floor and Fifth Floor.",
       "id": "frenzied_gerbil",
       "introducedFloor": 2,
       "notes": null,
@@ -1680,6 +1802,7 @@
     },
     {
       "canonicalName": "Mind Horror",
+      "description": "Mind Horrors are jellyfish-like floating brains with dangling tentacles. They are physically weak and move slowly, and their bodies have the \"consistency of a jam-filled kickball\"; sometimes they bounce when they hit the ground, sometimes they splatter. They have a psionic attack that does not seem to affect crawlers with high Intelligence, but causes a nearly debilitating health-sapping headache in other creatures.",
       "id": "mind_horror",
       "introducedFloor": 2,
       "notes": null,
@@ -1687,6 +1810,7 @@
     },
     {
       "canonicalName": "Rage Elemental",
+      "description": "Rage Elementals are creatures of intangible smoke and physical claws, capable of shredding a body into ribbons and raking up dungeon stone as they run. They are almost entirely non-corporeal: arrows shatter against the smoke without generating a health bar at all, and a Magic Missile raises only a flicker of one before the creature heals itself. That self-healing slows noticeably against burning damage.",
       "id": "rage_elemental",
       "introducedFloor": 2,
       "notes": null,
@@ -1694,6 +1818,7 @@
     },
     {
       "canonicalName": "Krakaren Clone",
+      "description": null,
       "id": "krakaren_clone",
       "introducedFloor": 2,
       "notes": null,
@@ -1701,6 +1826,7 @@
     },
     {
       "canonicalName": "Enchanted War Gauntlet of the Exalted Grull",
+      "description": null,
       "id": "war_gauntlet_of_the_exalted_grull",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1708,6 +1834,7 @@
     },
     {
       "canonicalName": "Unenchanted Boxers",
+      "description": null,
       "id": "boxer_shorts",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1715,6 +1842,7 @@
     },
     {
       "canonicalName": "Enchanted Spiked Kneepads of the Shade Gnoll Riot Forces",
+      "description": null,
       "id": "spiked_kneepads_of_the_shade_gnoll_riot_forces",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1722,6 +1850,7 @@
     },
     {
       "canonicalName": "Bare Knuckle Skill",
+      "description": null,
       "id": "bare_knuckle_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1729,6 +1858,7 @@
     },
     {
       "canonicalName": "Powerful Strike Skill",
+      "description": null,
       "id": "powerful_strike_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1736,6 +1866,7 @@
     },
     {
       "canonicalName": "Pugilism Skill",
+      "description": null,
       "id": "pugilism_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1743,6 +1874,7 @@
     },
     {
       "canonicalName": "Smush Skill",
+      "description": null,
       "id": "smush_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1750,6 +1882,7 @@
     },
     {
       "canonicalName": "Unarmed Combat Skill",
+      "description": null,
       "id": "unarmed_combat_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1757,6 +1890,7 @@
     },
     {
       "canonicalName": "Enchanted BigBoi Boxers",
+      "description": null,
       "id": "bigboi_boxers",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1764,6 +1898,7 @@
     },
     {
       "canonicalName": "Aiming Skill",
+      "description": null,
       "id": "aiming_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1771,6 +1906,7 @@
     },
     {
       "canonicalName": "Slingshot Skill",
+      "description": null,
       "id": "slingshot_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1778,6 +1914,7 @@
     },
     {
       "canonicalName": "Steady Hand Skill",
+      "description": null,
       "id": "steady_hand_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1785,6 +1922,7 @@
     },
     {
       "canonicalName": "Incendiary Device Handling Skill",
+      "description": null,
       "id": "incendiary_device_handling_skill",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1792,6 +1930,7 @@
     },
     {
       "canonicalName": "Enchanted Crown of the Sepsis Whore",
+      "description": "Enchanted Crown of the Sepsis Whore.' ' Who\u2019s a dirty girl? You\u2019re a dirty girl! ' This is a Fleeting item! This is a Unique* item! Imbues wearer with +5 Intelligence, grants the user +5 to the Good First Impression Skill. All attacks, including magical attacks, now have a 15% chance to inflict the Sepsis Debuff. Warning! (Seriously though. I\u2019m going to say this again. WARNING!",
       "id": "crown_of_the_sepsis_whore",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1799,6 +1938,7 @@
     },
     {
       "canonicalName": "Enchanted Fae Scale Quadruped Crupper of the Fleet",
+      "description": null,
       "id": "fae_scale_quadruped_crupper_of_the_fleet",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1806,6 +1946,7 @@
     },
     {
       "canonicalName": "Bracelet",
+      "description": null,
       "id": "bracelet",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1813,6 +1954,7 @@
     },
     {
       "canonicalName": "Back Claw",
+      "description": null,
       "id": "back_claw",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1820,6 +1962,7 @@
     },
     {
       "canonicalName": "Dodge Skill",
+      "description": null,
       "id": "dodge_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1827,6 +1970,7 @@
     },
     {
       "canonicalName": "Good First Impression Skill",
+      "description": null,
       "id": "good_first_impression_skill",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1834,6 +1978,7 @@
     },
     {
       "canonicalName": "Slice Attack",
+      "description": null,
       "id": "slice_attack",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1841,6 +1986,7 @@
     },
     {
       "canonicalName": "Torch Spell",
+      "description": null,
       "id": "torch_spell",
       "introducedFloor": 1,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1848,6 +1994,7 @@
     },
     {
       "canonicalName": "Second Chance Spell",
+      "description": null,
       "id": "second_chance_spell",
       "introducedFloor": 2,
       "notes": "From the wiki's per-floor character sheets.",
@@ -1855,6 +2002,7 @@
     },
     {
       "canonicalName": "1914 Box",
+      "description": null,
       "id": "1914_box",
       "introducedFloor": 9,
       "notes": null,
@@ -1862,6 +2010,7 @@
     },
     {
       "canonicalName": "1965 Harley Davidson Motorcycle",
+      "description": null,
       "id": "1965_harley_davidson_motorcycle",
       "introducedFloor": 4,
       "notes": null,
@@ -1869,6 +2018,7 @@
     },
     {
       "canonicalName": "Adjutant",
+      "description": "Each Faction has an adjutant, who in turn has open communications with other teams' adjutants. Their participation is generally symbolic; they are typically flashy, famous characters like Odette who are there to give a running commentary to viewers during their daily, on-air recaps.",
       "id": "adjutant",
       "introducedFloor": 9,
       "notes": null,
@@ -1876,6 +2026,7 @@
     },
     {
       "canonicalName": "Agent Provocateur Class",
+      "description": null,
       "id": "agent_provocateur_class",
       "introducedFloor": 6,
       "notes": null,
@@ -1883,6 +2034,7 @@
     },
     {
       "canonicalName": "Alpha Male Carl",
+      "description": "Alpha Male Carl is a masculine caricature of Carl. He has gelled-back hair that Donut says is better than Carl's, and a prominent bulge in his star-patterned boxers. His War Gauntlet is bone-white rather than black. His patch jacket has two buttons: \"#1 Son\" and \"Brother of the Century.\" He speaks in Carl's Father's voice.",
       "id": "alpha_male_carl",
       "introducedFloor": 8,
       "notes": null,
@@ -1890,6 +2042,7 @@
     },
     {
       "canonicalName": "Arrow of Enthusiastic Double Gonorrhea",
+      "description": null,
       "id": "arrow_of_enthusiastic_double_gonorrhea",
       "introducedFloor": 6,
       "notes": null,
@@ -1897,6 +2050,7 @@
     },
     {
       "canonicalName": "Asojano",
+      "description": null,
       "id": "asojano",
       "introducedFloor": 8,
       "notes": null,
@@ -1904,6 +2058,7 @@
     },
     {
       "canonicalName": "Astral Paw Spell",
+      "description": null,
       "id": "astral_paw_spell",
       "introducedFloor": 4,
       "notes": null,
@@ -1911,6 +2066,7 @@
     },
     {
       "canonicalName": "Babababoon",
+      "description": "Babababoons are roughly human-sized and have simian bodies, complete with bright red asses. Their fleshy, \"disconcertingly-human\" faces have too-small features. They wear the sort of hoodlum outfits you'd expect to find in a Florida drunk tank: backwards baseball caps, top hats, ripped t-shirts featuring Nick Cage's face or rude statements, etc.",
       "id": "babababoon",
       "introducedFloor": 4,
       "notes": null,
@@ -1918,6 +2074,7 @@
     },
     {
       "canonicalName": "Bactrian",
+      "description": null,
       "id": "bactrian",
       "introducedFloor": 5,
       "notes": null,
@@ -1925,6 +2082,7 @@
     },
     {
       "canonicalName": "Bang Bro Spell",
+      "description": null,
       "id": "bang_bro_spell",
       "introducedFloor": 4,
       "notes": null,
@@ -1932,6 +2090,7 @@
     },
     {
       "canonicalName": "Bard's Golden Throat",
+      "description": null,
       "id": "bard_s_golden_throat",
       "introducedFloor": 8,
       "notes": null,
@@ -1939,6 +2098,7 @@
     },
     {
       "canonicalName": "Bear Witness Spell",
+      "description": "Spell can be negated by a high enough Mind Balance Skill.",
       "id": "bear_witness_spell",
       "introducedFloor": 9,
       "notes": null,
@@ -1946,6 +2106,7 @@
     },
     {
       "canonicalName": "Big Boy Blue",
+      "description": "Big Boy Blues glowing, blue jellyfish, about 15' (4.572m) in diameter, with long tentacles. They drift aimlessly in water, bouncing off of each other, but will wrap their tentacles around crawlers who get too close.",
       "id": "big_boy_blue",
       "introducedFloor": 5,
       "notes": null,
@@ -1953,6 +2114,7 @@
     },
     {
       "canonicalName": "Bin",
+      "description": null,
       "id": "bin",
       "introducedFloor": 4,
       "notes": null,
@@ -1960,6 +2122,7 @@
     },
     {
       "canonicalName": "Bitch, What? Spell",
+      "description": null,
       "id": "bitch_what_spell",
       "introducedFloor": 8,
       "notes": null,
@@ -1967,6 +2130,7 @@
     },
     {
       "canonicalName": "Black Nimbus",
+      "description": null,
       "id": "black_nimbus",
       "introducedFloor": 8,
       "notes": null,
@@ -1974,6 +2138,7 @@
     },
     {
       "canonicalName": "Blister Ghoul",
+      "description": "Blister Ghouls look like almost-human heads with green, rotting skin. Some of them have torsos attached.",
       "id": "blister_ghoul",
       "introducedFloor": 4,
       "notes": null,
@@ -1981,6 +2146,7 @@
     },
     {
       "canonicalName": "Blood Sultanate",
+      "description": "The Blood Sultanate of the Naga is the royal house of the Naga in Syndicate space and a permanent participant in the Ninth Floor Faction Wars. Its line of succession is bound to a piece of dungeon loot, which makes it the single largest obstacle between the Royal Court of Princess Donut and the Tenth Floor.",
       "id": "blood_sultanate",
       "introducedFloor": 9,
       "notes": null,
@@ -1988,6 +2154,7 @@
     },
     {
       "canonicalName": "Bomb Upgrade Patch",
+      "description": "A white, rectangular piece of fabric with a little, circular bomb hand stitched on it in blackwork style with fine, black thread. It looks like a pencil drawing of a bomb.",
       "id": "bomb_upgrade_patch",
       "introducedFloor": 6,
       "notes": null,
@@ -1995,6 +2162,7 @@
     },
     {
       "canonicalName": "Bonnie",
+      "description": "Introduced as a naive and seemingly disconnected child, Bonnie first appears eerily calm in the face of horrific trauma due to a powerful anti-fear potion given to her by her father.",
       "id": "bonnie",
       "introducedFloor": 5,
       "notes": null,
@@ -2002,6 +2170,7 @@
     },
     {
       "canonicalName": "Book Burner Patch",
+      "description": "A medium-sized rectangular patch with a book on it. The book is on fire. This patch is embroidered, not screen printed.",
       "id": "book_burner_patch",
       "introducedFloor": 8,
       "notes": null,
@@ -2009,6 +2178,7 @@
     },
     {
       "canonicalName": "Book Burner Spell",
+      "description": null,
       "id": "book_burner_spell",
       "introducedFloor": 8,
       "notes": null,
@@ -2016,6 +2186,7 @@
     },
     {
       "canonicalName": "Boomer",
+      "description": "Carl described him as looking like the world\u2019s fattest bulldog, pickled for about 5,000 years, with elf ears and a cigar in his mouth. He also thought Boomer looked as solid as he was old, and had a voice to match. Donut said that he smelled nice, like cedar mixed with acorns. His weapons were a pair of war gauntlets similar to Carl's Enchanted War Gauntlet of the Exalted Grull.",
       "id": "boomer",
       "introducedFloor": 9,
       "notes": null,
@@ -2023,6 +2194,7 @@
     },
     {
       "canonicalName": "Bounty Box",
+      "description": null,
       "id": "bounty_box",
       "introducedFloor": 4,
       "notes": null,
@@ -2030,6 +2202,7 @@
     },
     {
       "canonicalName": "Bravvo",
+      "description": null,
       "id": "bravvo",
       "introducedFloor": 6,
       "notes": null,
@@ -2037,6 +2210,7 @@
     },
     {
       "canonicalName": "Bronze Condom",
+      "description": "An unenchanted condom in bronze colored packaging. It has a sketch of an older woman (possibly [https://en.wikipedia.org/wiki/Bea_Arthur Bea Arthur]) and a sheep on the other.",
       "id": "bronze_condom",
       "introducedFloor": 6,
       "notes": null,
@@ -2044,6 +2218,7 @@
     },
     {
       "canonicalName": "Butcher's Masquerade Spell",
+      "description": "The spell produces a ritual rather than a battlefield effect, and it does not resolve in a single moment: several components must be completed before it successfully casts. The guest list forms first, drawn up by Apito herself and stacked deliberately with parties who cannot stand one another, so that discord is sown among everyone involved.",
       "id": "butcher_s_masquerade_spell",
       "introducedFloor": 6,
       "notes": null,
@@ -2051,6 +2226,7 @@
     },
     {
       "canonicalName": "Cave Mudge Bonker",
+      "description": "Bonkers are gray-skinned, pig-like, corpulent monsters wobbling on thin legs. Their heads are topped with wisps of oily black hair, and feature black beady eyes and shark-like mouths. They have no necks and stand at approximately 4' 6\" (1.37m) tall. They are armed with wooden clubs studded with nails. When killed, they drop their clubs, a few gold coins, and occasionally a liver (labeled as an alchemical supply).",
       "id": "cave_mudge_bonker",
       "introducedFloor": 4,
       "notes": null,
@@ -2058,6 +2234,7 @@
     },
     {
       "canonicalName": "Celestial Grenade",
+      "description": null,
       "id": "celestial_grenade",
       "introducedFloor": 5,
       "notes": null,
@@ -2065,6 +2242,7 @@
     },
     {
       "canonicalName": "Chaco",
+      "description": "On camera Chaco is all showmanship: a running start into the room, booming patter, and a wide grin full of sharp teeth. The dungeon announcer bills him as a dungeon darling, a giver of prizes, a slayer of gods, and a former crawler champion. Off camera he folds fast, squealing and ducking when Mordecai attacks him and trembling through the rest of the taping. He also carries a great deal of guilt.",
       "id": "chaco",
       "introducedFloor": 4,
       "notes": null,
@@ -2072,6 +2250,7 @@
     },
     {
       "canonicalName": "Champion Pack",
+      "description": null,
       "id": "champion_pack",
       "introducedFloor": 8,
       "notes": null,
@@ -2079,6 +2258,7 @@
     },
     {
       "canonicalName": "Children of Inpewt",
+      "description": "Zerzura transfers a full Dungeon settlement, including all of its NPCs and buildings, to a \"random\" location on a deeper floor. Every creature previously occupying the location is immediately killed and then resurrected as Children of Inpewt. Everyone in the transferred settlement is marked for death by the Children of Inpewt, who will not stop until all their marks are dead.",
       "id": "children_of_inpewt",
       "introducedFloor": 9,
       "notes": null,
@@ -2086,6 +2266,7 @@
     },
     {
       "canonicalName": "Circe Took",
+      "description": null,
       "id": "circe_took",
       "introducedFloor": 6,
       "notes": null,
@@ -2093,6 +2274,7 @@
     },
     {
       "canonicalName": "Clay",
+      "description": null,
       "id": "clay",
       "introducedFloor": 5,
       "notes": null,
@@ -2100,6 +2282,7 @@
     },
     {
       "canonicalName": "Cleaner Bot",
+      "description": "Cleaner Bots are frisbee-shaped flying Roombas that hum as they buzz around, cleaning up whatever mess the Royal Court and its guests make of their Personal Space.",
       "id": "cleaner_bot",
       "introducedFloor": 4,
       "notes": null,
@@ -2107,6 +2290,7 @@
     },
     {
       "canonicalName": "Clint Smashgrab",
+      "description": null,
       "id": "clint_smashgrab",
       "introducedFloor": 6,
       "notes": null,
@@ -2114,6 +2298,7 @@
     },
     {
       "canonicalName": "Cloud of Exhaust Spell",
+      "description": null,
       "id": "cloud_of_exhaust_spell",
       "introducedFloor": 5,
       "notes": null,
@@ -2121,6 +2306,7 @@
     },
     {
       "canonicalName": "Coffee Shop Author Kit",
+      "description": "Typically used by scholar and arcanist classes with skills related to scroll-making, the Coffee Shop Author Kit's stated purpose is to allow crawlers to profit from mass-manufacturing scrolls or tomes. When a spell or glyph is correctly transcribed onto the magical paper, the paper is classified as a \"scroll\" and can be sold for profit in the marketplace.",
       "id": "coffee_shop_author_kit",
       "introducedFloor": 5,
       "notes": null,
@@ -2128,6 +2314,7 @@
     },
     {
       "canonicalName": "Combo Card",
+      "description": null,
       "id": "combo_card",
       "introducedFloor": 8,
       "notes": null,
@@ -2135,6 +2322,7 @@
     },
     {
       "canonicalName": "Commandant Kane",
+      "description": null,
       "id": "commandant_kane",
       "introducedFloor": 5,
       "notes": null,
@@ -2142,6 +2330,7 @@
     },
     {
       "canonicalName": "Community Pool",
+      "description": "Community Pool is a powerful rare scroll that allows the caster to transfer an infection from Target A to Target B. The caster must be physically touching both targets for the spell to take effect, and will be stunned for one minute after the casting completes.",
       "id": "community_pool",
       "introducedFloor": 6,
       "notes": null,
@@ -2149,6 +2338,7 @@
     },
     {
       "canonicalName": "Concierge Shark",
+      "description": "Concierge Sharks look like typical tiger sharks, but are 15' (4.572m) long, jet black, and have glowing red eyes. They are attracted to blood.",
       "id": "concierge_shark",
       "introducedFloor": 5,
       "notes": null,
@@ -2156,6 +2346,7 @@
     },
     {
       "canonicalName": "Control Sigil",
+      "description": "To those who have the Escape Plan Skill, a Control Sigil looks like a glowing circle that \"looks like something used in a Satanic ritual mixed with the text from [https://lotr.fandom.com/wiki/One_Ring Frodo's One Ring\"]. To anyone else the sigil doesn't show up.",
       "id": "control_sigil",
       "introducedFloor": 4,
       "notes": null,
@@ -2163,6 +2354,7 @@
     },
     {
       "canonicalName": "Cornets",
+      "description": "Cornets look like tall, skinless, eyeless, human-sized jackrabbits walking on two legs. They are hunched forward with their rabbit ears almost reaching the ceiling. They have a massive mouth with teeth. They make an odd humming noise. The rabbits have no sense of community and barely fight back when the crawlers go to clear out the station. The station is not an established settlement.",
       "id": "cornets",
       "introducedFloor": 4,
       "notes": null,
@@ -2170,6 +2362,7 @@
     },
     {
       "canonicalName": "Cosmic Buff Potion",
+      "description": null,
       "id": "cosmic_buff_potion",
       "introducedFloor": 8,
       "notes": null,
@@ -2177,6 +2370,7 @@
     },
     {
       "canonicalName": "Crafter's Box",
+      "description": null,
       "id": "crafter_s_box",
       "introducedFloor": 4,
       "notes": null,
@@ -2184,6 +2378,7 @@
     },
     {
       "canonicalName": "Crixus",
+      "description": "Crixus is a sniper for the Dirigible Gnomes who harbors a deep, venomous hatred for the Bactrian and Dromedarian camels. He views them as complicit slaves in the subjugation of his people by Emperor Anser, believing the world will be better off once they're destroyed. His primary motive, however, is stopping the \"mad mage\" (Ghazi) from fully acquiring and replicating the Gate of the Feral Gods.",
       "id": "crixus",
       "introducedFloor": 5,
       "notes": null,
@@ -2191,6 +2386,7 @@
     },
     {
       "canonicalName": "Dark Hive",
+      "description": null,
       "id": "dark_hive",
       "introducedFloor": 6,
       "notes": null,
@@ -2198,6 +2394,7 @@
     },
     {
       "canonicalName": "De-Sleeving Box",
+      "description": null,
       "id": "de_sleeving_box",
       "introducedFloor": 6,
       "notes": null,
@@ -2205,6 +2402,7 @@
     },
     {
       "canonicalName": "Death Ray",
+      "description": null,
       "id": "death_ray",
       "introducedFloor": 8,
       "notes": null,
@@ -2212,6 +2410,7 @@
     },
     {
       "canonicalName": "Did You Really Just Cast Fireball in a Room this Small Box",
+      "description": null,
       "id": "did_you_really_just_cast_fireball_in_a_room_this_small_b",
       "introducedFloor": 6,
       "notes": null,
@@ -2219,6 +2418,7 @@
     },
     {
       "canonicalName": "Dirigible Gnome",
+      "description": null,
       "id": "dirigible_gnome",
       "introducedFloor": 5,
       "notes": null,
@@ -2226,6 +2426,7 @@
     },
     {
       "canonicalName": "Dirty Little Phased Bolt",
+      "description": null,
       "id": "dirty_little_phased_bolt",
       "introducedFloor": 4,
       "notes": null,
@@ -2233,6 +2434,7 @@
     },
     {
       "canonicalName": "Dismemberment Limited",
+      "description": "The Dismemberment Limited is a sleek, white [https://en.wikipedia.org/wiki/Maglev maglev] train that moves almost silently on a monorail line. The first car is aerodynamic and sleek with a fully glass nose (similar to a B-17 chin turret), and pulls only two cars behind it. The train can only be entered and exited from the first car.",
       "id": "dismemberment_limited",
       "introducedFloor": 4,
       "notes": null,
@@ -2240,6 +2442,7 @@
     },
     {
       "canonicalName": "Diwata",
+      "description": "Her natural form is a giant squirrel-like creature with antlers that's covered in moss and leaves.",
       "id": "diwata",
       "introducedFloor": 6,
       "notes": null,
@@ -2247,6 +2450,7 @@
     },
     {
       "canonicalName": "Donita Grace",
+      "description": null,
       "id": "donita_grace",
       "introducedFloor": 4,
       "notes": null,
@@ -2254,6 +2458,7 @@
     },
     {
       "canonicalName": "Dr. Ratchet's Guide to Building Automatons for Fun and Profit",
+      "description": null,
       "id": "dr_ratchet_s_guide_to_building_automatons_for_fun_and_pr",
       "introducedFloor": 6,
       "notes": null,
@@ -2261,6 +2466,7 @@
     },
     {
       "canonicalName": "Dragon Chain Tattoo",
+      "description": "The Dragon Chain Tattoo was created using a mixture of toraline yam ink and Li Na's freely-given blood. Because the blood was given willingly, Li Na did not permanently lose her skill, but Carl gained the temporary ability to use it. The tattoo grants Carl access to Li Na's level-13 Profane Iron skill, which allows him to unleash multiple prehensile chains from his body once a day for about thirty seconds.",
       "id": "dragon_chain_tattoo",
       "introducedFloor": 7,
       "notes": null,
@@ -2268,6 +2474,7 @@
     },
     {
       "canonicalName": "Drakea's Enchanted Kerchief of Disorder",
+      "description": null,
       "id": "drakea_s_enchanted_kerchief_of_disorder",
       "introducedFloor": 5,
       "notes": null,
@@ -2275,6 +2482,7 @@
     },
     {
       "canonicalName": "Drek",
+      "description": "A knee-high, fat, wrinkly monster with sharp claws and teeth. They stand on two feet but can climb on all fours. They wear loincloths and cry like babies.",
       "id": "drek",
       "introducedFloor": 4,
       "notes": null,
@@ -2282,6 +2490,7 @@
     },
     {
       "canonicalName": "Dromedarian",
+      "description": "The Dromedarians are a common, formerly nomadic race that is found throughout the drier parts of the universe. With the ability to store mass amounts of liquid in their bodies, it is said a Dromedarian can survive up to two months without taking a single sip of water. When these hunters and warriors are placed in a situation where they can no longer wander, they tend to become lethargic, sloth-minded creatures.",
       "id": "dromedarian",
       "introducedFloor": 5,
       "notes": null,
@@ -2289,6 +2498,7 @@
     },
     {
       "canonicalName": "Dungeon Anarchist's Cookbook",
+      "description": null,
       "id": "dungeon_anarchist_s_cookbook_item",
       "introducedFloor": 4,
       "notes": null,
@@ -2296,6 +2506,7 @@
     },
     {
       "canonicalName": "Dwarven Battery Fabricator",
+      "description": null,
       "id": "dwarven_battery_fabricator",
       "introducedFloor": 4,
       "notes": null,
@@ -2303,6 +2514,7 @@
     },
     {
       "canonicalName": "Dwarven Industrial Light-Duty Automaton Contraption",
+      "description": "The Automatons are the silver and black robots the size of bulldozers. At first they look roughly like lumpy blocks of metal but on closer inspection they have arms and legs. When in sleep mode they vent hot exhaust.",
       "id": "dwarven_industrial_light_duty_automaton_contraption",
       "introducedFloor": 4,
       "notes": null,
@@ -2310,6 +2522,7 @@
     },
     {
       "canonicalName": "Earth Upgrade Patch",
+      "description": "A tiny, round patch depicting the planet earth. It is about the size of a half-dollar and is screen-printed, not embroidered.",
       "id": "earth_upgrade_patch",
       "introducedFloor": 5,
       "notes": null,
@@ -2317,6 +2530,7 @@
     },
     {
       "canonicalName": "Edict",
+      "description": null,
       "id": "edict",
       "introducedFloor": 6,
       "notes": null,
@@ -2324,6 +2538,7 @@
     },
     {
       "canonicalName": "Eighth Floor",
+      "description": "The floor divides its crawlers among 293 isolated regions, each a faithful copy of a real place on Earth as it stood shortly before the apocalypse. It runs as a playable memory. People and animals exist only as intangible ghosts who cannot see the crawlers and pass straight through them, going about the day they were recorded, while every non-biological object retains its mass and momentum.",
       "id": "eighth_floor",
       "introducedFloor": 8,
       "notes": null,
@@ -2331,6 +2546,7 @@
     },
     {
       "canonicalName": "Elmer",
+      "description": null,
       "id": "elmer",
       "introducedFloor": 6,
       "notes": null,
@@ -2338,6 +2554,7 @@
     },
     {
       "canonicalName": "Emberus",
+      "description": "Emberus is the personification of a star's destructive power, and he embraces a core philosophy that power, once held, must never sit idle but must be used and never squandered. He is known to be stoic and indifferent to the suffering of all but those he deems worthy, and while he can be a just god when the fancy strikes him, the fancy has not struck in a very long time.",
       "id": "emberus",
       "introducedFloor": 5,
       "notes": null,
@@ -2345,6 +2562,7 @@
     },
     {
       "canonicalName": "Emberus Tattoos",
+      "description": null,
       "id": "emberus_tattoos",
       "introducedFloor": 5,
       "notes": null,
@@ -2352,6 +2570,7 @@
     },
     {
       "canonicalName": "Emerald",
+      "description": "Emerald is one of the many changelings residing in Bubble 543 during the Fifth Floor's games. Like many of her people in this bubble, she masks her true identity by taking on the form of a local dromedarian.",
       "id": "emerald",
       "introducedFloor": 5,
       "notes": null,
@@ -2359,6 +2578,7 @@
     },
     {
       "canonicalName": "Enchanted Anarchist's Battle Rattle",
+      "description": "A sleeveless black jacket made of thick canvas, the Anarchist's Battle Rattle glows with a subtle purplish light. The jacket does not appear to be damaged by flesh injuries.",
       "id": "anarchist_s_battle_rattle",
       "introducedFloor": 5,
       "notes": null,
@@ -2366,6 +2586,7 @@
     },
     {
       "canonicalName": "Enchanted Auto Buckler of the Peach Pit",
+      "description": "Enchanted Auto Buckler of the Peach Pit Forms a metallic buckler on command. May be triggered via hotlist or by shaking your wrist like you\u2019re thinking of your hot Aunt Lydia. This item is enchanted with Shatter. Any attack that lands upon this shield has a 1.5% chance to disarm the opponent.",
       "id": "auto_buckler_of_the_peach_pit",
       "introducedFloor": 4,
       "notes": null,
@@ -2373,6 +2594,7 @@
     },
     {
       "canonicalName": "Enchanted Collar Charm of the Effete Bourgeoisie",
+      "description": null,
       "id": "collar_charm_of_the_effete_bourgeoisie",
       "introducedFloor": 6,
       "notes": null,
@@ -2380,6 +2602,7 @@
     },
     {
       "canonicalName": "Enchanted Gnome Farseer",
+      "description": null,
       "id": "gnome_farseer",
       "introducedFloor": 5,
       "notes": null,
@@ -2387,6 +2610,7 @@
     },
     {
       "canonicalName": "Enchanted Hairbrush of the Beefmaster",
+      "description": "The hairbrush is shining gold with a jeweled handle. It shrieks like \"a group of women squealing and cheering at a rock concert\" when Carl is brushing his hair. When he stops, the brush shouts \"Encore!\" and only stops after 2 minutes.",
       "id": "hairbrush_of_the_beefmaster",
       "introducedFloor": 9,
       "notes": null,
@@ -2394,6 +2618,7 @@
     },
     {
       "canonicalName": "Enchanted Handcuffs",
+      "description": "The handcuffs are covered in fuzzy red velvet.",
       "id": "handcuffs",
       "introducedFloor": 5,
       "notes": null,
@@ -2401,6 +2626,7 @@
     },
     {
       "canonicalName": "Enchanted Lock Box of the Night Wyrm",
+      "description": "The box is a rectangular dark wooden box covered in carved spiderweb patterns. The box is light and about the size of a music box. It crackles with dark energy. Three marble sized jewels are on the lid, attached with a metallic claw. One of the three jewels glows while the other two are cracked and burned out. The side of the box has slats in it, and inside is a pink orchid.",
       "id": "lock_box_of_the_night_wyrm",
       "introducedFloor": 8,
       "notes": null,
@@ -2408,6 +2634,7 @@
     },
     {
       "canonicalName": "Enchanted Mongoliensis Saddle",
+      "description": "The saddle is an obscenely garish blue and red tassel-covered saddle. There are no straps or reins on the saddle, just a seat and a pommel. As soon as Donut hops onto the saddle, a translucent strap appears, wrapping around her waist and tying her to the saddle.",
       "id": "mongoliensis_saddle",
       "introducedFloor": 4,
       "notes": null,
@@ -2415,6 +2642,7 @@
     },
     {
       "canonicalName": "Enchanted Nipple Ring of the Superior Fire Demon\u2019s Hand Maiden",
+      "description": null,
       "id": "nipple_ring_of_the_superior_fire_demon_s_hand_maiden",
       "introducedFloor": 8,
       "notes": null,
@@ -2422,6 +2650,7 @@
     },
     {
       "canonicalName": "Enchanted Obsidian Bracelet of the Raggle Rouser",
+      "description": null,
       "id": "obsidian_bracelet_of_the_raggle_rouser",
       "introducedFloor": 6,
       "notes": null,
@@ -2429,6 +2658,7 @@
     },
     {
       "canonicalName": "Enchanted Paupers Ring of the Steadfast Emberus",
+      "description": null,
       "id": "paupers_ring_of_the_steadfast_emberus",
       "introducedFloor": 8,
       "notes": null,
@@ -2436,6 +2666,7 @@
     },
     {
       "canonicalName": "Enchanted Repeating Crossbow of the Scavenger Mother of Mothers",
+      "description": "The crossbow appears to be made of gold, but feels almost plastic. It has an inlay carving of a vulture. With two females in a party, the crossbow fires twice a second, auto-loading, cocking, and firing. The base ammo is a magical razor-tipped bolt, about 20 inches long. The bolts disappear after about a minute.",
       "id": "repeating_crossbow_of_the_scavenger_mother_of_mothers",
       "introducedFloor": 4,
       "notes": null,
@@ -2443,6 +2674,7 @@
     },
     {
       "canonicalName": "Enchanted Roll of Never-ending Duct Tape",
+      "description": null,
       "id": "roll_of_never_ending_duct_tape",
       "introducedFloor": 5,
       "notes": null,
@@ -2450,6 +2682,7 @@
     },
     {
       "canonicalName": "Enchanted Shade Gnoll Riot Forces Crowd Control Shield",
+      "description": "The shield is a 6 foot tall, curved riot shield with a plastic window in the top. There are loops on the back to hold the shield. Painted on the front in white block letters are the words \"Get Back\" in Syndicate Standard.",
       "id": "shade_gnoll_riot_forces_crowd_control_shield",
       "introducedFloor": 4,
       "notes": null,
@@ -2457,6 +2690,7 @@
     },
     {
       "canonicalName": "Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton",
+      "description": null,
       "id": "shade_gnoll_riot_forces_telescoping_crowd_control_baton",
       "introducedFloor": 4,
       "notes": null,
@@ -2464,6 +2698,7 @@
     },
     {
       "canonicalName": "Enchanted Spiked Knee Pads of the Munificent Goddess Kina",
+      "description": null,
       "id": "spiked_knee_pads_of_the_munificent_goddess_kina",
       "introducedFloor": 9,
       "notes": null,
@@ -2471,6 +2706,7 @@
     },
     {
       "canonicalName": "Enchanted Toe Ring of the Leprous Bandit",
+      "description": null,
       "id": "toe_ring_of_the_leprous_bandit",
       "introducedFloor": 5,
       "notes": null,
@@ -2478,6 +2714,7 @@
     },
     {
       "canonicalName": "Enchanted Toe Ring of the Well-Balanced",
+      "description": null,
       "id": "toe_ring_of_the_well_balanced",
       "introducedFloor": 9,
       "notes": null,
@@ -2485,6 +2722,7 @@
     },
     {
       "canonicalName": "Enchanted Venomous Elven Rock Chucker",
+      "description": null,
       "id": "venomous_elven_rock_chucker",
       "introducedFloor": 6,
       "notes": null,
@@ -2492,6 +2730,7 @@
     },
     {
       "canonicalName": "Enchanted Wrestling Belt of the Great Gorgo",
+      "description": "A gold wrestling belt, like any regular heavyweight champion belt they'd give to a WWE star.",
       "id": "wrestling_belt_of_the_great_gorgo",
       "introducedFloor": 4,
       "notes": null,
@@ -2499,6 +2738,7 @@
     },
     {
       "canonicalName": "Enemy of the Church Tattoo",
+      "description": "The tattoo has the following effects: *You may not worship Diwata or her allies. *Outside of Club Vanquisher, all adherents of Diwata will attack you on sight. *25% bonus damage against adherents of Diwata. *+ additional 25% bonus damage (for a total of 50%), due to being an adherent of Emberus. The System AI adds: Warning: Uh, so this is a big one, so listen closely. Don\u2019t let Diwata see you. Ever.",
       "id": "enemy_of_the_church_tattoo",
       "introducedFloor": 6,
       "notes": null,
@@ -2506,6 +2746,7 @@
     },
     {
       "canonicalName": "Engine of Tomorrow",
+      "description": "His new eye is a swirling black orb that changes to a clockwork engine when it is working. It gives the users the ability to see muscles tensing and slows down their perception of time in short bursts.",
       "id": "engine_of_tomorrow",
       "introducedFloor": 9,
       "notes": null,
@@ -2513,6 +2754,7 @@
     },
     {
       "canonicalName": "Engineer's Key",
+      "description": null,
       "id": "engineer_s_key",
       "introducedFloor": 4,
       "notes": null,
@@ -2520,6 +2762,7 @@
     },
     {
       "canonicalName": "Epitome Noflex",
+      "description": null,
       "id": "epitome_noflex",
       "introducedFloor": 5,
       "notes": null,
@@ -2527,6 +2770,7 @@
     },
     {
       "canonicalName": "Epitome Tagg",
+      "description": "At his first meeting with Carl and Donut, Carl mused that Tagg looked nothing like the unhinged psychopath he was portrayed to be. He wore a simple, leather jerkin and was indistinguishable from the rest of the dream elves. He was one of the richest men in the entire galaxy. During faction wars, he wore utilitarian armor.",
       "id": "epitome_tagg",
       "introducedFloor": 9,
       "notes": null,
@@ -2534,6 +2778,7 @@
     },
     {
       "canonicalName": "Experience",
+      "description": null,
       "id": "experience_mob",
       "introducedFloor": 8,
       "notes": null,
@@ -2541,6 +2786,7 @@
     },
     {
       "canonicalName": "Fang",
+      "description": "Similar to the Nebular society, the Reavers enhance themselves with machines and only keep their brains.",
       "id": "fang",
       "introducedFloor": 9,
       "notes": null,
@@ -2548,6 +2794,7 @@
     },
     {
       "canonicalName": "Feral Goose",
+      "description": null,
       "id": "feral_goose",
       "introducedFloor": 5,
       "notes": null,
@@ -2555,6 +2802,7 @@
     },
     {
       "canonicalName": "Festering Ghoul",
+      "description": "Festering Ghouls take the appearance of whatever race they previously were, but covered in festering sores. Towards the end of the Fourth Floor, the Festering Ghouls congregate at station 48. Worms come out of them and pull the ghouls together, turning into a frankenmonster Province Boss. It fills the stairwell room completely. The last Recap Episode of the floor shows a group of crawlers take on the monster.",
       "id": "festering_ghoul",
       "introducedFloor": 4,
       "notes": null,
@@ -2562,6 +2810,7 @@
     },
     {
       "canonicalName": "Fifth Floor",
+      "description": "The fifth floor abandons the sprawling, interconnected maps of previous levels in favor of 1,172 isolated \"bubbles\" scattered across a dark, flat expanse known as the \"lacuna.\" Each dome-like bubble is divided into four distinct environmental quadrants: Land, Sea, Air, and Subterranean (or Tomb).",
       "id": "fifth_floor",
       "introducedFloor": 5,
       "notes": null,
@@ -2569,6 +2818,7 @@
     },
     {
       "canonicalName": "Filthy Little Crawlers Book of Voodoo",
+      "description": "A book that can be used to exchange messages with other crawlers you have meet that also own a \u201cfilthy little crawlers book of voodoo\u201d. When meeting a crawler that also has this book their name will appear in it, if you write a message under their name only they will receive it, if you write under your name everyone can see it. Messages can be erased on demand.",
       "id": "filthy_little_crawlers_book_of_voodoo",
       "introducedFloor": 8,
       "notes": null,
@@ -2576,6 +2826,7 @@
     },
     {
       "canonicalName": "Fireball Spell",
+      "description": "Fireball is a powerful spell that allows the caster to throw a slow-moving orb of explosive, temporary fire at a target. Crawlers may learn the spell from tomes, or gain the spell from items. Due to the nature of the spell, it should only be used outside or in open spaces. Using it irresponsibly may result in a snarky achievement and/or a Did-You-Really-Just-Cast-Fireball-in-a-Room-This-Small Box.",
       "id": "fireball_spell",
       "introducedFloor": 6,
       "notes": null,
@@ -2583,6 +2834,7 @@
     },
     {
       "canonicalName": "Flamengo",
+      "description": null,
       "id": "flamengo",
       "introducedFloor": 6,
       "notes": null,
@@ -2590,6 +2842,7 @@
     },
     {
       "canonicalName": "Football Hooligan Class",
+      "description": null,
       "id": "football_hooligan_class",
       "introducedFloor": 4,
       "notes": null,
@@ -2597,6 +2850,7 @@
     },
     {
       "canonicalName": "Four-Leaf Clover Patch",
+      "description": "A small patch of a group of four-leaf clovers being smashed under a bare foot.",
       "id": "four_leaf_clover_patch",
       "introducedFloor": 9,
       "notes": null,
@@ -2604,6 +2858,7 @@
     },
     {
       "canonicalName": "Fourth Floor",
+      "description": "The Iron Tangle is a subterranean network of hundreds of kilometers of twisting, turning train tubes, platforms, and transit stations. It consists entirely of thousands of interconnected tunnels, each carrying a color designation or a unique name, and each running one or more trains in a continuous loop.",
       "id": "fourth_floor",
       "introducedFloor": 4,
       "notes": null,
@@ -2611,6 +2866,7 @@
     },
     {
       "canonicalName": "Funeral Bell",
+      "description": null,
       "id": "funeral_bell",
       "introducedFloor": 6,
       "notes": null,
@@ -2618,6 +2874,7 @@
     },
     {
       "canonicalName": "Gangway Chock",
+      "description": "The Gangway Chock is a massive sheet of metal fashioned out of a breastplate from the Third Floor. It's a rectangular hunk of metal with rounded edges, thinned out to about a 1/5 inch. It's \"solid and heavy as shit\". Carl wedges it into the space between the seats and the gangway doors.It's much larger than the doors, wide enough that no monsters can get around it unless they are tiny.",
       "id": "gangway_chock",
       "introducedFloor": 4,
       "notes": null,
@@ -2625,6 +2882,7 @@
     },
     {
       "canonicalName": "Gate of the Feral Gods",
+      "description": "The Gate of the Feral Gods opens a massive, swirling portal roughly twenty feet tall that connects two distant points. That connection comes at a devastating cost: to link two places, the Gate rips a hole into the depths of the Nothing, the dimension into which the pantheon banished the old gods and demons, and when the portal finally closes it releases one of those banished beings, a feral god driven mad by its impr\u2026",
       "id": "gate_of_the_feral_gods",
       "introducedFloor": 5,
       "notes": null,
@@ -2632,6 +2890,7 @@
     },
     {
       "canonicalName": "Geraldo",
+      "description": "He wears a white headband with hearts on it, matching the team flag. He was not wearing it prior to capture. He makes kung-fu noises when moving.",
       "id": "geraldo",
       "introducedFloor": 8,
       "notes": null,
@@ -2639,6 +2898,7 @@
     },
     {
       "canonicalName": "Ghazi",
+      "description": null,
       "id": "ghazi",
       "introducedFloor": 5,
       "notes": null,
@@ -2646,6 +2906,7 @@
     },
     {
       "canonicalName": "Ghommid",
+      "description": null,
       "id": "ghommid",
       "introducedFloor": 8,
       "notes": null,
@@ -2653,6 +2914,7 @@
     },
     {
       "canonicalName": "Glamoured Fragment",
+      "description": null,
       "id": "glamoured_fragment",
       "introducedFloor": 6,
       "notes": null,
@@ -2660,6 +2922,7 @@
     },
     {
       "canonicalName": "Glass Cannon Class",
+      "description": "It gives users 15 additional constitution points but prevents them from adding to constitution on level up. * It greatly increases training speed on all spells and reduces the cost of casting them.",
       "id": "glass_cannon_class",
       "introducedFloor": 5,
       "notes": null,
@@ -2667,6 +2930,7 @@
     },
     {
       "canonicalName": "Gnomish Drop Bear",
+      "description": "Gnomish Drop Bears look like open-air, twin-engine biplanes, with each engine nestled between the wings, and look like they were built out of scrap metal. The planes may be decorated with paint.",
       "id": "gnomish_drop_bear",
       "introducedFloor": 5,
       "notes": null,
@@ -2674,6 +2938,7 @@
     },
     {
       "canonicalName": "Gnomish Knock-Knock",
+      "description": null,
       "id": "gnomish_knock_knock",
       "introducedFloor": 5,
       "notes": null,
@@ -2681,6 +2946,7 @@
     },
     {
       "canonicalName": "Gnomish Legate Balloon",
+      "description": null,
       "id": "gnomish_legate_balloon",
       "introducedFloor": 5,
       "notes": null,
@@ -2688,6 +2954,7 @@
     },
     {
       "canonicalName": "Gods",
+      "description": "Gods, also known as Deities, are immensely powerful beings that reside within the Dungeon, many of them drawn from real-world mythologies. Despite their name, they are not truly divine: each is controlled by a wealthy Syndicate sponsor who has paid for the privilege of wielding its power.",
       "id": "gods",
       "introducedFloor": 4,
       "notes": null,
@@ -2695,6 +2962,7 @@
     },
     {
       "canonicalName": "Goiter",
+      "description": null,
       "id": "goiter",
       "introducedFloor": 6,
       "notes": null,
@@ -2702,6 +2970,7 @@
     },
     {
       "canonicalName": "Good Mana Potion",
+      "description": null,
       "id": "good_mana_potion",
       "introducedFloor": 6,
       "notes": null,
@@ -2709,6 +2978,7 @@
     },
     {
       "canonicalName": "Gore-Gore",
+      "description": "Carl describes Gore-Gore: \u201cFrom the shoulders down, this was a normal man. He was built large and strong. But where a normal person\u2019s neck would be was another torso, leading to the top half of\u2014another?\u2014man. This top half wasn\u2019t as large as the lower half. The creature had a pair of legs and arms on the bottom half and another pair of arms on the top half.",
       "id": "gore_gore",
       "introducedFloor": 4,
       "notes": null,
@@ -2716,6 +2986,7 @@
     },
     {
       "canonicalName": "Graupel",
+      "description": "Graupel costs (50) Mana Points to cast, but casts instantaneously. The crawler's hands glow with bluish-white light while casting, and the glow spreads around the caster. It has a full one week cooldown period. Once cast, a storm rolls through the area and fist-sized chunks of hail pelt down from the sky.",
       "id": "graupel",
       "introducedFloor": 5,
       "notes": null,
@@ -2723,6 +2994,7 @@
     },
     {
       "canonicalName": "Gross Atomizers",
+      "description": null,
       "id": "gross_atomizers",
       "introducedFloor": 4,
       "notes": null,
@@ -2730,6 +3002,7 @@
     },
     {
       "canonicalName": "Growler Gary",
+      "description": "Growler Gary is very concerned with being perceived as a coward. When the ghouls come through the station and kill everyone outside his bar, Gary tries to leave to help but is stopped due to his NPC key-holder status, making him effectively immortal. Everytime he comes back to life he is sober, despite his excessive drinking. He is prejudiced against Hobgoblins.",
       "id": "growler_gary",
       "introducedFloor": 4,
       "notes": null,
@@ -2737,6 +3010,7 @@
     },
     {
       "canonicalName": "Grrl Power Box",
+      "description": null,
       "id": "grrl_power_box",
       "introducedFloor": 4,
       "notes": null,
@@ -2744,6 +3018,7 @@
     },
     {
       "canonicalName": "Grull",
+      "description": "Mordecai names horses, centaurs, and tikbalangs as likely adherents of Grull, and notes that llama-type creatures pray to him as well, though not until after the Third Floor. His worshippers smear themselves in blue makeup and talk incessantly about wenches and dying gloriously in battle. Mordecai is blunt about what that worship is actually directed at.",
       "id": "grull",
       "introducedFloor": 4,
       "notes": null,
@@ -2751,6 +3026,7 @@
     },
     {
       "canonicalName": "Hamed",
+      "description": "Hamed is the secretive leader of the Guild of Suffering, a cult that worships him as a \"Samantha-like demigod.\" Members of his guild are marked with the \"Night Wyrm's Nasty Little Web of Suffering\" tattoo, which grants them access to his hidden lairs.",
       "id": "hamed",
       "introducedFloor": 8,
       "notes": null,
@@ -2758,6 +3034,7 @@
     },
     {
       "canonicalName": "Hell-Kissed Celestial Skill Potion of the Prince of Woe",
+      "description": "The potion is a small, glittering potion bottle shaped like a horned skull filled with black, bubbling liquid. A small hand-written note is tied to the bottle with the words \"Drink Me\" and a drawing of a demon giving the devil horns symbol.",
       "id": "hell_kissed_celestial_skill_potion_of_the_prince_of_woe",
       "introducedFloor": 9,
       "notes": null,
@@ -2765,6 +3042,7 @@
     },
     {
       "canonicalName": "HeyZoos",
+      "description": null,
       "id": "heyzoos",
       "introducedFloor": 8,
       "notes": null,
@@ -2772,6 +3050,7 @@
     },
     {
       "canonicalName": "Hobgoblin Disco Ball",
+      "description": null,
       "id": "hobgoblin_disco_ball",
       "introducedFloor": 5,
       "notes": null,
@@ -2779,6 +3058,7 @@
     },
     {
       "canonicalName": "Holger",
+      "description": "He wears black, studded leather from neck to toe, no helmet, and a pair of weapons over his shoulders: a sickle-shaped blade, and a sharpened stick. The pale-skinned warrior has a red bandana wrapped tight around his fuzzy head that sports a genuine mullet, Rambo-style. He stands about three feet tall and is wide, but not fat. More a like miniature, well-built football player.",
       "id": "holger",
       "introducedFloor": 6,
       "notes": null,
@@ -2786,6 +3066,7 @@
     },
     {
       "canonicalName": "Horton",
+      "description": "Horton looks like a mushroom after the Third Floor race selection process.",
       "id": "horton",
       "introducedFloor": 6,
       "notes": null,
@@ -2793,6 +3074,7 @@
     },
     {
       "canonicalName": "Houston",
+      "description": null,
       "id": "houston",
       "introducedFloor": 9,
       "notes": null,
@@ -2800,6 +3082,7 @@
     },
     {
       "canonicalName": "Hunters",
+      "description": null,
       "id": "hunters",
       "introducedFloor": 6,
       "notes": null,
@@ -2807,6 +3090,7 @@
     },
     {
       "canonicalName": "Hunting Trophy",
+      "description": null,
       "id": "hunting_trophy",
       "introducedFloor": 6,
       "notes": null,
@@ -2814,6 +3098,7 @@
     },
     {
       "canonicalName": "I Take It All Back Potion",
+      "description": null,
       "id": "i_take_it_all_back_potion",
       "introducedFloor": 6,
       "notes": null,
@@ -2821,6 +3106,7 @@
     },
     {
       "canonicalName": "I'm Wet Box",
+      "description": null,
       "id": "i_m_wet_box",
       "introducedFloor": 5,
       "notes": null,
@@ -2828,6 +3114,7 @@
     },
     {
       "canonicalName": "Imogen",
+      "description": "Imogen rules the high elves from a castle in the extreme southeast of the Hunting Grounds. A reclusive, pure-blooded mage, she rarely leaves her chambers on the castle's seventh story, which is off limits to everyone but the queen and the black-clad guards who answer to her personally. As of the evening of the masquerade, nobody on the floor had yet laid eyes on her.",
       "id": "imogen",
       "introducedFloor": 6,
       "notes": null,
@@ -2835,6 +3122,7 @@
     },
     {
       "canonicalName": "Inle",
+      "description": "During the Thorn Room Boss Battle, if his shrine is repaired: \u201cOne of only two of the Orishas to have spent time in the Nothing, the deaf and mute Inle isn\u2019t all there. That\u2019s a nice way of saying he\u2019s batshit. But, he once was a healing god. If you repair his shrine, you will gain immunity from most health-seeping conditions. You will gain 50% to your Constitution. Inle will not ascend.",
       "id": "inle",
       "introducedFloor": 8,
       "notes": null,
@@ -2842,6 +3130,7 @@
     },
     {
       "canonicalName": "Instacot 60",
+      "description": "The Instacot 60 is the second best Bed Upgrade on the market. Crawlers will feel fully rested after only sixty seconds (one minute) of sleep, and will receive the Great Rest buff for (presumably) 30 hours.",
       "id": "instacot_60",
       "introducedFloor": 6,
       "notes": null,
@@ -2849,6 +3138,7 @@
     },
     {
       "canonicalName": "Interdiction Auxillary Railway Repair Cart",
+      "description": "The Interdiction Auxillary Railway Repair Cart looks like a simple flatbed cart with two sets of four wheels, about the size of a small car. There is an engine on the back with additional controls including a strange glowing switch that appears to be magical. The cart uses one Dwarven Battery.",
       "id": "interdiction_auxillary_railway_repair_cart",
       "introducedFloor": 4,
       "notes": null,
@@ -2856,6 +3146,7 @@
     },
     {
       "canonicalName": "Interdiction Rapid-Response Railway Repair Cart",
+      "description": "The Interdiction Rapid-Response Railway Repair Cart is larger than the Interdiction Auxillary Railway Repair Cart. The cart is a large flattop wooden and steel cart with 12 wheels. The cart has a section of open seating in front of a raised drivers cab accessed via small ladder, with an engine on the back.",
       "id": "interdiction_rapid_response_railway_repair_cart",
       "introducedFloor": 4,
       "notes": null,
@@ -2863,6 +3154,7 @@
     },
     {
       "canonicalName": "Jamal",
+      "description": "Jamal is a polite, anxious, and deeply loyal companion who constantly speaks in the third person. He possesses the memories of a real apex predator, recalling his days swimming in the ocean, but he struggles with the existential dread of his newfound mortality. Despite his terrifying appearance, he is incredibly gentle and eager to please his friends, often offering profound apologies whenever he makes a mistake.",
       "id": "jamal",
       "introducedFloor": 9,
       "notes": null,
@@ -2870,6 +3162,7 @@
     },
     {
       "canonicalName": "Jelly Bomb",
+      "description": null,
       "id": "jelly_bomb",
       "introducedFloor": 4,
       "notes": null,
@@ -2877,6 +3170,7 @@
     },
     {
       "canonicalName": "Jellyfish Salve",
+      "description": null,
       "id": "jellyfish_salve",
       "introducedFloor": 5,
       "notes": null,
@@ -2884,6 +3178,7 @@
     },
     {
       "canonicalName": "Jikininki Janitor Ghouls",
+      "description": "Hunched, thin monsters appearing to be grown-up cousins of Drek babies. White emaciated creatures about 7 feet tall with arms that drag to the ground with serrated black fingernails that clink like porcelain. Their faces are all sharp teeth and white bulging eyes. Mouths/teeth start chattering up and down like a wind-up toy, making the sound of an industrial shredder when excited.",
       "id": "jikininki_janitor_ghouls",
       "introducedFloor": 4,
       "notes": null,
@@ -2891,6 +3186,7 @@
     },
     {
       "canonicalName": "Jola",
+      "description": "Jola is considered a \"pain in the ass\" to manage. Unlike many other totems, he generally does what he is asked without talking to or aggravating the other summoned totems, though he will occasionally just sit there and outright refuse to fight. Because he has a lot of health, he is an excellent tank, but his massive size makes him highly problematic to summon in tight spaces.",
       "id": "jola",
       "introducedFloor": 8,
       "notes": null,
@@ -2898,6 +3194,7 @@
     },
     {
       "canonicalName": "Juice Box",
+      "description": "Juice Box plays cheerfully ditzy: flirtatious, mercenary, and quick with a joke at a customer's expense. She sells gossip as readily as company, charging a gold coin for what she knows about the local borough boss and taking a standing bounty of one gold per non-local Crawler she spots around town. The act is thin.",
       "id": "juice_box",
       "introducedFloor": 5,
       "notes": null,
@@ -2905,6 +3202,7 @@
     },
     {
       "canonicalName": "Just Wait Until Your Daddy Gets Home",
+      "description": null,
       "id": "just_wait_until_your_daddy_gets_home",
       "introducedFloor": 6,
       "notes": null,
@@ -2912,6 +3210,7 @@
     },
     {
       "canonicalName": "Kina",
+      "description": null,
       "id": "kina",
       "introducedFloor": 9,
       "notes": null,
@@ -2919,6 +3218,7 @@
     },
     {
       "canonicalName": "King Croissant",
+      "description": null,
       "id": "king_croissant",
       "introducedFloor": 8,
       "notes": null,
@@ -2926,6 +3226,7 @@
     },
     {
       "canonicalName": "Kiwi",
+      "description": null,
       "id": "kiwi",
       "introducedFloor": 6,
       "notes": null,
@@ -2933,6 +3234,7 @@
     },
     {
       "canonicalName": "Krakaren Crotch Dumplings",
+      "description": "Each Crotch Dumpling is about the size of a grain of rice.",
       "id": "krakaren_crotch_dumplings",
       "introducedFloor": 4,
       "notes": null,
@@ -2940,6 +3242,7 @@
     },
     {
       "canonicalName": "Kravyad",
+      "description": "There are a few dozen Kravyad that work directly under Madison on the Iron Tangle as part of the human resources department. They are a part of management's initiative to increase productivity. The Kravyad hypnotize the conductors and porters so they don't remember their break time and are less likely to ask for time off if they don't remember time between shifts.",
       "id": "kravyad",
       "introducedFloor": 4,
       "notes": null,
@@ -2947,6 +3250,7 @@
     },
     {
       "canonicalName": "Kua-Tin Rebreather",
+      "description": "A Kua-Tin Rebreather is roughly the size of a cat collar, and can only be equipped by knee-height creatures with gills. The small, barely noticeable device wraps around the wearer's throat to cover their gills, and occasionally sprays water and mist. Kua-Tin generally wear a Rebreather on dry land.",
       "id": "kua_tin_rebreather",
       "introducedFloor": 5,
       "notes": null,
@@ -2954,6 +3258,7 @@
     },
     {
       "canonicalName": "Laundry Day Spell",
+      "description": "Removes a random piece of armor from the target and causes it to fall on the floor. The effectiveness of the spell scales with level. Initially it can only target minor pieces of armor, but at level 5 it can target breastplates or the equivalent. At level 10, it can strip an opponent bare. At level 15, it can target multiple opponents.",
       "id": "laundry_day_spell",
       "introducedFloor": 6,
       "notes": null,
@@ -2961,6 +3266,7 @@
     },
     {
       "canonicalName": "Lazarus-A-Bang-Bang",
+      "description": null,
       "id": "lazarus_a_bang_bang",
       "introducedFloor": 8,
       "notes": null,
@@ -2968,6 +3274,7 @@
     },
     {
       "canonicalName": "Left Fang of the Green Sultan",
+      "description": "The saber is part of an enchanted set, but the magical abilities only apply when the set is together.",
       "id": "left_fang_of_the_green_sultan",
       "introducedFloor": 4,
       "notes": null,
@@ -2975,6 +3282,7 @@
     },
     {
       "canonicalName": "Legba",
+      "description": "During the Thorn Room Boss Battle, if his shrine is repaired: \u201cIf repaired, will give everyone a fifty percent chance to avoid all future smites. All will learn the level-15 Confusing Fog Spell. Legba will ascend.\u201d",
       "id": "legba",
       "introducedFloor": 8,
       "notes": null,
@@ -2982,6 +3290,7 @@
     },
     {
       "canonicalName": "Legionnaires of the Damned Spell",
+      "description": "The tome has a bumpy leather cover and is dictionary-thick, and chained shut with a lock. Wisps of purple smoke emanate from it, and the book itself is squishy and warm; it quivers and wriggles. (Apparently, quivering is a thing that tomes of powerful summoning spells sometimes do.) When a crawler applies the spell, the book lets out a little scream as it disappears in a puff of purple smoke.",
       "id": "legionnaires_of_the_damned_spell",
       "introducedFloor": 8,
       "notes": null,
@@ -2989,6 +3298,7 @@
     },
     {
       "canonicalName": "Leon",
+      "description": null,
       "id": "leon",
       "introducedFloor": 5,
       "notes": null,
@@ -2996,6 +3306,7 @@
     },
     {
       "canonicalName": "Letter from the Council",
+      "description": null,
       "id": "letter_from_the_council",
       "introducedFloor": 5,
       "notes": null,
@@ -3003,6 +3314,7 @@
     },
     {
       "canonicalName": "Letter from the Glass Wizard",
+      "description": null,
       "id": "letter_from_the_glass_wizard",
       "introducedFloor": 5,
       "notes": null,
@@ -3010,6 +3322,7 @@
     },
     {
       "canonicalName": "Limp Richard",
+      "description": "Described as a short, squat anthropomorphized mole, complete with reading glasses. He sits in the doorway to his shop reading a book. He runs a general store, but most of the products are not very noteworthy.",
       "id": "limp_richard",
       "introducedFloor": 4,
       "notes": null,
@@ -3017,6 +3330,7 @@
     },
     {
       "canonicalName": "Liquid Therapy",
+      "description": null,
       "id": "liquid_therapy",
       "introducedFloor": 8,
       "notes": null,
@@ -3024,6 +3338,7 @@
     },
     {
       "canonicalName": "Literal Fire Ants",
+      "description": null,
       "id": "literal_fire_ants",
       "introducedFloor": 4,
       "notes": null,
@@ -3031,6 +3346,7 @@
     },
     {
       "canonicalName": "Live Ammo Ball",
+      "description": null,
       "id": "live_ammo_ball",
       "introducedFloor": 5,
       "notes": null,
@@ -3038,6 +3354,7 @@
     },
     {
       "canonicalName": "Loot Punch Card",
+      "description": "The Loot Punch Card is a little piece of paper with five slots with one slot punched out with a hole in the shape of a foot when Carl receives it. It reads: \u201cPicked up Celestial Items Off the Floor. Fill the card for a special prize.\u201d",
       "id": "loot_punch_card",
       "introducedFloor": 8,
       "notes": null,
@@ -3045,6 +3362,7 @@
     },
     {
       "canonicalName": "Louis",
+      "description": "Louis is a Crawler from Miami who initially tries to avoid combat at all costs. He and his best friend Firas spend the early floors drunk, using Cloud of Exhaust to knock mobs unconscious and then fleeing rather than fighting, a habit that leaves him badly under-leveled; Mordecai judges he should have reached Level 40 by the Fifth Floor given the strength of the spell.",
       "id": "louis",
       "introducedFloor": 5,
       "notes": null,
@@ -3052,6 +3370,7 @@
     },
     {
       "canonicalName": "Low Thi",
+      "description": null,
       "id": "low_thi",
       "introducedFloor": 5,
       "notes": null,
@@ -3059,6 +3378,7 @@
     },
     {
       "canonicalName": "Lucky Bitch Box",
+      "description": null,
       "id": "lucky_bitch_box",
       "introducedFloor": 9,
       "notes": null,
@@ -3066,6 +3386,7 @@
     },
     {
       "canonicalName": "Lunette",
+      "description": "Princess Lunette was tsarina of the Naiad on the Sixth Floor until the Naiad Confederacy usurped the crown. She was a powerful sorcerer that practiced Heirloom magic (specifically the Water Lily Spell and taught it to her daughter.",
       "id": "lunette",
       "introducedFloor": 6,
       "notes": null,
@@ -3073,6 +3394,7 @@
     },
     {
       "canonicalName": "Lusca",
+      "description": null,
       "id": "lusca",
       "introducedFloor": 5,
       "notes": null,
@@ -3080,6 +3402,7 @@
     },
     {
       "canonicalName": "Madison",
+      "description": "Madison is the benefits manager for the Kravyad and the Station Mimics. Her ex-husband Rod is with Doris, the person over in Substation B in charge of the Krakaren Clone (Fourth Floor).",
       "id": "madison",
       "introducedFloor": 4,
       "notes": null,
@@ -3087,6 +3410,7 @@
     },
     {
       "canonicalName": "Makeup Sex is the Best Sex Box",
+      "description": null,
       "id": "makeup_sex_is_the_best_sex_box",
       "introducedFloor": 5,
       "notes": null,
@@ -3094,6 +3418,7 @@
     },
     {
       "canonicalName": "Male Thorny Devil",
+      "description": null,
       "id": "male_thorny_devil",
       "introducedFloor": 5,
       "notes": null,
@@ -3101,6 +3426,7 @@
     },
     {
       "canonicalName": "ManTauR",
+      "description": "A mantaur is like a centaur, but the standard human torso sprouts from a larger human body, right where the neck would be. The smaller upper half supports a human head and a set of arms; the larger lower half has another set of big, muscular arms and legs. Mantaurs run and stand on all four rear limbs. Their voices sound human, but they speak loudly and boisterously.",
       "id": "mantaur",
       "introducedFloor": 4,
       "notes": null,
@@ -3108,6 +3434,7 @@
     },
     {
       "canonicalName": "Massage Coupon",
+      "description": "Entitles the owner plus one companion to a one hour massage at the penis parade or penis palace backroom relaxation spa. Carl received one of these from a gold fan box.",
       "id": "massage_coupon",
       "introducedFloor": 8,
       "notes": null,
@@ -3115,6 +3442,7 @@
     },
     {
       "canonicalName": "Meatus",
+      "description": null,
       "id": "meatus",
       "introducedFloor": 9,
       "notes": null,
@@ -3122,6 +3450,7 @@
     },
     {
       "canonicalName": "Midnight Epicure Upgrade Patch",
+      "description": "A medium-sized patch made of a black, denim-like material with a grey satanic goat head screen-printed on it.",
       "id": "midnight_epicure_upgrade_patch",
       "introducedFloor": 6,
       "notes": null,
@@ -3129,6 +3458,7 @@
     },
     {
       "canonicalName": "Monk Seal",
+      "description": null,
       "id": "monk_seal",
       "introducedFloor": 8,
       "notes": null,
@@ -3136,6 +3466,7 @@
     },
     {
       "canonicalName": "Mute Spell",
+      "description": null,
       "id": "mute_spell",
       "introducedFloor": 8,
       "notes": null,
@@ -3143,6 +3474,7 @@
     },
     {
       "canonicalName": "Mysterious Bone Key Benefit",
+      "description": null,
       "id": "mysterious_bone_key_benefit",
       "introducedFloor": 8,
       "notes": null,
@@ -3150,6 +3482,7 @@
     },
     {
       "canonicalName": "Nadine",
+      "description": null,
       "id": "nadine",
       "introducedFloor": 6,
       "notes": null,
@@ -3157,6 +3490,7 @@
     },
     {
       "canonicalName": "Naiad Confederacy",
+      "description": "The Confederacy is an isolationist group that drowns outsiders who enter their area.",
       "id": "naiad_confederacy",
       "introducedFloor": 6,
       "notes": null,
@@ -3164,6 +3498,7 @@
     },
     {
       "canonicalName": "Nebular",
+      "description": "Nebulars do not actively recruit, but their members consist of Soothers, Humans, elves, and dozens of other aliens from across the galaxy. They all wear the same robes and large hats. Nebulars mechanically and biologically augment themselves as a form of sacrament.",
       "id": "nebular",
       "introducedFloor": 6,
       "notes": null,
@@ -3171,6 +3506,7 @@
     },
     {
       "canonicalName": "Necklace of Indelible Woe",
+      "description": "The necklace used to be a popular item used \"a long time ago,\" however now it is much less frequently used, replaced by the now much more used Enchanted Night Wyrm's Ring of Divine Suffering. This was because combatants were killing crawlers en masse to grow their power. Carl does not see a difference between the two power stealing artifacts, but Tipid insists that the necklace is much worse.",
       "id": "necklace_of_indelible_woe",
       "introducedFloor": 9,
       "notes": null,
@@ -3178,6 +3514,7 @@
     },
     {
       "canonicalName": "Night Weasel",
+      "description": null,
       "id": "night_weasel",
       "introducedFloor": 6,
       "notes": null,
@@ -3185,6 +3522,7 @@
     },
     {
       "canonicalName": "Night Wyrm's Nasty Little Web of Suffering Tattoo",
+      "description": null,
       "id": "night_wyrm_s_nasty_little_web_of_suffering_tattoo",
       "introducedFloor": 6,
       "notes": null,
@@ -3192,6 +3530,7 @@
     },
     {
       "canonicalName": "Nightmare Express",
+      "description": "The Nightmare Express is an old-school steam engine, painted jet black, with a wedge-shaped cowcatcher. It has about 40 cars, mostly open-topped livestock freight, of which 14 appear to be filled with monstrosities. It runs on Sheol Bricks. The train has a single entrance in the caboose at the rear and a single exit in a passenger car at the front before the engine.",
       "id": "nightmare_express",
       "introducedFloor": 4,
       "notes": null,
@@ -3199,6 +3538,7 @@
     },
     {
       "canonicalName": "Ninth Floor",
+      "description": null,
       "id": "ninth_floor",
       "introducedFloor": 9,
       "notes": null,
@@ -3206,6 +3546,7 @@
     },
     {
       "canonicalName": "Octo-Shark",
+      "description": null,
       "id": "octo_shark",
       "introducedFloor": 5,
       "notes": null,
@@ -3213,6 +3554,7 @@
     },
     {
       "canonicalName": "Odius Creeper",
+      "description": null,
       "id": "odius_creeper",
       "introducedFloor": 6,
       "notes": null,
@@ -3220,6 +3562,7 @@
     },
     {
       "canonicalName": "Opposite Day Ring",
+      "description": "Opposite Day looks like a \"fat ring\" studded with five small jewels that glow ominously like tiny Soul Crystals. When the wearer is struck by a powerful spell, the ring activates: one of the jewels burns out (or explodes or disappears), and the spell rebounds at the caster. The ring can only be used five times.",
       "id": "opposite_day_ring",
       "introducedFloor": 6,
       "notes": null,
@@ -3227,6 +3570,7 @@
     },
     {
       "canonicalName": "Orchid of Eileithyia's Grace",
+      "description": null,
       "id": "orchid_of_eileithyia_s_grace",
       "introducedFloor": 8,
       "notes": null,
@@ -3234,6 +3578,7 @@
     },
     {
       "canonicalName": "Orren",
+      "description": "Orren is a parasitic worm and a citizen of the Valtay. He describes himself as an independent consultant retained by the Syndicate rather than an employee of Borant, working in concert with the showrunners, the Syndicate government, and the controlling System AI.",
       "id": "orren",
       "introducedFloor": 5,
       "notes": null,
@@ -3241,6 +3586,7 @@
     },
     {
       "canonicalName": "Oshun",
+      "description": "During the Thorn Room Boss Battle, if her shrine is repaired: \u201cSweet, sweet Oshun. If you repair her shrine, you all will be protected from the next five fatal blows. Everyone will receive a fifty percent boost to their charisma. All will receive a level 10 Heal Party spell. Oshun will ascend.\u201d",
       "id": "oshun",
       "introducedFloor": 8,
       "notes": null,
@@ -3248,6 +3594,7 @@
     },
     {
       "canonicalName": "PVP Coupon",
+      "description": "The coupon looks like a black ticket with a gold leaf skull embossed on it. The coupons cannot be destroyed by burning them.",
       "id": "pvp_coupon",
       "introducedFloor": 4,
       "notes": null,
@@ -3255,6 +3602,7 @@
     },
     {
       "canonicalName": "Pain Amplifier Jellyfish",
+      "description": "They inflict the Kill Me Now It Hurts debuff and a one-minute healing block. The Kill Me Now It Hurts debuff can be removed by using the Jellyfish Salve lotion.",
       "id": "pain_amplifier_jellyfish",
       "introducedFloor": 5,
       "notes": null,
@@ -3262,6 +3610,7 @@
     },
     {
       "canonicalName": "Peace Upgrade Patch",
+      "description": "A small, round patch that is black with a white, screen-printed peace symbol on it. It is the same size as the Earth Upgrade Patch.",
       "id": "peace_upgrade_patch",
       "introducedFloor": 8,
       "notes": null,
@@ -3269,6 +3618,7 @@
     },
     {
       "canonicalName": "Penelope",
+      "description": null,
       "id": "penelope",
       "introducedFloor": 4,
       "notes": null,
@@ -3276,6 +3626,7 @@
     },
     {
       "canonicalName": "Penn",
+      "description": "A tall, muscular human sergeant stood right there, carrying what looked like a steel H-beam for a building. The metallic beam had to be 20 feet long, and it looked as if it weighed two tons. The monster of a man held it on his shoulder.",
       "id": "penn",
       "introducedFloor": 9,
       "notes": null,
@@ -3283,6 +3634,7 @@
     },
     {
       "canonicalName": "Ping Spell",
+      "description": null,
       "id": "ping_spell",
       "introducedFloor": 5,
       "notes": null,
@@ -3290,6 +3642,7 @@
     },
     {
       "canonicalName": "Platinum Sharpening Stone",
+      "description": null,
       "id": "platinum_sharpening_stone",
       "introducedFloor": 5,
       "notes": null,
@@ -3297,6 +3650,7 @@
     },
     {
       "canonicalName": "Player Killer Skull",
+      "description": "Category:Needs photo A crawler gets a player killer skull after their name if they kill a fellow crawler. They also receive a Savage Box.",
       "id": "player_killer_skull",
       "introducedFloor": 4,
       "notes": null,
@@ -3304,6 +3658,7 @@
     },
     {
       "canonicalName": "Pollyslog",
+      "description": "The Pollyslog look like large, green-skinned fish-like humanoids. They have massive milk white eyes. At first the Pollyslogs appear lazy, uninterested in fighting. That changes when they realize they can't get onto the train and they start hissing and banging against the barricades.",
       "id": "pollyslog",
       "introducedFloor": 4,
       "notes": null,
@@ -3311,6 +3666,7 @@
     },
     {
       "canonicalName": "Portal",
+      "description": "Portals are a Dungeon mechanic that allows for teleportation between one location to another. Portals can be key locked to prevent unauthorized individuals from passing through. Portals can pass inside each other without issue. Things cannot be connected through a portal. Carl tries feeding a rope through one, but the rope gets dragged through the portal.",
       "id": "portal",
       "introducedFloor": 4,
       "notes": null,
@@ -3318,6 +3674,7 @@
     },
     {
       "canonicalName": "Potion of Bloodlust",
+      "description": "Carl gets two Potions of Bloodlust as a reward for the Milquetoast Achievement.",
       "id": "potion_of_bloodlust",
       "introducedFloor": 5,
       "notes": null,
@@ -3325,6 +3682,7 @@
     },
     {
       "canonicalName": "Potion of Half Splat",
+      "description": null,
       "id": "potion_of_half_splat",
       "introducedFloor": 5,
       "notes": null,
@@ -3332,6 +3690,7 @@
     },
     {
       "canonicalName": "Potsy",
+      "description": null,
       "id": "potsy",
       "introducedFloor": 8,
       "notes": null,
@@ -3339,6 +3698,7 @@
     },
     {
       "canonicalName": "Pox Slug",
+      "description": null,
       "id": "pox_slug",
       "introducedFloor": 8,
       "notes": null,
@@ -3346,6 +3706,7 @@
     },
     {
       "canonicalName": "Precision Card",
+      "description": null,
       "id": "precision_card",
       "introducedFloor": 8,
       "notes": null,
@@ -3353,6 +3714,7 @@
     },
     {
       "canonicalName": "Princess Posse",
+      "description": "The Princess Posse entered Faction Wars as Team #3. ]",
       "id": "princess_posse",
       "introducedFloor": 9,
       "notes": null,
@@ -3360,6 +3722,7 @@
     },
     {
       "canonicalName": "Prism Industries Capacitating and Focusing Goggles",
+      "description": "Large round sunglasses without arms that magically affix themselves to Donut's face. They have a movie-star style appearance and look similar to the pair of sunglasses Bea wears. They turn Donut's Magic Missile into a laser and allow her to manipulate the power of the spell. She can split her shots into as many as four beams, and she can store the energy of one cast and combine it with another.",
       "id": "prism_industries_capacitating_and_focusing_goggles",
       "introducedFloor": 4,
       "notes": null,
@@ -3367,6 +3730,7 @@
     },
     {
       "canonicalName": "Psycho Sticker",
+      "description": "Hedgehog Ogres. Can be found on Mora Station #82 on the red line of The Iron Tangle.",
       "id": "psycho_sticker",
       "introducedFloor": 4,
       "notes": null,
@@ -3374,6 +3738,7 @@
     },
     {
       "canonicalName": "Quetzalcoatlus",
+      "description": null,
       "id": "quetzalcoatlus",
       "introducedFloor": 5,
       "notes": null,
@@ -3381,6 +3746,7 @@
     },
     {
       "canonicalName": "Raul the Crab",
+      "description": "Raul is initially a proud, meditating martial artist striving for the \"heavenly throne\" and refusing to \"kowtow\" to the weak. He specializes in the Juego de man\u00ed fighting style. After being captured by Carl and Donut, however, his personality shifts drastically into a sniveling, simpering kiss-ass with severe self-confidence issues.",
       "id": "raul_the_crab",
       "introducedFloor": 8,
       "notes": null,
@@ -3388,6 +3754,7 @@
     },
     {
       "canonicalName": "Razor Fox",
+      "description": null,
       "id": "razor_fox",
       "introducedFloor": 4,
       "notes": null,
@@ -3395,6 +3762,7 @@
     },
     {
       "canonicalName": "Reaper Spider Minion Patch",
+      "description": "A small, black and silver patch, die cut and shaped like a Reaper Spider Minion merchant. The spider merchant looks like Shi Maria, though with a shorter neck and shorter hair. The spider is carrying multiple wicker baskets lashed over her bulbous body.",
       "id": "reaper_spider_minion_patch",
       "introducedFloor": 8,
       "notes": null,
@@ -3402,6 +3770,7 @@
     },
     {
       "canonicalName": "Red Beret",
+      "description": null,
       "id": "red_beret",
       "introducedFloor": 8,
       "notes": null,
@@ -3409,6 +3778,7 @@
     },
     {
       "canonicalName": "Reef Explorer",
+      "description": "The Reef Explorer is wearing an etheral glowing deep dive suit.",
       "id": "reef_explorer",
       "introducedFloor": 8,
       "notes": null,
@@ -3416,6 +3786,7 @@
     },
     {
       "canonicalName": "Reminiscence Hydra of Malicious Compliance",
+      "description": "The nine-headed monster is a round, flesh-colored ball covered in Frankenstein stitches and standing on four comically stumpy legs. Its body is approximately 12' (3.66m) wide and 6' 6\" (1.98m) tall. Nine heads sprout from long, fleshy stalks that weave and wave in the air. Although it is technically a single creature, only one head is the keymaster and bound by the established rules of card combat.",
       "id": "reminiscence_hydra_of_malicious_compliance",
       "introducedFloor": 8,
       "notes": null,
@@ -3423,6 +3794,7 @@
     },
     {
       "canonicalName": "Rev-Up Magic Hair Restoration Tonic",
+      "description": null,
       "id": "rev_up_magic_hair_restoration_tonic",
       "introducedFloor": 4,
       "notes": null,
@@ -3430,6 +3802,7 @@
     },
     {
       "canonicalName": "Rev-Up Vitamin Shots",
+      "description": "Despite being called \"shots,\" these pharmaceuticals are administered orally by drinking them. The potions act as powerful sedatives, and each mixture is specifically tailored to a single race of mob. The high from the drug only lasts for a limited time, forcing the addicted mobs to continually seek out their next dose.",
       "id": "rev_up_vitamin_shots",
       "introducedFloor": 4,
       "notes": null,
@@ -3437,6 +3810,7 @@
     },
     {
       "canonicalName": "Robot Donut",
+      "description": null,
       "id": "robot_donut",
       "introducedFloor": 5,
       "notes": null,
@@ -3444,6 +3818,7 @@
     },
     {
       "canonicalName": "Rockard's Ring of Sniping",
+      "description": "Carl takes Rockard's Ring of Sniping from Quan Ch on the Fifth Floor.",
       "id": "rockard_s_ring_of_sniping",
       "introducedFloor": 5,
       "notes": null,
@@ -3451,6 +3826,7 @@
     },
     {
       "canonicalName": "Rosetta Thagra",
+      "description": null,
       "id": "rosetta_thagra",
       "introducedFloor": 4,
       "notes": null,
@@ -3458,6 +3834,7 @@
     },
     {
       "canonicalName": "Ruckus",
+      "description": null,
       "id": "ruckus",
       "introducedFloor": 5,
       "notes": null,
@@ -3465,6 +3842,7 @@
     },
     {
       "canonicalName": "Rude-Dolph the Blood-Nosed Slay-Deer",
+      "description": null,
       "id": "rude_dolph_the_blood_nosed_slay_deer",
       "introducedFloor": 8,
       "notes": null,
@@ -3472,6 +3850,7 @@
     },
     {
       "canonicalName": "Run, Little Guenter, Run Spell",
+      "description": "The book grows centipede legs and runs away from Carl. It leaks foul-smelling black liquid. The book starts shivering and whimpering and shrieking \"Stay Away! Don't Touch Me!\" While it can speak, Carl can still pull the book into his Inventory, so it is not considered a pet.",
       "id": "run_little_guenter_run_spell",
       "introducedFloor": 9,
       "notes": null,
@@ -3479,6 +3858,7 @@
     },
     {
       "canonicalName": "Sappy Gold Ring",
+      "description": null,
       "id": "sappy_gold_ring",
       "introducedFloor": 5,
       "notes": null,
@@ -3486,6 +3866,7 @@
     },
     {
       "canonicalName": "Satchel Bomb",
+      "description": "A little bag with leather handles containing explosive equivalent to three sticks of hobgoblin dynamite. Enough to level a small town.",
       "id": "satchel_bomb",
       "introducedFloor": 6,
       "notes": null,
@@ -3493,6 +3874,7 @@
     },
     {
       "canonicalName": "Scavenger's Daughter Upgrade Patch",
+      "description": "This patch is a thick, black piece of fabric embroidered with a white pile of skulls from various creatures, stacked up neatly into a pyramid. There is additional transparent stitching forming the image of a giant centipede crawling through all the skulls. The centipede stitching glows and becomes visible when Carl's soul essence bar is filled.",
       "id": "scavenger_s_daughter_upgrade_patch",
       "introducedFloor": 8,
       "notes": null,
@@ -3500,6 +3882,7 @@
     },
     {
       "canonicalName": "Scroll of Build Trench",
+      "description": "Carl receives approximately 50 Scrolls of Build Trench during the Ghosts of Earth floor.",
       "id": "scroll_of_build_trench",
       "introducedFloor": 8,
       "notes": null,
@@ -3507,6 +3890,7 @@
     },
     {
       "canonicalName": "Scroll of Water Breathing",
+      "description": null,
       "id": "scroll_of_water_breathing",
       "introducedFloor": 5,
       "notes": null,
@@ -3514,6 +3898,7 @@
     },
     {
       "canonicalName": "Self-Immolation Spell",
+      "description": null,
       "id": "self_immolation_spell",
       "introducedFloor": 8,
       "notes": null,
@@ -3521,6 +3906,7 @@
     },
     {
       "canonicalName": "Seventh Floor",
+      "description": "The Seventh Floor was a late substitution. Midway through the previous floor, the showrunners announced that crawler resilience had prompted a complete redesign of the seventh.",
       "id": "seventh_floor",
       "introducedFloor": 7,
       "notes": null,
@@ -3528,6 +3914,7 @@
     },
     {
       "canonicalName": "Shango",
+      "description": "During the Thorn Room Boss Battle, if his shrine is repaired: \u201cHe\u2019s a little shy. You will learn a level-15 Lightning spell if you repair it. You will gain the ability to train this spell to 20. Hint, hint that spell might come in handy later. Shango will ascend.\u201d",
       "id": "shango",
       "introducedFloor": 8,
       "notes": null,
@@ -3535,6 +3922,7 @@
     },
     {
       "canonicalName": "Shattering Train Bomb",
+      "description": null,
       "id": "shattering_train_bomb",
       "introducedFloor": 4,
       "notes": null,
@@ -3542,6 +3930,7 @@
     },
     {
       "canonicalName": "Sheet Music",
+      "description": null,
       "id": "sheet_music",
       "introducedFloor": 6,
       "notes": null,
@@ -3549,6 +3938,7 @@
     },
     {
       "canonicalName": "Sheol Bricks",
+      "description": null,
       "id": "sheol_bricks",
       "introducedFloor": 4,
       "notes": null,
@@ -3556,6 +3946,7 @@
     },
     {
       "canonicalName": "Shi Maria",
+      "description": "Shi Maria is a demi-god and former resident of the celestial realm who specializes in deceit, illusion, and mind-bending spellcasting. She is deeply vindictive and deceitful, spending her days in banishment plotting revenge against everyone who has ever wronged her \u2014 a list that is, by her own account, very long.",
       "id": "shi_maria",
       "introducedFloor": 8,
       "notes": null,
@@ -3563,6 +3954,7 @@
     },
     {
       "canonicalName": "Shock Chomper",
+      "description": "No full description is given other than \"lesser nagas with mommy issues.\" Given that this whole floor is a political parody, this is most likely in reference to the Naga and the story of the Sepsis Whore. All the Shock Chompers are level 20 with an electrical attack that can be countered by hitting them, canceling the attack. They drop gold fangs and about 10 gold per body.",
       "id": "shock_chomper",
       "introducedFloor": 4,
       "notes": null,
@@ -3570,6 +3962,7 @@
     },
     {
       "canonicalName": "Sierra",
+      "description": null,
       "id": "sierra",
       "introducedFloor": 6,
       "notes": null,
@@ -3577,6 +3970,7 @@
     },
     {
       "canonicalName": "Silfa",
+      "description": "Silfa has at least three spells, a healing spell, a map hiding skill, and an ice spell.",
       "id": "silfa",
       "introducedFloor": 4,
       "notes": null,
@@ -3584,6 +3978,7 @@
     },
     {
       "canonicalName": "Simoom",
+      "description": null,
       "id": "simoom",
       "introducedFloor": 4,
       "notes": null,
@@ -3591,6 +3986,7 @@
     },
     {
       "canonicalName": "Sixth Floor",
+      "description": "The Hunting Grounds is the second of the Dungeon's \"Volcano Storyline\" floors and is part of the Scolopendra levels. It belongs to the overarching volcano storyline that connects the 3rd, 6th, 9th, 12th, 15th, and 18th floors of the dungeon.",
       "id": "sixth_floor",
       "introducedFloor": 6,
       "notes": null,
@@ -3598,6 +3994,7 @@
     },
     {
       "canonicalName": "Size-Up Potion",
+      "description": null,
       "id": "size_up_potion",
       "introducedFloor": 6,
       "notes": null,
@@ -3605,6 +4002,7 @@
     },
     {
       "canonicalName": "Skewer Belle",
+      "description": null,
       "id": "skewer_belle",
       "introducedFloor": 6,
       "notes": null,
@@ -3612,6 +4010,7 @@
     },
     {
       "canonicalName": "Skyfowl Upgrade Patch",
+      "description": "A small, square patch featuring a dozen flaming arrows clutched in the hands of an eagle claw. The drawing is rendered in an old-school, traditional, Sailor Jerry style.",
       "id": "skyfowl_upgrade_patch",
       "introducedFloor": 6,
       "notes": null,
@@ -3619,6 +4018,7 @@
     },
     {
       "canonicalName": "Skylar Spinach",
+      "description": null,
       "id": "skylar_spinach",
       "introducedFloor": 8,
       "notes": null,
@@ -3626,6 +4026,7 @@
     },
     {
       "canonicalName": "Sluggalo",
+      "description": "Sluggalos are spawned when a host is infected with the SlugPox spell or debuff. The infected host develops painful boils that eventually burst, ejecting a living slug in a shower of ooze and clear liquid. With each successive boil that bursts from the host, the resulting slug is one level higher, causing them to spawn in increasingly larger and more dangerous forms.",
       "id": "sluggalo",
       "introducedFloor": 8,
       "notes": null,
@@ -3633,6 +4034,7 @@
     },
     {
       "canonicalName": "Spirit Box",
+      "description": null,
       "id": "spirit_box",
       "introducedFloor": 8,
       "notes": null,
@@ -3640,6 +4042,7 @@
     },
     {
       "canonicalName": "Spunky Jefferson the Enchanted Nickel Sock of the Elderly Miser",
+      "description": null,
       "id": "spunky_jefferson_the_enchanted_nickel_sock_of_the_elderl",
       "introducedFloor": 8,
       "notes": null,
@@ -3647,6 +4050,7 @@
     },
     {
       "canonicalName": "Squonk",
+      "description": null,
       "id": "squonk",
       "introducedFloor": 8,
       "notes": null,
@@ -3654,6 +4058,7 @@
     },
     {
       "canonicalName": "Station Mimic",
+      "description": "Mimics are shapeshifting creatures that can turn into inanimate objects to fool crawlers into coming close enough to be eaten. If a part of a mimic is chopped off, the removed part turns into a spidery creature and crawls back to join the whole. Bashing weapons and magic do nothing against it. If more than 50% of the body mass is removed, it can no longer heal or transform.",
       "id": "station_mimic",
       "introducedFloor": 4,
       "notes": null,
@@ -3661,6 +4066,7 @@
     },
     {
       "canonicalName": "Stock Certificate",
+      "description": null,
       "id": "stock_certificate",
       "introducedFloor": 5,
       "notes": null,
@@ -3668,6 +4074,7 @@
     },
     {
       "canonicalName": "Stuffed Grulke Infantry Figure",
+      "description": null,
       "id": "stuffed_grulke_infantry_figure",
       "introducedFloor": 4,
       "notes": null,
@@ -3675,6 +4082,7 @@
     },
     {
       "canonicalName": "Stuffed Slate Butterfly Figure",
+      "description": null,
       "id": "stuffed_slate_butterfly_figure",
       "introducedFloor": 6,
       "notes": null,
@@ -3682,6 +4090,7 @@
     },
     {
       "canonicalName": "Svern",
+      "description": null,
       "id": "svern",
       "introducedFloor": 5,
       "notes": null,
@@ -3689,6 +4098,7 @@
     },
     {
       "canonicalName": "Swordfish Interlopers",
+      "description": null,
       "id": "swordfish_interlopers",
       "introducedFloor": 8,
       "notes": null,
@@ -3696,6 +4106,7 @@
     },
     {
       "canonicalName": "T'Ghee Card",
+      "description": "A totem card stores a single captured monster and lets its holder summon and command it. A crawler creates one by reducing a creature to 5% health or less and planting one of their squad's twenty flags in its body; the creature is converted on the spot and the card appears in the squad leader's inventory. Flags cannot be thrown or fired, and a squad that runs out never receives more.",
       "id": "t_ghee_card",
       "introducedFloor": 8,
       "notes": null,
@@ -3703,6 +4114,7 @@
     },
     {
       "canonicalName": "Team Retribution",
+      "description": "Team Retribution acts as the defending force of the Faction Wars, tasked with protecting Larracos. Unlike the nine attacking teams, which seek to capture the castle at the center of the funnel city, the defending team wins the season if it holds out for a full week once the final \"Peeling\" phase begins; an attacking team, by contrast, need only hold a throne room for six hours.",
       "id": "team_retribution",
       "introducedFloor": 9,
       "notes": null,
@@ -3710,6 +4122,7 @@
     },
     {
       "canonicalName": "That Wasn't Too Smart, Was It? Box",
+      "description": null,
       "id": "that_wasn_t_too_smart_was_it_box",
       "introducedFloor": 4,
       "notes": null,
@@ -3717,6 +4130,7 @@
     },
     {
       "canonicalName": "Tipid",
+      "description": "Tipid is a grizzled but deeply loyal Crest who is heavily haunted by survivor's guilt from his original crawl. Despite the trauma of his past \u2014 including sacrificing his best friend to secure his own escape \u2014 he maintains a goofy, friendly demeanor, often sporting a sideways grin and an enthusiastic, almost naive energy.",
       "id": "tipid",
       "introducedFloor": 9,
       "notes": null,
@@ -3724,6 +4138,7 @@
     },
     {
       "canonicalName": "Tom",
+      "description": null,
       "id": "tom",
       "introducedFloor": 8,
       "notes": null,
@@ -3731,6 +4146,7 @@
     },
     {
       "canonicalName": "Torn Book Page",
+      "description": null,
       "id": "torn_book_page",
       "introducedFloor": 5,
       "notes": null,
@@ -3738,6 +4154,7 @@
     },
     {
       "canonicalName": "Tracked All-Terrain Suicide Machine. The Royal Chariot",
+      "description": null,
       "id": "tracked_all_terrain_suicide_machine_the_royal_chariot",
       "introducedFloor": 5,
       "notes": null,
@@ -3745,6 +4162,7 @@
     },
     {
       "canonicalName": "Train Conductor's Souvenir Hat",
+      "description": "A simple, non-magical, blue and white hat with the words \u201cI rode the Iron Tangle\u201d embroidered on it.\u201d",
       "id": "train_conductor_s_souvenir_hat",
       "introducedFloor": 4,
       "notes": null,
@@ -3752,6 +4170,7 @@
     },
     {
       "canonicalName": "Turkey",
+      "description": null,
       "id": "turkey",
       "introducedFloor": 8,
       "notes": null,
@@ -3759,6 +4178,7 @@
     },
     {
       "canonicalName": "Twinkle Toes",
+      "description": null,
       "id": "twinkle_toes",
       "introducedFloor": 5,
       "notes": null,
@@ -3766,6 +4186,7 @@
     },
     {
       "canonicalName": "Ugly Ass Backpack With a Completely Useless Design that Only an Idiot Would Wear",
+      "description": "The Ugly-Ass Backpack looks like a large metal open-topped basket or oversized laundry hamper; the open top has a slight lip. It has reinforced Danger Dingo-hide shoulder straps and a set of tie-able waist straps, but the straps are insufficient to carry the weight of the backpack; instead, they're simply so the System AI will classify it as a backpack.",
       "id": "ugly_ass_backpack_with_a_completely_useless_design_that_",
       "introducedFloor": 4,
       "notes": null,
@@ -3773,6 +4194,7 @@
     },
     {
       "canonicalName": "Uncle Morty\u2019s Insta Lawn-Kill and Undead Repellant, Extra-Strength Edition",
+      "description": null,
       "id": "uncle_morty_s_insta_lawn_kill_and_undead_repellant_extra",
       "introducedFloor": 6,
       "notes": null,
@@ -3780,6 +4202,7 @@
     },
     {
       "canonicalName": "Untangling the Iron Tangle",
+      "description": null,
       "id": "untangling_the_iron_tangle",
       "introducedFloor": 4,
       "notes": null,
@@ -3787,6 +4210,7 @@
     },
     {
       "canonicalName": "Unwashed",
+      "description": "A midnight black, thin alien creature with no arms but multiple tentacles waving from its shoulders. The form was similar to an armless soother alien, but taller and thinner. The tentacles on its back can crackle with electricity.",
       "id": "unwashed",
       "introducedFloor": 9,
       "notes": null,
@@ -3794,6 +4218,7 @@
     },
     {
       "canonicalName": "Ursensus",
+      "description": "Carl describes the babies as \"goddamn abominations\", looking a little like [https://www.dndbeyond.com/monsters/16975-owlbear?srsltid=AfmBOoqBZRoTd-HKreoHfd3TSTT6Y_T0rHOojKOTmTMSCEacxZGe6mbK Owlbears] with four legs and stubs of wings. The babies are covered in wet brown fur. Their eyes are uneven, bulbous and pug-like, with one eye being almost twice the size of the other.",
       "id": "ursensus",
       "introducedFloor": 9,
       "notes": null,
@@ -3801,6 +4226,7 @@
     },
     {
       "canonicalName": "Velma the Flamethrower",
+      "description": null,
       "id": "velma_the_flamethrower",
       "introducedFloor": 8,
       "notes": null,
@@ -3808,6 +4234,7 @@
     },
     {
       "canonicalName": "Veriluxx RealPet Dungeon Crawl Special Edition Exclusive",
+      "description": null,
       "id": "veriluxx_realpet_dungeon_crawl_special_edition_exclusive",
       "introducedFloor": 5,
       "notes": null,
@@ -3815,6 +4242,7 @@
     },
     {
       "canonicalName": "Viper Queen Class",
+      "description": "is a Class Donut offered on the Seventh Floor. It allows a user to shoot poison blob.",
       "id": "viper_queen_class",
       "introducedFloor": 7,
       "notes": null,
@@ -3822,6 +4250,7 @@
     },
     {
       "canonicalName": "Visitor",
+      "description": null,
       "id": "visitor",
       "introducedFloor": 8,
       "notes": null,
@@ -3829,6 +4258,7 @@
     },
     {
       "canonicalName": "Vocal Coach Training Room",
+      "description": null,
       "id": "vocal_coach_training_room",
       "introducedFloor": 6,
       "notes": null,
@@ -3836,6 +4266,7 @@
     },
     {
       "canonicalName": "Wall Monitor",
+      "description": null,
       "id": "wall_monitor",
       "introducedFloor": 4,
       "notes": null,
@@ -3843,6 +4274,7 @@
     },
     {
       "canonicalName": "Wall of Fire Spell",
+      "description": "Cost: 15 mana Target: area around the caster Duration: unknown At level one, it creates a 10-meter long, 2-meter high wall of magical fire. If the spell is cast on a flammable surface, the surface will catch fire once the spell ends. The fire can very easily go out of control. According to Mordecai, it is a common spell that can be very powerful at higher levels.",
       "id": "wall_of_fire_spell",
       "introducedFloor": 5,
       "notes": null,
@@ -3850,6 +4282,7 @@
     },
     {
       "canonicalName": "Wand of Nighty Night",
+      "description": null,
       "id": "wand_of_nighty_night",
       "introducedFloor": 8,
       "notes": null,
@@ -3857,6 +4290,7 @@
     },
     {
       "canonicalName": "War Crimes Spell",
+      "description": "The spell book itself is described as bleeding and crying before the user reads it.",
       "id": "war_crimes_spell",
       "introducedFloor": 9,
       "notes": null,
@@ -3864,6 +4298,7 @@
     },
     {
       "canonicalName": "Warrior's Gold Helmet of Resistance",
+      "description": "This helmet is a piece of magical armor designed to offer resistance to the wearer. However, because the item features the word \"Warrior's\" in its title, it carries a strict equipment condition: the item only works if the person wearing it is actively wielding a sword.",
       "id": "warrior_s_gold_helmet_of_resistance",
       "introducedFloor": 8,
       "notes": null,
@@ -3871,6 +4306,7 @@
     },
     {
       "canonicalName": "Widget",
+      "description": "Carl describes his accent as \"Creole guy poorly attempting a cockney accent.\" Widget is very accommodating and friendly, though that might be due to Donut's high Charisma. Additionally Carl describes his appearance \"He was goblin-shaped and proportioned, though instead of clothes, he was covered in black, bristly hair. He was much smaller than a regular goblin, about the same height as Zev.",
       "id": "widget",
       "introducedFloor": 4,
       "notes": null,
@@ -3878,6 +4314,7 @@
     },
     {
       "canonicalName": "Wrath Ghouls",
+      "description": "A pair of large, ogre sized ghouls inhabit Train yard C. The wrath ghouls form a a Province Boss at station 36 if they are allowed to congregate.",
       "id": "wrath_ghouls",
       "introducedFloor": 4,
       "notes": null,
@@ -3885,6 +4322,7 @@
     },
     {
       "canonicalName": "Wynne",
+      "description": null,
       "id": "wynne",
       "introducedFloor": 5,
       "notes": null,
@@ -3892,6 +4330,7 @@
     },
     {
       "canonicalName": "Yago",
+      "description": "Yago was pretty big, but nowhere near the size of a sea lion and not even close to the size of an elephant seal. According to Carl, he was six or seven feet long and probably weighed about 400 pounds. He had a thick, Cuban accent. While fighting, he made a constant stream of nonsensical kung-fu-esque noises. After upgrading, he crackled with obsidian-colored energy and was wider than he\u2019d been before.",
       "id": "yago",
       "introducedFloor": 8,
       "notes": null,
@@ -3899,6 +4338,7 @@
     },
     {
       "canonicalName": "You're Not Done Yet Spell",
+      "description": null,
       "id": "you_re_not_done_yet_spell",
       "introducedFloor": 9,
       "notes": null,
@@ -3906,6 +4346,7 @@
     },
     {
       "canonicalName": "Ysalte",
+      "description": null,
       "id": "ysalte",
       "introducedFloor": 5,
       "notes": null,
@@ -3913,6 +4354,7 @@
     },
     {
       "canonicalName": "Zerzura Spell",
+      "description": "Zerzura takes a full city or town, including all of its NPCs and buildings, and transfers it to a \"random\" location one Floor down. When cast on a Scolopendra floor, the settlement instead skips to the next Scolopendra floor. It doesn't transfer mobs, bosses, or red-tagged NPCs. It also doesn't transfer Stairwells or other special rooms such as Reward Rooms.",
       "id": "zerzura_spell",
       "introducedFloor": 6,
       "notes": null,
@@ -3920,6 +4362,7 @@
     },
     {
       "canonicalName": "Zhang's Cape of Odds",
+      "description": "The cape is white with the standard [https://en.wikipedia.org/wiki/Target_archery#/media/File:WA_80_cm_archery_target.svg black, red, and yellow archery target] on the back. When it isn't activated, it gives 15% to all stats plus a level 10 Dodge Skill. Once an hour, it gives access to the Roll the Dice Skill.",
       "id": "zhang_s_cape_of_odds",
       "introducedFloor": 9,
       "notes": null,
@@ -3927,6 +4370,7 @@
     },
     {
       "canonicalName": "Zlurpies",
+      "description": "Zlurpies are waist-high, semi-intelligent warrior armadillo things that roll into armored balls when they take damage, but they were small enough to be eaten whole by Mongo, who would pick them up and crunch them like juice-filled hard candies.",
       "id": "zlurpies",
       "introducedFloor": 4,
       "notes": null,

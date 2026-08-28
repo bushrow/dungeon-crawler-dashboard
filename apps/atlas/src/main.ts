@@ -206,6 +206,7 @@ function renderCard(h: Horizon): void {
           entity.introducedFloor === 0 ? 'surface' : `floor ${entity.introducedFloor}`
         }</span>
       </div>
+      ${entity.description ? `<p class="card__desc">${entity.description}</p>` : ''}
       ${
         // Rendered only when a status row is actually visible. No row means
         // nothing is drawn at all, because an "unknown" badge would say that
