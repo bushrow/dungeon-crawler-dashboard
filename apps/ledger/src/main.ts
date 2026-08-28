@@ -251,11 +251,11 @@ function renderRecord(h: Horizon, rows: PricedEntity[]): void {
   const facts = h.factsFor(row.entityId);
   const aliases = h.aliasesFor(row.entityId);
   const section = (title: string, body: string) =>
-    body ? `<div class="card__section"><h3>${title}</h3>${body}</div>` : '';
+    body ? `<div class="card__section"><h4>${title}</h4>${body}</div>` : '';
 
   recordBox.innerHTML = `
     <div class="card__body">
-      <h2 class="card__name">${row.name}</h2>
+      <h3 class="card__name">${row.name}</h3>
       <div class="card__type">
         <span class="card__swatch" style="background:${floorColor(row.introducedFloor)}"></span>
         <span class="eyebrow">${row.type} &middot; ${
@@ -395,7 +395,7 @@ function renderSheets(h: Horizon): void {
     const floor = asOf(items);
     const stale =
       floor !== null && floor < h.floor
-        ? `<span class="sheet__stale">as of floor ${floor}</span>`
+        ? ` <span class="sheet__stale">as of floor ${floor}</span>`
         : '';
     return `<div class="sheet__block"><h3>${title}${stale}</h3>${body}</div>`;
   };
@@ -504,6 +504,7 @@ setView('sheets');
 
 mountShell({
   route: 'ledger',
+  heading: 'Ledger: character sheets and prices',
   render(h) {
     current = h;
     repaint();

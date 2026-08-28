@@ -17,7 +17,7 @@
   --paper: #ecece8;
   --panel: #f8f8f5;
   --ink: #15171b;
-  --muted: #676c74;
+  --muted: #5f646c;
   --line: #d2d2cb;
   --line-strong: #b6b6ad;
 
@@ -33,6 +33,9 @@
   --f8: #a06a2c;
   --f9: #4f7a8c;
 
+  /* Grey that clears 4.5:1 on the dark rack. The previous #767b83 was 3.7. */
+  --rack-muted: #8b9199;
+
   --display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
 
@@ -44,6 +47,44 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -3rem;
+  z-index: 10;
+  padding: 0.5rem 0.9rem;
+  background: var(--rack-ink);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: top 120ms ease;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Panel headings are real headings, so the page has an outline to navigate. */
+.panel__head h2,
+.panel__head h3 {
+  margin: 0;
+  font: inherit;
 }
 
 html {
@@ -113,7 +154,7 @@ body {
   border: 0;
   border-right: 1px solid var(--rack-line);
   background: transparent;
-  color: #9aa0a8;
+  color: var(--rack-muted);
   font: inherit;
   font-size: 0.78rem;
   font-variation-settings: 'wdth' 112;
@@ -143,7 +184,7 @@ body {
   font-family: var(--mono);
   font-size: 0.68rem;
   letter-spacing: 0.06em;
-  color: #8b9199;
+  color: var(--rack-muted);
 }
 
 /* --- embargo bar: the one loud element ----------------------------------- */
@@ -163,7 +204,7 @@ body {
   font-size: 0.68rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #8b9199;
+  color: var(--rack-muted);
 }
 
 .embargo__track {
@@ -204,7 +245,7 @@ body {
     #2b2f36 0 6px,
     #24272d 6px 12px
   );
-  color: #767b83;
+  color: var(--rack-muted);
 }
 
 /* The current floor gets the read head. */
@@ -219,7 +260,7 @@ body {
   padding-top: 0.5rem;
   font-family: var(--mono);
   font-size: 0.72rem;
-  color: #9aa0a8;
+  color: var(--rack-muted);
 }
 
 .embargo__readout b {

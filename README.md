@@ -17,7 +17,7 @@ Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 ```bash
 npm install
 npm run dev        # both views, one dev server
-npm test           # 253 leakage tests against the access layer
+npm test           # 255 leakage tests against the access layer
 npm run build      # static site into dist/
 ```
 
@@ -51,7 +51,7 @@ Spoiler safety is a property of the system, not a feature of each view.
 
 ## What is in it
 
-444 entities, 473 facts, 53 relationships, 66 priced records, and 50 recorded
+444 entities, 469 facts, 75 relationships, 66 priced records, and 50 recorded
 holdings across floors 0 to 9, which is books 1 to 8. Floors 0 to 3 are authored
 record by record; floors 4 to 9 carry entities and facts but not yet prices,
 relationships, or sheet kit. Every row carries a source and a confidence, and

@@ -100,7 +100,7 @@ function renderResults(list: Row[]): void {
 }
 
 function section(title: string, body: string): string {
-  return body ? `<div class="card__section"><h3>${title}</h3>${body}</div>` : '';
+  return body ? `<div class="card__section"><h4>${title}</h4>${body}</div>` : '';
 }
 
 function renderRecord(h: Horizon, record: CorpusRecord | undefined): void {
@@ -122,7 +122,7 @@ function renderRecord(h: Horizon, record: CorpusRecord | undefined): void {
 
   recordBox.innerHTML = `
     <div class="card__body">
-      <h2 class="card__name">${entity.canonicalName}</h2>
+      <h3 class="card__name">${entity.canonicalName}</h3>
       <div class="card__type">
         <span class="card__swatch" style="background:${floorColor(entity.introducedFloor)}"></span>
         <span class="eyebrow">${entity.type} &middot; ${
@@ -213,6 +213,7 @@ searchBox.addEventListener('input', () => {
 
 mountShell({
   route: 'browse',
+  heading: 'Browse people, items, skills, and places',
   render(h) {
     current = h;
     paint();

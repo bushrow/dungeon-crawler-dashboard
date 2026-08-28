@@ -53,6 +53,18 @@ citations cover the whole field and the last one is the first floor by which
 every name in it is known. Faction membership is cited per sub-group, so a
 members list is split on semicolons and each group takes its own date.
 
+## Accessibility
+
+Each view has one `h1` naming the page, panels are real headings, and cards
+nest below them, so the pages have an outline to navigate rather than a wall of
+styled spans. A skip link comes first in tab order, because every route puts a
+few hundred controls between the top of the page and the content.
+
+Graph nodes are focusable and operable from the keyboard, the floor bar is a
+labelled group of buttons that responds to arrow keys, and its readout is a
+live region. Text meets 4.5:1 against its background; the greys were tuned to
+clear it rather than chosen by eye.
+
 ## Search
 
 Search is a method on `Horizon`, not code in a view. It is a query over the

@@ -32,6 +32,8 @@ function writeFloor(floor: number): void {
 
 interface ShellOptions {
   route: Route;
+  /** Names the page for assistive tech; rendered as the visually hidden h1. */
+  heading: string;
   /** Called on mount and on every horizon change. */
   render: (horizon: Horizon) => void;
 }
@@ -41,10 +43,22 @@ export interface Shell {
   horizon: () => Horizon;
 }
 
-export function mountShell({ route, render }: ShellOptions): Shell {
+export function mountShell({ route, heading, render }: ShellOptions): Shell {
   const bundle = loadBundle();
   const maxFloor = maxFloorOf(bundle);
   let floor = readFloor(maxFloor);
+
+  // Every route puts a few hundred controls between the top of the page and
+  // the content: the floor bar, the nav, then a long results list. Without a
+  // skip link a keyboard user tabs through all of it to reach anything.
+  const skip = document.createElement('a');
+  skip.className = 'skip-link';
+  skip.href = '#main';
+  skip.textContent = 'Skip to content';
+
+  const title = document.createElement('h1');
+  title.className = 'visually-hidden';
+  title.textContent = heading;
 
   const rack = document.createElement('header');
   rack.className = 'rack';
@@ -111,7 +125,13 @@ export function mountShell({ route, render }: ShellOptions): Shell {
     track.append(seg);
   }
 
-  document.body.prepend(rack, embargo);
+  document.body.prepend(skip, title, rack, embargo);
+
+  const content = document.querySelector('main');
+  if (content) {
+    content.id = 'main';
+    content.tabIndex = -1;
+  }
 
   function paint(): void {
     const h = horizonAt(bundle, floor);

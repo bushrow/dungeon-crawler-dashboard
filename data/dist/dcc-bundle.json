@@ -1977,7 +1977,7 @@
       "id": "blister_ghoul",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Blood Sultanate",
@@ -2054,7 +2054,7 @@
       "id": "cave_mudge_bonker",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Celestial Grenade",
@@ -2278,7 +2278,7 @@
       "id": "drek",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Dromedarian",
@@ -2288,7 +2288,7 @@
       "type": "race"
     },
     {
-      "canonicalName": "Dungeon Anarchist's Cookbook (Item)",
+      "canonicalName": "Dungeon Anarchist's Cookbook",
       "id": "dungeon_anarchist_s_cookbook_item",
       "introducedFloor": 4,
       "notes": null,
@@ -2533,7 +2533,7 @@
       "type": "character"
     },
     {
-      "canonicalName": "Experience (Mob)",
+      "canonicalName": "Experience",
       "id": "experience_mob",
       "introducedFloor": 8,
       "notes": null,
@@ -2558,7 +2558,7 @@
       "id": "festering_ghoul",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Fifth Floor",
@@ -2649,14 +2649,14 @@
       "id": "ghommid",
       "introducedFloor": 8,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Glamoured Fragment",
       "id": "glamoured_fragment",
       "introducedFloor": 6,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Glass Cannon Class",
@@ -2691,7 +2691,7 @@
       "id": "gods",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Goiter",
@@ -2726,7 +2726,7 @@
       "id": "gross_atomizers",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Growler Gary",
@@ -2887,7 +2887,7 @@
       "id": "jikininki_janitor_ghouls",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Jola",
@@ -2943,7 +2943,7 @@
       "id": "kravyad",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Kua-Tin Rebreather",
@@ -3027,7 +3027,7 @@
       "id": "literal_fire_ants",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Live Ammo Ball",
@@ -3097,14 +3097,14 @@
       "id": "male_thorny_devil",
       "introducedFloor": 5,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "ManTauR",
       "id": "mantaur",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Massage Coupon",
@@ -3132,7 +3132,7 @@
       "id": "monk_seal",
       "introducedFloor": 8,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Mute Spell",
@@ -3181,7 +3181,7 @@
       "id": "night_weasel",
       "introducedFloor": 6,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Night Wyrm's Nasty Little Web of Suffering Tattoo",
@@ -3209,14 +3209,14 @@
       "id": "octo_shark",
       "introducedFloor": 5,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Odius Creeper",
       "id": "odius_creeper",
       "introducedFloor": 6,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Opposite Day Ring",
@@ -3307,7 +3307,7 @@
       "id": "pollyslog",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Portal",
@@ -3342,7 +3342,7 @@
       "id": "pox_slug",
       "introducedFloor": 8,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Precision Card",
@@ -3370,7 +3370,7 @@
       "id": "psycho_sticker",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Quetzalcoatlus",
@@ -3566,7 +3566,7 @@
       "id": "shock_chomper",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Sierra",
@@ -3650,7 +3650,7 @@
       "id": "squonk",
       "introducedFloor": 8,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Station Mimic",
@@ -3755,7 +3755,7 @@
       "id": "turkey",
       "introducedFloor": 8,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Twinkle Toes",
@@ -3825,7 +3825,7 @@
       "id": "visitor",
       "introducedFloor": 8,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Vocal Coach Training Room",
@@ -3839,7 +3839,7 @@
       "id": "wall_monitor",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     },
     {
       "canonicalName": "Wall of Fire Spell",
@@ -3930,7 +3930,7 @@
       "id": "zlurpies",
       "introducedFloor": 4,
       "notes": null,
-      "type": "race"
+      "type": "monster"
     }
   ],
   "facts": [
@@ -5341,18 +5341,6 @@
     {
       "confidence": "certain",
       "eventFloor": 1,
-      "id": "f118",
-      "notes": null,
-      "object": "0",
-      "predicate": "costs",
-      "revealFloor": 1,
-      "significanceFloor": 1,
-      "source": "wiki:Regeneration_Skill",
-      "subjectId": "regeneration_skill"
-    },
-    {
-      "confidence": "certain",
-      "eventFloor": 1,
       "id": "f119",
       "notes": null,
       "object": "Enchanted Trollskin Shirt of Pummeling",
@@ -5529,42 +5517,6 @@
       "significanceFloor": 1,
       "source": "wiki:Magic_Missile",
       "subjectId": "magic_missile"
-    },
-    {
-      "confidence": "certain",
-      "eventFloor": 1,
-      "id": "f134",
-      "notes": null,
-      "object": "?",
-      "predicate": "does",
-      "revealFloor": 1,
-      "significanceFloor": 1,
-      "source": "wiki:Fire_Fingers_Spell",
-      "subjectId": "fire_fingers"
-    },
-    {
-      "confidence": "certain",
-      "eventFloor": 1,
-      "id": "f135",
-      "notes": null,
-      "object": "?",
-      "predicate": "targets",
-      "revealFloor": 1,
-      "significanceFloor": 1,
-      "source": "wiki:Fire_Fingers_Spell",
-      "subjectId": "fire_fingers"
-    },
-    {
-      "confidence": "certain",
-      "eventFloor": 1,
-      "id": "f136",
-      "notes": null,
-      "object": "?",
-      "predicate": "costs",
-      "revealFloor": 1,
-      "significanceFloor": 1,
-      "source": "wiki:Fire_Fingers_Spell",
-      "subjectId": "fire_fingers"
     },
     {
       "confidence": "certain",

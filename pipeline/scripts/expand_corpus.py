@@ -42,6 +42,10 @@ SKIP_FIELDS = ("image", "caption", "title", "status", "level", "class", "gear", 
                "crawlers", "first_appearance", "6th_floor", "9th_floor", "deities")
 
 
+#: Editor placeholders that are not facts about anything.
+PLACEHOLDER = re.compile(r"^(0|\?+|n/?a|none|unknown|tbd|yes|no|-|\u2014)$", re.I)
+
+
 def slug(name: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
     return re.sub(r"^(the|enchanted)_", "", s)[:56] or "x"
@@ -137,7 +141,8 @@ def main() -> int:
 
         for field, predicate in FIELDS:
             value = fields.get(field)
-            if not value or len(value) > 180:
+            # "?" and "0" are placeholders an editor left behind, not claims.
+            if not value or len(value) > 180 or PLACEHOLDER.match(value.strip()):
                 continue
             key = (eid, predicate, value)
             if key in seen_fact:

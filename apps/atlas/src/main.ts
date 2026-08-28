@@ -185,7 +185,7 @@ function renderCard(h: Horizon): void {
   const edges = h.edgesFor(selected);
 
   const section = (title: string, body: string) =>
-    body ? `<div class="card__section"><h3>${title}</h3>${body}</div>` : '';
+    body ? `<div class="card__section"><h4>${title}</h4>${body}</div>` : '';
 
   const relationships = edges
     .map((e) => {
@@ -199,7 +199,7 @@ function renderCard(h: Horizon): void {
 
   card.innerHTML = `
     <div class="card__body">
-      <h2 class="card__name">${entity.canonicalName}</h2>
+      <h3 class="card__name">${entity.canonicalName}</h3>
       <div class="card__type">
         <span class="card__swatch" style="background:${floorColor(entity.introducedFloor)}"></span>
         <span class="eyebrow">${entity.type} &middot; ${
@@ -258,6 +258,7 @@ renderLegend();
 
 mountShell({
   route: 'atlas',
+  heading: 'Atlas: relationships at your floor',
   render(h) {
     // A node that is no longer visible cannot stay selected.
     if (selected && !h.entity(selected)) selected = null;

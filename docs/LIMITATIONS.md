@@ -155,7 +155,7 @@ books 1 and 2 establish, which is why every one of them reads `active`.
 
 ## Most facts are transcribed fields, not written claims
 
-Ninety-two of the 163 facts were generated straight from the wiki's own infobox
+Most of the 469 facts were generated straight from the wiki's own infobox
 fields, mapped one field to one predicate: `effect` becomes "does", `penalties`
 becomes "has weakness", and so on. That keeps my judgment out of them and makes
 them easy to check against the page, but it also means they read like a
