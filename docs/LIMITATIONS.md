@@ -73,6 +73,12 @@ A sheet at floor 3 shows the floor 2 line and says so rather than guessing.
 Race and class are the exception: those are recorded separately and do appear at
 floor 3, which is when they are chosen.
 
+## Search covers names, not prose
+
+Search matches entity names and revealed aliases. It does not search the text of
+facts, so looking for "explosives" finds the skills and items named that and not
+every record that mentions them.
+
 ## Confidence is not in the apps
 
 Every row carries a confidence, and none of it is shown in either view. It

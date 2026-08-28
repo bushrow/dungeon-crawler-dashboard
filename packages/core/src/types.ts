@@ -212,3 +212,28 @@ export interface Sheet {
   skills: HeldEntity[];
   spells: HeldEntity[];
 }
+
+/**
+ * Everything the corpus holds on one entity at a horizon.
+ *
+ * Named CorpusRecord rather than Record: the latter is TypeScript's own mapped
+ * type, used elsewhere in this file.
+ */
+export interface CorpusRecord {
+  entity: Entity;
+  aliases: Alias[];
+  status: Status | null;
+  facts: VisibleFact[];
+  /** Relationships, for entities the graph draws. */
+  relationships: Edge[];
+  /** Its cost and effect, when it has a priced record. */
+  price: PricedEntity | null;
+  /** Crawlers carrying or knowing it. */
+  heldBy: { holder: Entity; holding: Holding }[];
+}
+
+export interface SearchHit {
+  entity: Entity;
+  /** Why it matched: the entity name, or the alias that did. */
+  matchedOn: string;
+}

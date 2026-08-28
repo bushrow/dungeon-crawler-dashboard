@@ -109,7 +109,18 @@ rows are excluded from headline numbers and counted in the coverage panel, so
 weak data stays visible rather than blending into the totals. Stated plainly in
 `docs/LIMITATIONS.md`.
 
+## Changed from the original spec
+
+**Free-text search is now in.** The source spec ruled it out, and that was right
+when the corpus was hypothetical and twenty rows. At 444 entities across nine
+floors, 326 of which have no relationship and no price, browsing without search
+is not usable, and those records had no way to be seen at all. Search lives in
+the access layer with its own leakage tests rather than in a view.
+
+**There are three views, not two.** Browse is the front door; Atlas and Ledger
+are lenses on the same corpus.
+
 ## Out of scope
 
-Free-text search, pathfinding, playback animation, and edge weights in Atlas.
+Pathfinding, playback animation, and edge weights in Atlas.
 Corpus past floor 3. The full spoiler companion. The `analysis/` tree.

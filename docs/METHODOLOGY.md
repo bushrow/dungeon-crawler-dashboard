@@ -42,6 +42,22 @@ Two omissions are deliberate:
   you cannot see yet" leaks the existence of the withheld material. The coverage
   panel counts only what is visible.
 
+## Search
+
+Search is a method on `Horizon`, not code in a view. It is a query over the
+corpus like any other, and a query written inside an app is a query nobody
+tested for leaks.
+
+It matches visible entities on their name and on aliases that have been
+revealed. Both halves matter: finding a character before you meet them tells you
+they exist, and finding one by a title they have not earned yet tells you what
+happens to them. `tests/leakage/search.test.ts` covers both at every floor.
+
+One subtlety the tests encode: searching a future entity's name can legitimately
+return a *visible* entity whose own name contains it. Searching "Grull" on floor
+1 finds the Enchanted War Gauntlet of the Exalted Grull, which the reader is
+already carrying. What must never come back is the future entity itself.
+
 ## Validation
 
 `pipeline/` validates the curated tables before compiling and validates the

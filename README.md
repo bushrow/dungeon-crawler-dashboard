@@ -1,7 +1,9 @@
 # Dungeon Crawler Carl: Atlas and Ledger
 
-Two views over one annotated corpus, both filtered to the floor you have read to.
+Three views over one annotated corpus, all filtered to the floor you have read to.
 
+- **Browse** is the front door: search anyone or anything, filter by kind, and
+  open a record. Nothing past your floor is findable, by name or by title.
 - **Atlas** is the floor map: who is connected to whom, at floor N. Scrub the
   embargo bar and nodes fade in where they were always going to be.
 - **Ledger** is the character sheets: Carl and Donut, their stats, kit, skills,
@@ -15,7 +17,7 @@ Nothing past your floor is rendered, and nothing past your floor is in the DOM.
 ```bash
 npm install
 npm run dev        # both views, one dev server
-npm test           # 214 leakage tests against the access layer
+npm test           # 253 leakage tests against the access layer
 npm run build      # static site into dist/
 ```
 
@@ -36,7 +38,7 @@ data/curated/*.csv  ->  pipeline/  ->  data/dist/dcc-bundle.json
                                               |
                                         packages/core          the only row access
                                               |
-                                  apps/shell + atlas + ledger
+                              apps/shell + browser + atlas + ledger
 ```
 
 The corpus is the product and the views read it. `packages/core` is the only

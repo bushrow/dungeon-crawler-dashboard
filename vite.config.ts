@@ -24,6 +24,7 @@ export default defineConfig({
       // while letting them share the shell and the access layer at zero cost.
       input: {
         index: here('index.html'),
+        browser: here('apps/browser/index.html'),
         atlas: here('apps/atlas/index.html'),
         ledger: here('apps/ledger/index.html'),
       },

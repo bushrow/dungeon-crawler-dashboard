@@ -3,6 +3,8 @@ import { unwrap } from './bundle';
 import type {
   Alias,
   Confidence,
+  CorpusRecord,
+  SearchHit,
   HeldEntity,
   Sheet,
   StatLine,
@@ -11,6 +13,7 @@ import type {
   Entity,
   EntityType,
   GraphNode,
+  Holding,
   PricedEntity,
   Status,
   VisibleFact,
@@ -219,6 +222,76 @@ export class Horizon {
       gear: held.filter((h) => h.kind === 'gear'),
       skills: held.filter((h) => h.kind === 'skill'),
       spells: held.filter((h) => h.kind === 'spell'),
+    };
+  }
+
+  /**
+   * Free-text lookup over what the reader can see.
+   *
+   * Search lives here rather than in the views for the same reason every other
+   * read does: it is a query over the corpus, and a query written in an app is
+   * a query nobody tested for leaks. It matches visible entities on their name
+   * and on aliases that have been revealed, so a title earned on floor 6 does
+   * not make its bearer findable on floor 2.
+   */
+  search(query: string, limit = 50): SearchHit[] {
+    const needle = query.trim().toLowerCase();
+    if (!needle) return [];
+
+    const hits: SearchHit[] = [];
+    for (const entity of this.entities()) {
+      if (entity.canonicalName.toLowerCase().includes(needle)) {
+        hits.push({ entity, matchedOn: entity.canonicalName });
+        continue;
+      }
+      const alias = this.aliasesFor(entity.id).find((a) =>
+        a.alias.toLowerCase().includes(needle),
+      );
+      if (alias) hits.push({ entity, matchedOn: alias.alias });
+    }
+
+    // Whole-word and prefix matches first: "cat" should find Cat before
+    // Compensated Anarchist.
+    const rank = (hit: SearchHit) => {
+      const name = hit.matchedOn.toLowerCase();
+      if (name === needle) return 0;
+      if (name.startsWith(needle)) return 1;
+      return 2;
+    };
+    return hits
+      .sort((a, b) => rank(a) - rank(b) || a.entity.canonicalName.localeCompare(b.entity.canonicalName))
+      .slice(0, limit);
+  }
+
+  /** Everything visible about one entity, assembled in one place. */
+  recordFor(id: string): CorpusRecord | undefined {
+    const entity = this.entity(id);
+    if (!entity) return undefined;
+
+    const holders: { holder: Entity; holding: Holding }[] = [];
+    const byId = new Map(this.entities().map((e) => [e.id, e]));
+    for (const holding of unwrap(this.bundle).holdings) {
+      if (
+        holding.heldId !== id ||
+        holding.revealFloor > this.floor ||
+        (holding.endedRevealFloor !== null && holding.endedRevealFloor <= this.floor)
+      ) {
+        continue;
+      }
+      const holder = byId.get(holding.entityId);
+      if (holder) holders.push({ holder, holding });
+    }
+
+    return {
+      entity,
+      aliases: this.aliasesFor(id),
+      status: this.statusFor(id) ?? null,
+      facts: this.factsFor(id),
+      relationships: this.edgesFor(id),
+      price: this.mechanics().find((m) => m.entityId === id) ?? null,
+      heldBy: holders.sort((a, b) =>
+        a.holder.canonicalName.localeCompare(b.holder.canonicalName),
+      ),
     };
   }
 

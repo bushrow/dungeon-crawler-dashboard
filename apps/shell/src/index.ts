@@ -9,7 +9,7 @@ import type { Bundle, Horizon } from '@dcc/core';
 
 const STORE_KEY = 'dcc.floor';
 
-export type Route = 'atlas' | 'ledger';
+export type Route = 'browse' | 'atlas' | 'ledger';
 
 /** Colour means one thing everywhere: the floor a record was learned on. */
 export function floorColor(floor: number): string {
@@ -58,6 +58,7 @@ export function mountShell({ route, render }: ShellOptions): Shell {
       Dungeon Crawler Carl
     </div>
     <nav class="rack__routes">
+      <a class="rack__route" href="../browser/index.html" data-route="browse">Browse</a>
       <a class="rack__route" href="../atlas/index.html" data-route="atlas">Atlas</a>
       <a class="rack__route" href="../ledger/index.html" data-route="ledger">Ledger</a>
     </nav>

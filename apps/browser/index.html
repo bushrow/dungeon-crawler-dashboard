@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Browse &middot; Dungeon Crawler Carl</title>
+    <meta
+      name="description"
+      content="Look up anyone and anything in Dungeon Crawler Carl, scoped to the floor you have read to."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="browse">
+      <div class="browse__main">
+        <div class="finder">
+          <label class="finder__field">
+            <span class="visually-hidden">Search the corpus</span>
+            <input
+              type="search"
+              data-search
+              placeholder="Search people, items, skills, places&hellip;"
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </label>
+          <div class="finder__types" data-types></div>
+        </div>
+        <section class="panel">
+          <div class="panel__head">
+            <span class="eyebrow" data-result-label>Everything open at this floor</span>
+            <span class="eyebrow" data-result-count></span>
+          </div>
+          <ul class="results" data-results></ul>
+        </section>
+      </div>
+      <aside class="panel browse__record" data-record></aside>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
