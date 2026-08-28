@@ -601,6 +601,226 @@
       "revealFloor": 1,
       "src": "carl",
       "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "silfa",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 4,
+      "revealFloor": 4,
+      "src": "hekla",
+      "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "carl",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 4,
+      "revealFloor": 4,
+      "src": "hekla",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "katia_grim",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 4,
+      "revealFloor": 4,
+      "src": "hekla",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "quan_ch",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 8,
+      "revealFloor": 8,
+      "src": "imani",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "imani",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "elle_mcgibbons",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "skull_empire",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 8,
+      "revealFloor": 8,
+      "src": "maestro",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "carl",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 7,
+      "revealFloor": 7,
+      "src": "louis",
+      "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "katia_grim",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 7,
+      "revealFloor": 7,
+      "src": "louis",
+      "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "juice_box",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 7,
+      "revealFloor": 7,
+      "src": "louis",
+      "type": "allied"
+    },
+    {
+      "confidence": "probable",
+      "dst": "epitome_tagg",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "louis",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "ysalte",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 7,
+      "revealFloor": 7,
+      "src": "louis",
+      "type": "hostile"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "louis",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "florin",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "katia_grim",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "tipid",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "rosetta_thagra",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "boomer",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "li_na",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "li_jun",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "jamal",
+      "type": "subordinate"
+    },
+    {
+      "confidence": "probable",
+      "dst": "princess_posse",
+      "endedEventFloor": null,
+      "endedRevealFloor": null,
+      "eventFloor": 9,
+      "revealFloor": 9,
+      "src": "carl",
+      "type": "sponsor"
     }
   ],
   "entities": [
@@ -10045,129 +10265,169 @@
   ],
   "layout": {
     "bautista": {
-      "x": 122,
-      "y": 646
+      "x": 699,
+      "y": 455
     },
     "beatrice": {
-      "x": 1500,
-      "y": 539
+      "x": 1211,
+      "y": 800
+    },
+    "boomer": {
+      "x": 1601,
+      "y": 108
     },
     "bopca": {
-      "x": 662,
-      "y": 178
+      "x": 462,
+      "y": 1085
     },
     "borant": {
-      "x": 685,
-      "y": 377
+      "x": 456,
+      "y": 885
     },
     "carl": {
-      "x": 963,
-      "y": 601
+      "x": 796,
+      "y": 645
     },
     "chris_andrews": {
-      "x": 356,
-      "y": 922
+      "x": 895,
+      "y": 326
     },
     "crawlers": {
-      "x": 655,
-      "y": 756
+      "x": 951,
+      "y": 519
     },
     "donut": {
-      "x": 1082,
-      "y": 440
+      "x": 1004,
+      "y": 711
     },
     "elle_mcgibbons": {
-      "x": 556,
-      "y": 930
+      "x": 1481,
+      "y": 450
+    },
+    "epitome_tagg": {
+      "x": 1169,
+      "y": 8
     },
     "ferdinand": {
-      "x": 1031,
-      "y": 912
+      "x": 715,
+      "y": 241
     },
     "florin": {
-      "x": 1228,
-      "y": 877
+      "x": 1230,
+      "y": 229
     },
     "frank_q": {
-      "x": 1139,
-      "y": 697
+      "x": 597,
+      "y": 667
     },
     "hekla": {
-      "x": 344,
-      "y": 533
+      "x": 1365,
+      "y": 652
     },
     "imani": {
-      "x": 304,
-      "y": 729
+      "x": 1091,
+      "y": 375
     },
-    "katia_grim": {
-      "x": 757,
-      "y": 584
+    "jamal": {
+      "x": 1800,
+      "y": 133
     },
-    "le_mouvement": {
-      "x": 1725,
-      "y": 569
-    },
-    "li_jun": {
-      "x": 0,
-      "y": 816
-    },
-    "li_na": {
-      "x": 157,
-      "y": 940
-    },
-    "maestro": {
-      "x": 485,
-      "y": 391
-    },
-    "miriam_dom": {
-      "x": 756,
-      "y": 940
-    },
-    "mongo": {
-      "x": 1281,
-      "y": 460
-    },
-    "monobrow_sam": {
-      "x": 1719,
-      "y": 769
-    },
-    "mordecai": {
-      "x": 880,
-      "y": 419
-    },
-    "prepotente": {
-      "x": 879,
-      "y": 782
-    },
-    "quan_ch": {
-      "x": 556,
-      "y": 582
-    },
-    "royal_court": {
-      "x": 1441,
-      "y": 340
-    },
-    "skull_empire": {
-      "x": 56,
+    "juice_box": {
+      "x": 955,
       "y": 0
     },
+    "katia_grim": {
+      "x": 1282,
+      "y": 435
+    },
+    "le_mouvement": {
+      "x": 317,
+      "y": 407
+    },
+    "li_jun": {
+      "x": 1622,
+      "y": 307
+    },
+    "li_na": {
+      "x": 1641,
+      "y": 571
+    },
+    "louis": {
+      "x": 1035,
+      "y": 183
+    },
+    "maestro": {
+      "x": 265,
+      "y": 824
+    },
+    "miriam_dom": {
+      "x": 522,
+      "y": 295
+    },
+    "mongo": {
+      "x": 1042,
+      "y": 908
+    },
+    "monobrow_sam": {
+      "x": 181,
+      "y": 579
+    },
+    "mordecai": {
+      "x": 654,
+      "y": 858
+    },
+    "prepotente": {
+      "x": 497,
+      "y": 493
+    },
+    "princess_posse": {
+      "x": 1428,
+      "y": 256
+    },
+    "quan_ch": {
+      "x": 1171,
+      "y": 602
+    },
+    "rosetta_thagra": {
+      "x": 1992,
+      "y": 389
+    },
+    "royal_court": {
+      "x": 1211,
+      "y": 1016
+    },
+    "silfa": {
+      "x": 1748,
+      "y": 744
+    },
+    "skull_empire": {
+      "x": 0,
+      "y": 953
+    },
     "syndicate": {
-      "x": 283,
-      "y": 157
+      "x": 199,
+      "y": 1018
     },
     "the_system": {
-      "x": 1524,
-      "y": 814
+      "x": 369,
+      "y": 648
+    },
+    "tipid": {
+      "x": 1992,
+      "y": 189
     },
     "tsarina_signet": {
-      "x": 1334,
-      "y": 653
+      "x": 853,
+      "y": 843
+    },
+    "ysalte": {
+      "x": 758,
+      "y": 36
     }
   },
   "layoutExtent": {
-    "height": 940,
-    "width": 1725
+    "height": 1085,
+    "width": 1992
   },
   "maxFloor": 9,
   "mechanics": [

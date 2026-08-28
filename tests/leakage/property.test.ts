@@ -136,3 +136,28 @@ it('hands apps no way to reach a row', () => {
   expect(Object.keys(bundle)).toEqual([]);
   expect(JSON.stringify(bundle)).toBe('{}');
 });
+
+describe('the graph evolves with the horizon', () => {
+  it('adds nodes and edges as the reader advances', () => {
+    // The Atlas exists to be scrubbed. Every authored edge once sat at floor 3
+    // or below, so the graph was frozen from floor 3 to floor 9 and scrubbing
+    // did nothing. This asserts it moves again.
+    const nodesAt = (f: number) => horizonAt(bundle, f).nodes().length;
+    const edgesAt = (f: number) => horizonAt(bundle, f).edges().length;
+
+    expect(nodesAt(raw.maxFloor)).toBeGreaterThan(nodesAt(3));
+    expect(edgesAt(raw.maxFloor)).toBeGreaterThan(edgesAt(3));
+  });
+
+  it('never shrinks as the horizon advances', () => {
+    let nodes = -1;
+    let edges = -1;
+    for (const floor of floors) {
+      const h = horizonAt(bundle, floor);
+      expect(h.nodes().length).toBeGreaterThanOrEqual(nodes);
+      expect(h.edges().length).toBeGreaterThanOrEqual(edges);
+      nodes = h.nodes().length;
+      edges = h.edges().length;
+    }
+  });
+});

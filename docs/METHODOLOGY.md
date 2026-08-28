@@ -42,6 +42,17 @@ Two omissions are deliberate:
   you cannot see yet" leaks the existence of the withheld material. The coverage
   panel counts only what is visible.
 
+## Relationships
+
+Edges for floors 4 and up are derived from wiki fields that carry a citation,
+and only those. An undated ally list is current as of book 8, so dating it at a
+character's introduction would reveal an alliance several books early.
+
+Where a field has several citations the latest dates the edge, because the
+citations cover the whole field and the last one is the first floor by which
+every name in it is known. Faction membership is cited per sub-group, so a
+members list is split on semicolons and each group takes its own date.
+
 ## Search
 
 Search is a method on `Horizon`, not code in a view. It is a query over the

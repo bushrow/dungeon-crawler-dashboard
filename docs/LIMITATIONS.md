@@ -97,10 +97,17 @@ categories, which gives entities and transcribed facts but not the rest:
   new classes, skills, and items means inventing an `effect_scale` for each,
   and that column already has no rubric behind it. Guessing 250 more would make
   the Ledger worse, not bigger.
-- **No relationships.** The Atlas graph is still the floors 0-3 cast. Character
-  infoboxes list allies and organisations, but those are current as of book 8,
-  so an alliance formed in book 7 would appear at floor 4. Relationship data for
-  later floors needs the books, not the wiki.
+- **Thin relationships.** The Atlas grows from 30 nodes at floor 3 to 40 at
+  floor 9, against 119 characters and factions that exist by then. Only cited
+  relational fields are usable: 6 of 101 character pages date their allies and
+  organisations, and 3 of 16 faction pages date their membership. The other 47
+  characters with ally lists have no citation, and those lists are current as of
+  book 8, so using them would show an alliance formed in book 7 to a reader on
+  floor 4.
+
+  Where a field carries several citations, the latest one dates the edge, since
+  the citations cover the field as a whole. Some relationships therefore appear
+  a floor later than they formed, which is the safe direction.
 - **No sheet kit.** Gear and skills stop at floor 3, so a sheet says so.
 
 The Atlas draws only characters and factions that have a recorded relationship
